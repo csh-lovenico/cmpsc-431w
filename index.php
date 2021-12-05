@@ -18,15 +18,27 @@ $b = Config::$ip
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-            <span class="navbar-brand mb-0 h1"><?php echo $b ?></span>
+            <span class="navbar-brand mb-0 h1">Hospital Name</span>
         </div>
     </nav>
 </header>
-<h1>rua</h1>
-<h2><?php echo $a ?></h2>
-<footer>
-    eeeeeeeeee
-</footer>
+redirecting you to home...
+<script>
+    document.onload = () => {
+        window.location.href = 'login.php';
+    }
+</script>
+<?php
+if (false) {
+    ?>
+    <p>true</p>
+    <?php
+} else {
+    ?>
+    <p>false</p>
+    <?php
+}
+?>
 </body>
 </html>
 

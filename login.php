@@ -21,7 +21,7 @@
     <div class="row justify-content-center align-content-center h-100">
         <div class="col-lg-4 col-md-7 col-sm-10">
             <h2 class="h2">User Login</h2>
-            <form class="form-control" action="login_action.php" method="post">
+            <form class="" action="login_action.php" method="post">
                 <div class="form-floating mb-3">
                     <select name="role" class="form-select" id="role" required>
                         <option value="" disabled style="display: none" selected>Select...</option>
@@ -42,6 +42,11 @@
                 </div>
                 <div class="mb-3 d-grid gap-2">
                     <button type="submit" class="btn btn-primary">Login</button>
+                </div>
+                <div class="mb-3 d-grid gap-2">
+                    <button type="button" onclick="window.location.href='register.php'" class="btn btn-secondary">
+                        Register
+                    </button>
                 </div>
             </form>
         </div>

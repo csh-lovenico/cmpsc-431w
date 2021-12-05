@@ -1,12 +1,12 @@
 <?php
 require 'Config.php';
-$username = Config::$username;
+$email = Config::$username;
 $password = Config::$password;
 $host = Config::$ip;
 $dbname = Config::$database;
 
 try {
-    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $email, $password);
 } catch (PDOException $e) {
     die("Could not connect to the database $dbname :" . $e->getMessage());
 }
@@ -14,7 +14,7 @@ try {
 <!doctype html>
 <html lang="en">
 <head>
-    <title>login action</title>
+    <title>User login</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
@@ -25,12 +25,30 @@ try {
 <p>
     <?php
     if ($_POST['role'] == null)
-
-        echo "aaaa";
+        echo "invalid operation";
     else {
         $role = $_POST['role'];
-
-        echo $_POST['role'] . " " . $_POST['username'] . " " . $_POST['password'];
+        $email = $_POST['email'];
+        $password = $_POST['password'];
+        if ($role == 0) {
+            echo "doctor<br>";
+            $sql = $pdo->prepare("SELECT 1 FROM doctor WHERE email=:email AND password=:password");
+            $sql->execute(['username' => $email, 'password' => $password]);
+            $sql->setFetchMode(PDO::FETCH_ASSOC);
+            $count = $sql->rowCount();
+            if ($count == 0) {
+                echo 'invalid username or password<br>';
+            }
+            echo "count: $count";
+        } else if ($role == 1) {
+            echo "patient<br>";
+//            $sql = $pdo->prepare("SELECT 1 FROM patient WHERE doctor_id=:username AND password=:password");
+//            $sql->execute(['username' => $username, 'password' => $password]);
+//            $sql->setFetchMode(PDO::FETCH_ASSOC);
+//            $count = $sql->rowCount();
+//            echo "count: $count";
+        }
+        echo "<br>" . $_POST['username'] . " " . $_POST['password'];
     }
     ?>
 </p>

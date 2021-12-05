@@ -22,11 +22,18 @@
 </header>
 <div class="container">
     <div class="row">
-        <h2>Edit profile</h2>
+        <h2>User register</h2>
     </div>
     <div class="row">
         <div class="col-md-8">
-            <form>
+            <form action="register_action.php" method="post">
+                <div style="display: none">
+                    <select id="role" readonly="readonly" name="role">
+                        <option selected value="1">
+                            Patient
+                        </option>
+                    </select>
+                </div>
                 <div class="mb-3">
                     <label class="form-label" for="fname">First name</label>
                     <input class="form-control" required id="fname" type="text" name="fname">
@@ -52,7 +59,7 @@
                     <input class="form-control" required id="birthday" type="date" name="birthday">
                 </div>
                 <div class="mb-3">
-                    <button class="btn btn-primary" type="submit">Save</button>
+                    <button class="btn btn-primary" type="submit">Register</button>
                 </div>
             </form>
         </div>
