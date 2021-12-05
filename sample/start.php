@@ -11,9 +11,9 @@ $dbname = Config::$database;
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $sql = 'SELECT lname, fname, loginid FROM users';
-    $q = $pdo->query($sql);
-    $q->setFetchMode(PDO::FETCH_ASSOC);
+    $sql = $pdo->prepare('SELECT lname, fname, loginid FROM users');
+    $q = $sql->execute([]);
+    $sql->setFetchMode(PDO::FETCH_ASSOC);
 } catch (PDOException $e) {
     die("Could not connect to the database $dbname :" . $e->getMessage());
 }
@@ -43,7 +43,7 @@ try {
                     </tr>
                 </thead>
                 <tbody>
-                    <?php while ($row = $q->fetch()): ?>
+                    <?php while ($row = $sql->fetch()): ?>
                         <tr>
                             <td><?php echo htmlspecialchars($row['lname']) ?></td>
                             <td><?php echo htmlspecialchars($row['fname']); ?></td>
