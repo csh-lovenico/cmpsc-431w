@@ -1,5 +1,21 @@
 <?php
+require 'Config.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$username = Config::$username;
+$password = Config::$password;
+$host = Config::$ip;
+$dbname = Config::$database;
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+} catch (PDOException $e) {
+    die("Could not connect to the database $dbname :" . $e->getMessage());
+}
 ?>
+
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -36,40 +52,37 @@
                     <th></th>
                 </tr>
                 </thead>
+                <?php
+                try {
+                    $sql = $pdo->prepare('SELECT fname, mname, lname, birthday, email FROM patient limit 10');
+                    $q = $sql->execute([]);
+                    $sql->setFetchMode(PDO::FETCH_ASSOC);
+                ?>
                 <tbody>
-                <tr>
-                    <td>Nico Yazawa</td>
-                    <td>17</td>
-                    <td>example@example.com</td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Rin Hoshizora</td>
-                    <td>15</td>
-                    <td>example2@example.com</td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Keke Tang</td>
-                    <td>15</td>
-                    <td>example3@example.com</td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
+                <?php while ($row = $sql->fetch()): ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?></td>
+                        <td><?php echo htmlspecialchars($row['birthday']); ?></td>
+                        <td><?php echo htmlspecialchars($row['email']); ?></td>
+                        <td><button class="btn btn-sm btn-primary">Select</button></td>
+                    </tr>
+                <?php endwhile; ?>
+                </tbody>
+
                 <tr>
                     <td>Emma Verde</td>
                     <td>17</td>
                     <td>example4@example.com</td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
+                    <td><button class="btn btn-sm btn-primary">Select</button></td>
                 </tr>
                 </tbody>
+
+                <?php
+                } catch(PDOException $e) {
+                    echo $sql . "<br>" . $e->getMessage();
+                }
+                $conn = null;
+                ?>
             </table>
         </div>
     </div>
