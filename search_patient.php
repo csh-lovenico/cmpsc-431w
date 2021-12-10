@@ -62,19 +62,13 @@ try {
                 <?php while ($row = $sql->fetch()): ?>
                     <tr>
                         <td><?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?></td>
-                        <td><?php echo htmlspecialchars($row['birthday']); ?></td>
+                        <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
                         <td><?php echo htmlspecialchars($row['email']); ?></td>
                         <td><button class="btn btn-sm btn-primary">Select</button></td>
                     </tr>
                 <?php endwhile; ?>
                 </tbody>
 
-                <tr>
-                    <td>Emma Verde</td>
-                    <td>17</td>
-                    <td>example4@example.com</td>
-                    <td><button class="btn btn-sm btn-primary">Select</button></td>
-                </tr>
                 </tbody>
 
                 <?php
