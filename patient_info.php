@@ -1,4 +1,19 @@
 <?php
+require 'Config.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$username = Config::$username;
+$password = Config::$password;
+$host = Config::$ip;
+$dbname = Config::$database;
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+} catch (PDOException $e) {
+    die("Could not connect to the database $dbname :" . $e->getMessage());
+}
 ?>
 <html lang="en">
 <head>
@@ -13,6 +28,18 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+<?php
+try {
+$sql = $pdo->prepare('SELECT 
+       p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,
+       m.disease_name as disease_name, m.description as description,
+       a.allergy_name as allergy_name, a.description as adescription
+        FROM patient p, medical_history m, allergy_history a  
+        limit 1');
+$q = $sql->execute([]);
+$sql->setFetchMode(PDO::FETCH_ASSOC);
+?>
+<?php while ($row = $sql->fetch()): ?>
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -30,17 +57,19 @@
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td>Nico Yazawa</td>
+                    <td>
+                        <?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row">Age
                     </th>
-                    <td>17</td>
+                    <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Birthday
                     </th>
-                    <td>07-22</td>
+                    <td><?php echo htmlspecialchars($row['birthday']); ?></td>
                 </tr>
             </table>
         </div>
@@ -59,8 +88,9 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Disease1</td>
-                    <td>Desc1</td>
+
+                    <td><?php echo htmlspecialchars($row['disease_name']); ?></td>
+                    <td><?php echo htmlspecialchars($row['description']); ?></td>
                 </tr>
                 </tbody>
             </table>
@@ -74,10 +104,17 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Allergy name</th>
-                    <th scope="col">Description</th>
+                    <th scope="col"><?php echo htmlspecialchars($row['allergy_name']); ?></th>
+                    <th scope="col"><?php echo htmlspecialchars($row['adescription']); ?></th>
                 </tr>
                 </thead>
+                <?php endwhile; ?>
+                <?php
+                } catch(PDOException $e) {
+                    echo $sql->queryString . "<br>" . $e->getMessage();
+                }
+                $conn = null;
+                ?>
                 <tbody>
                 <tr>
                     <td>Allergy2</td>
@@ -100,5 +137,6 @@
         </div>
     </div>
 </div>
+
 </body>
 </html>
