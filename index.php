@@ -22,20 +22,40 @@ $b = Config::$ip
         </div>
     </nav>
 </header>
-redirecting you to home...
-<script>
-    document.onload = () => {
-        window.location.href = 'login.php';
-    }
-</script>
+redirecting...
 <?php
-if (false) {
+session_start();
+if (!isset($_SESSION['role'])) {
     ?>
-    <p>true</p>
-    <?php
-} else {
-    ?>
-    <p>false</p>
+    <script>
+        function go() {
+            location.href = 'login.php';
+        }
+
+        go();
+    </script>
+<?php
+} elseif ($_SESSION['role'] == 0){
+?>
+    <script>
+        function go() {
+            location.href = 'doc_center.php';
+        }
+
+        go();
+    </script>
+<?php
+
+
+} elseif ($_SESSION['role'] == 1) {
+?>
+    <script>
+        function go() {
+            location.href = 'pat_center.php';
+        }
+
+        go();
+    </script>
     <?php
 }
 ?>

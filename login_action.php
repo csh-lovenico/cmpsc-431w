@@ -31,7 +31,7 @@ try {
         $email = $_POST['email'];
         $password = $_POST['password'];
         if ($role == 0) {
-            $sql = $pdo->prepare("SELECT 1 FROM doctor WHERE email=:email AND password=:password");
+            $sql = $pdo->prepare("SELECT doctor_id FROM doctor WHERE email=:email AND password=:password");
             $sql->execute(['email' => $email, 'password' => $password]);
             $sql->setFetchMode(PDO::FETCH_ASSOC);
             $count = $sql->rowCount();
@@ -49,6 +49,9 @@ try {
             </script>
         <?php
         } else {
+        session_start();
+        $_SESSION['role'] = 0;
+        $_SESSION['user_id'] = $sql->fetch()['doctor_id'];
         echo 'Welcome back!<br>Redirect in 3 seconds...';
         ?>
             <script>
@@ -63,7 +66,7 @@ try {
         <?php
         }
         } else if ($role == 1) {
-        $sql = $pdo->prepare("SELECT 1 FROM patient WHERE email=:email AND password=:password");
+        $sql = $pdo->prepare("SELECT patient_id FROM patient WHERE email=:email AND password=:password");
         $sql->execute(['email' => $email, 'password' => $password]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
         $count = $sql->rowCount();
@@ -81,6 +84,9 @@ try {
             </script>
         <?php
         } else {
+        session_start();
+        $_SESSION['role'] = 1;
+        $_SESSION['user_id'] = $sql->fetch()['patient_id'];
         echo 'Welcome back!<br>Redirect in 3 seconds...';
         ?>
             <script>
