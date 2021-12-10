@@ -77,6 +77,10 @@
             </tbody>
         </table>
         <div class="mb-3">
+            <label>Name</label>
+            <input type="text">
+            <label>Description</label>
+            <textarea class="form-control" type=""></textarea>
             <button type="button" class="btn btn-primary">Add disease record</button>
         </div>
     </div>
@@ -102,7 +106,13 @@
             </tbody>
         </table>
         <div class="mb-3">
-            <button type="button" class="btn btn-primary">Add allergy record</button>
+            <form>
+                <label>Name</label>
+                <input type="text">
+                <label>Description</label>
+                <textarea class="form-control" type="text"></textarea>
+                <button type="button" class="btn btn-primary">Add allergy record</button>
+            </form>
         </div>
     </div>
 
