@@ -35,38 +35,65 @@ try {
             $sql->execute(['email' => $email, 'password' => $password]);
             $sql->setFetchMode(PDO::FETCH_ASSOC);
             $count = $sql->rowCount();
-            if ($count == 0) {
-                echo 'invalid username or password<br>redirect to log in in 3 seconds...';
-                ?>
-                <script>
-                    function toLogin() {
-                        setInterval(() => {
-                            location.href = 'login.php';
-                        }, 3000);
-                    }
-
-                    toLogin();
-                </script>
-            <?php
-            } else {
-            echo 'Welcome back!<br>Redirect in 3 seconds...';
+        if ($count == 0) {
+            echo 'invalid username or password<br>redirect to log in in 3 seconds...';
             ?>
-                <script>
-                    function toLogin() {
-                        setInterval(() => {
-                            location.href = 'doc_center.php';
-                        }, 3000);
-                    }
+            <script>
+                function toLogin() {
+                    setInterval(() => {
+                        location.href = 'login.php';
+                    }, 3000);
+                }
 
-                    toLogin();
-                </script>
-                <?php
-            }
+                toLogin();
+            </script>
+        <?php
+        } else {
+        echo 'Welcome back!<br>Redirect in 3 seconds...';
+        ?>
+            <script>
+                function loginSuccess() {
+                    setInterval(() => {
+                        location.href = 'doc_center.php';
+                    }, 3000);
+                }
+
+                loginSuccess();
+            </script>
+        <?php
+        }
         } else if ($role == 1) {
+        $sql = $pdo->prepare("SELECT 1 FROM patient WHERE email=:email AND password=:password");
+        $sql->execute(['email' => $email, 'password' => $password]);
+        $sql->setFetchMode(PDO::FETCH_ASSOC);
+        $count = $sql->rowCount();
+        if ($count == 0) {
+        echo 'invalid username or password<br>redirect to login in 3 seconds...';
+        ?>
+            <script>
+                function toLogin() {
+                    setInterval(() => {
+                        location.href = 'login.php';
+                    }, 3000);
+                }
 
-            echo "patient<br>";
+                toLogin();
+            </script>
+        <?php
+        } else {
+        echo 'Welcome back!<br>Redirect in 3 seconds...';
+        ?>
+            <script>
+                function loginSuccess() {
+                    setInterval(() => {
+                        location.href = 'pat_center.php';
+                    }, 3000);
+                }
 
-
+                loginSuccess();
+            </script>
+            <?php
+        }
         }
     }
     ?>
