@@ -1,7 +1,4 @@
 <?php
-$a = "eeeeeee";
-require 'Config.php';
-$b = Config::$ip
 
 ?>
 <!doctype html>
