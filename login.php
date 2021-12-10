@@ -31,9 +31,9 @@
                     <label for="role">Login as</label>
                 </div>
                 <div class="form-floating mb-3">
-                    <input required class="form-control" name="username" type="text" id="username"
+                    <input required class="form-control" name="email" type="email" id="email"
                            placeholder="username">
-                    <label for="username">Username</label>
+                    <label for="email">Email</label>
                 </div>
                 <div class="form-floating mb-3">
                     <input required class="form-control" name="password" type="password" id="password"

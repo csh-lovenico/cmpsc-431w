@@ -31,24 +31,43 @@ try {
         $email = $_POST['email'];
         $password = $_POST['password'];
         if ($role == 0) {
-            echo "doctor<br>";
             $sql = $pdo->prepare("SELECT 1 FROM doctor WHERE email=:email AND password=:password");
-            $sql->execute(['username' => $email, 'password' => $password]);
+            $sql->execute(['email' => $email, 'password' => $password]);
             $sql->setFetchMode(PDO::FETCH_ASSOC);
             $count = $sql->rowCount();
             if ($count == 0) {
-                echo 'invalid username or password<br>';
+                echo 'invalid username or password<br>redirect to log in in 3 seconds...';
+                ?>
+                <script>
+                    function toLogin() {
+                        setInterval(() => {
+                            location.href = 'login.php';
+                        }, 3000);
+                    }
+
+                    toLogin();
+                </script>
+            <?php
+            } else {
+            echo 'Welcome back!<br>Redirect in 3 seconds...';
+            ?>
+                <script>
+                    function toLogin() {
+                        setInterval(() => {
+                            location.href = 'doc_center.php';
+                        }, 3000);
+                    }
+
+                    toLogin();
+                </script>
+                <?php
             }
-            echo "count: $count";
         } else if ($role == 1) {
+
             echo "patient<br>";
-//            $sql = $pdo->prepare("SELECT 1 FROM patient WHERE doctor_id=:username AND password=:password");
-//            $sql->execute(['username' => $username, 'password' => $password]);
-//            $sql->setFetchMode(PDO::FETCH_ASSOC);
-//            $count = $sql->rowCount();
-//            echo "count: $count";
+
+
         }
-        echo "<br>" . $_POST['username'] . " " . $_POST['password'];
     }
     ?>
 </p>

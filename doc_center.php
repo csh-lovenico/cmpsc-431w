@@ -35,7 +35,7 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Date</th>
+                    <th scope="col">Date &nbsp;<a href="#">Sort by date</a></th>
                     <th scope="col">Patient</th>
                     <th scope="col"></th>
                 </tr>
@@ -44,6 +44,24 @@
                 <tr>
                     <td>2021-12-01</td>
                     <td>Nico Yazawa</td>
+                    <td>
+                        <div>
+                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2021-11-23</td>
+                    <td>Lanzhu Zhong</td>
+                    <td>
+                        <div>
+                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>
+                        </div>
+                    </td>
+                </tr>
+                <tr>
+                    <td>2021-10-31</td>
+                    <td>Ruby Kurosawa</td>
                     <td>
                         <div>
                             <button type="button" class="btn btn-sm btn-secondary">Detail</button>

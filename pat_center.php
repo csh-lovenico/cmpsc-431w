@@ -36,7 +36,7 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Date</th>
+                    <th scope="col">Date  &nbsp;<a href="#">Sort by date</a></th>
                     <th scope="col">Doctor</th>
                     <th scope="col"></th>
                 </tr>

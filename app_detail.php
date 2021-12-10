@@ -99,8 +99,8 @@
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Medicine name</th>
-                    <th scope="col">Count</th>
+                    <th scope="col">Medicine name &nbsp;<a href="#">Sort by name...</a></th>
+                    <th scope="col">Quantity</th>
                     <th scope="col">Total Price</th>
                     <th scope="col">Description</th>
                 </tr>
@@ -117,6 +117,12 @@
                     <td>5</td>
                     <td>$15.00</td>
                     <td>Another description</td>
+                </tr>
+                <tr>
+                    <td>Medicine0</td>
+                    <td>1</td>
+                    <td>$30.00</td>
+                    <td>Another description------</td>
                 </tr>
                 </tbody>
             </table>
