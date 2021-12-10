@@ -35,7 +35,7 @@ $dbname = Config::$database;
 				<p>You will be redirected in 3 seconds</p>
 				<script>
 					var timer = setTimeout(function() {
-						window.location='start.php'
+						window.location='edit_prescription.php'
 					}, 3000);
 				</script>
 			<?php

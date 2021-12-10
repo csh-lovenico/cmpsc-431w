@@ -1,4 +1,19 @@
 <?php
+require 'Config.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$username = Config::$username;
+$password = Config::$password;
+$host = Config::$ip;
+$dbname = Config::$database;
+
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+} catch (PDOException $e) {
+    die("Could not connect to the database $dbname :" . $e->getMessage());
+}
 ?>
 <html lang="en">
 <head>
@@ -13,6 +28,22 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+<?php
+try {
+$sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
+       a.comment as comment,
+       p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,
+       d.dname as dname, 
+       dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
+       l.level_name as level_name,
+       dr.name as drname, dr.usage as description, dr.price as price,
+       pre.number as num, pre.prescription_id as prescription_id
+        FROM attendence a, patient p, department d,level l,doctor dc,drug dr, prescription pre
+    limit 1');
+$q = $sql->execute([]);
+$sql->setFetchMode(PDO::FETCH_ASSOC);
+?>
+<?php while ($row = $sql->fetch()): ?>
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -29,14 +60,11 @@
             <table class="table">
                 <tr>
                     <th scope="row">Date</th>
-                    <td>2021-12-02</td>
+                    <td><?php echo htmlspecialchars($row['attendence_date']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Comment</th>
-                    <td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis lacinia, justo in commodo gravida,
-                        felis tortor porttitor odio, id imperdiet diam turpis quis urna. Nam quis velit sit amet sem
-                        vestibulum ullamcorper consectetur vitae nibh. Maecenas volutpat sodales eros, non pellentesque
-                        leo iaculis at. Fusce pharetra sed tellus at blandit.
+                    <td><?php echo htmlspecialchars($row['comment']); ?>
                     </td>
                 </tr>
             </table>
@@ -51,17 +79,18 @@
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td>Nico Yazawa</td>
+                    <td><?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?></td>
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row">Age
                     </th>
-                    <td>17</td>
+                    <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Birthday
                     </th>
-                    <td>07-22</td>
+                    <td><?php echo htmlspecialchars($row['birthday']); ?></td>
                 </tr>
             </table>
         </div>
@@ -75,17 +104,17 @@
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td>Maki Nishikino</td>
+                    <td><?php echo htmlspecialchars($row['dfname']).' '. htmlspecialchars($row['dmname']). ' ' .htmlspecialchars($row['dlname']) ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Department
                     </th>
-                    <td>---</td>
+                    <td><?php echo htmlspecialchars($row['dname']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Level
                     </th>
-                    <td>---</td>
+                    <td><?php echo htmlspecialchars($row['level_name']); ?></td>
                 </tr>
             </table>
 
@@ -107,30 +136,32 @@
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Health Potion</td>
-                    <td>5</td>
-                    <td>$10.00</td>
-                    <td>Some description</td>
+
+                    <td><?php echo htmlspecialchars($row['drname']); ?></td>
+                    <td><?php echo htmlspecialchars($row['num']); ?></td>
+                    <td><?php echo htmlspecialchars($row['price']); ?></td>
+                    <td><?php echo htmlspecialchars($row['description']); ?></td>
                     <td>
-                        <button type="button" class="btn btn-sm btn-danger">Delete</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Lemon juice</td>
-                    <td>5</td>
-                    <td>$15.00</td>
-                    <td>Another description</td>
-                    <td>
-                        <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                            <?php echo '<form action="edit_prescription_delect.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="prescription_id" value="' . htmlspecialchars($row['prescription_id']) . '"></form>'; ?>
+
                     </td>
                 </tr>
                 </tbody>
             </table>
-            <div class="mb-3">
-                <button type="button" class="btn btn-primary">Add medicine</button>
-            </div>
+            <input class="btn btn-primary" type="button" value="Add medicine" action="search_medicine.php">
+
+
+
+
         </div>
     </div>
 </div>
+    <?php endwhile; ?>
+    <?php
+} catch(PDOException $e) {
+    echo $sql->queryString . "<br>" . $e->getMessage();
+}
+$conn = null;
+?>
 </body>
 </html>
