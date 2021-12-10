@@ -36,7 +36,7 @@ try {
             $sql->setFetchMode(PDO::FETCH_ASSOC);
             $count = $sql->rowCount();
         if ($count == 0) {
-            echo 'invalid username or password<br>redirect to log in in 3 seconds...';
+            echo 'invalid email or password<br>redirect to login in 3 seconds...';
             ?>
             <script>
                 function toLogin() {
@@ -71,7 +71,7 @@ try {
         $sql->setFetchMode(PDO::FETCH_ASSOC);
         $count = $sql->rowCount();
         if ($count == 0) {
-        echo 'invalid username or password<br>redirect to login in 3 seconds...';
+        echo 'invalid email or password<br>redirect to login in 3 seconds...';
         ?>
             <script>
                 function toLogin() {
