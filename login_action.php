@@ -41,7 +41,7 @@ try {
             <script>
                 function toLogin() {
                     setInterval(() => {
-                        location.href = 'login.php';
+                        location.replace('login.php');
                     }, 3000);
                 }
 
@@ -57,7 +57,7 @@ try {
             <script>
                 function loginSuccess() {
                     setInterval(() => {
-                        location.href = 'doc_center.php';
+                        location.replace('login.php');
                     }, 3000);
                 }
 
@@ -76,7 +76,7 @@ try {
             <script>
                 function toLogin() {
                     setInterval(() => {
-                        location.href = 'login.php';
+                        location.replace('login.php');
                     }, 3000);
                 }
 
@@ -92,7 +92,7 @@ try {
             <script>
                 function loginSuccess() {
                     setInterval(() => {
-                        location.href = 'pat_center.php';
+                        location.replace('login.php');
                     }, 3000);
                 }
 
