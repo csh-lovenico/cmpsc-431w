@@ -37,6 +37,7 @@ function get_app_record(user_id) {
     }
 }
 
+
 function add_app_record(user_id) {
     var request = new XMLHttpRequest();
     request.open("GET","doc_center_action.php?func=" + 2 + "&user_id=" + user_id); //async
