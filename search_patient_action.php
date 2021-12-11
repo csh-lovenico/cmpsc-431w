@@ -31,12 +31,12 @@ if ($keyword != "") {
     $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient 
 where CONCAT(fname,\' \',lname) like :keyword or CONCAT(fname,\' \',mname,\' \',lname) like :keyword
 limit :min,10');
-    $sql->bindParam(':min', $min,PDO::PARAM_INT);
+    $sql->bindParam(':min', $min, PDO::PARAM_INT);
     $str = '%' . $keyword . '%';
     $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
 } else {
     $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient limit :min , 10');
-    $sql->bindParam(':min', $min,PDO::PARAM_INT);
+    $sql->bindParam(':min', $min, PDO::PARAM_INT);
 }
 $q = $sql->execute();
 $sql->setFetchMode(PDO::FETCH_ASSOC);

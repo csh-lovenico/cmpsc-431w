@@ -71,7 +71,7 @@ try {
                     <th></th>
                 </tr>
                 </thead>
-                    <tbody id="search_patient_table_body"></tbody>
+                <tbody id="search_patient_table_body"></tbody>
             </table>
         </div>
     </div>
