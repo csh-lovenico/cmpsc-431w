@@ -85,7 +85,7 @@ function get_apportment_record($pdo, $doctor_id)
 {
     $user_id = $_GET['user_id'];
     try {
-        $sql = $pdo->prepare('SELECT app_date, CONCAT(fname, mname, lname) as patient_name FROM appointment A, patient P where P.patient_id = A.patient_id AND doctor_id = "' . $doctor_id . '" order by app_date limit 10 ');
+        $sql = $pdo->prepare('SELECT app_date as date, CONCAT(fname, mname, lname) as patient_name FROM appointment A, patient P where P.patient_id = A.patient_id AND doctor_id = "' . $doctor_id . '" order by app_date limit 10 ');
         $q = $sql->execute([]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
 
@@ -93,7 +93,7 @@ function get_apportment_record($pdo, $doctor_id)
         $count = 0;
         while ($row = $sql->fetch()):
             $content['"'.$count.'"'] = array();
-            array_push($content['"'.$count.'"'], array("app_date" => $row['app_date'], "patient_name" => $row['patient_name']));
+            array_push($content['"'.$count.'"'], array("app_date" => $row['date'], "patient_name" => $row['patient_name']));
             ++$count;
         endwhile;
         $ret = json_encode($content);

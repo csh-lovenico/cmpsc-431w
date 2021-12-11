@@ -52,10 +52,10 @@ try {
     </div>
     <div class="row">
         <div class="col-6">
-            <form action="search_patient.php" method="get" class="d-flex">
+            <form class="d-flex">
                 <input class="form-control me-2" name="patient_name"  id="patient_name"
                        type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit" onclick=search_patient_by_name()>Search</button>
+                <button class="btn btn-outline-success" type="button" onclick=search_patient_by_name()>Search</button>
             </form>
         </div>
 
@@ -75,6 +75,7 @@ try {
             </table>
         </div>
     </div>
+    <p style="display:none" id="doctor_info"><?php session_start(); echo $_SESSION['user_id'] ?></p>
 </div>
 </body>
 </html>
