@@ -48,6 +48,7 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
             <a class="navbar-brand m-0 h1" href="index.php">Hospital Name</a>
+            <a class="d-flex" href="logout.php">Logout</a>
         </div>
     </nav>
 </header>
