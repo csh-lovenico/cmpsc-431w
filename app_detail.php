@@ -9,6 +9,11 @@ $password = Config::$password;
 $host = Config::$ip;
 $dbname = Config::$database;
 
+if (!isset($_GET['id'])) {
+    die('invalid id<br>sample: app_detail.php?id=1');
+}
+
+$app_id = $_GET['id'];
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 } catch (PDOException $e) {
@@ -21,9 +26,9 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
     try {
-    session_start();
-    $patientId = $_SESSION['user_id'];
-    $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
+        session_start();
+        $patientId = $_SESSION['user_id'];
+        $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
        a.comment as comment,a.attendance_id as attendance_id,
        p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
        d.dname as dname, 
@@ -32,13 +37,15 @@ try {
        dr.name as drname, dr.usage as description, dr.price as price,
        pre.number as num, pre.prescription_id as prescription_id
         FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
-        WHERE p.patient_id = $patientId
-limit 1
+        WHERE a.attendance_id=:aid  and a.patient_id=p.patient_id and a.doctor_id = dc.doctor_id and pre.attendence_id = a.attendance_id and dr.drug_id = pre.drug_id
         ');
-    $q = $sql->execute([]);
-    $sql->setFetchMode(PDO::FETCH_ASSOC);
+        $q = $sql->execute(['aid' => $app_id]);
+        $sql->setFetchMode(PDO::FETCH_ASSOC);
+        $result = $sql->fetchAll();
+    } catch (PDOException $e) {
+        echo $sql->queryString . "<br>" . $e->getMessage();
+    }
     ?>
-
 
     <title>Appointment Details
     </title>
@@ -64,14 +71,14 @@ limit 1
     <div class="row">
         <div class="col-md-10">
             <table class="table">
-                <?php while ($row = $sql->fetch()): ?>
+                <!--                --><?php //while ($row = $sql->fetch()): ?>
                 <tr>
                     <th scope="row">Date</th>
-                    <td><?php echo htmlspecialchars($row['attendence_date']); ?></td>
+                    <td><?php echo htmlspecialchars($result[0]['attendence_date']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Comment</th>
-                    <td><?php echo htmlspecialchars($row['comment']); ?>
+                    <td><?php echo htmlspecialchars($result[0]['comment']); ?>
                     </td>
                 </tr>
 
@@ -88,17 +95,17 @@ limit 1
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td><?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?></td>
+                    <td><?php echo htmlspecialchars($result[0]['fname']) . ' ' . htmlspecialchars($result[0]['mname']) . ' ' . htmlspecialchars($result[0]['lname']) ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Age
                     </th>
-                    <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
+                    <td><?php echo 2021 - substr(htmlspecialchars($result[0]['birthday']), 0, 4); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Birthday
                     </th>
-                    <td><?php echo htmlspecialchars($row['birthday']); ?></td>
+                    <td><?php echo htmlspecialchars($result[0]['birthday']); ?></td>
                 </tr>
             </table>
         </div>
@@ -113,18 +120,18 @@ limit 1
                     <th scope="row">Name
                     </th>
                     <td>
-                        <?php echo htmlspecialchars($row['dfname']).' '. htmlspecialchars($row['dmname']). ' ' .htmlspecialchars($row['dlname']) ?>
+                        <?php echo htmlspecialchars($result[0]['dfname']) . ' ' . htmlspecialchars($result[0]['dmname']) . ' ' . htmlspecialchars($result[0]['dlname']) ?>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">Department
                     </th>
-                    <td><?php echo htmlspecialchars($row['dname']); ?></td>
+                    <td><?php echo htmlspecialchars($result[0]['dname']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Level
                     </th>
-                    <td><?php echo htmlspecialchars($row['level_name']); ?></td>
+                    <td><?php echo htmlspecialchars($result[0]['level_name']); ?></td>
                 </tr>
             </table>
 
@@ -145,31 +152,17 @@ limit 1
                 </tr>
                 </thead>
                 <tbody>
-                <tr>
-                    <td><?php echo htmlspecialchars($row['drname']); ?></td>
-                    <td><?php echo htmlspecialchars($row['num']); ?></td>
-                    <td><?php echo htmlspecialchars($row['price']); ?></td>
-                    <td><?php echo htmlspecialchars($row['description']); ?></td>
-                </tr>
-                <tr>
-                    <td>Lemon juice</td>
-                    <td>5</td>
-                    <td>$15.00</td>
-                    <td>Another description</td>
-                </tr>
-                <tr>
-                    <td>Medicine0</td>
-                    <td>1</td>
-                    <td>$30.00</td>
-                    <td>Another description------</td>
-                </tr>
+                <?php foreach ($result as $value) { ?>
+                    <tr>
+                        <td><?php echo htmlspecialchars($value['drname']); ?></td>
+                        <td><?php echo htmlspecialchars($value['num']); ?></td>
+                        <td><?php echo htmlspecialchars($value['price']); ?></td>
+                        <td><?php echo htmlspecialchars($value['description']); ?></td>
+                    </tr>
+                <?php } ?>
                 </tbody>
-                <?php endwhile; ?>
                 <?php
-                } catch(PDOException $e) {
-                    echo $sql->queryString . "<br>" . $e->getMessage();
-                }
-                $conn = null;
+
                 ?>
             </table>
         </div>
