@@ -9,6 +9,12 @@ $password = Config::$password;
 $host = Config::$ip;
 $dbname = Config::$database;
 
+session_start();
+if (!isset($_SESSION['user_id'])) {
+    die('invalid user id');
+}
+$patient_id = $_SESSION['user_id'];
+
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 } catch (PDOException $e) {
@@ -16,7 +22,7 @@ try {
 }
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>PHP MySQL Query Data Demo</title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -29,29 +35,29 @@ try {
 <body>
 <p>
     <?php
-    $sql = 'INSERT INTO medical_history (patient_id, disease_name, description) ';
-    $sql = $sql . 'VALUES ("'.$_POST["patient_id"] . '","' . $_POST["disease_name"] . '","' . $_POST["description"] . '")';
+    //    $sql = 'INSERT INTO medical_history (patient_id, disease_name, description) ';
+    //    $sql = $sql . 'VALUES ("'.$_POST["patient_id"] . '","' . $_POST["disease_name"] . '","' . $_POST["description"] . '")';
 
     try {
-    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
-    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
-    $conn->exec($sql);
+    $sql = $pdo->prepare('INSERT into medical_history(patient_id, disease_name, description) VALUES (:patient_id,:disease_name,:description)');
+    $sql->execute(["patient_id" => $patient_id, "disease_name" => $_POST["disease_name"], "description" => $_POST["description"]]);
+    //    $conn = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+    //    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+    //    $conn->exec($sql);
     echo "New record created successfully";
     ?>
 <p>You will be redirected in 3 seconds</p>
 <script>
-    var timer = setTimeout(function() {
-        window.location='pat_center.php'
+    var timer = setTimeout(function () {
+        window.location = 'pat_center.php'
     }, 3000);
 </script>
 <?php
-} catch(PDOException $e) {
+} catch (PDOException $e) {
     echo $sql . "<br>" . $e->getMessage();
 }
 $conn = null;
 ?>
-</p>
 </body>
-</div>
 </html>
 
