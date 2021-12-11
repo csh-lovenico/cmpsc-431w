@@ -30,9 +30,9 @@ try {
 $sql = $pdo->prepare('SELECT 
        a.attendence_date as attendence_date,
        dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
-       m.disease_name as disease_name, m.description as description,
-       al.allergy_name as allergy_name, al.description as adescription,
-       p.fname as fname, p.mname as mname, p.lname as lname
+       m.disease_name as disease_name, m.description as description, m.medical_history_id as medical_history_id,
+       al.allergy_name as allergy_name, al.description as adescription, al.id as allergy_history_id,
+       p.fname as fname, p.mname as mname, p.lname as lname, p.patient_id as patient_id
         FROM attendence a, patient p, medical_history m,allergy_history al, doctor dc
 limit 1');
 $q = $sql->execute([]);
@@ -100,17 +100,25 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                 <td><?php echo htmlspecialchars($row['disease_name']); ?></td>
                 <td><?php echo htmlspecialchars($row['description']); ?></td>
                 <td>
-                    <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                    <?php echo '<form action="pat_center_medical_history_delete.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="medical_history_id" value="' . htmlspecialchars($row['medical_history_id']) . '"></form>'; ?>
+
+
                 </td>
             </tr>
             </tbody>
         </table>
         <div class="mb-3">
-            <label>Name</label>
-            <input type="text">
-            <label>Description</label>
-            <textarea class="form-control" type=""></textarea>
-            <button type="button" class="btn btn-primary">Add disease record</button>
+            <form action="pat_center_medical_history_insert.php" method="post">
+                <label>Name</label>
+                <input class="form-control" type="text" id="disease_name" name="disease_name" value="">
+                <label>Description</label>
+                <input class="form-control" type="text" id="description" name="description" value="">
+                <br>
+                <?php echo
+                    '<input type="hidden" name="patient_id" value="' . htmlspecialchars($row['patient_id']) . '">'
+                ; ?>
+                <input class="btn btn-primary" type="submit" value="Add disease record">
+            </form>
         </div>
     </div>
     <div class="row">
@@ -120,27 +128,32 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
         <table class="table">
             <thead>
             <tr>
-                <th scope="col"><?php echo htmlspecialchars($row['allergy_name']); ?></th>
-                <th scope="col"><?php echo htmlspecialchars($row['adescription']); ?></th>
+                <th scope="col">Allergy name</th>
+                <th scope="col">Description</th>
             </tr>
             </thead>
             <tbody>
             <tr>
-                <td>Allergy2</td>
-                <td>Desc2</td>
+                <td><?php echo htmlspecialchars($row['allergy_name']); ?></td>
+                <td><?php echo htmlspecialchars($row['adescription']); ?></td>
                 <td>
-                    <button type="button" class="btn btn-sm btn-danger">Delete</button>
+                    <?php echo '<form action="pat_center_allergy_history_delete.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="allergy_history_id" value="' . htmlspecialchars($row['allergy_history_id']) . '"></form>'; ?>
                 </td>
             </tr>
             </tbody>
         </table>
         <div class="mb-3">
-            <form>
-                <label>Name</label>
-                <input type="text">
-                <label>Description</label>
-                <textarea class="form-control" type="text"></textarea>
-                <button type="button" class="btn btn-primary">Add allergy record</button>
+
+            <form action="pat_center_allergy_history_insert.php" method="post">
+                    <label>Name</label>
+                    <input class="form-control" type="text" id="allergy_name" name="allergy_name" value="">
+                    <label>Description</label>
+                    <input class="form-control" type="text" id="adescription" name="adescription" value="">
+                <br>
+                <?php echo
+                '<input type="hidden" name="patient_id" value="' . htmlspecialchars($row['patient_id']) . '">'
+                ; ?>
+                <input class="btn btn-primary" type="submit" value="Add allergy record">
             </form>
         </div>
     </div>
