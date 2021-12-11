@@ -49,6 +49,7 @@ try {
             </script>
         <?php
         } else {
+
         session_start();
         $_SESSION['role'] = 0;
         $_SESSION['user_id'] = $sql->fetch()['doctor_id'];
