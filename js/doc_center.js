@@ -11,6 +11,7 @@ function sort_app_record(user_id) {
     request.onreadystatechange = function() {
         if(request.readyState === 4) {
             if(request.status === 200) {
+
                 var jsonStr = request.response.replace(new RegExp('\\"',"gm"), '"' );
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("app_table_body");

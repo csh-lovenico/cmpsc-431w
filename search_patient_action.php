@@ -25,15 +25,15 @@ try {
 
 header('Content-Type: application/json');
 
-$min = ($page - 1) * 10 + 1;
+$min = ($page - 1) * 10;
 
 try {
     if ($keyword != "") {
         $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient 
-where CONCAT(fname,\' \',lname) like :keyword or CONCAT(fname,\' \',mname,\' \',lname) like :keyword
+where fname like :keyword or mname like :keyword or lname like :keyword
 limit :min,10');
         $sql->bindParam(':min', $min, PDO::PARAM_INT);
-        $str = '%' . $keyword . '%';
+        $str = $keyword;
         $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
     } else {
         $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient limit :min , 10');
