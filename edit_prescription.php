@@ -131,7 +131,7 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                 <tr>
                     <th scope="col">Medicine name</th>
                     <th scope="col">Count</th>
-                    <th scope="col">Total Price</th>
+                    <th scope="col">Price</th>
                     <th scope="col">Description</th>
                 </tr>
                 </thead>
