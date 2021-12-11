@@ -71,7 +71,7 @@ try {
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Date &nbsp;<a href="#">Sort by date</a></th>
+                    <th scope="col">Date &nbsp;<button onclick=sort_app_record(<?php echo '"'.$doctor_id.'"';?>)>Sort by date</button></th>
                     <th scope="col">Patient</th>
                     <th scope="col"></th>
                 </tr>
