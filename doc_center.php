@@ -10,6 +10,9 @@ $host = Config::$ip;
 $dbname = Config::$database;
 $keyword = "";
 $page = 1;
+
+session_start();
+$doctor_id = $_SESSION['user_id'];
 if (isset($_GET['keyword'])) {
     $keyword = $_GET['keyword'];
 }
@@ -30,8 +33,9 @@ try {
             crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="js/base.js"></script>
 </head>
-<body>
+<body onload=get_app_record(<?php echo '"'.$doctor_id.'"';?>)>
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -45,20 +49,16 @@ try {
     </div>
     <?php
     try {
-        session_start();
-        $doctor_id = $_SESSION['user_id'];
-        echo $doctor_id;
         $sql = $pdo->prepare('SELECT fname, mname, lname FROM doctor where doctor_id = "'.$doctor_id.'"');
         $q = $sql->execute([]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
     ?>
     <div class="row">
-        <p>Hello, Maki Nishikino</p>
         <?php while ($row = $sql->fetch()): ?>
             <p>Hello, <?php echo $row['fname'].' '.$row['mname'].' '.$row['lname'] ?></p>
         <?php endwhile; ?>
         <div class="mb-3">
-            <button class="btn btn-primary">Edit profile</button>
+            <button class="btn btn-primary" onclick="demo(1)">Edit profile</button>
         </div>
     </div>
 
@@ -75,38 +75,12 @@ try {
                     <th scope="col"></th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>2021-12-01</td>
-                    <td>Nico Yazawa</td>
-                    <td>
-                        <div>
-                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2021-11-23</td>
-                    <td>Lanzhu Zhong</td>
-                    <td>
-                        <div>
-                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>
-                        </div>
-                    </td>
-                </tr>
-                <tr>
-                    <td>2021-10-31</td>
-                    <td>Ruby Kurosawa</td>
-                    <td>
-                        <div>
-                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>
-                        </div>
-                    </td>
-                </tr>
-                </tbody>
+                <tbody id="app_table_body"></tbody>
             </table>
             <div class="mb-3">
-                <button type="button" onclick="window.location.href='search_patient.php'" class="btn btn-primary">Add
+                <label>Patient Name</label>
+                <input class="form-control" type="text" id="patient_name" name="disease_name" value="">
+                <button type="button" onclick=get_app_record(<?php echo '"'.$doctor_id.'"';?>) class="btn btn-primary">Add
                     appointment record
                 </button>
             </div>
