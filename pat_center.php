@@ -76,7 +76,9 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                     <td><?php echo htmlspecialchars($row['dfname']).' '. htmlspecialchars($row['dmname']). ' ' .htmlspecialchars($row['dlname']) ?></td>
                     <td>
                         <div>
-                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>
+
+                            <?php echo '<a href="app_detail.php"><input class="btn btn-sm btn-secondary" type="submit" value="Detail"></a> '; ?>
+
                         </div>
                     </td>
                 </tr>
