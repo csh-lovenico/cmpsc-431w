@@ -38,7 +38,7 @@
 
                 <div class="mb-3">
                 <form action="register_insert.php" method="post">
-                    <label class="form-label">id</label>
+                    <label for="patient_id" class="form-label">id</label>
                     <input class="form-control" id="patient_id" type="text" name="patient_id" value="">
                     <br>
                     <label class="form-label">First name</label>
