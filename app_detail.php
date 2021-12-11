@@ -26,11 +26,16 @@ try {
        p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,
        d.dname as dname, 
        dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
-       l.level_name as level_name
-        FROM attendence a, patient p, department d,level l,doctor dc limit 1');
+       l.level_name as level_name,
+       dr.name as drname, dr.usage as description, dr.price as price,
+       pre.number as num, pre.prescription_id as prescription_id
+        FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
+    limit 1');
     $q = $sql->execute([]);
     $sql->setFetchMode(PDO::FETCH_ASSOC);
     ?>
+
+
     <title>Appointment Details
     </title>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
@@ -137,10 +142,10 @@ try {
                 </thead>
                 <tbody>
                 <tr>
-                    <td>Health Potion</td>
-                    <td>5</td>
-                    <td>$10.00</td>
-                    <td>Some description</td>
+                    <td><?php echo htmlspecialchars($row['drname']); ?></td>
+                    <td><?php echo htmlspecialchars($row['num']); ?></td>
+                    <td><?php echo htmlspecialchars($row['price']); ?></td>
+                    <td><?php echo htmlspecialchars($row['description']); ?></td>
                 </tr>
                 <tr>
                     <td>Lemon juice</td>

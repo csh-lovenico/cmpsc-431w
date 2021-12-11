@@ -38,7 +38,7 @@ $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date,
        l.level_name as level_name,
        dr.name as drname, dr.usage as description, dr.price as price,
        pre.number as num, pre.prescription_id as prescription_id
-        FROM attendence a, patient p, department d,level l,doctor dc,drug dr, prescription pre
+        FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
     limit 1');
 $q = $sql->execute([]);
 $sql->setFetchMode(PDO::FETCH_ASSOC);
