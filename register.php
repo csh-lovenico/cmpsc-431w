@@ -13,6 +13,7 @@
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
+
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -26,7 +27,7 @@
     </div>
     <div class="row">
         <div class="col-md-8">
-            <form action="register_action.php" method="post">
+
                 <div style="display: none">
                     <select id="role" readonly="readonly" name="role">
                         <option selected value="1">
@@ -34,34 +35,33 @@
                         </option>
                     </select>
                 </div>
+
                 <div class="mb-3">
-                    <label class="form-label" for="fname">First name</label>
-                    <input class="form-control" required id="fname" type="text" name="fname">
+                <form action="register_insert.php" method="post">
+                    <label class="form-label">id</label>
+                    <input class="form-control" id="patient_id" type="text" name="patient_id" value="">
+                    <br>
+                    <label class="form-label">First name</label>
+                    <input class="form-control" id="fname" type="text" name="fname" value="">
+               <br>
+                    <label class="form-label">Middle name</label>
+                    <input class="form-control" id="mname" type="text" name="mname" value="">
+                <br>
+                    <label class="form-label">Last name</label>
+                    <input class="form-control" required id="lname" type="text" name="lname" value="">
+                <br>
+                    <label class="form-label">Email</label>
+                    <input class="form-control" required id="email" type="email" name="email" value="">
+                <br>
+                    <label class="form-label">Password</label>
+                    <input class="form-control" required id="password" type="password" name="password" value="">
+                <br>
+                    <label class="form-label">Birthday</label>
+                    <input class="form-control" required id="birthday" type="date" name="birthday" value="">
+                    <br>
+                    <input class="btn btn-primary" type="submit" value="Register">
+                </form>
                 </div>
-                <div class="mb-3">
-                    <label class="form-label" for="mname">Middle name</label>
-                    <input class="form-control" id="mname" type="text" name="mname">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="lname">Last name</label>
-                    <input class="form-control" required id="lname" type="text" name="lname">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="email">Email</label>
-                    <input class="form-control" required id="email" type="email" name="email">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="password">Password</label>
-                    <input class="form-control" required id="password" type="password" name="password">
-                </div>
-                <div class="mb-3">
-                    <label class="form-label" for="birthday">Birthday</label>
-                    <input class="form-control" required id="birthday" type="date" name="birthday">
-                </div>
-                <div class="mb-3">
-                    <button class="btn btn-primary" type="submit">Register</button>
-                </div>
-            </form>
         </div>
     </div>
 </div>
