@@ -1,4 +1,12 @@
 <?php
+$keyword = "";
+$page = 1;
+if (isset($_GET['keyword'])) {
+    $keyword = $_GET['keyword'];
+}
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
+}
 ?>
 <html lang="en">
 <head>
