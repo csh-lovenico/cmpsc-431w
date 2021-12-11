@@ -21,16 +21,20 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
     try {
+    session_start();
+    $patientId = $_SESSION['user_id'];
     $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
-       a.comment as comment,
-       p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,
+       a.comment as comment,a.attendance_id as attendance_id,
+       p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
        d.dname as dname, 
        dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
        l.level_name as level_name,
        dr.name as drname, dr.usage as description, dr.price as price,
        pre.number as num, pre.prescription_id as prescription_id
         FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
-    limit 1');
+        WHERE p.patient_id = $patientId
+limit 1
+        ');
     $q = $sql->execute([]);
     $sql->setFetchMode(PDO::FETCH_ASSOC);
     ?>
