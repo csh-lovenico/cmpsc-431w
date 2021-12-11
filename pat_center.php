@@ -28,7 +28,7 @@ try {
 <?php
 try {
 $sql = $pdo->prepare('SELECT 
-       a.attendence_date as attendence_date,
+       a.attendence_date as attendence_date, a.attendance_id as attendance_id,
        dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
        m.disease_name as disease_name, m.description as description, m.medical_history_id as medical_history_id,
        al.allergy_name as allergy_name, al.description as adescription, al.id as allergy_history_id,
@@ -77,7 +77,9 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                     <td>
                         <div>
 
+                            <form action="pat_center.php" method="post"><?php echo '<input type="hidden" name="attendance_id" value="' . htmlspecialchars($row['attendance_id']) . '">' ; ?></form>
                             <?php echo '<a href="app_detail.php"><input class="btn btn-sm btn-secondary" type="submit" value="Detail"></a> '; ?>
+
 
                         </div>
                     </td>
