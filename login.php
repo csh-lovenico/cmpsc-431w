@@ -33,7 +33,6 @@ try {
         <div class="col-lg-4 col-md-7 col-sm-10">
             <h2 class="h2">User Login</h2>
             <form class="" action="login_action.php" method="post">
-            <form class="" action="login_action.php" method="post">
                 <div class="form-floating mb-3">
                     <select name="role" class="form-select" id="role" required>
                         <option value="" disabled style="display: none" selected>Select...</option>
