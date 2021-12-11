@@ -8,7 +8,14 @@ $username = Config::$username;
 $password = Config::$password;
 $host = Config::$ip;
 $dbname = Config::$database;
-
+$keyword = "";
+$page = 1;
+if (isset($_GET['keyword'])) {
+    $keyword = $_GET['keyword'];
+}
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
+}
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 } catch (PDOException $e) {
@@ -57,22 +64,23 @@ try {
                     $sql = $pdo->prepare('SELECT fname, mname, lname, birthday, email FROM patient limit 10');
                     $q = $sql->execute([]);
                     $sql->setFetchMode(PDO::FETCH_ASSOC);
-                ?>
-                <tbody>
-                <?php while ($row = $sql->fetch()): ?>
-                    <tr>
-                        <td><?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?></td>
-                        <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
-                        <td><?php echo htmlspecialchars($row['email']); ?></td>
-                        <td><button class="btn btn-sm btn-primary">Select</button></td>
-                    </tr>
-                <?php endwhile; ?>
-                </tbody>
+                    ?>
+                    <tbody>
+                    <?php while ($row = $sql->fetch()): ?>
+                        <tr>
+                            <td><?php echo htmlspecialchars($row['fname']) . ' ' . htmlspecialchars($row['mname']) . ' ' . htmlspecialchars($row['lname']) ?></td>
+                            <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
+                            <td><?php echo htmlspecialchars($row['email']); ?></td>
+                            <td>
+                                <button class="btn btn-sm btn-primary">Select</button>
+                            </td>
+                        </tr>
+                    <?php endwhile; ?>
+                    </tbody>
 
-                </tbody>
 
-                <?php
-                } catch(PDOException $e) {
+                    <?php
+                } catch (PDOException $e) {
                     echo $sql . "<br>" . $e->getMessage();
                 }
                 $conn = null;
