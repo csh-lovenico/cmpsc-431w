@@ -87,7 +87,7 @@ function sort_patient() {
 
 function select_patient(_this) {
     var selected_pat_id = _this.parentNode.parentNode.parentNode.cells[3].innerHTML;
-    var doc_id = getEle("doctor_info");
+    var doc_id = getEle("doctor_info").innerHTML;
 
     var request = new XMLHttpRequest();
     request.open("GET","add_appointment.php?patid=" + selected_pat_id + "&docid=" + doc_id); //async
