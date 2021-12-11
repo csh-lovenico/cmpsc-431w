@@ -52,13 +52,13 @@ try {
         session_start();
         $_SESSION['role'] = 0;
         $_SESSION['user_id'] = $sql->fetch()['doctor_id'];
-        echo 'Welcome back!<br>Redirect in 3 seconds...';
+        echo 'Welcome back!<br>Redirect in 1 seconds...';
         ?>
             <script>
                 function loginSuccess() {
                     setInterval(() => {
                         location.replace('doc_center.php');
-                    }, 3000);
+                    }, 1000);
                 }
 
                 loginSuccess();
@@ -87,13 +87,13 @@ try {
         session_start();
         $_SESSION['role'] = 1;
         $_SESSION['user_id'] = $sql->fetch()['patient_id'];
-        echo 'Welcome back!<br>Redirect in 3 seconds...';
+        echo 'Welcome back!<br>Redirect in 1 seconds...';
         ?>
             <script>
                 function loginSuccess() {
                     setInterval(() => {
                         location.replace('pat_center.php');
-                    }, 3000);
+                    }, 1000);
                 }
 
                 loginSuccess();

@@ -1,4 +1,26 @@
 <?php
+require 'Config.php';
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+$username = Config::$username;
+$password = Config::$password;
+$host = Config::$ip;
+$dbname = Config::$database;
+$keyword = "";
+$page = 1;
+if (isset($_GET['keyword'])) {
+    $keyword = $_GET['keyword'];
+}
+if (isset($_GET['page'])) {
+    $page = $_GET['page'];
+}
+try {
+    $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
+} catch (PDOException $e) {
+    die("Could not connect to the database $dbname :" . $e->getMessage());
+}
 ?>
 <html lang="en">
 <head>
@@ -21,12 +43,24 @@
     <div class="row">
         <h1>User Center</h1>
     </div>
+    <?php
+    try {
+        session_start();
+        $doctor_id = $_SESSION['user_id'];
+        $sql = $pdo->prepare('SELECT fname, mname, lname FROM doctor where doctor_id = "'.$doctor_id.'"');
+        $q = $sql->execute([]);
+        $sql->setFetchMode(PDO::FETCH_ASSOC);
+    ?>
     <div class="row">
         <p>Hello, Maki Nishikino</p>
+        <?php while ($row = $sql->fetch()): ?>
+            <p>Hello, <?php $row['fname'].' '.$row['mname'].' '.$row['lname'] ?></p>
+        <?php endwhile; ?>
         <div class="mb-3">
             <button class="btn btn-primary">Edit profile</button>
         </div>
     </div>
+
     <div class="row">
         <h2>Appointment History</h2>
     </div>
@@ -77,6 +111,12 @@
             </div>
         </div>
     </div>
+        <?php
+    } catch(PDOException $e) {
+        echo $sql->queryString . $e->getMessage();
+    }
+    $conn = null;
+    ?>
 </div>
 </body>
 </html>
