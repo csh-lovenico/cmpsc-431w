@@ -50,6 +50,16 @@ try {
         </div>
     </div>
     <div class="row">
+        <div class="col-6">
+            <form action="search_patient.php" method="get" class="d-flex">
+                <input class="form-control me-2" name="keyword" value="<?php echo $keyword ?>" id="keyword"
+                       type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+        </div>
+
+    </div>
+    <div class="row">
         <div class="col-md-10">
             <table class="table table-hover">
                 <thead>
