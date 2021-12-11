@@ -57,7 +57,7 @@ try {
             <script>
                 function loginSuccess() {
                     setInterval(() => {
-                        location.replace('login.php');
+                        location.replace('doc_center.php');
                     }, 3000);
                 }
 
@@ -92,7 +92,7 @@ try {
             <script>
                 function loginSuccess() {
                     setInterval(() => {
-                        location.replace('login.php');
+                        location.replace('pat_center.php');
                     }, 3000);
                 }
 
