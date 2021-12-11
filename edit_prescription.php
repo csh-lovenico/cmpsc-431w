@@ -57,7 +57,7 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
         <h2>Basic info</h2>
     </div>
     <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-8">
             <table class="table">
                 <tr>
                     <th scope="row">Date</th>
@@ -65,7 +65,7 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                 </tr>
                 <tr>
                     <th scope="row">Comment</th>
-                    <td><?php echo htmlspecialchars($row['comment']); ?>
+                    <td><form class="d-flex"><input class="form-control me-2" type="text"><input type="submit" class="btn btn-sm btn-primary"></form>
                     </td>
                 </tr>
             </table>
