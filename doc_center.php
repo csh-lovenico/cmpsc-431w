@@ -47,6 +47,7 @@ try {
     try {
         session_start();
         $doctor_id = $_SESSION['user_id'];
+        echo $doctor_id;
         $sql = $pdo->prepare('SELECT fname, mname, lname FROM doctor where doctor_id = "'.$doctor_id.'"');
         $q = $sql->execute([]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
@@ -54,7 +55,7 @@ try {
     <div class="row">
         <p>Hello, Maki Nishikino</p>
         <?php while ($row = $sql->fetch()): ?>
-            <p>Hello, <?php $row['fname'].' '.$row['mname'].' '.$row['lname'] ?></p>
+            <p>Hello, <?php echo $row['fname'].' '.$row['mname'].' '.$row['lname'] ?></p>
         <?php endwhile; ?>
         <div class="mb-3">
             <button class="btn btn-primary">Edit profile</button>
