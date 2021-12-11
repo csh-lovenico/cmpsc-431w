@@ -24,7 +24,7 @@ try {
 
 try {
     $sql = $pdo->prepare('insert into appointment(doctor_id, patient_id, app_date) VALUES (:did,:pid,:date)');
-    $sql->execute(['did' => $doc_id, 'pid' => $pat_id, 'date' => date('YYYY-mm-dd')]);
+    $sql->execute(['did' => $doc_id, 'pid' => $pat_id, 'date' => date('Y-m-d')]);
 
 } catch (PDOException $e) {
     $result = array('success' => false, 'message' => $e->getMessage());
