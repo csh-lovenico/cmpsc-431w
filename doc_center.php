@@ -79,11 +79,8 @@ try {
                 <tbody id="app_table_body"></tbody>
             </table>
             <div class="mb-3">
-                <label>Patient Name</label>
-                <input class="form-control" type="text" id="patient_name" name="disease_name" value="">
-                <button type="button" onclick=get_app_record(<?php echo '"'.$doctor_id.'"';?>) class="btn btn-primary">Add
-                    appointment record
-                </button>
+
+                <button type="button" onclick="location.href='search_patient.php'" class="btn btn-primary">Add appointment record</button>
             </div>
         </div>
     </div>

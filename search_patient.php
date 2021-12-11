@@ -31,6 +31,7 @@ try {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
             crossorigin="anonymous"></script>
+    <script src="js/search_patient.js"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
@@ -52,9 +53,9 @@ try {
     <div class="row">
         <div class="col-6">
             <form action="search_patient.php" method="get" class="d-flex">
-                <input class="form-control me-2" name="keyword" value="<?php echo $keyword ?>" id="keyword"
+                <input class="form-control me-2" name="patient_name" id="patient_name"
                        type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-success" type="submit" onclick=search_patient_by_name()>Search</button>
             </form>
         </div>
 
@@ -70,32 +71,7 @@ try {
                     <th></th>
                 </tr>
                 </thead>
-                <?php
-                try {
-                    $sql = $pdo->prepare('SELECT fname, mname, lname, birthday, email FROM patient limit 10');
-                    $q = $sql->execute([]);
-                    $sql->setFetchMode(PDO::FETCH_ASSOC);
-                    ?>
-                    <tbody>
-                    <?php while ($row = $sql->fetch()): ?>
-                        <tr>
-                            <td><?php echo htmlspecialchars($row['fname']) . ' ' . htmlspecialchars($row['mname']) . ' ' . htmlspecialchars($row['lname']) ?></td>
-                            <td><?php echo 2021 - substr(htmlspecialchars($row['birthday']), 0, 4); ?></td>
-                            <td><?php echo htmlspecialchars($row['email']); ?></td>
-                            <td>
-                                <button class="btn btn-sm btn-primary">Select</button>
-                            </td>
-                        </tr>
-                    <?php endwhile; ?>
-                    </tbody>
-
-
-                    <?php
-                } catch (PDOException $e) {
-                    echo $sql . "<br>" . $e->getMessage();
-                }
-                $conn = null;
-                ?>
+                    <tbody id="search_patient_table_body"></tbody>
             </table>
         </div>
     </div>

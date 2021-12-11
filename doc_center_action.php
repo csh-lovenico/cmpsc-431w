@@ -30,6 +30,8 @@ if ($func == 1) {
 }
 
 
+
+
 function sort_apportment_history($pdo, $doctor_id, $mode) {
     if ($mode == 0) {
         $user_id = $_GET['user_id'];
