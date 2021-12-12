@@ -36,10 +36,10 @@ if (isset($_GET['page'])) {
     </div>
     <div class="row">
         <div class="col-6">
-            <form action="search_medicine.php" method="get" class="d-flex">
-                <input class="form-control me-2" name="keyword" value="<?php echo $keyword ?>" id="keyword"
+            <form class="d-flex">
+                <input class="form-control me-2" name="keyword" id="keyword"
                        type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
+                <button class="btn btn-outline-success" onclick="" type="button">Search</button>
             </form>
         </div>
 
@@ -57,43 +57,7 @@ if (isset($_GET['page'])) {
                     <th></th>
                 </tr>
                 </thead>
-                <tbody>
-                <tr>
-                    <td>Medicine1</td>
-                    <td>$1.00</td>
-                    <td>999</td>
-                    <td class="w-25"><input class="form-control" type="number"></td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Medicine2</td>
-                    <td>$30.00</td>
-                    <td>255</td>
-                    <td class="w-25"><input class="form-control" type="number"></td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Medicine3</td>
-                    <td>$45.00</td>
-                    <td>127</td>
-                    <td class="w-25"><input class="form-control" type="number"></td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Medicine4</td>
-                    <td>$6.00</td>
-                    <td>65</td>
-                    <td class="w-25"><input class="form-control" type="number"></td>
-                    <td>
-                        <button class="btn btn-sm btn-primary">Select</button>
-                    </td>
-                </tr>
+                <tbody id="search_medicine_table_body">
                 </tbody>
             </table>
         </div>
