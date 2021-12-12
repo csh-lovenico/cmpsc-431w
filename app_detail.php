@@ -37,7 +37,7 @@ try {
         dr.name as drname, dr.usage as description, dr.price as price,
         pre.number as num, pre.prescription_id as prescription_id
         FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
-        where a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and pre.attendence_id=a.attendance_id and dr.drug_id = pre.drug_id and attendance_id=:aid
+        WHERE a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and pre.attendence_id=a.attendance_id and dr.drug_id = pre.drug_id and attendance_id=:aid
         ');
         $q = $sql->execute(['aid' => $app_id]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
