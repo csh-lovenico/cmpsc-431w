@@ -28,17 +28,16 @@ try {
     try {
         session_start();
         $patientId = $_SESSION['user_id'];
+
         $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
-        a.comment as comment,a.attendance_id as attendance_id,
-        p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
-        d.dname as dname, 
-        dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
-        l.level_name as level_name,
-        dr.name as drname, dr.usage as description, dr.price as price,
-        pre.number as num, pre.prescription_id as prescription_id
-        FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
-        WHERE a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and pre.attendence_id=a.attendance_id and dr.drug_id = pre.drug_id and attendance_id=:aid
-        ');
+            a.comment as comment,a.attendance_id as attendance_id,
+            p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
+            d.dname as dname, 
+            dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
+            l.level_name as level_name
+            FROM attendence a, patient p, department d,level l,doctor dc
+            WHERE a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and attendance_id=:aid');
+
         $q = $sql->execute(['aid' => $app_id]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
         $result = $sql->fetchAll();
@@ -114,6 +113,8 @@ try {
     <div class="row">
         <h2>Doctor info</h2>
     </div>
+
+
     <div class="row">
         <div class="col-md-6">
             <table class="table table-borderless">
@@ -152,6 +153,19 @@ try {
                     <th scope="col">Description</th>
                 </tr>
                 </thead>
+                <?php
+                try {
+                    $patientId = $_SESSION['user_id'];
+                    $sql = $pdo->prepare('SELECT dr.name as drname, dr.usage as description, dr.price as price,
+                        pre.number as num, pre.prescription_id as prescription_id
+                        FROM prescription pre, drug dr
+                        WHERE  dr.drug_id = pre.drug_id and attendence_id=:aid');
+                    $q = $sql->execute(['aid' => $app_id]);
+                    $sql->setFetchMode(PDO::FETCH_ASSOC);
+                    $result = $sql->fetchAll();
+                } catch (PDOException $e) {
+                    echo $sql->queryString . "<br>" . $e->getMessage();
+                }?>
                 <tbody>
                 <?php foreach ($result as $value) { ?>
                     <tr>
