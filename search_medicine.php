@@ -20,7 +20,7 @@ if (isset($_GET['page'])) {
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="js/search_medicine_action.js"></script>
 </head>
-<body onload=search_patient_by_name()>
+<body onload=search_drug_by_name()>
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
