@@ -12,6 +12,7 @@ function sort_app_record(user_id) {
         if(request.readyState === 4) {
             if(request.status === 200) {
 
+                alert(request.response)
                 var jsonStr = request.response.replace(new RegExp('\\"',"gm"), '"' );
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("app_table_body");
@@ -23,9 +24,10 @@ function sort_app_record(user_id) {
                             '                <tr>\n' +
                             '                    <td>' + a[k][j].app_date + '</td>\n' +
                             '                    <td>' + a[k][j].patient_name + '</td>\n' +
+                            '                    <td style="display:none">' + a[k][j].pat_id + '</td>\n' +
                             '                    <td>\n' +
                             '                        <div>\n' +
-                            '                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>\n' +
+                            '                            <button type="button" onclick=dirt_to_add_pres(this) class="btn btn-sm btn-secondary">Detail</button>\n' +
                             '                        </div>\n' +
                             '                    </td>\n' +
                             '                </tr>'
@@ -47,6 +49,7 @@ function get_app_record(user_id) {
     request.onreadystatechange = function() {
         if(request.readyState === 4) {
             if(request.status === 200) {
+                alert(request.response)
                 var jsonStr = request.response.replace(new RegExp('\\"',"gm"), '"' );
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("app_table_body");
@@ -58,9 +61,10 @@ function get_app_record(user_id) {
                             '                <tr>\n' +
                             '                    <td>' + a[k][j].app_date + '</td>\n' +
                             '                    <td>' + a[k][j].patient_name + '</td>\n' +
-                            '                    <td>\n' +
+                            '                    <td style="display:none">' + a[k][j].pat_id + '</td>\n' +
+                            '                    <td id="tdd">\n' +
                             '                        <div>\n' +
-                            '                            <button type="button" class="btn btn-sm btn-secondary">Detail</button>\n' +
+                            '                            <button type="button" onclick=dirt_to_add_pres(this) class="btn btn-sm btn-secondary">Detail</button>\n' +
                             '                        </div>\n' +
                             '                    </td>\n' +
                             '                </tr>'
@@ -90,4 +94,11 @@ function add_app_record(user_id) {
             }
         }
     }
+}
+
+function dirt_to_add_pres(_this) {
+    var patid = _this.parentNode.parentNode.parentNode.cells[2].innerHTML;
+    var docid = getEle("docinfo").innerHTML;
+    var url = "edit_prescription.php?docid=" + docid + "&patid=" + patid;
+    location.href = url;
 }

@@ -29,15 +29,15 @@ try {
         session_start();
         $patientId = $_SESSION['user_id'];
         $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
-       a.comment as comment,a.attendance_id as attendance_id,
-       p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
-       d.dname as dname, 
-       dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
-       l.level_name as level_name,
-       dr.name as drname, dr.usage as description, dr.price as price,
-       pre.number as num, pre.prescription_id as prescription_id
+        a.comment as comment,a.attendance_id as attendance_id,
+        p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
+        d.dname as dname, 
+        dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
+        l.level_name as level_name,
+        dr.name as drname, dr.usage as description, dr.price as price,
+        pre.number as num, pre.prescription_id as prescription_id
         FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
-        WHERE a.attendance_id=:aid  and a.patient_id=p.patient_id and a.doctor_id = dc.doctor_id and pre.attendence_id = a.attendance_id and dr.drug_id = pre.drug_id
+        where a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and pre.attendence_id=a.attendance_id and dr.drug_id = pre.drug_id and attendance_id=:aid
         ');
         $q = $sql->execute(['aid' => $app_id]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);

@@ -90,6 +90,8 @@ try {
     }
     $conn = null;
     ?>
+
+    <p id="docinfo" style="display:none"><?php echo $_SESSION['user_id'] ?></p>
 </div>
 </body>
 </html>
