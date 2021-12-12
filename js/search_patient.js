@@ -3,15 +3,16 @@ function getEle(id) {
 }
 
 var pat_name = '';
+
 function search_patient_by_name() {
     var patient_name = getEle("patient_name").value;
     pat_name = patient_name;
     var request = new XMLHttpRequest();
-    request.open("GET","search_patient_action.php?keyword=" + patient_name + "&page=" + 1); //async
+    request.open("GET", "search_patient_action.php?keyword=" + patient_name + "&page=" + 1); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 //alert(request.response)
                 var a = JSON.parse(request.response);
                 var obj = getEle("search_patient_table_body");
@@ -22,7 +23,7 @@ function search_patient_by_name() {
                     var age = 2021 - birthday;
                     table += '' +
                         '                <tr >\n' +
-                        '                    <td >' + a[k].fname + ' ' + a[k].mname  + ' ' + a[k].lname + '</td>\n' +
+                        '                    <td >' + a[k].fname + ' ' + a[k].mname + ' ' + a[k].lname + '</td>\n' +
                         '                    <td >' + age + '</td>\n' +
                         '                    <td >' + a[k].email + '</td>\n' +
                         '                    <td  style="display:none">' + a[k].patient_id + '</td>\n' +
@@ -34,8 +35,7 @@ function search_patient_by_name() {
                         '                </tr>'
                 }
                 obj.innerHTML = table;
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }
@@ -43,20 +43,21 @@ function search_patient_by_name() {
 }
 
 var cou = 0;
+
 function sort_patient() {
     var request = new XMLHttpRequest();
     ++cou;
     if (patient_name == '') {
         // not init
-        request.open("GET","doc_center_action.php?func=" + 1 + "&patient_name=" + patient_name + "&mode=" + cou); //async
+        request.open("GET", "doc_center_action.php?func=" + 1 + "&patient_name=" + patient_name + "&mode=" + cou); //async
     } else {
-        request.open("GET","doc_center_action.php?func=" + 1 + "&patient_name=" + patient_name + "&mode=" + cou); //async
+        request.open("GET", "doc_center_action.php?func=" + 1 + "&patient_name=" + patient_name + "&mode=" + cou); //async
     }
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
-                var jsonStr = request.response.replace(new RegExp('\\"',"gm"), '"' );
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
+                var jsonStr = request.response.replace(new RegExp('\\"', "gm"), '"');
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("search_patient_table_body");
                 var table = '';
@@ -77,8 +78,7 @@ function sort_patient() {
                     }
                 }
                 obj.innerHTML = table;
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }
@@ -89,7 +89,7 @@ function select_patient(_this) {
     var selected_pat_id = _this.parentNode.parentNode.parentNode.cells[3].innerHTML;
     var doc_id = getEle("doctor_info").innerHTML;
 
-    location.href=`create_pres.php?pid=${selected_pat_id}`
+    location.href = `create_pres.php?pid=${selected_pat_id}`
 
     // var request = new XMLHttpRequest();
     // request.open("GET","add_appointment.php?patid=" + selected_pat_id + "&docid=" + doc_id); //async
