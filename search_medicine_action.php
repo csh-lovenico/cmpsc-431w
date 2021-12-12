@@ -34,15 +34,17 @@ $min = ($page - 1) * 10;
 if ($func == 1) {
     search($keyword, $pdo, $min);
 } else if ($func == 2) {
+    select_drug();
+}
+
+function select_drug() {
 
 }
 
 function search($keyword, $pdo, $min) {
     try {
         if ($keyword != "") {
-            $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug 
-where drug.name like :keyword
-limit :min,10');
+            $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug where drug.name like :keyword limit :min,10');
             $sql->bindParam(':min', $min, PDO::PARAM_INT);
             $str = $keyword.'%';
             $sql->bindParam(':keyword', $str, PDO::PARAM_STR);

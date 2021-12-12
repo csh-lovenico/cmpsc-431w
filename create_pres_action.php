@@ -43,7 +43,7 @@ try {
     Create successful
     <script>
         setInterval(() => {
-            location.replace('edit_prescription.php?id=<?php echo $result['attendance_id']?>')
+            location.replace('edit_prescription.php?id=<?php echo $result['attendance_id']?>&patid=<?php echo $pid ?>&docid=<?php echo $did ?>')
         }, 1000);
     </script>
     </body>

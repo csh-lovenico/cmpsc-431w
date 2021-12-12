@@ -17,6 +17,10 @@ if (!isset($_GET['id'])) {
 }
 $pat_id = $_GET['patid'];
 $doc_id = $_GET['docid'];
+$att_id = 1;
+if (isset($_GET['id'])) {
+    $att_id = $_GET['id'];
+}
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -63,6 +67,7 @@ try {
     $sql->execute(['did' => $doc_id]);
     $sql->setFetchMode(PDO::FETCH_ASSOC);
     $doc_info = $sql->fetch();
+    //$result = $sql->fetchAll();
 
 } catch (PDOException $e) {
     echo $sql->queryString . "<br>" . $e->getMessage();
@@ -84,9 +89,17 @@ try {
         <div class="col-md-8">
             <table class="table">
                 <tr>
+                    <?php
+try {
+    $sql = $pdo->prepare('select * from attendence where attendance_id = :atid');
+    $sql->execute(['atid' => $att_id]);
+    $att_info = $sql->fetch();
+} catch (PDOException $e) {
+    echo $sql->queryString . "<br>" . $e->getMessage();
+}?>
                     <th scope="row">Date</th>
                     <?php if ($new_mode == false) { ?>
-                        <td><?php echo htmlspecialchars($result[0]['attendence_date']); ?></td>
+                        <td><?php echo $att_info['attendence_date']; ?></td>
                     <?php } else {
                         ?>
                         <td><?php echo date('Y-m-d') ?></td>
@@ -105,7 +118,7 @@ try {
                         </td>
                     <?php } else {
                         ?>
-                        <td><?php echo htmlspecialchars($result[0]['comment']); ?></td><?php
+                        <td><?php echo $att_info['comment']; ?></td><?php
                     } ?>
 
                 </tr>
