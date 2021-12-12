@@ -33,7 +33,7 @@ try {
 where fname like :keyword or mname like :keyword or lname like :keyword
 limit :min,10');
         $sql->bindParam(':min', $min, PDO::PARAM_INT);
-        $str = $keyword;
+        $str = $keyword . '%';
         $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
     } else {
         $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient limit :min , 10');

@@ -33,7 +33,7 @@ try {
 where drug.name like :keyword
 limit :min,10');
         $sql->bindParam(':min', $min, PDO::PARAM_INT);
-        $str = $keyword;
+        $str = $keyword . '%';
         $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
     } else {
         $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug limit :min , 10');
