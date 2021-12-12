@@ -8,7 +8,7 @@ function search_drug_by_name() {
     var patient_name = getEle("keyword").value;
     pat_name = patient_name;
     var request = new XMLHttpRequest();
-    request.open("GET", "search_medicine_action.php?keyword=" + patient_name + "&page=" + 1); //async
+    request.open("GET", "search_medicine_action.php?keyword=" + patient_name + "&page=" + 1 + "&func=" + 1); //async
     request.send();
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
