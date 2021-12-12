@@ -27,6 +27,7 @@ header('Content-Type: application/json');
 
 $min = ($page - 1) * 10;
 
+
 try {
     if ($keyword != "") {
         $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug 
