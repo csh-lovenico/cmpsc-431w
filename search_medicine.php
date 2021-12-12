@@ -40,7 +40,7 @@ if (isset($_GET['page'])) {
             <form class="d-flex">
                 <input class="form-control me-2" name="keyword" id="keyword"
                        type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" onclick="" type="button">Search</button>
+                <button class="btn btn-outline-success" onclick=search_drug_by_name() type="button">Search</button>
             </form>
         </div>
 
@@ -55,6 +55,8 @@ if (isset($_GET['page'])) {
                     <th>Price</th>
                     <th>In stock</th>
                     <th>Quantity</th>
+                    <th>Usage</th>
+                    <th></th>
                     <th></th>
                 </tr>
                 </thead>

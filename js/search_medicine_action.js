@@ -6,7 +6,6 @@ var pat_name = '';
 
 function search_drug_by_name() {
     var patient_name = getEle("keyword").value;
-    //alert(patient_name)
     pat_name = patient_name;
     var request = new XMLHttpRequest();
     request.open("GET", "search_medicine_action.php?keyword=" + patient_name + "&page=" + 1); //async
@@ -16,7 +15,7 @@ function search_drug_by_name() {
             if (request.status === 200) {
                 //alert(request.response)
                 var a = JSON.parse(request.response);
-                alert(request.response)
+                //alert(request.response)
                 var obj = getEle("search_medicine_table_body");
                 var table = '';
 
@@ -26,7 +25,9 @@ function search_drug_by_name() {
                         '                    <td >' + a[k].name + '</td>\n' +
                         '                    <td >' + a[k].price + '</td>\n' +
                         '                    <td >' + a[k].stock + '</td>\n' +
+                        '                    <input>' +
                         '                    <td  style="display:none">' + a[k].drug_id + '</td>\n' +
+                        '                    <td >' + a[k].usage + '</td>\n' +
                         '                    <td >\n' +
                         '                        <div >\n' +
                         '                            <button type="button" class="btn btn-sm btn-secondary" onclick=select_patient(this)>Select</button>\n' +
