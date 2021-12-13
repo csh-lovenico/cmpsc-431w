@@ -36,11 +36,11 @@ where d.department_id=dp.department_id and d.level=l.level_id and a.doctor_id=d.
         $sql->setFetchMode(PDO::FETCH_ASSOC);
         $app_basic_info = $sql->fetch();
 
-        $sql = $pdo->prepare('select d.drug_id as did, p.prescription_id as pid, d.name as dname,p.number as dnum, d.`usage` as dusage, d.price as dprice from attendence a,prescription p,drug d
-where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_id=:aid');
-        $q = $sql->execute(['aid' => $att_id]);
-        $sql->setFetchMode(PDO::FETCH_ASSOC);
-        $pres_info = $sql->fetchAll();
+//        $sql = $pdo->prepare('select d.drug_id as did, p.prescription_id as pid, d.name as dname,p.number as dnum, d.`usage` as dusage, d.price as dprice from attendence a,prescription p,drug d
+//where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_id=:aid');
+//        $q = $sql->execute(['aid' => $att_id]);
+//        $sql->setFetchMode(PDO::FETCH_ASSOC);
+//        $pres_info = $sql->fetchAll();
 
 //        $result = $sql->fetchAll();
     } catch (PDOException $e) {
@@ -55,8 +55,9 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
             crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="js/app_detail_action.js"></script>
 </head>
-<body>
+<body onload=get_app_record()>
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -151,25 +152,17 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Medicine name &nbsp;<button class="btn btn-sm btn-outline-secondary">Sort by name...</button></th>
+                    <th scope="col">Medicine name &nbsp;<button onclick=get_app_record() class="btn btn-sm btn-outline-secondary">Sort by name...</button></th>
                     <th scope="col">Quantity</th>
                     <th scope="col">Total Price</th>
                     <th scope="col">Description</th>
                 </tr>
                 </thead>
-                <tbody>
-                <?php foreach ($pres_info as $value) { ?>
-                    <tr>
-                        <td><?php echo htmlspecialchars($value['dname']); ?></td>
-                        <td><?php echo htmlspecialchars($value['dnum']); ?></td>
-                        <td><?php echo htmlspecialchars($value['dprice']); ?></td>
-                        <td><?php echo htmlspecialchars($value['dusage']); ?></td>
-                    </tr>
-                <?php } ?>
-                </tbody>
+                <tbody id="app_detail_pres_body"></tbody>
             </table>
         </div>
     </div>
+    <p style="display: none" id="appid"><?php echo $att_id ?></p>
 </div>
 </body>
 </html>

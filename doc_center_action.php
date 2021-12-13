@@ -16,8 +16,10 @@ try {
 } catch (PDOException $e) {
     die("Could not connect to the database $dbname :" . $e->getMessage());
 }
-
-$func = $_GET['func'];
+$func = '';
+if (isset($_GET['func'])) {
+    $func = $_GET['func'];
+}
 if ($func == 1) {
     $doctor_id = $_GET['user_id'];
     $cou = $_GET['mode'];
