@@ -186,7 +186,6 @@ try {
 <div class="modal fade" id="allergyRecordModal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form action="pat_center_allergy_history_insert.php" method="post">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel">Add allergy record</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -208,7 +207,6 @@ try {
                         Add
                     </button>
                 </div>
-            </form>
         </div>
     </div>
 </div>
