@@ -12,7 +12,6 @@ function submit_comment() {
     request.onreadystatechange = function() {
         if(request.readyState === 4) {
             if(request.status === 200) {
-                alert(request.response)
                 location.replace('edit_prescription.php?id=' + request.response);
             }
             else {
