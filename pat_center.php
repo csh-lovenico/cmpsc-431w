@@ -29,6 +29,7 @@ try {
             crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="js/pat_center.js"></script>
 </head>
 <body>
 <?php
@@ -133,7 +134,7 @@ try {
                     <td><?php echo htmlspecialchars($row['mhname']); ?></td>
                     <td><?php echo htmlspecialchars($row['mhdesc']); ?></td>
                     <td>
-                        <?php echo '<form action="pat_center_medical_history_delete.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="medical_history_id" value="' . htmlspecialchars($row['mhid']) . '"></form>'; ?>
+                        <?php echo '<form action="pat_center_medical_history_delete.php" method="post"><input class="btn btn-sm btn-danger" onclick=delete_medical_his() type="button" value="Delete"><input type="hidden" name="medical_history_id" value="' . htmlspecialchars($row['mhid']) . '"></form>'; ?>
                     </td>
                 </tr>
             <?php endwhile; ?>
