@@ -13,7 +13,7 @@ if (!isset($_GET['id'])) {
     die('invalid id<br>sample: app_detail.php?id=1');
 }
 
-$app_id = $_GET['id'];
+$att_id = $_GET['id'];
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
 } catch (PDOException $e) {
@@ -26,21 +26,23 @@ try {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <?php
     try {
-        session_start();
-        $patientId = $_SESSION['user_id'];
+        $sql = $pdo->prepare('select a.attendence_date as adate, a.comment as acomment,
+d.fname as dfname,d.mname as dmname,d.lname as dlname, l.level_name as dlvname, dp.dname as ddpname,
+       p.fname as pfname,p.mname as pmname, p.lname as plname, p.birthday as pbday, p.gender as pgender
+from attendence a,doctor d,patient p, level l, department dp
+where d.department_id=dp.department_id and d.level=l.level_id and a.doctor_id=d.doctor_id and a.patient_id=p.patient_id and a.attendance_id=:aid');
 
-        $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
-            a.comment as comment,a.attendance_id as attendance_id,
-            p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,p.patient_id as patient_id,
-            d.dname as dname, 
-            dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
-            l.level_name as level_name
-            FROM attendence a, patient p, department d,level l,doctor dc
-            WHERE a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and attendance_id=:aid');
-
-        $q = $sql->execute(['aid' => $app_id]);
+        $q = $sql->execute(['aid' => $att_id]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
-        $result = $sql->fetchAll();
+        $app_basic_info = $sql->fetch();
+
+        $sql = $pdo->prepare('select d.drug_id as did, p.prescription_id as pid, d.name as dname,p.number as dnum, d.`usage` as dusage, d.price as dprice from attendence a,prescription p,drug d
+where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_id=:aid');
+        $q = $sql->execute(['aid' => $att_id]);
+        $sql->setFetchMode(PDO::FETCH_ASSOC);
+        $pres_info = $sql->fetchAll();
+
+//        $result = $sql->fetchAll();
     } catch (PDOException $e) {
         echo $sql->queryString . "<br>" . $e->getMessage();
     }
@@ -71,21 +73,19 @@ try {
     <div class="row">
         <div class="col-md-10">
             <table class="table">
-                <!--                --><?php //while ($row = $sql->fetch()): ?>
                 <tr>
                     <th scope="row">Date</th>
-                    <td><?php echo htmlspecialchars($result[0]['attendence_date']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['adate']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Comment</th>
-                    <td><?php echo htmlspecialchars($result[0]['comment']); ?>
+                    <td><?php echo htmlspecialchars($app_basic_info['acomment']); ?>
                     </td>
                 </tr>
 
             </table>
         </div>
     </div>
-
     <div class="row">
         <h2>Patient info</h2>
     </div>
@@ -95,17 +95,22 @@ try {
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td><?php echo htmlspecialchars($result[0]['fname']) . ' ' . htmlspecialchars($result[0]['mname']) . ' ' . htmlspecialchars($result[0]['lname']) ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['pfname']) . ' ' . htmlspecialchars($app_basic_info['pmname']) . ' ' . htmlspecialchars($app_basic_info['plname']) ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Age
                     </th>
-                    <td><?php echo 2021 - substr(htmlspecialchars($result[0]['birthday']), 0, 4); ?></td>
+                    <td><?php echo 2021 - substr(htmlspecialchars($app_basic_info['pbday']), 0, 4); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Birthday
                     </th>
-                    <td><?php echo htmlspecialchars($result[0]['birthday']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['pbday']); ?></td>
+                </tr>
+                <tr>
+                    <th scope="row">Gender
+                    </th>
+                    <td><?php echo htmlspecialchars($app_basic_info['pgender']); ?></td>
                 </tr>
             </table>
         </div>
@@ -114,7 +119,6 @@ try {
         <h2>Doctor info</h2>
     </div>
 
-
     <div class="row">
         <div class="col-md-6">
             <table class="table table-borderless">
@@ -122,18 +126,18 @@ try {
                     <th scope="row">Name
                     </th>
                     <td>
-                        <?php echo htmlspecialchars($result[0]['dfname']) . ' ' . htmlspecialchars($result[0]['dmname']) . ' ' . htmlspecialchars($result[0]['dlname']) ?>
+                        <?php echo htmlspecialchars($app_basic_info['dfname']) . ' ' . htmlspecialchars($app_basic_info['dmname']) . ' ' . htmlspecialchars($app_basic_info['dlname']) ?>
                     </td>
                 </tr>
                 <tr>
                     <th scope="row">Department
                     </th>
-                    <td><?php echo htmlspecialchars($result[0]['dname']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['ddpname']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Level
                     </th>
-                    <td><?php echo htmlspecialchars($result[0]['level_name']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['dlvname']); ?></td>
                 </tr>
             </table>
 
@@ -153,32 +157,16 @@ try {
                     <th scope="col">Description</th>
                 </tr>
                 </thead>
-                <?php
-                try {
-                    $patientId = $_SESSION['user_id'];
-                    $sql = $pdo->prepare('SELECT dr.name as drname, dr.usage as description, dr.price as price,
-                        pre.number as num, pre.prescription_id as prescription_id
-                        FROM prescription pre, drug dr
-                        WHERE  dr.drug_id = pre.drug_id and attendence_id=:aid');
-                    $q = $sql->execute(['aid' => $app_id]);
-                    $sql->setFetchMode(PDO::FETCH_ASSOC);
-                    $result = $sql->fetchAll();
-                } catch (PDOException $e) {
-                    echo $sql->queryString . "<br>" . $e->getMessage();
-                }?>
                 <tbody>
-                <?php foreach ($result as $value) { ?>
+                <?php foreach ($pres_info as $value) { ?>
                     <tr>
-                        <td><?php echo htmlspecialchars($value['drname']); ?></td>
-                        <td><?php echo htmlspecialchars($value['num']); ?></td>
-                        <td><?php echo htmlspecialchars($value['price']); ?></td>
-                        <td><?php echo htmlspecialchars($value['description']); ?></td>
+                        <td><?php echo htmlspecialchars($value['dname']); ?></td>
+                        <td><?php echo htmlspecialchars($value['dnum']); ?></td>
+                        <td><?php echo htmlspecialchars($value['dprice']); ?></td>
+                        <td><?php echo htmlspecialchars($value['dusage']); ?></td>
                     </tr>
                 <?php } ?>
                 </tbody>
-                <?php
-
-                ?>
             </table>
         </div>
     </div>

@@ -104,6 +104,11 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
                     </th>
                     <td><?php echo htmlspecialchars($app_basic_info['pbday']); ?></td>
                 </tr>
+                <tr>
+                    <th scope="row">Gender
+                    </th>
+                    <td><?php echo htmlspecialchars($app_basic_info['pgender']); ?></td>
+                </tr>
             </table>
         </div>
     </div>
