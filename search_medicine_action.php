@@ -32,7 +32,8 @@ header('Content-Type: application/json');
 $min = ($page - 1) * 10;
 
 if ($func == 1) {
-    search($keyword, $pdo, $min);
+    $cou = $_GET['cou'];
+    search($keyword, $pdo, $min, $cou % 2);
 } else if ($func == 2) {
     $att_id = 0;
     $drug_id = 0;
@@ -85,17 +86,30 @@ function select_drug($att_id, $drug_id, $num, $pdo)
 
 }
 
-function search($keyword, $pdo, $min)
+function search($keyword, $pdo, $min, $mode)
 {
     try {
         if ($keyword != "") {
-            $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug where drug.name like :keyword limit :min,10');
-            $sql->bindParam(':min', $min, PDO::PARAM_INT);
-            $str = $keyword . '%';
-            $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
+            if ($mode == 0) {
+                $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug where drug.name like :keyword order by name desc limit :min,10');
+                $sql->bindParam(':min', $min, PDO::PARAM_INT);
+                $str = $keyword . '%';
+                $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
+            } else {
+                $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug where drug.name like :keyword order by name asc limit :min,10');
+                $sql->bindParam(':min', $min, PDO::PARAM_INT);
+                $str = $keyword . '%';
+                $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
+            }
+
         } else {
-            $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug limit :min , 10');
-            $sql->bindParam(':min', $min, PDO::PARAM_INT);
+            if ($mode == 0) {
+                $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug order by name desc limit :min , 10');
+                $sql->bindParam(':min', $min, PDO::PARAM_INT);
+            } else {
+                $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug order by name asc limit :min , 10');
+                $sql->bindParam(':min', $min, PDO::PARAM_INT);
+            }
         }
         $q = $sql->execute();
         $sql->setFetchMode(PDO::FETCH_ASSOC);

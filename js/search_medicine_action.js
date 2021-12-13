@@ -4,12 +4,13 @@ function getEle(id) {
 
 var pat_name = '';
 let medicine_list = [];
-
+var cou = 0;
 function search_drug_by_name() {
     var patient_name = getEle("keyword").value;
     pat_name = patient_name;
     var request = new XMLHttpRequest();
-    request.open("GET", "search_medicine_action.php?keyword=" + patient_name + "&page=" + 1 + "&func=" + 1); //async
+    ++cou;
+    request.open("GET", "search_medicine_action.php?keyword=" + patient_name + "&page=" + 1 + "&func=" + 1 + "&cou=" + cou); //async
     request.send();
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
@@ -17,7 +18,6 @@ function search_drug_by_name() {
                 //alert(request.response)
                 var a = JSON.parse(request.response);
                 medicine_list = a;
-                //alert(request.response)
                 var obj = getEle("search_medicine_table_body");
                 var table = '';
 
