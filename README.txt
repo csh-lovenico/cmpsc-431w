@@ -33,11 +33,19 @@ FILES
 - edit_prescription_action.php: Database operations in edit_prescription.php.
 - js/*.js: Use ajax to obtain data and update DOMs in order to avoid frequent page refreshing.
 - sql/create.sql: The SQL statements used to create the tables and add indexes.
+- add_appointment.php,
+  edit_prescription_delect.php,
+  pat_center_allergy_history_delete.php,
+  pat_center_allergy_history_insert.php,
+  pat_center_delect.php,
+  pat_center_medical_history_delete.php,
+  pat_center_medical_history_insert.php: These are unused pages since we refactored the codes and now doing these database operations does not need to jump to a new page. However, deleting these pages will cause problems, so we keep them.
 
 
 DATA SOURCES
--
-
+- Names used in patients and doctors are from https://data.world/len/us-first-names-database/workspace/file?filename=Common_Surnames_Census_2000.csv
+- Medicine data are from FDA: https://www.accessdata.fda.gov/scripts/drugshortages/Drugshortages.cfm
+- Bootstrap framework: https://getbootstrap.com
 
 CHANGES
 
