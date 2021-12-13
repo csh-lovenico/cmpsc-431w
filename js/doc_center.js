@@ -13,7 +13,6 @@ function sort_app_record(user_id) {
         if (request.readyState === 4) {
             if (request.status === 200) {
 
-                alert(request.response)
                 var jsonStr = request.response.replace(new RegExp('\\"', "gm"), '"');
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("app_table_body");
@@ -21,17 +20,16 @@ function sort_app_record(user_id) {
 
                 for (var k in a) {
                     for (var j in a[k]) {
-                        table += '' +
-                            '                <tr>\n' +
-                            '                    <td>' + a[k][j].app_date + '</td>\n' +
-                            '                    <td>' + a[k][j].patient_name + '</td>\n' +
-                            '                    <td style="display:none">' + a[k][j].pat_id + '</td>\n' +
-                            '                    <td>\n' +
-                            '                        <div>\n' +
-                            '                            <button type="button" onclick=dirt_to_add_pres(this) class="btn btn-sm btn-secondary">Detail</button>\n' +
-                            '                        </div>\n' +
-                            '                    </td>\n' +
-                            '                </tr>'
+                        table += `                <tr>
+                    <td>${a[k][j].app_date}</td>
+                    <td>${a[k][j].patient_name}</td>
+                    <td style="display:none">${a[k][j].pat_id}</td>
+                    <td>
+                        <div>
+                            <button type="button" onclick=dirt_to_add_pres(${a[k][j].app_id}) class="btn btn-sm btn-secondary">Detail</button>
+                        </div>
+                    </td>
+                </tr>`
                     }
                 }
                 obj.innerHTML = table;
@@ -57,17 +55,16 @@ function get_app_record(user_id) {
 
                 for (var k in a) {
                     for (var j in a[k]) {
-                        table += '' +
-                            '                <tr>\n' +
-                            '                    <td>' + a[k][j].app_date + '</td>\n' +
-                            '                    <td>' + a[k][j].patient_name + '</td>\n' +
-                            '                    <td style="display:none">' + a[k][j].pat_id + '</td>\n' +
-                            '                    <td id="tdd">\n' +
-                            '                        <div>\n' +
-                            '                            <button type="button" onclick=dirt_to_add_pres(this) class="btn btn-sm btn-secondary">Detail</button>\n' +
-                            '                        </div>\n' +
-                            '                    </td>\n' +
-                            '                </tr>'
+                        table += `                <tr>
+                    <td>${a[k][j].app_date}</td>
+                    <td>${a[k][j].patient_name}</td>
+                    <td style="display:none">${a[k][j].pat_id}</td>
+                    <td id="tdd">
+                        <div>
+                            <button type="button" onclick=dirt_to_add_pres(${a[k][j].app_id}) class="btn btn-sm btn-secondary">Detail</button>
+                        </div>
+                    </td>
+                </tr>`
                     }
                 }
                 obj.innerHTML = table;
@@ -94,9 +91,9 @@ function add_app_record(user_id) {
     }
 }
 
-function dirt_to_add_pres(_this) {
-    var patid = _this.parentNode.parentNode.parentNode.cells[2].innerHTML;
-    var docid = getEle("docinfo").innerHTML;
-    var url = "edit_prescription.php?docid=" + docid + "&patid=" + patid;
+function dirt_to_add_pres(app_id) {
+    // var patid = _this.parentNode.parentNode.parentNode.cells[2].innerHTML;
+    // var docid = getEle("docinfo").innerHTML;
+    var url = "edit_prescription.php?id=" + app_id;
     location.href = url;
 }
