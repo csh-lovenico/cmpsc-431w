@@ -21,12 +21,15 @@ FILES
 - edit_user_action.php: Executes SQL update statements for updating patient profiles.
 - app_detail.php: Shows details of a visit, including date, comment, information of patient and doctor, and prescriptions.
 - doc_center.php: User center for doctors. Doctors can add visit records in this page.
+- doc_center_action.php: Database operations in doc_center.php.
 - search_patient.php: Doctors can pick a patient from this list and create a visit record.
 - search_patient_action.php: Returns search result based on keyword and page.
 - create_pres.php: Shows details of the patient. A visit record will be created after the doctor enters comment and submits the form.
 - create_pres_action.php: Database operations of create_pres.php.
 - search_medicine.php: Doctors pick a medicine from this list and create a prescription.
 - search_medicine_action.php: Database operations for selecting medicines and creating prescriptions.
+- edit_prescription.php: Shows details of the visit and let the doctor add medicines to it.
+- edit_prescription_action.php: Database operations in edit_prescription.php.
 - js/*.js: Use ajax to obtain data and update DOMs in order to avoid frequent page refreshing.
 - sql/create.sql: The SQL statements used to create the tables and add indexes.
 
