@@ -34,10 +34,31 @@ $min = ($page - 1) * 10;
 if ($func == 1) {
     search($keyword, $pdo, $min);
 } else if ($func == 2) {
-    select_drug();
+    $att_id = 0; $drug_id = 0; $num = 0;
+    if (isset($_GET['appid'])) {
+        $att_id = $_GET['appid'];
+    }
+    if (isset($_GET['drugid'])) {
+        $drug_id = $_GET['drugid'];
+    }
+    if (isset($_GET['num'])) {
+        $num = $_GET['num'];
+    }
+    select_drug($att_id, $drug_id, $num);
 }
 
-function select_drug() {
+function select_drug($att_id, $drug_id, $num) {
+
+    try {
+        $pdo->
+        $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug limit :min , 10');
+        $sql->bindParam(':min', $min, PDO::PARAM_INT);
+
+
+
+    } catch (Exception $e) {
+        $result = array(['error' => 500, 'message' => $e->getMessage()]);
+    }
 
 }
 

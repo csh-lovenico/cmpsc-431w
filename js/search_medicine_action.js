@@ -42,3 +42,22 @@ function search_drug_by_name() {
         }
     }
 }
+
+function add_drug() {
+    var num = getEle("quantity").value;
+    var drug_id = getEle("medicineId").innerHTML;
+    var app_id = getEle("app_id").innerHTML;
+
+    var request = new XMLHttpRequest();
+    request.open("GET", "search_medicine_action.php?appid=" + app_id + "&drugid=" + drug_id + "&func=" + 2 + "&num=" + num); //async
+    request.send();
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
+
+            } else {
+                alert("error occured: " + request.status);
+            }
+        }
+    }
+}

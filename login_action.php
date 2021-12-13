@@ -36,13 +36,13 @@ try {
             $sql->setFetchMode(PDO::FETCH_ASSOC);
             $count = $sql->rowCount();
         if ($count == 0) {
-            echo 'invalid email or password<br>redirect to login in 3 seconds...';
+            echo 'invalid email or password<br>redirect to login in 1 seconds...';
             ?>
             <script>
                 function toLogin() {
                     setInterval(() => {
                         location.replace('login.php');
-                    }, 3000);
+                    }, 1000);
                 }
 
                 toLogin();
