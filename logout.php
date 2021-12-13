@@ -17,12 +17,12 @@ session_destroy();
 </head>
 <body>
 Logged out successfully<br>
-Redirect to login in 3 seconds...
+Redirect to login in 1 seconds...
 
 <script>
     setInterval(() => {
         location.href = 'login.php'
-    }, 3000);
+    }, 1000);
 </script>
 </body>
 </html>
