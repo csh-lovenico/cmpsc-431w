@@ -9,18 +9,12 @@ $password = Config::$password;
 $host = Config::$ip;
 $dbname = Config::$database;
 $new_mode = false;
-$app_id = null;
+
 if (!isset($_GET['id'])) {
-    $new_mode = true;
-} else {
-    $app_id = $_GET['id'];
+    die('must specify id');
 }
-$pat_id = $_GET['patid'];
-$doc_id = $_GET['docid'];
-$att_id = 1;
-if (isset($_GET['id'])) {
-    $att_id = $_GET['id'];
-}
+
+$att_id = $_GET['id'];
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -43,32 +37,21 @@ try {
 <body>
 <?php
 try {
-    if ($new_mode == false) {
-        $sql = $pdo->prepare('SELECT a.attendence_date as attendence_date, 
-       a.comment as comment,
-       p.fname as fname, p.mname as mname, p.lname as lname, p.birthday as birthday,
-       d.dname as dname, 
-       dc.fname as dfname, dc.mname as dmname, dc.lname as dlname,
-       l.level_name as level_name,
-       dr.name as drname, dr.usage as description, dr.price as price,
-       pre.number as num, pre.prescription_id as prescription_id
-        FROM attendence a, patient p, department d,level l,doctor dc, prescription pre, drug dr
-        where a.patient_id=p.patient_id and a.doctor_id=dc.doctor_id and dc.department_id = d.department_id and l.level_id = dc.level and pre.attendence_id=a.attendance_id and dr.drug_id = pre.drug_id and attendance_id=:aid');
-        $q = $sql->execute(['aid' => $app_id]);
-        $sql->setFetchMode(PDO::FETCH_ASSOC);
-        $result = $sql->fetchAll();
-    }
+    $sql = $pdo->prepare('select a.attendence_date as adate, a.comment as acomment,
+d.fname as dfname,d.mname as dmname,d.lname as dlname, l.level_name as dlvname, dp.dname as ddpname,
+       p.fname as pfname,p.mname as pmname, p.lname as plname, p.birthday as pbday, p.gender as pgender
+from attendence a,doctor d,patient p, level l, department dp
+where d.department_id=dp.department_id and d.level=l.level_id and a.doctor_id=d.doctor_id and a.patient_id=p.patient_id and a.attendance_id=:aid');
 
-    $sql = $pdo->prepare('select * from patient where patient_id = :pid');
-    $sql->execute(['pid' => $pat_id]);
-    $pat_info = $sql->fetch();
-
-    $sql = $pdo->prepare('select l.level_name as lvname, d.lname as dlname, d.fname as dfname, d.mname as dmname, dp.dname as dpname from doctor d, department dp, level l where d.level = l.level_id and dp.department_id = d.department_id and d.doctor_id = :did');
-    $sql->execute(['did' => $doc_id]);
+    $q = $sql->execute(['aid' => $att_id]);
     $sql->setFetchMode(PDO::FETCH_ASSOC);
-    $doc_info = $sql->fetch();
-    //$result = $sql->fetchAll();
+    $app_basic_info = $sql->fetch();
 
+    $sql = $pdo->prepare('select d.drug_id as did, p.prescription_id as pid, d.name as dname,p.number as dnum, d.`usage` as dusage, d.price as dprice from attendence a,prescription p,drug d
+where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_id=:aid');
+    $q = $sql->execute(['aid' => $att_id]);
+    $sql->setFetchMode(PDO::FETCH_ASSOC);
+    $pres_info = $sql->fetchAll();
 } catch (PDOException $e) {
     echo $sql->queryString . "<br>" . $e->getMessage();
 }
@@ -89,38 +72,12 @@ try {
         <div class="col-md-8">
             <table class="table">
                 <tr>
-                    <?php
-try {
-    $sql = $pdo->prepare('select * from attendence where attendance_id = :atid');
-    $sql->execute(['atid' => $att_id]);
-    $att_info = $sql->fetch();
-} catch (PDOException $e) {
-    echo $sql->queryString . "<br>" . $e->getMessage();
-}?>
                     <th scope="row">Date</th>
-                    <?php if ($new_mode == false) { ?>
-                        <td><?php echo $att_info['attendence_date']; ?></td>
-                    <?php } else {
-                        ?>
-                        <td><?php echo date('Y-m-d') ?></td>
-                    <?php }
-                    ?>
+                    <td><?php echo $app_basic_info['adate']; ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Comment</th>
-
-                    <?php if ($new_mode == true) {
-                        ?>
-                        <td>
-                            <form class="d-flex"><input class="form-control me-2" type="text"><input type="submit"
-                                                                                                     class="btn btn-sm btn-primary">
-                            </form>
-                        </td>
-                    <?php } else {
-                        ?>
-                        <td><?php echo $att_info['comment']; ?></td><?php
-                    } ?>
-
+                    <td><?php echo $app_basic_info['acomment']; ?></td>
                 </tr>
             </table>
         </div>
@@ -134,17 +91,17 @@ try {
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td><?php echo htmlspecialchars($pat_info['fname']) . ' ' . htmlspecialchars($pat_info['mname']) . ' ' . htmlspecialchars($pat_info['lname']) ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['pfname']) . ' ' . htmlspecialchars($app_basic_info['pmname']) . ' ' . htmlspecialchars($app_basic_info['plname']) ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Age
                     </th>
-                    <td><?php echo 2021 - substr(htmlspecialchars($pat_info['birthday']), 0, 4); ?></td>
+                    <td><?php echo 2021 - substr(htmlspecialchars($app_basic_info['pbday']), 0, 4); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Birthday
                     </th>
-                    <td><?php echo htmlspecialchars($pat_info['birthday']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['pbday']); ?></td>
                 </tr>
             </table>
         </div>
@@ -158,17 +115,17 @@ try {
                 <tr>
                     <th scope="row">Name
                     </th>
-                    <td><?php echo htmlspecialchars($doc_info['dfname']) . ' ' . htmlspecialchars($doc_info['dmname']) . ' ' . htmlspecialchars($doc_info['dlname']) ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['dfname']) . ' ' . htmlspecialchars($app_basic_info['dmname']) . ' ' . htmlspecialchars($app_basic_info['dlname']) ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Department
                     </th>
-                    <td><?php echo htmlspecialchars($doc_info['dpname']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['ddpname']); ?></td>
                 </tr>
                 <tr>
                     <th scope="row">Level
                     </th>
-                    <td><?php echo htmlspecialchars($doc_info['lvname']); ?></td>
+                    <td><?php echo htmlspecialchars($app_basic_info['dlvname']); ?></td>
                 </tr>
             </table>
 
@@ -183,33 +140,30 @@ try {
                 <thead>
                 <tr>
                     <th scope="col">Medicine name</th>
-                    <th scope="col">Count</th>
+                    <th scope="col">Quantity</th>
                     <th scope="col">Price</th>
                     <th scope="col">Description</th>
                 </tr>
                 </thead>
                 <tbody>
-                <?php if ($new_mode == false) {
-                    foreach ($result as $value) { ?>
-                        <tr>
+                <?php
+                foreach ($pres_info as $value) { ?>
+                    <tr>
 
-                            <td><?php echo htmlspecialchars($value['drname']); ?></td>
-                            <td><?php echo htmlspecialchars($value['num']); ?></td>
-                            <td><?php echo htmlspecialchars($value['price']); ?></td>
-                            <td><?php echo htmlspecialchars($value['description']); ?></td>
-                            <td>
-                                <?php echo '<form action="edit_prescription_delect.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="prescription_id" value="' . htmlspecialchars($value['prescription_id']) . '"></form>'; ?>
-
-                            </td>
-                        </tr>
-                    <?php }
-                } ?>
+                        <td><?php echo htmlspecialchars($value['dname']); ?></td>
+                        <td><?php echo htmlspecialchars($value['dnum']); ?></td>
+                        <td><?php echo htmlspecialchars('$' . $value['dprice']); ?></td>
+                        <td><?php echo htmlspecialchars($value['dusage']); ?></td>
+                        <td>
+                            <?php echo '<form action="edit_prescription_delect.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="prescription_id" value="' . htmlspecialchars($value['pid']) . '"></form>'; ?>
+                        </td>
+                    </tr>
+                <?php } ?>
                 </tbody>
             </table>
             <input class="btn btn-primary me-3" type="button"
-                   value="Add medicine" <?php if ($app_id == null) echo 'disabled' ?>
-                   onclick="location.href='search_medicine.php?appid=<?php echo $app_id ?>'">
-            <button class="btn btn-success me-3" <?php if ($app_id == null) echo 'disabled' ?>>Done</button>
+                   value="Add medicine" onclick="location.href='search_medicine.php?appid=<?php echo $att_id ?>'">
+            <button class="btn btn-success me-3">Done</button>
         </div>
     </div>
 </div>
