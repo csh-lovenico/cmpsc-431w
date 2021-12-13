@@ -55,8 +55,8 @@ function sort_apportment_history($pdo, $doctor_id, $mode)
     } else {
         $user_id = $_GET['user_id'];
         try {
-            $sql = $pdo->prepare('SELECT attendance_id,attendence_date as app_date, CONCAT(fname, mname, lname) as patient_name FROM attendence A, patient P where P.patient_id = A.patient_id AND doctor_id = :docid order by app_date limit 10 ');
-            $q = $sql->execute(['did' => $doctor_id]);
+            $sql = $pdo->prepare('SELECT attendance_id,attendence_date as app_date, CONCAT(fname, mname, lname) as patient_name FROM attendence A, patient P where P.patient_id = A.patient_id AND doctor_id = :docid order by attendence_date asc limit 10 ');
+            $q = $sql->execute(['docid' => $doctor_id]);
             $sql->setFetchMode(PDO::FETCH_ASSOC);
 
             $content = array();

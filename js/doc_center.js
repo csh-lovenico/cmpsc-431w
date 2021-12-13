@@ -3,7 +3,6 @@ function getEle(id) {
 }
 
 var cou = 1;
-
 function sort_app_record(user_id) {
     var request = new XMLHttpRequest();
     ++cou;
