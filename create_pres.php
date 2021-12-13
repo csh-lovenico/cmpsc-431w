@@ -55,11 +55,22 @@ try {
         </div>
     </nav>
 </header>
+<div class="container">
 <div class="row">
-    <h1>Create prescription</h1>
+    <div class="col-md-6">
+        <h1>Create prescription</h1>
+        <h1></h1>
+        <h1></h1>
+        <h1></h1>
+    </div>
 </div>
 <div class="row">
+    <h2></h2>
+    <h2></h2>
     <h2>Patient info</h2>
+    <h2></h2>
+    <h2></h2>
+
 </div>
 <div class="row">
     <div class="col-md-6">
@@ -83,6 +94,7 @@ try {
     </div>
 </div>
 <div class="row">
+    <h2></h2>
     <h2>
         Add comment
     </h2>
@@ -96,6 +108,7 @@ try {
             <input type="submit" class="btn btn-primary" value="Submit">
         </form>
     </div>
+</div>
 </div>
 </body>
 </html>

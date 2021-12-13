@@ -156,7 +156,7 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
             </table>
             <input class="btn btn-primary me-3" type="button"
                    value="Add medicine" onclick="location.href='search_medicine.php?appid=<?php echo $att_id ?>'">
-            <button class="btn btn-success me-3">Done</button>
+            <button class="btn btn-success me-3" onclick="location.href='doc_center.php'">Done</button>
         </div>
     </div>
     <p style="display:none" id="pre_id" ><?php echo $att_id ?></p>
