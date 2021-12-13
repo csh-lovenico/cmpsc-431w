@@ -128,7 +128,7 @@ $app_id = $_GET['appid'];
         addMedicineForm.action = `add_medicine.php?appid=<?php echo $app_id?>&drugid=${medicine_list[index].drug_id}`;
         modalTitle.textContent = medicine_list[index].name;
         medicineId.textContent = medicine_list[index].drug_id;
-        medicinePrice.textContent = medicine_list[index].price;
+        medicinePrice.textContent = '$' + medicine_list[index].price;
         medicineInStock.textContent = medicine_list[index].stock;
         medicineUsage.textContent = medicine_list[index].usage;
     })
