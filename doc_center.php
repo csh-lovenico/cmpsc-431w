@@ -55,12 +55,8 @@ try {
         $sql->setFetchMode(PDO::FETCH_ASSOC);
     ?>
     <div class="row">
-        <?php while ($row = $sql->fetch()): ?>
+        <?php $row = $sql->fetch(); ?>
             <p>Hello, <?php echo $row['fname'].' '.$row['mname'].' '.$row['lname'] ?></p>
-        <?php endwhile; ?>
-        <div class="mb-3">
-            <button class="btn btn-primary" onclick="demo(1)">Edit profile</button>
-        </div>
     </div>
 
     <div class="row">

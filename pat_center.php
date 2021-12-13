@@ -66,7 +66,9 @@ try {
         <p>
             Hello, <?php echo htmlspecialchars($row['fname']) . ' ' . htmlspecialchars($row['mname']) . ' ' . htmlspecialchars($row['lname']) ?></p>
         <div class="mb-3">
-            <button class="btn btn-primary">Edit profile</button>
+            <button class="btn btn-primary" onclick="location.href='edit_user.php?pid=<?php echo $patient_id ?>'">Edit
+                profile
+            </button>
         </div>
     </div>
     <div class="row">
