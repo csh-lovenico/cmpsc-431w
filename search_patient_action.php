@@ -3,14 +3,15 @@ require 'Config.php';
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
-
+date_default_timezone_set('America/New_York');
 $username = Config::$username;
 $password = Config::$password;
 $host = Config::$ip;
 $dbname = Config::$database;
 $keyword = "";
 $page = 1;
-
+session_start();
+$did = $_SESSION['user_id'];
 if (isset($_GET['keyword'])) {
     $keyword = $_GET['keyword'];
 }
@@ -29,14 +30,23 @@ $min = ($page - 1) * 10;
 
 try {
     if ($keyword != "") {
-        $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient 
-where fname like :keyword or mname like :keyword or lname like :keyword
+        $sql = $pdo->prepare('SELECT p.patient_id as patient_id,p.fname as fname,p.mname as mname,p.lname as lname, birthday, p.email as email FROM patient p,appointment a,doctor d 
+where (p.fname like :keyword or p.mname like :keyword or p.lname like :keyword)
+and a.patient_id=p.patient_id and a.doctor_id = d.doctor_id and d.doctor_id=:did and a.app_date=:date
 limit :min,10');
         $sql->bindParam(':min', $min, PDO::PARAM_INT);
+        $sql->bindParam(':did', $did, PDO::PARAM_STR);
+        $date = date('Y-m-d');
+        $sql->bindParam(':date', $date, PDO::PARAM_STR);
         $str = $keyword . '%';
         $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
     } else {
-        $sql = $pdo->prepare('SELECT patient_id,fname,mname,lname, birthday, email FROM patient limit :min , 10');
+        $sql = $pdo->prepare('SELECT p.patient_id as patient_id,p.fname as fname,p.mname as mname,p.lname as lname, birthday, p.email as email FROM patient p,doctor d,appointment a
+where a.patient_id=p.patient_id and a.doctor_id = d.doctor_id and d.doctor_id=:did and a.app_date=:date
+limit :min , 10');
+        $sql->bindParam(':did', $did, PDO::PARAM_STR);
+        $date = date('Y-m-d');
+        $sql->bindParam(':date', $date, PDO::PARAM_STR);
         $sql->bindParam(':min', $min, PDO::PARAM_INT);
     }
     $q = $sql->execute();
