@@ -42,22 +42,33 @@ if ($func == 1) {
 }
 
 function delete($pre_id, $pdo) {
-
     try {
+        $sql = $pdo->prepare('SELECT drug_id, number FROM prescription WHERE prescription_id = :pid');
+        $sql->bindParam(':pid', $pre_id, PDO::PARAM_INT);
+        $sql->execute();
+        $result = $sql->fetch();
+        $val = $result['number'];
+        $drugid = $result['drug_id'];
+
         $sql = $pdo->prepare('DELETE FROM prescription WHERE prescription_id = :pid');
         $sql->bindParam(':pid', $pre_id, PDO::PARAM_INT);
         $sql->execute();
-        echo (1);
+
+        $sql = $pdo->prepare('UPDATE drug SET stock = stock + :val WHERE drug_id = :did');
+        $sql->bindParam(':did', $drugid, PDO::PARAM_STR);
+        $sql->bindParam(':val', $val, PDO::PARAM_INT);
+        $sql->execute();
+
     } catch (Exception $e) {
         $result = array(['error' => 500, 'message' => $e->getMessage()]);
     }
-
+    echo (1);
 }
 
 function get_data($pre_id, $pdo, $min) {
     try {
 
-        $sql = $pdo->prepare('SELECT d.drug_id, d.price, d.name, d.stock, d.`usage`, p.number FROM drug d, prescription p 
+        $sql = $pdo->prepare('SELECT p.prescription_id, d.drug_id, d.price, d.name, d.stock, d.`usage`, p.number FROM drug d, prescription p 
                 WHERE d.drug_id = p.drug_id AND p.attendence_id = :preid limit :min,10');
         $sql->bindParam(':min', $min, PDO::PARAM_INT);
         $sql->bindParam(':preid', $pre_id, PDO::PARAM_INT);
