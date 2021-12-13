@@ -13,7 +13,6 @@ function search_patient_by_name() {
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
             if (request.status === 200) {
-                alert(request.response)
                 var a = JSON.parse(request.response);
                 var obj = getEle("search_patient_table_body");
                 var table = '';
