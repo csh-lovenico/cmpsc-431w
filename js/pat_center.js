@@ -2,6 +2,39 @@ function getEle(id) {
     return document.getElementById(id);
 }
 
+var cou = 0;
+function load_app_his() {
+    var all_his = getEle("app_his_body");
+    var pid = getEle("pid").innerHTML;
+    var request = new XMLHttpRequest();
+    ++cou;
+    request.open("GET", "pat_center_action.php?func=" + 7 + "&pid=" + pid + "&cou=" + cou); //async
+    request.send();
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
+                var a = JSON.parse(request.response);
+                var table = '';
+                for (var k in a) {
+
+                    table += '' +
+                        '                <tr>\n' +
+                        '                    <td>' + a[k].adate + '</td>\n' +
+                        '                    <td>' + a[k].dfname + a[k].dmname + a[k].dlname + '</td>\n' +
+                        '                    <td id="ah_id" style="display: none">' + a[k].id + '</td>\n' +
+                        '                    <td>' +
+                        '                        <div>' +
+                        '                            <button type="button" class="btn btn-sm btn-secondary" onclick="location.href="app_detail.php?id=' + a[k].aid + '>Details </button>' +
+                        '                        </div>' +
+                        '                    </td>' +
+                        '                </tr>'
+                }
+            }
+            all_his.innerHTML = table;
+        }
+    }
+}
+
 function load_all() {
     var all_his = getEle("all_his");
     var pid = getEle("pid").innerHTML;
@@ -60,6 +93,7 @@ function load_med() {
 }
 
 function load_data() {
+    load_app_his();
     load_all();
     load_med();
 }

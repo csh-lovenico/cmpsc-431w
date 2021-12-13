@@ -40,6 +40,30 @@ if ($func == 1) {
     $desc = $_GET["desc"];
     $name = $_GET["name"];
     add_medical_his_data($pdo, $pid, $desc, $name);
+} else if ($func == 7) {
+    $pid = $_GET['pid'];
+    $cou = $_GET["cou"];
+    load_app_his($pdo, $pid, $cou % 2);
+}
+
+function load_app_his($pdo, $pid, $mode) {
+    try {
+        if ($mode == 0) {
+            $sql = $pdo->prepare('SELECT a.attendance_id as aid, a.attendence_date as adate,d.fname as dfname, d.mname as dmname, d.lname as dlname FROM attendence a,patient p,doctor d 
+        WHERE a.patient_id = p.patient_id and a.doctor_id = d.doctor_id and p.patient_id = :patient_id order by adate desc');
+            $q = $sql->execute(['patient_id' => $pid]);
+        } else {
+            $sql = $pdo->prepare('SELECT a.attendance_id as aid, a.attendence_date as adate,d.fname as dfname, d.mname as dmname, d.lname as dlname FROM attendence a,patient p,doctor d 
+        WHERE a.patient_id = p.patient_id and a.doctor_id = d.doctor_id and p.patient_id = :patient_id order by adate asc');
+            $q = $sql->execute(['patient_id' => $pid]);
+        }
+
+        $result = $sql->fetchAll();
+        $ret = json_encode($result);
+        echo $ret;
+    } catch (PDOException $e) {
+        echo $sql->queryString . $e->getMessage();
+    }
 }
 
 function add_allergy_his($pdo, $pid, $desc, $aname)
