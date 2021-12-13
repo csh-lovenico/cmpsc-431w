@@ -155,29 +155,27 @@ try {
 <div class="modal fade" id="medicalRecordModal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
-            <form action="pat_center_medical_history_insert.php" method="post">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Add disease record</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add disease record</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input name="patient_id" readonly style="display: none" value="<?php echo $patient_id ?>">
+                <div class="mb-3">
+                    <label class="form-label" for="disease_name">Name</label>
+                    <input class="form-control" id="disease_name" name="disease_name">
                 </div>
-                <div class="modal-body">
-                    <input name="patient_id" readonly style="display: none" value="<?php echo $patient_id ?>">
-                    <div class="mb-3">
-                        <label class="form-label" for="disease_name">Name</label>
-                        <input class="form-control" id="disease_name" name="disease_name">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" for="description">Description</label>
-                        <textarea class="form-control" id="description" name="description"></textarea>
-                    </div>
+                <div class="mb-3">
+                    <label class="form-label" for="description">Description</label>
+                    <textarea class="form-control" id="description" name="description"></textarea>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" onclick=add_medical_his() class="btn btn-primary" data-bs-dismiss="modal">
-                        Add
-                    </button>
-                </div>
-            </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" onclick=add_medical_his() class="btn btn-primary" data-bs-dismiss="modal">
+                    Add
+                </button>
+            </div>
         </div>
     </div>
 </div>
@@ -186,27 +184,27 @@ try {
 <div class="modal fade" id="allergyRecordModal" tabindex="-1">
     <div class="modal-dialog">
         <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Add allergy record</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Add allergy record</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <input name="patient_id" readonly style="display: none" value="<?php echo $patient_id ?>">
+                <div class="mb-3">
+                    <label class="form-label" for="allergy_name">Name</label>
+                    <input class="form-control" id="allergy_name" name="allergy_name">
                 </div>
-                <div class="modal-body">
-                    <input name="patient_id" readonly style="display: none" value="<?php echo $patient_id ?>">
-                    <div class="mb-3">
-                        <label class="form-label" for="allergy_name">Name</label>
-                        <input class="form-control" id="allergy_name" name="allergy_name">
-                    </div>
-                    <div class="mb-3">
-                        <label class="form-label" for="adescription">Description</label>
-                        <textarea class="form-control" id="adescription" name="adescription"></textarea>
-                    </div>
+                <div class="mb-3">
+                    <label class="form-label" for="adescription">Description</label>
+                    <textarea class="form-control" id="adescription" name="adescription"></textarea>
                 </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" onclick=add_allergy_his() data-bs-dismiss="modal" class="btn btn-primary">
-                        Add
-                    </button>
-                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" onclick=add_allergy_his() data-bs-dismiss="modal" class="btn btn-primary">
+                    Add
+                </button>
+            </div>
         </div>
     </div>
 </div>
