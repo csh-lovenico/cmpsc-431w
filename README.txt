@@ -28,7 +28,7 @@ FILES
 - search_medicine.php: Doctors pick a medicine from this list and create a prescription.
 - search_medicine_action.php: Database operations for selecting medicines and creating prescriptions.
 - js/*.js: Use ajax to obtain data and update DOMs in order to avoid frequent page refreshing.
-
+- sql/create.sql: The SQL statements used to create the tables and add indexes.
 
 DATA SOURCES
 -
