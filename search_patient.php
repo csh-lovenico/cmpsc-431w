@@ -65,7 +65,7 @@ try {
             <table class="table table-hover">
                 <thead>
                 <tr>
-                    <th>Name &nbsp;<a href="#">Sort by name...</a></th>
+                    <th>Name &nbsp;<button class="btn btn-sm btn-outline-secondary">Sort by name...</button></th>
                     <th>Age</th>
                     <th>Email</th>
                     <th></th>

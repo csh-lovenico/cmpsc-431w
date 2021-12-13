@@ -32,19 +32,16 @@ function get_data() {
                 var table = '';
                 for (var k in a) {
 
-                    table += '' +
-                        '                <tr>\n' +
-                        '                    <td>' + a[k].name + '</td>\n' +
-                        '                    <td>' + a[k].number + '</td>\n' +
-                        '                    <td>' + a[k].price + '</td>\n' +
-                        '                    <td>' + a[k].usage + '</td>\n' +
-                        '                    <td id="prescriptionid" style="display:none">' + a[k].prescription_id + '</td>\n' +
-                        '                    <td id="tdd">\n' +
-                        '                        <form action="edit_prescription_delect.php" method="post">' +
-                        '                            <input class="btn btn-sm btn-danger" onclick=delete_data() type="button" value="Delete"><input type="hidden" name="prescription_id" value="' + pre_id + '">' +
-                        '                        </form>\n' +
-                        '                    </td>\n' +
-                        '                </tr>'
+                    table += `                <tr>
+                    <td>${a[k].name}</td>
+                    <td>${a[k].number}</td>
+                    <td>${a[k].price}</td>
+                    <td>${a[k].usage}</td>
+                    <td style="display:none">${a[k].prescription_id}</td>
+                    <td>
+                     <input class="btn btn-sm btn-danger" onclick=delete_data() type="button" value="Delete"><input type="hidden" name="prescription_id" value="${pre_id}">
+                    </td>
+                </tr>`
                 }
                 obj.innerHTML = table;
             } else {

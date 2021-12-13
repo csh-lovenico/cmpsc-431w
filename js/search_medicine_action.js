@@ -59,7 +59,6 @@ function add_drug() {
                     location.href = 'search_medicine.php?appid=' + app_id;
                 } else if (request.response == 1) {
                     location.href = 'edit_prescription.php?id=' + app_id + "&patid=pat10&docid=doc0";
-                    //alert("success")
                 }
             } else {
                 alert("error occured: " + request.status);
