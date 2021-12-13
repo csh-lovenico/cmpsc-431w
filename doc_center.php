@@ -68,6 +68,7 @@ try {
                     <thead>
                     <tr>
                         <th scope="col">Date &nbsp;<button
+                                    class="btn btn-sm btn-outline-secondary"
                                     onclick=sort_app_record(<?php echo '"' . $doctor_id . '"'; ?>)>Sort by date
                             </button>
                         </th>
