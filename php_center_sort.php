@@ -77,7 +77,7 @@ try {
     <?php
     try {
         $sql = $pdo->prepare('SELECT a.attendance_id as aid, a.attendence_date as adate,d.fname as dfname, d.mname as dmname, d.lname as dlname FROM attendence a,patient p,doctor d 
-        WHERE a.patient_id = p.patient_id and a.doctor_id = d.doctor_id and p.patient_id = :patient_id');
+        WHERE a.patient_id = p.patient_id and a.doctor_id = d.doctor_id and p.patient_id = :patient_id order by a.attendence_date');
         $q = $sql->execute(['patient_id' => $patient_id]);
     } catch (PDOException $e) {
         echo $sql->queryString . "<br>" . $e->getMessage();
