@@ -19,7 +19,7 @@ $did = $_SESSION['user_id'];
 
 $pid = $_GET['pid'];
 
-$comment = $_POST['comment'];
+$comment = $_GET['comment'];
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname", $username, $password);
@@ -34,22 +34,23 @@ try {
     $sql = $pdo->prepare('select attendance_id from attendence order by attendance_id desc limit 1');
     $sql->execute();
     $result = $sql->fetch();
-    $pdo->commit(); ?>
-    <html lang="en">
-    <head>
-        <title>Create prescription</title>
-    </head>
-    <body>
-    Create successful
-    <script>
-        setInterval(() => {
-            location.replace('edit_prescription.php?id=<?php echo $result['attendance_id']?>&patid=<?php echo $pid ?>&docid=<?php echo $did ?>')
-        }, 1000);
-    </script>
-    </body>
-    </html>
-
-    <?php
+    $pdo->commit();
+    echo ($result['attendance_id']);
+//<!--    <html lang="en">-->
+//<!--    <head>-->
+//<!--        <title>Create prescription</title>-->
+//<!--    </head>-->
+//<!--    <body>-->
+//<!--    Create successful... Redirecting to another page...-->
+//<!--    <script>-->
+//<!--        setInterval(() => {-->
+/*<!--            location.replace('edit_prescription.php?id=--><?php //echo $result['attendance_id']?>//')*/
+//<!--//        }, 1000);-->
+//<!--//    </script>-->
+//<!--//    </body>-->
+//<!--//    </html>-->
+//<!--//-->
+//<!--//    -->
 } catch (PDOException $e) {
     $pdo->rollBack();
     echo $e->getMessage();
