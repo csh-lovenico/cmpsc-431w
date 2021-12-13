@@ -31,7 +31,7 @@ try {
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="js/pat_center.js"></script>
 </head>
-<body>
+<body onload=load_data()>
 <?php
 try {
 //$sql = $pdo->prepare('SELECT
@@ -114,14 +114,6 @@ try {
     <div class="row">
         <h2>Medical history</h2>
     </div>
-    <?php
-    try {
-        $sql = $pdo->prepare('SELECT mh.disease_name as mhname, mh.description as mhdesc, mh.medical_history_id as mhid FROM patient p,medical_history mh where p.patient_id = mh.patient_id and p.patient_id = :patient_id');
-        $q = $sql->execute(['patient_id' => $patient_id]);
-    } catch (PDOException $e) {
-        echo $sql->queryString . "<br>" . $e->getMessage();
-    }
-    ?>
     <div class="col-md-10">
         <table class="table">
             <thead>
@@ -130,17 +122,7 @@ try {
                 <th scope="col">Description</th>
             </tr>
             </thead>
-            <tbody>
-            <?php while ($row = $sql->fetch()): ?>
-                <tr>
-                    <td><?php echo htmlspecialchars($row['mhname']); ?></td>
-                    <td><?php echo htmlspecialchars($row['mhdesc']); ?></td>
-                    <td>
-                        <?php echo '<form action="pat_center_medical_history_delete.php" method="post"><input class="btn btn-sm btn-danger" onclick=delete_medical_his() type="button" value="Delete"><input type="hidden" name="medical_history_id" value="' . htmlspecialchars($row['mhid']) . '"></form>'; ?>
-                    </td>
-                </tr>
-            <?php endwhile; ?>
-            </tbody>
+            <tbody id="med_his"></tbody>
         </table>
         <div class="mb-3">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#medicalRecordModal">
@@ -151,14 +133,6 @@ try {
     <div class="row">
         <h2>Allergy history</h2>
     </div>
-    <?php
-    try {
-        $sql = $pdo->prepare('SELECT ah.id as ahid, ah.allergy_name as ahname, ah.description as ahdesc FROM patient p ,allergy_history ah where p.patient_id = ah.patient_id and p.patient_id = :patient_id');
-        $q = $sql->execute(['patient_id' => $patient_id]);
-    } catch (PDOException $e) {
-        echo $sql->queryString . "<br>" . $e->getMessage();
-    }
-    ?>
     <div class="col-md-10">
         <table class="table">
             <thead>
@@ -167,17 +141,7 @@ try {
                 <th scope="col">Description</th>
             </tr>
             </thead>
-            <tbody>
-            <?php while ($row = $sql->fetch()): ?>
-                <tr>
-                    <td><?php echo htmlspecialchars($row['ahname']); ?></td>
-                    <td><?php echo htmlspecialchars($row['ahdesc']); ?></td>
-                    <td>
-                        <?php echo '<form action="pat_center_allergy_history_delete.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="allergy_history_id" value="' . htmlspecialchars($row['ahid']) . '"></form>'; ?>
-                    </td>
-                </tr>
-            <?php endwhile; ?>
-            </tbody>
+            <tbody id="all_his"></tbody>
         </table>
         <div class="mb-3">
             <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#allergyRecordModal">
@@ -209,7 +173,7 @@ try {
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Add</button>
+                    <button type="button" onclick=add_medical_his() class="btn btn-primary" data-bs-dismiss="modal">Add</button>
                 </div>
             </form>
         </div>
@@ -238,11 +202,12 @@ try {
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="submit" class="btn btn-primary">Add</button>
+                    <button type="button" onclick=add_allergy_his() data-bs-dismiss="modal" class="btn btn-primary">Add</button>
                 </div>
             </form>
         </div>
     </div>
 </div>
+<p style="display: none" id="pid"><?php echo $patient_id ?></p>
 </body>
 </html>
