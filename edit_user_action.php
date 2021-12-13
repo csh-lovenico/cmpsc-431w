@@ -29,9 +29,8 @@ try {
 
 try {
 
-    $sql = $pdo->prepare('update patient set fname=:fname,mname=:mname,lname=:lname,email=:email,password=:passwd,birthday=:birthday,gender=:gender
-where patient_id=:pid');
-    $sql->execute([':fname' => $fname, ':mname' => $mname, ':lname' => $lname, ':email' => $email, ':password' => $pat_passwd, ':birthday' => $birthday, ':gender' => $gender, ':pid' => $pid]);
+    $sql = $pdo->prepare('update patient set fname=:fname,mname=:mname,lname=:lname,email=:email,password=:password,birthday=:birthday,gender=:gender where patient_id=:pid');
+    $sql->execute(['fname' => $fname, 'mname' => $mname, 'lname' => $lname, 'email' => $email, 'password' => $pat_passwd, 'birthday' => $birthday, 'gender' => $gender, 'pid' => $pid]);
     echo 'success';
 } catch (PDOException $e) {
     echo $sql->queryString . $e->getMessage();

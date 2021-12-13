@@ -19,10 +19,8 @@ function update() {
     request.onreadystatechange = function() {
         if(request.readyState === 4) {
             if(request.status === 200) {
-                alert(request.response)
-
+                location.href = "pat_center.php";
             }
-            all_his.innerHTML = table;
         }
     }
 }
