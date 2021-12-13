@@ -30,32 +30,31 @@
             <form action="register_insert.php" method="post">
                 <div class="mb-3">
                     <label class="form-label" for="fname">First name</label>
-                    <input class="form-control" id="fname" type="text" name="fname" value="">
+                    <input class="form-control" required id="fname" type="text" name="fname">
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="mname">Middle name</label>
-                    <input class="form-control" id="mname" type="text" name="mname" value="">
+                    <input class="form-control" id="mname" type="text" name="mname">
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="lname">Last name</label>
-                    <input class="form-control" required id="lname" type="text" name="lname" value="">
+                    <input class="form-control" required id="lname" type="text" name="lname">
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="email">Email</label>
-                    <input class="form-control" required id="email" type="email" name="email" value="">
+                    <input class="form-control" required id="email" type="email" name="email">
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="password">Password</label>
-                    <input class="form-control" required id="password" type="password" name="password" value="">
+                    <input class="form-control" required id="password" type="password" name="password">
                 </div>
                 <div class="mb-3">
                     <label class="form-label" for="birthday">Birthday</label>
-                    <input class="form-control" required id="birthday" type="date" name="birthday" value="">
+                    <input class="form-control" required id="birthday" type="date" name="birthday">
                 </div>
                 <div class="mb-3">
-                    <label class="form-label" for="gender">Gender
-                    </label>
-                    <select id="gender" class="form-control" name="gender">
+                    <label class="form-label" for="gender">Gender</label>
+                    <select id="gender" required class="form-control" name="gender">
                         <option value="female">
                             Female
                         </option>
