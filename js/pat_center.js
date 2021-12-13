@@ -15,11 +15,15 @@ function load_all() {
                 var table = '';
                 for (var k in a) {
 
-                    table += `                <tr>
-                    <td>${a[k].ahname}</td>
-                    <td>${a[k].ahdesc}</td>
-                    <td id="ah_id" style="display: none">${a[k].id}</td>
-                    <td><input class="btn btn-sm btn-danger" type="button" onclick=delete_allergy_his(this) value="Delete"><input type="hidden" name="allergy_history_id" value="${a[k].id}"></td>                </tr>`
+                    table += '' +
+                        '                <tr>\n' +
+                        '                    <td>' + a[k].ahname + '</td>\n' +
+                        '                    <td>' + a[k].ahdesc + '</td>\n' +
+                        '                    <td id="ah_id" style="display: none">' + a[k].id + '</td>\n' +
+                        '                    <td>' +
+                        '                        <form action="pat_center_allergy_history_delete.php" method="post"><input class="btn btn-sm btn-danger" type="button" onclick=delete_allergy_his(this) value="Delete"><input type="hidden" name="allergy_history_id" value="' + a[k].id + '"></form>' +
+                        '                    </td>' +
+                        '                </tr>'
                 }
             }
             all_his.innerHTML = table;
@@ -39,11 +43,15 @@ function load_med() {
                 var a = JSON.parse(request2.response);
                 var table2 = '';
                 for (var k in a) {
-                    table2 += `                <tr>
-                    <td>${a[k].mhname}</td>
-                    <td>${a[k].mhdesc}</td>
-                    <td style="display: none">${a[k].id}</td>
-                    <td> <input class="btn btn-sm btn-danger" type="button" onclick=delete_medical_his(this) value="Delete"><input type="hidden" name="allergy_history_id" value="${a[k].id}"> </td>                </tr>`
+                    table2 += '' +
+                        '                <tr>\n' +
+                        '                    <td>' + a[k].mhname + '</td>\n' +
+                        '                    <td>' + a[k].mhdesc + '</td>\n' +
+                        '                    <td id="ah_id" style="display: none">' + a[k].id + '</td>\n' +
+                        '                    <td id="td">' +
+                        '                        <form action="pat_center_allergy_history_delete.php" method="post"><input class="btn btn-sm btn-danger" type="button" onclick=delete_medical_his(this) value="Delete"><input type="hidden" name="allergy_history_id" value="' + a[k].id + '"></form>' +
+                        '                    </td>' +
+                        '                </tr>'
                 }
             }
             med_his.innerHTML = table2;
