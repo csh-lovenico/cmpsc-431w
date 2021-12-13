@@ -88,7 +88,7 @@ try {
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Date &nbsp;<a href="#">Sort by date</a></th>
+                    <th scope="col">Date &nbsp;<button class="btn btn-sm btn-outline-secondary" >Sort by date</button></th>
                     <th scope="col">Doctor</th>
                     <th scope="col"></th>
                 </tr>

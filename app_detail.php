@@ -151,7 +151,7 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Medicine name &nbsp;<a href="#">Sort by name...</a></th>
+                    <th scope="col">Medicine name &nbsp;<button class="btn btn-sm btn-outline-secondary">Sort by name...</button></th>
                     <th scope="col">Quantity</th>
                     <th scope="col">Total Price</th>
                     <th scope="col">Description</th>
