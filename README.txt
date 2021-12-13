@@ -29,6 +29,11 @@ FILES
 - search_medicine_action.php: Database operations for selecting medicines and creating prescriptions.
 - js/*.js: Use ajax to obtain data and update DOMs in order to avoid frequent page refreshing.
 
+
+DATA SOURCES
+-
+
+
 CHANGES
 
 - ID fields of all tables except for patient,doctor and drug table has change to int type and set to auto increment. Changing this to int and auto increment does not need us to set an ID manually when inserting a record.
