@@ -1,15 +1,15 @@
 <?php
-if (!isset($_GET['pid'])) {
+if (!isset($_GET['id'])) {
     die('specify pid');
 }
-$pid = $_GET['pid'];
-$fname = $_POST['fname'];
-$mname = $_POST['mname'];
-$lname = $_POST['lname'];
-$email = $_POST['email'];
-$pat_passwd = $_POST['password'];
-$birthday = $_POST['birthday'];
-$gender = $_POST['gender'];
+$pid = $_GET['id'];
+$fname = $_GET['fname'];
+$mname = $_GET['mname'];
+$lname = $_GET['lname'];
+$email = $_GET['email'];
+$pat_passwd = $_GET['password'];
+$birthday = $_GET['birthday'];
+$gender = $_GET['gender'];
 
 require 'Config.php';
 ini_set('display_errors', 1);
@@ -28,9 +28,10 @@ try {
 }
 
 try {
-    $sql = $pdo->prepare('update patient set fname=:fname,mname=:mname,lname=:lname,email=:email,password=:passwd,birthday=:birthday,gender=:gender 
+
+    $sql = $pdo->prepare('update patient set fname=:fname,mname=:mname,lname=:lname,email=:email,password=:passwd,birthday=:birthday,gender=:gender
 where patient_id=:pid');
-    $sql->execute(['fname' => $fname, 'mname' => $mname, 'lname' => $lname, 'email' => $email, 'password' => $pat_passwd, 'birthday' => $birthday, 'gender' => $gender, 'pid' => $pid]);
+    $sql->execute([':fname' => $fname, ':mname' => $mname, ':lname' => $lname, ':email' => $email, ':password' => $pat_passwd, ':birthday' => $birthday, ':gender' => $gender, ':pid' => $pid]);
     echo 'success';
 } catch (PDOException $e) {
     echo $sql->queryString . $e->getMessage();
