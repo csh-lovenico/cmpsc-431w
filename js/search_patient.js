@@ -90,4 +90,18 @@ function select_patient(_this) {
 
     location.href = `create_pres.php?pid=${selected_pat_id}`
 
+    // var request = new XMLHttpRequest();
+    // request.open("GET","add_appointment.php?patid=" + selected_pat_id + "&docid=" + doc_id); //async
+    // request.send();
+    // request.onreadystatechange = function() {
+    //     if(request.readyState === 4) {
+    //         if(request.status === 200) {
+    //             // alert("select successfully");
+    //             location.replace("doc_center.php");
+    //         }
+    //         else {
+    //             alert("error occured: " + request.status);
+    //         }
+    //     }
+    // }
 }
