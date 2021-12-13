@@ -77,7 +77,7 @@ try {
     <?php
     try {
         $sql = $pdo->prepare('SELECT a.attendance_id as aid, a.attendence_date as adate,d.fname as dfname, d.mname as dmname, d.lname as dlname FROM attendence a,patient p,doctor d 
-        WHERE a.patient_id = p.patient_id and a.doctor_id = d.doctor_id and p.patient_id = :patient_id');
+        WHERE a.patient_id = p.patient_id and a.doctor_id = d.doctor_id and p.patient_id = :patient_id order by a.attendence_date' );
         $q = $sql->execute(['patient_id' => $patient_id]);
     } catch (PDOException $e) {
         echo $sql->queryString . "<br>" . $e->getMessage();
@@ -88,7 +88,7 @@ try {
             <table class="table">
                 <thead>
                 <tr>
-                    <th scope="col">Date &nbsp;<a href="pat_center_sort.php">Sort by date</a></th>
+                    <th scope="col">Date &nbsp;<a href="#">Sort by date</a></th>
                     <th scope="col">Doctor</th>
                     <th scope="col"></th>
                 </tr>
@@ -215,3 +215,4 @@ try {
 <p style="display: none" id="pid"><?php echo $patient_id ?></p>
 </body>
 </html>
+

@@ -6,7 +6,6 @@ var cou = 1;
 function sort_app_record(user_id) {
     var request = new XMLHttpRequest();
     ++cou;
-    alert(cou)
     request.open("GET", "doc_center_action.php?func=" + 1 + "&user_id=" + user_id + "&mode=" + cou); //async
     request.send();
     request.onreadystatechange = function () {
