@@ -37,11 +37,11 @@ try {
     $conn->exec($sql);
     echo "User deleted successfully";
     ?>
-<p>You will be redirected in 3 seconds</p>
+<p>You will be redirected in 1 seconds</p>
 <script>
     var timer = setTimeout(function() {
         window.location='edit_prescription.php'
-    }, 3000);
+    }, 1000);
 </script>
 <?php
 } catch(PDOException $e) {

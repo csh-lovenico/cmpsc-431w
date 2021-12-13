@@ -33,8 +33,9 @@ try {
             crossorigin="anonymous"></script>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="js/edit_prescription.js"></script>
 </head>
-<body>
+<body onload=get_data()>
 <?php
 try {
     $sql = $pdo->prepare('select a.attendence_date as adate, a.comment as acomment,
@@ -150,20 +151,7 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
                     <th scope="col">Description</th>
                 </tr>
                 </thead>
-                <tbody>
-                <?php
-                foreach ($pres_info as $value) { ?>
-                    <tr>
-
-                        <td><?php echo htmlspecialchars($value['dname']); ?></td>
-                        <td><?php echo htmlspecialchars($value['dnum']); ?></td>
-                        <td><?php echo htmlspecialchars('$' . $value['dprice']); ?></td>
-                        <td><?php echo htmlspecialchars($value['dusage']); ?></td>
-                        <td>
-                            <?php echo '<form action="edit_prescription_delect.php" method="post"><input class="btn btn-sm btn-danger" type="submit" value="Delete"><input type="hidden" name="prescription_id" value="' . htmlspecialchars($value['pid']) . '"></form>'; ?>
-                        </td>
-                    </tr>
-                <?php } ?>
+                <tbody id="medicine_detail">
                 </tbody>
             </table>
             <input class="btn btn-primary me-3" type="button"
@@ -171,6 +159,7 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
             <button class="btn btn-success me-3">Done</button>
         </div>
     </div>
+    <p style="display:none" id="pre_id" ><?php echo $att_id ?></p>
 </div>
 </body>
 </html>
