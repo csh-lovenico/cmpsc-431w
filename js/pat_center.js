@@ -16,7 +16,6 @@ function load_app_his() {
                 var a = JSON.parse(request.response);
                 var table = '';
                 for (var k in a) {
-
                     table += '' +
                         '                <tr>\n' +
                         '                    <td>' + a[k].adate + '</td>\n' +
@@ -24,7 +23,7 @@ function load_app_his() {
                         '                    <td id="ah_id" style="display: none">' + a[k].id + '</td>\n' +
                         '                    <td>' +
                         '                        <div>' +
-                        '                            <button type="button" class="btn btn-sm btn-secondary" onclick="location.href="app_detail.php?id=' + a[k].aid + '>Details </button>' +
+                        '                            <button type="button" class="btn btn-sm btn-secondary" onclick=location.href="app_detail.php?id=' + a[k].aid + '">Details</button>' +
                         '                        </div>' +
                         '                    </td>' +
                         '                </tr>'
