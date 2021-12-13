@@ -65,7 +65,7 @@ where a.attendance_id=p.attendence_id and p.drug_id=d.drug_id and a.attendance_i
         </div>
     </nav>
 </header>
-<div class="container">
+<div class="container" class="ms-3">
     <div class="row">
         <h2>Basic info</h2>
     </div>
