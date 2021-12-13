@@ -83,7 +83,7 @@ function add_app_record(user_id) {
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
             if (request.status === 200) {
-                window.alert(request.response)
+                //window.alert(request.response)
             } else {
                 alert("error occured: " + request.status);
             }
