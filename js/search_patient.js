@@ -3,12 +3,14 @@ function getEle(id) {
 }
 
 var pat_name = '';
+var cou = 0;
 
 function search_patient_by_name() {
     var patient_name = getEle("patient_name").value;
     pat_name = patient_name;
     var request = new XMLHttpRequest();
-    request.open("GET", "search_patient_action.php?keyword=" + patient_name + "&page=" + 1); //async
+    ++cou;
+    request.open("GET", "search_patient_action.php?keyword=" + patient_name + "&page=" + 1 + "&cou=" + cou); //async
     request.send();
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
@@ -41,11 +43,11 @@ function search_patient_by_name() {
     }
 }
 
-var cou = 0;
 
 function sort_patient() {
     var request = new XMLHttpRequest();
     ++cou;
+    var patient_name = getEle("patient_name").value;
     if (patient_name == '') {
         // not init
         request.open("GET", "doc_center_action.php?func=" + 1 + "&patient_name=" + patient_name + "&mode=" + cou); //async
