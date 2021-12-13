@@ -37,10 +37,12 @@ FILES
   edit_prescription_delect.php,
   pat_center_allergy_history_delete.php,
   pat_center_allergy_history_insert.php,
+  pat_center_sort.php,
+  php_center_sort.php,
   pat_center_delect.php,
   pat_center_medical_history_delete.php,
   pat_center_medical_history_insert.php: These are unused pages since we refactored the codes and now doing these database operations does not need to jump to a new page. However, deleting these pages will cause problems, so we keep them.
-
+- csv/*.csv: All data in the database
 
 DATA SOURCES
 - Names used in patients and doctors are from https://data.world/len/us-first-names-database/workspace/file?filename=Common_Surnames_Census_2000.csv
