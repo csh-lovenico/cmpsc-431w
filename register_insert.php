@@ -29,13 +29,13 @@ try {
 <body>
 <p>
     <?php
+    $pid = uniqid("pat");
     $sql = $pdo->prepare('INSERT INTO patient(patient_id, fname, mname, lname, address_id, gender, password, birthday, email) VALUES(:patient_id,:fname,:mname,:lname,0,:gender,:password,:birthday,:email)');
     try {
-    $success = $sql->execute(['patient_id' => $_POST["patient_id"], 'fname' => $_POST["fname"], 'mname' => $_POST["mname"], 'lname' => $_POST["lname"], 'gender' => '', 'password' => $_POST["password"], 'birthday' => $_POST["birthday"], 'email' => $_POST["email"]]);
+    $success = $sql->execute(['patient_id' => $pid, 'fname' => $_POST["fname"], 'mname' => $_POST["mname"], 'lname' => $_POST["lname"], 'gender' => $_POST['gender'], 'password' => $_POST["password"], 'birthday' => $_POST["birthday"], 'email' => $_POST["email"]]);
     if (!$success) {
         throw new PDOException('cannot insert data');
     }
-
     echo "New record created successfully";
     ?>
 <p>You will be redirected in 3 seconds</p>
