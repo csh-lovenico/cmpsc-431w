@@ -27,41 +27,49 @@
     </div>
     <div class="row">
         <div class="col-md-8">
-
-                <div style="display: none">
-                    <select id="role" readonly="readonly" name="role">
-                        <option selected value="1">
-                            Patient
+            <form action="register_insert.php" method="post">
+                <div class="mb-3">
+                    <label class="form-label" for="fname">First name</label>
+                    <input class="form-control" required id="fname" type="text" name="fname">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="mname">Middle name</label>
+                    <input class="form-control" id="mname" type="text" name="mname">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="lname">Last name</label>
+                    <input class="form-control" required id="lname" type="text" name="lname">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="email">Email</label>
+                    <input class="form-control" required id="email" type="email" name="email">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="password">Password</label>
+                    <input class="form-control" required id="password" type="password" name="password">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="birthday">Birthday</label>
+                    <input class="form-control" required id="birthday" type="date" name="birthday">
+                </div>
+                <div class="mb-3">
+                    <label class="form-label" for="gender">Gender</label>
+                    <select id="gender" required class="form-control" name="gender">
+                        <option value="female">
+                            Female
+                        </option>
+                        <option value="male">
+                            Male
+                        </option>
+                        <option value="non-binary">
+                            Non-binary
                         </option>
                     </select>
                 </div>
-
                 <div class="mb-3">
-                <form action="register_insert.php" method="post">
-                    <label for="patient_id" class="form-label">id</label>
-                    <input class="form-control" id="patient_id" type="text" name="patient_id" value="">
-                    <br>
-                    <label class="form-label">First name</label>
-                    <input class="form-control" id="fname" type="text" name="fname" value="">
-               <br>
-                    <label class="form-label">Middle name</label>
-                    <input class="form-control" id="mname" type="text" name="mname" value="">
-                <br>
-                    <label class="form-label">Last name</label>
-                    <input class="form-control" required id="lname" type="text" name="lname" value="">
-                <br>
-                    <label class="form-label">Email</label>
-                    <input class="form-control" required id="email" type="email" name="email" value="">
-                <br>
-                    <label class="form-label">Password</label>
-                    <input class="form-control" required id="password" type="password" name="password" value="">
-                <br>
-                    <label class="form-label">Birthday</label>
-                    <input class="form-control" required id="birthday" type="date" name="birthday" value="">
-                    <br>
                     <input class="btn btn-primary" type="submit" value="Register">
-                </form>
                 </div>
+            </form>
         </div>
     </div>
 </div>
