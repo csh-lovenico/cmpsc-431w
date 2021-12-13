@@ -1,0 +1,3487 @@
+11,pat0,heart disease,about 10 years
+13,pat0,COVID-19,Has been fully vaccinated
+21,pat10,COIVD-19,Has been fully vaccinated
+22,pat100,alcohol allergy,don't drink alcohol anymore
+23,pat101,Heart disease,I have had heart disease for 10 years
+24,pat102,COVID-19,I am fully vaccinated
+25,pat103,Anesthetic allergy,Cannot inject anesthetics
+26,pat104,fracture,Fractures from a fall about 1 year ago
+27,pat105,influenza,run at the nose
+28,pat106,fever,I had a fever a week ago
+29,pat107,Tetracycline allergy,Cannot inject or take tetracyclines
+30,pat108,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+31,pat109,Carbapenem allergy,Cannot inject or take carbapenems
+32,pat110,have loose bowels,feel not good
+33,pat111,nosebleed,the weather is too dry
+34,pat112,alcohol allergy,don't drink alcohol anymore
+35,pat113,Heart disease,I have had heart disease for 10 years
+36,pat114,COVID-19,I am fully vaccinated
+37,pat115,Anesthetic allergy,Cannot inject anesthetics
+38,pat116,fracture,Fractures from a fall about 1 year ago
+39,pat117,influenza,run at the nose
+40,pat118,fever,I had a fever a week ago
+41,pat119,Tetracycline allergy,Cannot inject or take tetracyclines
+42,pat120,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+43,pat121,Carbapenem allergy,Cannot inject or take carbapenems
+44,pat122,have loose bowels,feel not good
+45,pat123,nosebleed,the weather is too dry
+46,pat124,alcohol allergy,don't drink alcohol anymore
+47,pat125,Heart disease,I have had heart disease for 10 years
+48,pat126,COVID-19,I am fully vaccinated
+49,pat127,Anesthetic allergy,Cannot inject anesthetics
+50,pat128,fracture,Fractures from a fall about 1 year ago
+51,pat129,influenza,run at the nose
+52,pat130,fever,I had a fever a week ago
+53,pat131,Tetracycline allergy,Cannot inject or take tetracyclines
+54,pat132,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+55,pat133,Carbapenem allergy,Cannot inject or take carbapenems
+56,pat134,have loose bowels,feel not good
+57,pat135,nosebleed,the weather is too dry
+58,pat136,alcohol allergy,don't drink alcohol anymore
+59,pat137,Heart disease,I have had heart disease for 10 years
+60,pat138,COVID-19,I am fully vaccinated
+61,pat139,Anesthetic allergy,Cannot inject anesthetics
+62,pat140,fracture,Fractures from a fall about 1 year ago
+63,pat141,influenza,run at the nose
+64,pat142,fever,I had a fever a week ago
+65,pat143,Tetracycline allergy,Cannot inject or take tetracyclines
+66,pat144,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+67,pat145,Carbapenem allergy,Cannot inject or take carbapenems
+68,pat146,have loose bowels,feel not good
+69,pat147,nosebleed,the weather is too dry
+70,pat148,alcohol allergy,don't drink alcohol anymore
+71,pat149,Heart disease,I have had heart disease for 10 years
+72,pat150,COVID-19,I am fully vaccinated
+73,pat151,Anesthetic allergy,Cannot inject anesthetics
+74,pat152,fracture,Fractures from a fall about 1 year ago
+75,pat153,influenza,run at the nose
+76,pat154,fever,I had a fever a week ago
+77,pat155,Tetracycline allergy,Cannot inject or take tetracyclines
+78,pat156,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+79,pat157,Carbapenem allergy,Cannot inject or take carbapenems
+80,pat158,have loose bowels,feel not good
+81,pat159,nosebleed,the weather is too dry
+82,pat160,alcohol allergy,don't drink alcohol anymore
+83,pat161,Heart disease,I have had heart disease for 10 years
+84,pat162,COVID-19,I am fully vaccinated
+85,pat163,Anesthetic allergy,Cannot inject anesthetics
+86,pat164,fracture,Fractures from a fall about 1 year ago
+87,pat165,influenza,run at the nose
+88,pat166,fever,I had a fever a week ago
+89,pat167,Tetracycline allergy,Cannot inject or take tetracyclines
+90,pat168,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+91,pat169,Carbapenem allergy,Cannot inject or take carbapenems
+92,pat170,have loose bowels,feel not good
+93,pat171,nosebleed,the weather is too dry
+94,pat172,alcohol allergy,don't drink alcohol anymore
+95,pat173,Heart disease,I have had heart disease for 10 years
+96,pat174,COVID-19,I am fully vaccinated
+97,pat175,Anesthetic allergy,Cannot inject anesthetics
+98,pat176,fracture,Fractures from a fall about 1 year ago
+99,pat177,influenza,run at the nose
+100,pat178,fever,I had a fever a week ago
+101,pat179,Tetracycline allergy,Cannot inject or take tetracyclines
+102,pat180,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+103,pat181,Carbapenem allergy,Cannot inject or take carbapenems
+104,pat182,have loose bowels,feel not good
+105,pat183,nosebleed,the weather is too dry
+106,pat184,alcohol allergy,don't drink alcohol anymore
+107,pat185,Heart disease,I have had heart disease for 10 years
+108,pat186,COVID-19,I am fully vaccinated
+109,pat187,Anesthetic allergy,Cannot inject anesthetics
+110,pat188,fracture,Fractures from a fall about 1 year ago
+111,pat189,influenza,run at the nose
+112,pat190,fever,I had a fever a week ago
+113,pat191,Tetracycline allergy,Cannot inject or take tetracyclines
+114,pat192,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+115,pat193,Carbapenem allergy,Cannot inject or take carbapenems
+116,pat194,have loose bowels,feel not good
+117,pat195,nosebleed,the weather is too dry
+118,pat196,alcohol allergy,don't drink alcohol anymore
+119,pat197,Heart disease,I have had heart disease for 10 years
+120,pat198,COVID-19,I am fully vaccinated
+121,pat199,Anesthetic allergy,Cannot inject anesthetics
+122,pat200,fracture,Fractures from a fall about 1 year ago
+123,pat201,influenza,run at the nose
+124,pat202,fever,I had a fever a week ago
+125,pat203,Tetracycline allergy,Cannot inject or take tetracyclines
+126,pat204,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+127,pat205,Carbapenem allergy,Cannot inject or take carbapenems
+128,pat206,have loose bowels,feel not good
+129,pat207,nosebleed,the weather is too dry
+130,pat208,alcohol allergy,don't drink alcohol anymore
+131,pat209,Heart disease,I have had heart disease for 10 years
+132,pat210,COVID-19,I am fully vaccinated
+133,pat211,Anesthetic allergy,Cannot inject anesthetics
+134,pat212,fracture,Fractures from a fall about 1 year ago
+135,pat213,influenza,run at the nose
+136,pat214,fever,I had a fever a week ago
+137,pat215,Tetracycline allergy,Cannot inject or take tetracyclines
+138,pat216,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+139,pat217,Carbapenem allergy,Cannot inject or take carbapenems
+140,pat218,have loose bowels,feel not good
+141,pat219,nosebleed,the weather is too dry
+142,pat220,alcohol allergy,don't drink alcohol anymore
+143,pat221,Heart disease,I have had heart disease for 10 years
+144,pat222,COVID-19,I am fully vaccinated
+145,pat223,Anesthetic allergy,Cannot inject anesthetics
+146,pat224,fracture,Fractures from a fall about 1 year ago
+147,pat225,influenza,run at the nose
+148,pat226,fever,I had a fever a week ago
+149,pat227,Tetracycline allergy,Cannot inject or take tetracyclines
+150,pat228,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+151,pat229,Carbapenem allergy,Cannot inject or take carbapenems
+152,pat230,have loose bowels,feel not good
+153,pat231,nosebleed,the weather is too dry
+154,pat232,alcohol allergy,don't drink alcohol anymore
+155,pat233,Heart disease,I have had heart disease for 10 years
+156,pat234,COVID-19,I am fully vaccinated
+157,pat235,Anesthetic allergy,Cannot inject anesthetics
+158,pat236,fracture,Fractures from a fall about 1 year ago
+159,pat237,influenza,run at the nose
+160,pat238,fever,I had a fever a week ago
+161,pat239,Tetracycline allergy,Cannot inject or take tetracyclines
+162,pat240,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+163,pat241,Carbapenem allergy,Cannot inject or take carbapenems
+164,pat242,have loose bowels,feel not good
+165,pat243,nosebleed,the weather is too dry
+166,pat244,alcohol allergy,don't drink alcohol anymore
+167,pat245,Heart disease,I have had heart disease for 10 years
+168,pat246,COVID-19,I am fully vaccinated
+169,pat247,Anesthetic allergy,Cannot inject anesthetics
+170,pat248,fracture,Fractures from a fall about 1 year ago
+171,pat249,influenza,run at the nose
+172,pat250,fever,I had a fever a week ago
+173,pat251,Tetracycline allergy,Cannot inject or take tetracyclines
+174,pat252,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+175,pat253,Carbapenem allergy,Cannot inject or take carbapenems
+176,pat254,have loose bowels,feel not good
+177,pat255,nosebleed,the weather is too dry
+178,pat256,alcohol allergy,don't drink alcohol anymore
+179,pat257,Heart disease,I have had heart disease for 10 years
+180,pat258,COVID-19,I am fully vaccinated
+181,pat259,Anesthetic allergy,Cannot inject anesthetics
+182,pat260,fracture,Fractures from a fall about 1 year ago
+183,pat261,influenza,run at the nose
+184,pat262,fever,I had a fever a week ago
+185,pat263,Tetracycline allergy,Cannot inject or take tetracyclines
+186,pat264,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+187,pat265,Carbapenem allergy,Cannot inject or take carbapenems
+188,pat266,have loose bowels,feel not good
+189,pat267,nosebleed,the weather is too dry
+190,pat268,alcohol allergy,don't drink alcohol anymore
+191,pat269,Heart disease,I have had heart disease for 10 years
+192,pat270,COVID-19,I am fully vaccinated
+193,pat271,Anesthetic allergy,Cannot inject anesthetics
+194,pat272,fracture,Fractures from a fall about 1 year ago
+195,pat273,influenza,run at the nose
+196,pat274,fever,I had a fever a week ago
+197,pat275,Tetracycline allergy,Cannot inject or take tetracyclines
+198,pat276,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+199,pat277,Carbapenem allergy,Cannot inject or take carbapenems
+200,pat278,have loose bowels,feel not good
+201,pat279,nosebleed,the weather is too dry
+202,pat280,alcohol allergy,don't drink alcohol anymore
+203,pat281,Heart disease,I have had heart disease for 10 years
+204,pat282,COVID-19,I am fully vaccinated
+205,pat283,Anesthetic allergy,Cannot inject anesthetics
+206,pat284,fracture,Fractures from a fall about 1 year ago
+207,pat285,influenza,run at the nose
+208,pat286,fever,I had a fever a week ago
+209,pat287,Tetracycline allergy,Cannot inject or take tetracyclines
+210,pat288,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+211,pat289,Carbapenem allergy,Cannot inject or take carbapenems
+212,pat290,have loose bowels,feel not good
+213,pat291,nosebleed,the weather is too dry
+214,pat292,alcohol allergy,don't drink alcohol anymore
+215,pat293,Heart disease,I have had heart disease for 10 years
+216,pat294,COVID-19,I am fully vaccinated
+217,pat295,Anesthetic allergy,Cannot inject anesthetics
+218,pat296,fracture,Fractures from a fall about 1 year ago
+219,pat297,influenza,run at the nose
+220,pat298,fever,I had a fever a week ago
+221,pat299,Tetracycline allergy,Cannot inject or take tetracyclines
+222,pat300,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+223,pat301,Carbapenem allergy,Cannot inject or take carbapenems
+224,pat302,have loose bowels,feel not good
+225,pat303,nosebleed,the weather is too dry
+226,pat304,alcohol allergy,don't drink alcohol anymore
+227,pat305,Heart disease,I have had heart disease for 10 years
+228,pat306,COVID-19,I am fully vaccinated
+229,pat307,Anesthetic allergy,Cannot inject anesthetics
+230,pat308,fracture,Fractures from a fall about 1 year ago
+231,pat309,influenza,run at the nose
+232,pat310,fever,I had a fever a week ago
+233,pat311,Tetracycline allergy,Cannot inject or take tetracyclines
+234,pat312,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+235,pat313,Carbapenem allergy,Cannot inject or take carbapenems
+236,pat314,have loose bowels,feel not good
+237,pat315,nosebleed,the weather is too dry
+238,pat316,alcohol allergy,don't drink alcohol anymore
+239,pat317,Heart disease,I have had heart disease for 10 years
+240,pat318,COVID-19,I am fully vaccinated
+241,pat319,Anesthetic allergy,Cannot inject anesthetics
+242,pat320,fracture,Fractures from a fall about 1 year ago
+243,pat321,influenza,run at the nose
+244,pat322,fever,I had a fever a week ago
+245,pat323,Tetracycline allergy,Cannot inject or take tetracyclines
+246,pat324,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+247,pat325,Carbapenem allergy,Cannot inject or take carbapenems
+248,pat326,have loose bowels,feel not good
+249,pat327,nosebleed,the weather is too dry
+250,pat328,alcohol allergy,don't drink alcohol anymore
+251,pat329,Heart disease,I have had heart disease for 10 years
+252,pat330,COVID-19,I am fully vaccinated
+253,pat331,Anesthetic allergy,Cannot inject anesthetics
+254,pat332,fracture,Fractures from a fall about 1 year ago
+255,pat333,influenza,run at the nose
+256,pat334,fever,I had a fever a week ago
+257,pat335,Tetracycline allergy,Cannot inject or take tetracyclines
+258,pat336,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+259,pat337,Carbapenem allergy,Cannot inject or take carbapenems
+260,pat338,have loose bowels,feel not good
+261,pat339,nosebleed,the weather is too dry
+262,pat340,alcohol allergy,don't drink alcohol anymore
+263,pat341,Heart disease,I have had heart disease for 10 years
+264,pat342,COVID-19,I am fully vaccinated
+265,pat343,Anesthetic allergy,Cannot inject anesthetics
+266,pat344,fracture,Fractures from a fall about 1 year ago
+267,pat345,influenza,run at the nose
+268,pat346,fever,I had a fever a week ago
+269,pat347,Tetracycline allergy,Cannot inject or take tetracyclines
+270,pat348,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+271,pat349,Carbapenem allergy,Cannot inject or take carbapenems
+272,pat350,have loose bowels,feel not good
+273,pat351,nosebleed,the weather is too dry
+274,pat352,alcohol allergy,don't drink alcohol anymore
+275,pat353,Heart disease,I have had heart disease for 10 years
+276,pat354,COVID-19,I am fully vaccinated
+277,pat355,Anesthetic allergy,Cannot inject anesthetics
+278,pat356,fracture,Fractures from a fall about 1 year ago
+279,pat357,influenza,run at the nose
+280,pat358,fever,I had a fever a week ago
+281,pat359,Tetracycline allergy,Cannot inject or take tetracyclines
+282,pat360,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+283,pat361,Carbapenem allergy,Cannot inject or take carbapenems
+284,pat362,have loose bowels,feel not good
+285,pat363,nosebleed,the weather is too dry
+286,pat364,alcohol allergy,don't drink alcohol anymore
+287,pat365,Heart disease,I have had heart disease for 10 years
+288,pat366,COVID-19,I am fully vaccinated
+289,pat367,Anesthetic allergy,Cannot inject anesthetics
+290,pat368,fracture,Fractures from a fall about 1 year ago
+291,pat369,influenza,run at the nose
+292,pat370,fever,I had a fever a week ago
+293,pat371,Tetracycline allergy,Cannot inject or take tetracyclines
+294,pat372,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+295,pat373,Carbapenem allergy,Cannot inject or take carbapenems
+296,pat374,have loose bowels,feel not good
+297,pat375,nosebleed,the weather is too dry
+298,pat376,alcohol allergy,don't drink alcohol anymore
+299,pat377,Heart disease,I have had heart disease for 10 years
+300,pat378,COVID-19,I am fully vaccinated
+301,pat379,Anesthetic allergy,Cannot inject anesthetics
+302,pat380,fracture,Fractures from a fall about 1 year ago
+303,pat381,influenza,run at the nose
+304,pat382,fever,I had a fever a week ago
+305,pat383,Tetracycline allergy,Cannot inject or take tetracyclines
+306,pat384,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+307,pat385,Carbapenem allergy,Cannot inject or take carbapenems
+308,pat386,have loose bowels,feel not good
+309,pat387,nosebleed,the weather is too dry
+310,pat388,alcohol allergy,don't drink alcohol anymore
+311,pat389,Heart disease,I have had heart disease for 10 years
+312,pat390,COVID-19,I am fully vaccinated
+313,pat391,Anesthetic allergy,Cannot inject anesthetics
+314,pat392,fracture,Fractures from a fall about 1 year ago
+315,pat393,influenza,run at the nose
+316,pat394,fever,I had a fever a week ago
+317,pat395,Tetracycline allergy,Cannot inject or take tetracyclines
+318,pat396,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+319,pat397,Carbapenem allergy,Cannot inject or take carbapenems
+320,pat398,have loose bowels,feel not good
+321,pat399,nosebleed,the weather is too dry
+322,pat400,alcohol allergy,don't drink alcohol anymore
+323,pat401,Heart disease,I have had heart disease for 10 years
+324,pat402,COVID-19,I am fully vaccinated
+325,pat403,Anesthetic allergy,Cannot inject anesthetics
+326,pat404,fracture,Fractures from a fall about 1 year ago
+327,pat405,influenza,run at the nose
+328,pat406,fever,I had a fever a week ago
+329,pat407,Tetracycline allergy,Cannot inject or take tetracyclines
+330,pat408,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+331,pat409,Carbapenem allergy,Cannot inject or take carbapenems
+332,pat410,have loose bowels,feel not good
+333,pat411,nosebleed,the weather is too dry
+334,pat412,alcohol allergy,don't drink alcohol anymore
+335,pat413,Heart disease,I have had heart disease for 10 years
+336,pat414,COVID-19,I am fully vaccinated
+337,pat415,Anesthetic allergy,Cannot inject anesthetics
+338,pat416,fracture,Fractures from a fall about 1 year ago
+339,pat417,influenza,run at the nose
+340,pat418,fever,I had a fever a week ago
+341,pat419,Tetracycline allergy,Cannot inject or take tetracyclines
+342,pat420,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+343,pat421,Carbapenem allergy,Cannot inject or take carbapenems
+344,pat422,have loose bowels,feel not good
+345,pat423,nosebleed,the weather is too dry
+346,pat424,alcohol allergy,don't drink alcohol anymore
+347,pat425,Heart disease,I have had heart disease for 10 years
+348,pat426,COVID-19,I am fully vaccinated
+349,pat427,Anesthetic allergy,Cannot inject anesthetics
+350,pat428,fracture,Fractures from a fall about 1 year ago
+351,pat429,influenza,run at the nose
+352,pat430,fever,I had a fever a week ago
+353,pat431,Tetracycline allergy,Cannot inject or take tetracyclines
+354,pat432,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+355,pat433,Carbapenem allergy,Cannot inject or take carbapenems
+356,pat434,have loose bowels,feel not good
+357,pat435,nosebleed,the weather is too dry
+358,pat436,alcohol allergy,don't drink alcohol anymore
+359,pat437,Heart disease,I have had heart disease for 10 years
+360,pat438,COVID-19,I am fully vaccinated
+361,pat439,Anesthetic allergy,Cannot inject anesthetics
+362,pat440,fracture,Fractures from a fall about 1 year ago
+363,pat441,influenza,run at the nose
+364,pat442,fever,I had a fever a week ago
+365,pat443,Tetracycline allergy,Cannot inject or take tetracyclines
+366,pat444,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+367,pat445,Carbapenem allergy,Cannot inject or take carbapenems
+368,pat446,have loose bowels,feel not good
+369,pat447,nosebleed,the weather is too dry
+370,pat448,alcohol allergy,don't drink alcohol anymore
+371,pat449,Heart disease,I have had heart disease for 10 years
+372,pat450,COVID-19,I am fully vaccinated
+373,pat451,Anesthetic allergy,Cannot inject anesthetics
+374,pat452,fracture,Fractures from a fall about 1 year ago
+375,pat453,influenza,run at the nose
+376,pat454,fever,I had a fever a week ago
+377,pat455,Tetracycline allergy,Cannot inject or take tetracyclines
+378,pat456,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+379,pat457,Carbapenem allergy,Cannot inject or take carbapenems
+380,pat458,have loose bowels,feel not good
+381,pat459,nosebleed,the weather is too dry
+382,pat460,alcohol allergy,don't drink alcohol anymore
+383,pat461,Heart disease,I have had heart disease for 10 years
+384,pat462,COVID-19,I am fully vaccinated
+385,pat463,Anesthetic allergy,Cannot inject anesthetics
+386,pat464,fracture,Fractures from a fall about 1 year ago
+387,pat465,influenza,run at the nose
+388,pat466,fever,I had a fever a week ago
+389,pat467,Tetracycline allergy,Cannot inject or take tetracyclines
+390,pat468,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+391,pat469,Carbapenem allergy,Cannot inject or take carbapenems
+392,pat470,have loose bowels,feel not good
+393,pat471,nosebleed,the weather is too dry
+394,pat472,alcohol allergy,don't drink alcohol anymore
+395,pat473,Heart disease,I have had heart disease for 10 years
+396,pat474,COVID-19,I am fully vaccinated
+397,pat475,Anesthetic allergy,Cannot inject anesthetics
+398,pat476,fracture,Fractures from a fall about 1 year ago
+399,pat477,influenza,run at the nose
+400,pat478,fever,I had a fever a week ago
+401,pat479,Tetracycline allergy,Cannot inject or take tetracyclines
+402,pat480,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+403,pat481,Carbapenem allergy,Cannot inject or take carbapenems
+404,pat482,have loose bowels,feel not good
+405,pat483,nosebleed,the weather is too dry
+406,pat484,alcohol allergy,don't drink alcohol anymore
+407,pat485,Heart disease,I have had heart disease for 10 years
+408,pat486,COVID-19,I am fully vaccinated
+409,pat487,Anesthetic allergy,Cannot inject anesthetics
+410,pat488,fracture,Fractures from a fall about 1 year ago
+411,pat489,influenza,run at the nose
+412,pat490,fever,I had a fever a week ago
+413,pat491,Tetracycline allergy,Cannot inject or take tetracyclines
+414,pat492,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+415,pat493,Carbapenem allergy,Cannot inject or take carbapenems
+416,pat494,have loose bowels,feel not good
+417,pat495,nosebleed,the weather is too dry
+418,pat496,alcohol allergy,don't drink alcohol anymore
+419,pat497,Heart disease,I have had heart disease for 10 years
+420,pat498,COVID-19,I am fully vaccinated
+421,pat499,Anesthetic allergy,Cannot inject anesthetics
+422,pat500,fracture,Fractures from a fall about 1 year ago
+423,pat501,influenza,run at the nose
+424,pat502,fever,I had a fever a week ago
+425,pat503,Tetracycline allergy,Cannot inject or take tetracyclines
+426,pat504,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+427,pat505,Carbapenem allergy,Cannot inject or take carbapenems
+428,pat506,have loose bowels,feel not good
+429,pat507,nosebleed,the weather is too dry
+430,pat508,alcohol allergy,don't drink alcohol anymore
+431,pat509,Heart disease,I have had heart disease for 10 years
+432,pat510,COVID-19,I am fully vaccinated
+433,pat511,Anesthetic allergy,Cannot inject anesthetics
+434,pat512,fracture,Fractures from a fall about 1 year ago
+435,pat513,influenza,run at the nose
+436,pat514,fever,I had a fever a week ago
+437,pat515,Tetracycline allergy,Cannot inject or take tetracyclines
+438,pat516,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+439,pat517,Carbapenem allergy,Cannot inject or take carbapenems
+440,pat518,have loose bowels,feel not good
+441,pat519,nosebleed,the weather is too dry
+442,pat520,alcohol allergy,don't drink alcohol anymore
+443,pat521,Heart disease,I have had heart disease for 10 years
+444,pat522,COVID-19,I am fully vaccinated
+445,pat523,Anesthetic allergy,Cannot inject anesthetics
+446,pat524,fracture,Fractures from a fall about 1 year ago
+447,pat525,influenza,run at the nose
+448,pat526,fever,I had a fever a week ago
+449,pat527,Tetracycline allergy,Cannot inject or take tetracyclines
+450,pat528,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+451,pat529,Carbapenem allergy,Cannot inject or take carbapenems
+452,pat530,have loose bowels,feel not good
+453,pat531,nosebleed,the weather is too dry
+454,pat532,alcohol allergy,don't drink alcohol anymore
+455,pat533,Heart disease,I have had heart disease for 10 years
+456,pat534,COVID-19,I am fully vaccinated
+457,pat535,Anesthetic allergy,Cannot inject anesthetics
+458,pat536,fracture,Fractures from a fall about 1 year ago
+459,pat537,influenza,run at the nose
+460,pat538,fever,I had a fever a week ago
+461,pat539,Tetracycline allergy,Cannot inject or take tetracyclines
+462,pat540,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+463,pat541,Carbapenem allergy,Cannot inject or take carbapenems
+464,pat542,have loose bowels,feel not good
+465,pat543,nosebleed,the weather is too dry
+466,pat544,alcohol allergy,don't drink alcohol anymore
+467,pat545,Heart disease,I have had heart disease for 10 years
+468,pat546,COVID-19,I am fully vaccinated
+469,pat547,Anesthetic allergy,Cannot inject anesthetics
+470,pat548,fracture,Fractures from a fall about 1 year ago
+471,pat549,influenza,run at the nose
+472,pat550,fever,I had a fever a week ago
+473,pat551,Tetracycline allergy,Cannot inject or take tetracyclines
+474,pat552,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+475,pat553,Carbapenem allergy,Cannot inject or take carbapenems
+476,pat554,have loose bowels,feel not good
+477,pat555,nosebleed,the weather is too dry
+478,pat556,alcohol allergy,don't drink alcohol anymore
+479,pat557,Heart disease,I have had heart disease for 10 years
+480,pat558,COVID-19,I am fully vaccinated
+481,pat559,Anesthetic allergy,Cannot inject anesthetics
+482,pat560,fracture,Fractures from a fall about 1 year ago
+483,pat561,influenza,run at the nose
+484,pat562,fever,I had a fever a week ago
+485,pat563,Tetracycline allergy,Cannot inject or take tetracyclines
+486,pat564,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+487,pat565,Carbapenem allergy,Cannot inject or take carbapenems
+488,pat566,have loose bowels,feel not good
+489,pat567,nosebleed,the weather is too dry
+490,pat568,alcohol allergy,don't drink alcohol anymore
+491,pat569,Heart disease,I have had heart disease for 10 years
+492,pat570,COVID-19,I am fully vaccinated
+493,pat571,Anesthetic allergy,Cannot inject anesthetics
+494,pat572,fracture,Fractures from a fall about 1 year ago
+495,pat573,influenza,run at the nose
+496,pat574,fever,I had a fever a week ago
+497,pat575,Tetracycline allergy,Cannot inject or take tetracyclines
+498,pat576,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+499,pat577,Carbapenem allergy,Cannot inject or take carbapenems
+500,pat578,have loose bowels,feel not good
+501,pat579,nosebleed,the weather is too dry
+502,pat580,alcohol allergy,don't drink alcohol anymore
+503,pat581,Heart disease,I have had heart disease for 10 years
+504,pat582,COVID-19,I am fully vaccinated
+505,pat583,Anesthetic allergy,Cannot inject anesthetics
+506,pat584,fracture,Fractures from a fall about 1 year ago
+507,pat585,influenza,run at the nose
+508,pat586,fever,I had a fever a week ago
+509,pat587,Tetracycline allergy,Cannot inject or take tetracyclines
+510,pat588,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+511,pat589,Carbapenem allergy,Cannot inject or take carbapenems
+512,pat590,have loose bowels,feel not good
+513,pat591,nosebleed,the weather is too dry
+514,pat592,alcohol allergy,don't drink alcohol anymore
+515,pat593,Heart disease,I have had heart disease for 10 years
+516,pat594,COVID-19,I am fully vaccinated
+517,pat595,Anesthetic allergy,Cannot inject anesthetics
+518,pat596,fracture,Fractures from a fall about 1 year ago
+519,pat597,influenza,run at the nose
+520,pat598,fever,I had a fever a week ago
+521,pat599,Tetracycline allergy,Cannot inject or take tetracyclines
+522,pat600,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+523,pat601,Carbapenem allergy,Cannot inject or take carbapenems
+524,pat602,have loose bowels,feel not good
+525,pat603,nosebleed,the weather is too dry
+526,pat604,alcohol allergy,don't drink alcohol anymore
+527,pat605,Heart disease,I have had heart disease for 10 years
+528,pat606,COVID-19,I am fully vaccinated
+529,pat607,Anesthetic allergy,Cannot inject anesthetics
+530,pat608,fracture,Fractures from a fall about 1 year ago
+531,pat609,influenza,run at the nose
+532,pat610,fever,I had a fever a week ago
+533,pat611,Tetracycline allergy,Cannot inject or take tetracyclines
+534,pat612,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+535,pat613,Carbapenem allergy,Cannot inject or take carbapenems
+536,pat614,have loose bowels,feel not good
+537,pat615,nosebleed,the weather is too dry
+538,pat616,alcohol allergy,don't drink alcohol anymore
+539,pat617,Heart disease,I have had heart disease for 10 years
+540,pat618,COVID-19,I am fully vaccinated
+541,pat619,Anesthetic allergy,Cannot inject anesthetics
+542,pat620,fracture,Fractures from a fall about 1 year ago
+543,pat621,influenza,run at the nose
+544,pat622,fever,I had a fever a week ago
+545,pat623,Tetracycline allergy,Cannot inject or take tetracyclines
+546,pat624,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+547,pat625,Carbapenem allergy,Cannot inject or take carbapenems
+548,pat626,have loose bowels,feel not good
+549,pat627,nosebleed,the weather is too dry
+550,pat628,alcohol allergy,don't drink alcohol anymore
+551,pat629,Heart disease,I have had heart disease for 10 years
+552,pat630,COVID-19,I am fully vaccinated
+553,pat631,Anesthetic allergy,Cannot inject anesthetics
+554,pat632,fracture,Fractures from a fall about 1 year ago
+555,pat633,influenza,run at the nose
+556,pat634,fever,I had a fever a week ago
+557,pat635,Tetracycline allergy,Cannot inject or take tetracyclines
+558,pat636,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+559,pat637,Carbapenem allergy,Cannot inject or take carbapenems
+560,pat638,have loose bowels,feel not good
+561,pat639,nosebleed,the weather is too dry
+562,pat640,alcohol allergy,don't drink alcohol anymore
+563,pat641,Heart disease,I have had heart disease for 10 years
+564,pat642,COVID-19,I am fully vaccinated
+565,pat643,Anesthetic allergy,Cannot inject anesthetics
+566,pat644,fracture,Fractures from a fall about 1 year ago
+567,pat645,influenza,run at the nose
+568,pat646,fever,I had a fever a week ago
+569,pat647,Tetracycline allergy,Cannot inject or take tetracyclines
+570,pat648,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+571,pat649,Carbapenem allergy,Cannot inject or take carbapenems
+572,pat650,have loose bowels,feel not good
+573,pat651,nosebleed,the weather is too dry
+574,pat652,alcohol allergy,don't drink alcohol anymore
+575,pat653,Heart disease,I have had heart disease for 10 years
+576,pat654,COVID-19,I am fully vaccinated
+577,pat655,Anesthetic allergy,Cannot inject anesthetics
+578,pat656,fracture,Fractures from a fall about 1 year ago
+579,pat657,influenza,run at the nose
+580,pat658,fever,I had a fever a week ago
+581,pat659,Tetracycline allergy,Cannot inject or take tetracyclines
+582,pat660,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+583,pat661,Carbapenem allergy,Cannot inject or take carbapenems
+584,pat662,have loose bowels,feel not good
+585,pat663,nosebleed,the weather is too dry
+586,pat664,alcohol allergy,don't drink alcohol anymore
+587,pat665,Heart disease,I have had heart disease for 10 years
+588,pat666,COVID-19,I am fully vaccinated
+589,pat667,Anesthetic allergy,Cannot inject anesthetics
+590,pat668,fracture,Fractures from a fall about 1 year ago
+591,pat669,influenza,run at the nose
+592,pat670,fever,I had a fever a week ago
+593,pat671,Tetracycline allergy,Cannot inject or take tetracyclines
+594,pat672,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+595,pat673,Carbapenem allergy,Cannot inject or take carbapenems
+596,pat674,have loose bowels,feel not good
+597,pat675,nosebleed,the weather is too dry
+598,pat676,alcohol allergy,don't drink alcohol anymore
+599,pat677,Heart disease,I have had heart disease for 10 years
+600,pat678,COVID-19,I am fully vaccinated
+601,pat679,Anesthetic allergy,Cannot inject anesthetics
+602,pat680,fracture,Fractures from a fall about 1 year ago
+603,pat681,influenza,run at the nose
+604,pat682,fever,I had a fever a week ago
+605,pat683,Tetracycline allergy,Cannot inject or take tetracyclines
+606,pat684,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+607,pat685,Carbapenem allergy,Cannot inject or take carbapenems
+608,pat686,have loose bowels,feel not good
+609,pat687,nosebleed,the weather is too dry
+610,pat688,alcohol allergy,don't drink alcohol anymore
+611,pat689,Heart disease,I have had heart disease for 10 years
+612,pat690,COVID-19,I am fully vaccinated
+613,pat691,Anesthetic allergy,Cannot inject anesthetics
+614,pat692,fracture,Fractures from a fall about 1 year ago
+615,pat693,influenza,run at the nose
+616,pat694,fever,I had a fever a week ago
+617,pat695,Tetracycline allergy,Cannot inject or take tetracyclines
+618,pat696,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+619,pat697,Carbapenem allergy,Cannot inject or take carbapenems
+620,pat698,have loose bowels,feel not good
+621,pat699,nosebleed,the weather is too dry
+622,pat700,alcohol allergy,don't drink alcohol anymore
+623,pat701,Heart disease,I have had heart disease for 10 years
+624,pat702,COVID-19,I am fully vaccinated
+625,pat703,Anesthetic allergy,Cannot inject anesthetics
+626,pat704,fracture,Fractures from a fall about 1 year ago
+627,pat705,influenza,run at the nose
+628,pat706,fever,I had a fever a week ago
+629,pat707,Tetracycline allergy,Cannot inject or take tetracyclines
+630,pat708,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+631,pat709,Carbapenem allergy,Cannot inject or take carbapenems
+632,pat710,have loose bowels,feel not good
+633,pat711,nosebleed,the weather is too dry
+634,pat712,alcohol allergy,don't drink alcohol anymore
+635,pat713,Heart disease,I have had heart disease for 10 years
+636,pat714,COVID-19,I am fully vaccinated
+637,pat715,Anesthetic allergy,Cannot inject anesthetics
+638,pat716,fracture,Fractures from a fall about 1 year ago
+639,pat717,influenza,run at the nose
+640,pat718,fever,I had a fever a week ago
+641,pat719,Tetracycline allergy,Cannot inject or take tetracyclines
+642,pat720,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+643,pat721,Carbapenem allergy,Cannot inject or take carbapenems
+644,pat722,have loose bowels,feel not good
+645,pat723,nosebleed,the weather is too dry
+646,pat724,alcohol allergy,don't drink alcohol anymore
+647,pat725,Heart disease,I have had heart disease for 10 years
+648,pat726,COVID-19,I am fully vaccinated
+649,pat727,Anesthetic allergy,Cannot inject anesthetics
+650,pat728,fracture,Fractures from a fall about 1 year ago
+651,pat729,influenza,run at the nose
+652,pat730,fever,I had a fever a week ago
+653,pat731,Tetracycline allergy,Cannot inject or take tetracyclines
+654,pat732,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+655,pat733,Carbapenem allergy,Cannot inject or take carbapenems
+656,pat734,have loose bowels,feel not good
+657,pat735,nosebleed,the weather is too dry
+658,pat736,alcohol allergy,don't drink alcohol anymore
+659,pat737,Heart disease,I have had heart disease for 10 years
+660,pat738,COVID-19,I am fully vaccinated
+661,pat739,Anesthetic allergy,Cannot inject anesthetics
+662,pat740,fracture,Fractures from a fall about 1 year ago
+663,pat741,influenza,run at the nose
+664,pat742,fever,I had a fever a week ago
+665,pat743,Tetracycline allergy,Cannot inject or take tetracyclines
+666,pat744,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+667,pat745,Carbapenem allergy,Cannot inject or take carbapenems
+668,pat746,have loose bowels,feel not good
+669,pat747,nosebleed,the weather is too dry
+670,pat748,alcohol allergy,don't drink alcohol anymore
+671,pat749,Heart disease,I have had heart disease for 10 years
+672,pat750,COVID-19,I am fully vaccinated
+673,pat751,Anesthetic allergy,Cannot inject anesthetics
+674,pat752,fracture,Fractures from a fall about 1 year ago
+675,pat753,influenza,run at the nose
+676,pat754,fever,I had a fever a week ago
+677,pat755,Tetracycline allergy,Cannot inject or take tetracyclines
+678,pat756,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+679,pat757,Carbapenem allergy,Cannot inject or take carbapenems
+680,pat758,have loose bowels,feel not good
+681,pat759,nosebleed,the weather is too dry
+682,pat760,alcohol allergy,don't drink alcohol anymore
+683,pat761,Heart disease,I have had heart disease for 10 years
+684,pat762,COVID-19,I am fully vaccinated
+685,pat763,Anesthetic allergy,Cannot inject anesthetics
+686,pat764,fracture,Fractures from a fall about 1 year ago
+687,pat765,influenza,run at the nose
+688,pat766,fever,I had a fever a week ago
+689,pat767,Tetracycline allergy,Cannot inject or take tetracyclines
+690,pat768,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+691,pat769,Carbapenem allergy,Cannot inject or take carbapenems
+692,pat770,have loose bowels,feel not good
+693,pat771,nosebleed,the weather is too dry
+694,pat772,alcohol allergy,don't drink alcohol anymore
+695,pat773,Heart disease,I have had heart disease for 10 years
+696,pat774,COVID-19,I am fully vaccinated
+697,pat775,Anesthetic allergy,Cannot inject anesthetics
+698,pat776,fracture,Fractures from a fall about 1 year ago
+699,pat777,influenza,run at the nose
+700,pat778,fever,I had a fever a week ago
+701,pat779,Tetracycline allergy,Cannot inject or take tetracyclines
+702,pat780,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+703,pat781,Carbapenem allergy,Cannot inject or take carbapenems
+704,pat782,have loose bowels,feel not good
+705,pat783,nosebleed,the weather is too dry
+706,pat784,alcohol allergy,don't drink alcohol anymore
+707,pat785,Heart disease,I have had heart disease for 10 years
+708,pat786,COVID-19,I am fully vaccinated
+709,pat787,Anesthetic allergy,Cannot inject anesthetics
+710,pat788,fracture,Fractures from a fall about 1 year ago
+711,pat789,influenza,run at the nose
+712,pat790,fever,I had a fever a week ago
+713,pat791,Tetracycline allergy,Cannot inject or take tetracyclines
+714,pat792,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+715,pat793,Carbapenem allergy,Cannot inject or take carbapenems
+716,pat794,have loose bowels,feel not good
+717,pat795,nosebleed,the weather is too dry
+718,pat796,alcohol allergy,don't drink alcohol anymore
+719,pat797,Heart disease,I have had heart disease for 10 years
+720,pat798,COVID-19,I am fully vaccinated
+721,pat799,Anesthetic allergy,Cannot inject anesthetics
+722,pat800,fracture,Fractures from a fall about 1 year ago
+723,pat801,influenza,run at the nose
+724,pat802,fever,I had a fever a week ago
+725,pat803,Tetracycline allergy,Cannot inject or take tetracyclines
+726,pat804,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+727,pat805,Carbapenem allergy,Cannot inject or take carbapenems
+728,pat806,have loose bowels,feel not good
+729,pat807,nosebleed,the weather is too dry
+730,pat808,alcohol allergy,don't drink alcohol anymore
+731,pat809,Heart disease,I have had heart disease for 10 years
+732,pat810,COVID-19,I am fully vaccinated
+733,pat811,Anesthetic allergy,Cannot inject anesthetics
+734,pat812,fracture,Fractures from a fall about 1 year ago
+735,pat813,influenza,run at the nose
+736,pat814,fever,I had a fever a week ago
+737,pat815,Tetracycline allergy,Cannot inject or take tetracyclines
+738,pat816,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+739,pat817,Carbapenem allergy,Cannot inject or take carbapenems
+740,pat818,have loose bowels,feel not good
+741,pat819,nosebleed,the weather is too dry
+742,pat820,alcohol allergy,don't drink alcohol anymore
+743,pat821,Heart disease,I have had heart disease for 10 years
+744,pat822,COVID-19,I am fully vaccinated
+745,pat823,Anesthetic allergy,Cannot inject anesthetics
+746,pat824,fracture,Fractures from a fall about 1 year ago
+747,pat825,influenza,run at the nose
+748,pat826,fever,I had a fever a week ago
+749,pat827,Tetracycline allergy,Cannot inject or take tetracyclines
+750,pat828,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+751,pat829,Carbapenem allergy,Cannot inject or take carbapenems
+752,pat830,have loose bowels,feel not good
+753,pat831,nosebleed,the weather is too dry
+754,pat832,alcohol allergy,don't drink alcohol anymore
+755,pat833,Heart disease,I have had heart disease for 10 years
+756,pat834,COVID-19,I am fully vaccinated
+757,pat835,Anesthetic allergy,Cannot inject anesthetics
+758,pat836,fracture,Fractures from a fall about 1 year ago
+759,pat837,influenza,run at the nose
+760,pat838,fever,I had a fever a week ago
+761,pat839,Tetracycline allergy,Cannot inject or take tetracyclines
+762,pat840,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+763,pat841,Carbapenem allergy,Cannot inject or take carbapenems
+764,pat842,have loose bowels,feel not good
+765,pat843,nosebleed,the weather is too dry
+766,pat844,alcohol allergy,don't drink alcohol anymore
+767,pat845,Heart disease,I have had heart disease for 10 years
+768,pat846,COVID-19,I am fully vaccinated
+769,pat847,Anesthetic allergy,Cannot inject anesthetics
+770,pat848,fracture,Fractures from a fall about 1 year ago
+771,pat849,influenza,run at the nose
+772,pat850,fever,I had a fever a week ago
+773,pat851,Tetracycline allergy,Cannot inject or take tetracyclines
+774,pat852,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+775,pat853,Carbapenem allergy,Cannot inject or take carbapenems
+776,pat854,have loose bowels,feel not good
+777,pat855,nosebleed,the weather is too dry
+778,pat856,alcohol allergy,don't drink alcohol anymore
+779,pat857,Heart disease,I have had heart disease for 10 years
+780,pat858,COVID-19,I am fully vaccinated
+781,pat859,Anesthetic allergy,Cannot inject anesthetics
+782,pat860,fracture,Fractures from a fall about 1 year ago
+783,pat861,influenza,run at the nose
+784,pat862,fever,I had a fever a week ago
+785,pat863,Tetracycline allergy,Cannot inject or take tetracyclines
+786,pat864,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+787,pat865,Carbapenem allergy,Cannot inject or take carbapenems
+788,pat866,have loose bowels,feel not good
+789,pat867,nosebleed,the weather is too dry
+790,pat868,alcohol allergy,don't drink alcohol anymore
+791,pat869,Heart disease,I have had heart disease for 10 years
+792,pat870,COVID-19,I am fully vaccinated
+793,pat871,Anesthetic allergy,Cannot inject anesthetics
+794,pat872,fracture,Fractures from a fall about 1 year ago
+795,pat873,influenza,run at the nose
+796,pat874,fever,I had a fever a week ago
+797,pat875,Tetracycline allergy,Cannot inject or take tetracyclines
+798,pat876,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+799,pat877,Carbapenem allergy,Cannot inject or take carbapenems
+800,pat878,have loose bowels,feel not good
+801,pat879,nosebleed,the weather is too dry
+802,pat880,alcohol allergy,don't drink alcohol anymore
+803,pat881,Heart disease,I have had heart disease for 10 years
+804,pat882,COVID-19,I am fully vaccinated
+805,pat883,Anesthetic allergy,Cannot inject anesthetics
+806,pat884,fracture,Fractures from a fall about 1 year ago
+807,pat885,influenza,run at the nose
+808,pat886,fever,I had a fever a week ago
+809,pat887,Tetracycline allergy,Cannot inject or take tetracyclines
+810,pat888,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+811,pat889,Carbapenem allergy,Cannot inject or take carbapenems
+812,pat890,have loose bowels,feel not good
+813,pat891,nosebleed,the weather is too dry
+814,pat892,alcohol allergy,don't drink alcohol anymore
+815,pat893,Heart disease,I have had heart disease for 10 years
+816,pat894,COVID-19,I am fully vaccinated
+817,pat895,Anesthetic allergy,Cannot inject anesthetics
+818,pat896,fracture,Fractures from a fall about 1 year ago
+819,pat897,influenza,run at the nose
+820,pat898,fever,I had a fever a week ago
+821,pat899,Tetracycline allergy,Cannot inject or take tetracyclines
+822,pat900,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+823,pat901,Carbapenem allergy,Cannot inject or take carbapenems
+824,pat902,have loose bowels,feel not good
+825,pat903,nosebleed,the weather is too dry
+826,pat904,alcohol allergy,don't drink alcohol anymore
+827,pat905,Heart disease,I have had heart disease for 10 years
+828,pat906,COVID-19,I am fully vaccinated
+829,pat907,Anesthetic allergy,Cannot inject anesthetics
+830,pat908,fracture,Fractures from a fall about 1 year ago
+831,pat909,influenza,run at the nose
+832,pat910,fever,I had a fever a week ago
+833,pat911,Tetracycline allergy,Cannot inject or take tetracyclines
+834,pat912,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+835,pat913,Carbapenem allergy,Cannot inject or take carbapenems
+836,pat914,have loose bowels,feel not good
+837,pat915,nosebleed,the weather is too dry
+838,pat916,alcohol allergy,don't drink alcohol anymore
+839,pat917,Heart disease,I have had heart disease for 10 years
+840,pat918,COVID-19,I am fully vaccinated
+841,pat919,Anesthetic allergy,Cannot inject anesthetics
+842,pat920,fracture,Fractures from a fall about 1 year ago
+843,pat921,influenza,run at the nose
+844,pat922,fever,I had a fever a week ago
+845,pat923,Tetracycline allergy,Cannot inject or take tetracyclines
+846,pat924,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+847,pat925,Carbapenem allergy,Cannot inject or take carbapenems
+848,pat926,have loose bowels,feel not good
+849,pat927,nosebleed,the weather is too dry
+850,pat928,alcohol allergy,don't drink alcohol anymore
+851,pat929,Heart disease,I have had heart disease for 10 years
+852,pat930,COVID-19,I am fully vaccinated
+853,pat931,Anesthetic allergy,Cannot inject anesthetics
+854,pat932,fracture,Fractures from a fall about 1 year ago
+855,pat933,influenza,run at the nose
+856,pat934,fever,I had a fever a week ago
+857,pat935,Tetracycline allergy,Cannot inject or take tetracyclines
+858,pat936,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+859,pat937,Carbapenem allergy,Cannot inject or take carbapenems
+860,pat938,have loose bowels,feel not good
+861,pat939,nosebleed,the weather is too dry
+862,pat940,alcohol allergy,don't drink alcohol anymore
+863,pat941,Heart disease,I have had heart disease for 10 years
+864,pat942,COVID-19,I am fully vaccinated
+865,pat943,Anesthetic allergy,Cannot inject anesthetics
+866,pat944,fracture,Fractures from a fall about 1 year ago
+867,pat945,influenza,run at the nose
+868,pat946,fever,I had a fever a week ago
+869,pat947,Tetracycline allergy,Cannot inject or take tetracyclines
+870,pat948,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+871,pat949,Carbapenem allergy,Cannot inject or take carbapenems
+872,pat950,have loose bowels,feel not good
+873,pat951,nosebleed,the weather is too dry
+874,pat952,alcohol allergy,don't drink alcohol anymore
+875,pat953,Heart disease,I have had heart disease for 10 years
+876,pat954,COVID-19,I am fully vaccinated
+877,pat955,Anesthetic allergy,Cannot inject anesthetics
+878,pat956,fracture,Fractures from a fall about 1 year ago
+879,pat957,influenza,run at the nose
+880,pat958,fever,I had a fever a week ago
+881,pat959,Tetracycline allergy,Cannot inject or take tetracyclines
+882,pat960,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+883,pat961,Carbapenem allergy,Cannot inject or take carbapenems
+884,pat962,have loose bowels,feel not good
+885,pat963,nosebleed,the weather is too dry
+886,pat964,alcohol allergy,don't drink alcohol anymore
+887,pat965,Heart disease,I have had heart disease for 10 years
+888,pat966,COVID-19,I am fully vaccinated
+889,pat967,Anesthetic allergy,Cannot inject anesthetics
+890,pat968,fracture,Fractures from a fall about 1 year ago
+891,pat969,influenza,run at the nose
+892,pat970,fever,I had a fever a week ago
+893,pat971,Tetracycline allergy,Cannot inject or take tetracyclines
+894,pat972,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+895,pat973,Carbapenem allergy,Cannot inject or take carbapenems
+896,pat974,have loose bowels,feel not good
+897,pat975,nosebleed,the weather is too dry
+898,pat976,alcohol allergy,don't drink alcohol anymore
+899,pat977,Heart disease,I have had heart disease for 10 years
+900,pat978,COVID-19,I am fully vaccinated
+901,pat979,Anesthetic allergy,Cannot inject anesthetics
+902,pat980,fracture,Fractures from a fall about 1 year ago
+903,pat981,influenza,run at the nose
+904,pat982,fever,I had a fever a week ago
+905,pat983,Tetracycline allergy,Cannot inject or take tetracyclines
+906,pat984,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+907,pat985,Carbapenem allergy,Cannot inject or take carbapenems
+908,pat986,have loose bowels,feel not good
+909,pat987,nosebleed,the weather is too dry
+910,pat988,alcohol allergy,don't drink alcohol anymore
+911,pat989,Heart disease,I have had heart disease for 10 years
+912,pat990,COVID-19,I am fully vaccinated
+913,pat991,Anesthetic allergy,Cannot inject anesthetics
+914,pat992,fracture,Fractures from a fall about 1 year ago
+915,pat993,influenza,run at the nose
+916,pat994,fever,I had a fever a week ago
+917,pat995,Tetracycline allergy,Cannot inject or take tetracyclines
+918,pat996,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+919,pat997,Carbapenem allergy,Cannot inject or take carbapenems
+920,pat998,have loose bowels,feel not good
+921,pat999,nosebleed,the weather is too dry
+922,pat1000,alcohol allergy,don't drink alcohol anymore
+923,pat1001,Heart disease,I have had heart disease for 10 years
+924,pat1002,COVID-19,I am fully vaccinated
+925,pat1003,Anesthetic allergy,Cannot inject anesthetics
+926,pat1004,fracture,Fractures from a fall about 1 year ago
+927,pat1005,influenza,run at the nose
+928,pat1006,fever,I had a fever a week ago
+929,pat1007,Tetracycline allergy,Cannot inject or take tetracyclines
+930,pat1008,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+931,pat1009,Carbapenem allergy,Cannot inject or take carbapenems
+932,pat1010,have loose bowels,feel not good
+933,pat1011,nosebleed,the weather is too dry
+934,pat1012,alcohol allergy,don't drink alcohol anymore
+935,pat1013,Heart disease,I have had heart disease for 10 years
+936,pat1014,COVID-19,I am fully vaccinated
+937,pat1015,Anesthetic allergy,Cannot inject anesthetics
+938,pat1016,fracture,Fractures from a fall about 1 year ago
+939,pat1017,influenza,run at the nose
+940,pat1018,fever,I had a fever a week ago
+941,pat1019,Tetracycline allergy,Cannot inject or take tetracyclines
+942,pat1020,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+943,pat1021,Carbapenem allergy,Cannot inject or take carbapenems
+944,pat1022,have loose bowels,feel not good
+945,pat1023,nosebleed,the weather is too dry
+946,pat1024,alcohol allergy,don't drink alcohol anymore
+947,pat1025,Heart disease,I have had heart disease for 10 years
+948,pat1026,COVID-19,I am fully vaccinated
+949,pat1027,Anesthetic allergy,Cannot inject anesthetics
+950,pat1028,fracture,Fractures from a fall about 1 year ago
+951,pat1029,influenza,run at the nose
+952,pat1030,fever,I had a fever a week ago
+953,pat1031,Tetracycline allergy,Cannot inject or take tetracyclines
+954,pat1032,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+955,pat1033,Carbapenem allergy,Cannot inject or take carbapenems
+956,pat1034,have loose bowels,feel not good
+957,pat1035,nosebleed,the weather is too dry
+958,pat1036,alcohol allergy,don't drink alcohol anymore
+959,pat1037,Heart disease,I have had heart disease for 10 years
+960,pat1038,COVID-19,I am fully vaccinated
+961,pat1039,Anesthetic allergy,Cannot inject anesthetics
+962,pat1040,fracture,Fractures from a fall about 1 year ago
+963,pat1041,influenza,run at the nose
+964,pat1042,fever,I had a fever a week ago
+965,pat1043,Tetracycline allergy,Cannot inject or take tetracyclines
+966,pat1044,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+967,pat1045,Carbapenem allergy,Cannot inject or take carbapenems
+968,pat1046,have loose bowels,feel not good
+969,pat1047,nosebleed,the weather is too dry
+970,pat1048,alcohol allergy,don't drink alcohol anymore
+971,pat1049,Heart disease,I have had heart disease for 10 years
+972,pat1050,COVID-19,I am fully vaccinated
+973,pat1051,Anesthetic allergy,Cannot inject anesthetics
+974,pat1052,fracture,Fractures from a fall about 1 year ago
+975,pat1053,influenza,run at the nose
+976,pat1054,fever,I had a fever a week ago
+977,pat1055,Tetracycline allergy,Cannot inject or take tetracyclines
+978,pat1056,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+979,pat1057,Carbapenem allergy,Cannot inject or take carbapenems
+980,pat1058,have loose bowels,feel not good
+981,pat1059,nosebleed,the weather is too dry
+982,pat1060,alcohol allergy,don't drink alcohol anymore
+983,pat1061,Heart disease,I have had heart disease for 10 years
+984,pat1062,COVID-19,I am fully vaccinated
+985,pat1063,Anesthetic allergy,Cannot inject anesthetics
+986,pat1064,fracture,Fractures from a fall about 1 year ago
+987,pat1065,influenza,run at the nose
+988,pat1066,fever,I had a fever a week ago
+989,pat1067,Tetracycline allergy,Cannot inject or take tetracyclines
+990,pat1068,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+991,pat1069,Carbapenem allergy,Cannot inject or take carbapenems
+992,pat1070,have loose bowels,feel not good
+993,pat1071,nosebleed,the weather is too dry
+994,pat1072,alcohol allergy,don't drink alcohol anymore
+995,pat1073,Heart disease,I have had heart disease for 10 years
+996,pat1074,COVID-19,I am fully vaccinated
+997,pat1075,Anesthetic allergy,Cannot inject anesthetics
+998,pat1076,fracture,Fractures from a fall about 1 year ago
+999,pat1077,influenza,run at the nose
+1000,pat1078,fever,I had a fever a week ago
+1001,pat1079,Tetracycline allergy,Cannot inject or take tetracyclines
+1002,pat1080,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1003,pat1081,Carbapenem allergy,Cannot inject or take carbapenems
+1004,pat1082,have loose bowels,feel not good
+1005,pat1083,nosebleed,the weather is too dry
+1006,pat1084,alcohol allergy,don't drink alcohol anymore
+1007,pat1085,Heart disease,I have had heart disease for 10 years
+1008,pat1086,COVID-19,I am fully vaccinated
+1009,pat1087,Anesthetic allergy,Cannot inject anesthetics
+1010,pat1088,fracture,Fractures from a fall about 1 year ago
+1011,pat1089,influenza,run at the nose
+1012,pat1090,fever,I had a fever a week ago
+1013,pat1091,Tetracycline allergy,Cannot inject or take tetracyclines
+1014,pat1092,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1015,pat1093,Carbapenem allergy,Cannot inject or take carbapenems
+1016,pat1094,have loose bowels,feel not good
+1017,pat1095,nosebleed,the weather is too dry
+1018,pat1096,alcohol allergy,don't drink alcohol anymore
+1019,pat1097,Heart disease,I have had heart disease for 10 years
+1020,pat1098,COVID-19,I am fully vaccinated
+1021,pat1099,Anesthetic allergy,Cannot inject anesthetics
+1022,pat1100,fracture,Fractures from a fall about 1 year ago
+1023,pat1101,influenza,run at the nose
+1024,pat1102,fever,I had a fever a week ago
+1025,pat1103,Tetracycline allergy,Cannot inject or take tetracyclines
+1026,pat1104,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1027,pat1105,Carbapenem allergy,Cannot inject or take carbapenems
+1028,pat1106,have loose bowels,feel not good
+1029,pat1107,nosebleed,the weather is too dry
+1030,pat1108,alcohol allergy,don't drink alcohol anymore
+1031,pat1109,Heart disease,I have had heart disease for 10 years
+1032,pat1110,COVID-19,I am fully vaccinated
+1033,pat1111,Anesthetic allergy,Cannot inject anesthetics
+1034,pat1112,fracture,Fractures from a fall about 1 year ago
+1035,pat1113,influenza,run at the nose
+1036,pat1114,fever,I had a fever a week ago
+1037,pat1115,Tetracycline allergy,Cannot inject or take tetracyclines
+1038,pat1116,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1039,pat1117,Carbapenem allergy,Cannot inject or take carbapenems
+1040,pat1118,have loose bowels,feel not good
+1041,pat1119,nosebleed,the weather is too dry
+1042,pat1120,alcohol allergy,don't drink alcohol anymore
+1043,pat1121,Heart disease,I have had heart disease for 10 years
+1044,pat1122,COVID-19,I am fully vaccinated
+1045,pat1123,Anesthetic allergy,Cannot inject anesthetics
+1046,pat1124,fracture,Fractures from a fall about 1 year ago
+1047,pat1125,influenza,run at the nose
+1048,pat1126,fever,I had a fever a week ago
+1049,pat1127,Tetracycline allergy,Cannot inject or take tetracyclines
+1050,pat1128,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1051,pat1129,Carbapenem allergy,Cannot inject or take carbapenems
+1052,pat1130,have loose bowels,feel not good
+1053,pat1131,nosebleed,the weather is too dry
+1054,pat1132,alcohol allergy,don't drink alcohol anymore
+1055,pat1133,Heart disease,I have had heart disease for 10 years
+1056,pat1134,COVID-19,I am fully vaccinated
+1057,pat1135,Anesthetic allergy,Cannot inject anesthetics
+1058,pat1136,fracture,Fractures from a fall about 1 year ago
+1059,pat1137,influenza,run at the nose
+1060,pat1138,fever,I had a fever a week ago
+1061,pat1139,Tetracycline allergy,Cannot inject or take tetracyclines
+1062,pat1140,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1063,pat1141,Carbapenem allergy,Cannot inject or take carbapenems
+1064,pat1142,have loose bowels,feel not good
+1065,pat1143,nosebleed,the weather is too dry
+1066,pat1144,alcohol allergy,don't drink alcohol anymore
+1067,pat1145,Heart disease,I have had heart disease for 10 years
+1068,pat1146,COVID-19,I am fully vaccinated
+1069,pat1147,Anesthetic allergy,Cannot inject anesthetics
+1070,pat1148,fracture,Fractures from a fall about 1 year ago
+1071,pat1149,influenza,run at the nose
+1072,pat1150,fever,I had a fever a week ago
+1073,pat1151,Tetracycline allergy,Cannot inject or take tetracyclines
+1074,pat1152,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1075,pat1153,Carbapenem allergy,Cannot inject or take carbapenems
+1076,pat1154,have loose bowels,feel not good
+1077,pat1155,nosebleed,the weather is too dry
+1078,pat1156,alcohol allergy,don't drink alcohol anymore
+1079,pat1157,Heart disease,I have had heart disease for 10 years
+1080,pat1158,COVID-19,I am fully vaccinated
+1081,pat1159,Anesthetic allergy,Cannot inject anesthetics
+1082,pat1160,fracture,Fractures from a fall about 1 year ago
+1083,pat1161,influenza,run at the nose
+1084,pat1162,fever,I had a fever a week ago
+1085,pat1163,Tetracycline allergy,Cannot inject or take tetracyclines
+1086,pat1164,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1087,pat1165,Carbapenem allergy,Cannot inject or take carbapenems
+1088,pat1166,have loose bowels,feel not good
+1089,pat1167,nosebleed,the weather is too dry
+1090,pat1168,alcohol allergy,don't drink alcohol anymore
+1091,pat1169,Heart disease,I have had heart disease for 10 years
+1092,pat1170,COVID-19,I am fully vaccinated
+1093,pat1171,Anesthetic allergy,Cannot inject anesthetics
+1094,pat1172,fracture,Fractures from a fall about 1 year ago
+1095,pat1173,influenza,run at the nose
+1096,pat1174,fever,I had a fever a week ago
+1097,pat1175,Tetracycline allergy,Cannot inject or take tetracyclines
+1098,pat1176,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1099,pat1177,Carbapenem allergy,Cannot inject or take carbapenems
+1100,pat1178,have loose bowels,feel not good
+1101,pat1179,nosebleed,the weather is too dry
+1102,pat1180,alcohol allergy,don't drink alcohol anymore
+1103,pat1181,Heart disease,I have had heart disease for 10 years
+1104,pat1182,COVID-19,I am fully vaccinated
+1105,pat1183,Anesthetic allergy,Cannot inject anesthetics
+1106,pat1184,fracture,Fractures from a fall about 1 year ago
+1107,pat1185,influenza,run at the nose
+1108,pat1186,fever,I had a fever a week ago
+1109,pat1187,Tetracycline allergy,Cannot inject or take tetracyclines
+1110,pat1188,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1111,pat1189,Carbapenem allergy,Cannot inject or take carbapenems
+1112,pat1190,have loose bowels,feel not good
+1113,pat1191,nosebleed,the weather is too dry
+1114,pat1192,alcohol allergy,don't drink alcohol anymore
+1115,pat1193,Heart disease,I have had heart disease for 10 years
+1116,pat1194,COVID-19,I am fully vaccinated
+1117,pat1195,Anesthetic allergy,Cannot inject anesthetics
+1118,pat1196,fracture,Fractures from a fall about 1 year ago
+1119,pat1197,influenza,run at the nose
+1120,pat1198,fever,I had a fever a week ago
+1121,pat1199,Tetracycline allergy,Cannot inject or take tetracyclines
+1122,pat1200,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1123,pat1201,Carbapenem allergy,Cannot inject or take carbapenems
+1124,pat1202,have loose bowels,feel not good
+1125,pat1203,nosebleed,the weather is too dry
+1126,pat1204,alcohol allergy,don't drink alcohol anymore
+1127,pat1205,Heart disease,I have had heart disease for 10 years
+1128,pat1206,COVID-19,I am fully vaccinated
+1129,pat1207,Anesthetic allergy,Cannot inject anesthetics
+1130,pat1208,fracture,Fractures from a fall about 1 year ago
+1131,pat1209,influenza,run at the nose
+1132,pat1210,fever,I had a fever a week ago
+1133,pat1211,Tetracycline allergy,Cannot inject or take tetracyclines
+1134,pat1212,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1135,pat1213,Carbapenem allergy,Cannot inject or take carbapenems
+1136,pat1214,have loose bowels,feel not good
+1137,pat1215,nosebleed,the weather is too dry
+1138,pat1216,alcohol allergy,don't drink alcohol anymore
+1139,pat1217,Heart disease,I have had heart disease for 10 years
+1140,pat1218,COVID-19,I am fully vaccinated
+1141,pat1219,Anesthetic allergy,Cannot inject anesthetics
+1142,pat1220,fracture,Fractures from a fall about 1 year ago
+1143,pat1221,influenza,run at the nose
+1144,pat1222,fever,I had a fever a week ago
+1145,pat1223,Tetracycline allergy,Cannot inject or take tetracyclines
+1146,pat1224,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1147,pat1225,Carbapenem allergy,Cannot inject or take carbapenems
+1148,pat1226,have loose bowels,feel not good
+1149,pat1227,nosebleed,the weather is too dry
+1150,pat1228,alcohol allergy,don't drink alcohol anymore
+1151,pat1229,Heart disease,I have had heart disease for 10 years
+1152,pat1230,COVID-19,I am fully vaccinated
+1153,pat1231,Anesthetic allergy,Cannot inject anesthetics
+1154,pat1232,fracture,Fractures from a fall about 1 year ago
+1155,pat1233,influenza,run at the nose
+1156,pat1234,fever,I had a fever a week ago
+1157,pat1235,Tetracycline allergy,Cannot inject or take tetracyclines
+1158,pat1236,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1159,pat1237,Carbapenem allergy,Cannot inject or take carbapenems
+1160,pat1238,have loose bowels,feel not good
+1161,pat1239,nosebleed,the weather is too dry
+1162,pat1240,alcohol allergy,don't drink alcohol anymore
+1163,pat1241,Heart disease,I have had heart disease for 10 years
+1164,pat1242,COVID-19,I am fully vaccinated
+1165,pat1243,Anesthetic allergy,Cannot inject anesthetics
+1166,pat1244,fracture,Fractures from a fall about 1 year ago
+1167,pat1245,influenza,run at the nose
+1168,pat1246,fever,I had a fever a week ago
+1169,pat1247,Tetracycline allergy,Cannot inject or take tetracyclines
+1170,pat1248,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1171,pat1249,Carbapenem allergy,Cannot inject or take carbapenems
+1172,pat1250,have loose bowels,feel not good
+1173,pat1251,nosebleed,the weather is too dry
+1174,pat1252,alcohol allergy,don't drink alcohol anymore
+1175,pat1253,Heart disease,I have had heart disease for 10 years
+1176,pat1254,COVID-19,I am fully vaccinated
+1177,pat1255,Anesthetic allergy,Cannot inject anesthetics
+1178,pat1256,fracture,Fractures from a fall about 1 year ago
+1179,pat1257,influenza,run at the nose
+1180,pat1258,fever,I had a fever a week ago
+1181,pat1259,Tetracycline allergy,Cannot inject or take tetracyclines
+1182,pat1260,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1183,pat1261,Carbapenem allergy,Cannot inject or take carbapenems
+1184,pat1262,have loose bowels,feel not good
+1185,pat1263,nosebleed,the weather is too dry
+1186,pat1264,alcohol allergy,don't drink alcohol anymore
+1187,pat1265,Heart disease,I have had heart disease for 10 years
+1188,pat1266,COVID-19,I am fully vaccinated
+1189,pat1267,Anesthetic allergy,Cannot inject anesthetics
+1190,pat1268,fracture,Fractures from a fall about 1 year ago
+1191,pat1269,influenza,run at the nose
+1192,pat1270,fever,I had a fever a week ago
+1193,pat1271,Tetracycline allergy,Cannot inject or take tetracyclines
+1194,pat1272,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1195,pat1273,Carbapenem allergy,Cannot inject or take carbapenems
+1196,pat1274,have loose bowels,feel not good
+1197,pat1275,nosebleed,the weather is too dry
+1198,pat1276,alcohol allergy,don't drink alcohol anymore
+1199,pat1277,Heart disease,I have had heart disease for 10 years
+1200,pat1278,COVID-19,I am fully vaccinated
+1201,pat1279,Anesthetic allergy,Cannot inject anesthetics
+1202,pat1280,fracture,Fractures from a fall about 1 year ago
+1203,pat1281,influenza,run at the nose
+1204,pat1282,fever,I had a fever a week ago
+1205,pat1283,Tetracycline allergy,Cannot inject or take tetracyclines
+1206,pat1284,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1207,pat1285,Carbapenem allergy,Cannot inject or take carbapenems
+1208,pat1286,have loose bowels,feel not good
+1209,pat1287,nosebleed,the weather is too dry
+1210,pat1288,alcohol allergy,don't drink alcohol anymore
+1211,pat1289,Heart disease,I have had heart disease for 10 years
+1212,pat1290,COVID-19,I am fully vaccinated
+1213,pat1291,Anesthetic allergy,Cannot inject anesthetics
+1214,pat1292,fracture,Fractures from a fall about 1 year ago
+1215,pat1293,influenza,run at the nose
+1216,pat1294,fever,I had a fever a week ago
+1217,pat1295,Tetracycline allergy,Cannot inject or take tetracyclines
+1218,pat1296,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1219,pat1297,Carbapenem allergy,Cannot inject or take carbapenems
+1220,pat1298,have loose bowels,feel not good
+1221,pat1299,nosebleed,the weather is too dry
+1222,pat1300,alcohol allergy,don't drink alcohol anymore
+1223,pat1301,Heart disease,I have had heart disease for 10 years
+1224,pat1302,COVID-19,I am fully vaccinated
+1225,pat1303,Anesthetic allergy,Cannot inject anesthetics
+1226,pat1304,fracture,Fractures from a fall about 1 year ago
+1227,pat1305,influenza,run at the nose
+1228,pat1306,fever,I had a fever a week ago
+1229,pat1307,Tetracycline allergy,Cannot inject or take tetracyclines
+1230,pat1308,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1231,pat1309,Carbapenem allergy,Cannot inject or take carbapenems
+1232,pat1310,have loose bowels,feel not good
+1233,pat1311,nosebleed,the weather is too dry
+1234,pat1312,alcohol allergy,don't drink alcohol anymore
+1235,pat1313,Heart disease,I have had heart disease for 10 years
+1236,pat1314,COVID-19,I am fully vaccinated
+1237,pat1315,Anesthetic allergy,Cannot inject anesthetics
+1238,pat1316,fracture,Fractures from a fall about 1 year ago
+1239,pat1317,influenza,run at the nose
+1240,pat1318,fever,I had a fever a week ago
+1241,pat1319,Tetracycline allergy,Cannot inject or take tetracyclines
+1242,pat1320,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1243,pat1321,Carbapenem allergy,Cannot inject or take carbapenems
+1244,pat1322,have loose bowels,feel not good
+1245,pat1323,nosebleed,the weather is too dry
+1246,pat1324,alcohol allergy,don't drink alcohol anymore
+1247,pat1325,Heart disease,I have had heart disease for 10 years
+1248,pat1326,COVID-19,I am fully vaccinated
+1249,pat1327,Anesthetic allergy,Cannot inject anesthetics
+1250,pat1328,fracture,Fractures from a fall about 1 year ago
+1251,pat1329,influenza,run at the nose
+1252,pat1330,fever,I had a fever a week ago
+1253,pat1331,Tetracycline allergy,Cannot inject or take tetracyclines
+1254,pat1332,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1255,pat1333,Carbapenem allergy,Cannot inject or take carbapenems
+1256,pat1334,have loose bowels,feel not good
+1257,pat1335,nosebleed,the weather is too dry
+1258,pat1336,alcohol allergy,don't drink alcohol anymore
+1259,pat1337,Heart disease,I have had heart disease for 10 years
+1260,pat1338,COVID-19,I am fully vaccinated
+1261,pat1339,Anesthetic allergy,Cannot inject anesthetics
+1262,pat1340,fracture,Fractures from a fall about 1 year ago
+1263,pat1341,influenza,run at the nose
+1264,pat1342,fever,I had a fever a week ago
+1265,pat1343,Tetracycline allergy,Cannot inject or take tetracyclines
+1266,pat1344,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1267,pat1345,Carbapenem allergy,Cannot inject or take carbapenems
+1268,pat1346,have loose bowels,feel not good
+1269,pat1347,nosebleed,the weather is too dry
+1270,pat1348,alcohol allergy,don't drink alcohol anymore
+1271,pat1349,Heart disease,I have had heart disease for 10 years
+1272,pat1350,COVID-19,I am fully vaccinated
+1273,pat1351,Anesthetic allergy,Cannot inject anesthetics
+1274,pat1352,fracture,Fractures from a fall about 1 year ago
+1275,pat1353,influenza,run at the nose
+1276,pat1354,fever,I had a fever a week ago
+1277,pat1355,Tetracycline allergy,Cannot inject or take tetracyclines
+1278,pat1356,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1279,pat1357,Carbapenem allergy,Cannot inject or take carbapenems
+1280,pat1358,have loose bowels,feel not good
+1281,pat1359,nosebleed,the weather is too dry
+1282,pat1360,alcohol allergy,don't drink alcohol anymore
+1283,pat1361,Heart disease,I have had heart disease for 10 years
+1284,pat1362,COVID-19,I am fully vaccinated
+1285,pat1363,Anesthetic allergy,Cannot inject anesthetics
+1286,pat1364,fracture,Fractures from a fall about 1 year ago
+1287,pat1365,influenza,run at the nose
+1288,pat1366,fever,I had a fever a week ago
+1289,pat1367,Tetracycline allergy,Cannot inject or take tetracyclines
+1290,pat1368,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1291,pat1369,Carbapenem allergy,Cannot inject or take carbapenems
+1292,pat1370,have loose bowels,feel not good
+1293,pat1371,nosebleed,the weather is too dry
+1294,pat1372,alcohol allergy,don't drink alcohol anymore
+1295,pat1373,Heart disease,I have had heart disease for 10 years
+1296,pat1374,COVID-19,I am fully vaccinated
+1297,pat1375,Anesthetic allergy,Cannot inject anesthetics
+1298,pat1376,fracture,Fractures from a fall about 1 year ago
+1299,pat1377,influenza,run at the nose
+1300,pat1378,fever,I had a fever a week ago
+1301,pat1379,Tetracycline allergy,Cannot inject or take tetracyclines
+1302,pat1380,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1303,pat1381,Carbapenem allergy,Cannot inject or take carbapenems
+1304,pat1382,have loose bowels,feel not good
+1305,pat1383,nosebleed,the weather is too dry
+1306,pat1384,alcohol allergy,don't drink alcohol anymore
+1307,pat1385,Heart disease,I have had heart disease for 10 years
+1308,pat1386,COVID-19,I am fully vaccinated
+1309,pat1387,Anesthetic allergy,Cannot inject anesthetics
+1310,pat1388,fracture,Fractures from a fall about 1 year ago
+1311,pat1389,influenza,run at the nose
+1312,pat1390,fever,I had a fever a week ago
+1313,pat1391,Tetracycline allergy,Cannot inject or take tetracyclines
+1314,pat1392,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1315,pat1393,Carbapenem allergy,Cannot inject or take carbapenems
+1316,pat1394,have loose bowels,feel not good
+1317,pat1395,nosebleed,the weather is too dry
+1318,pat1396,alcohol allergy,don't drink alcohol anymore
+1319,pat1397,Heart disease,I have had heart disease for 10 years
+1320,pat1398,COVID-19,I am fully vaccinated
+1321,pat1399,Anesthetic allergy,Cannot inject anesthetics
+1322,pat1400,fracture,Fractures from a fall about 1 year ago
+1323,pat1401,influenza,run at the nose
+1324,pat1402,fever,I had a fever a week ago
+1325,pat1403,Tetracycline allergy,Cannot inject or take tetracyclines
+1326,pat1404,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1327,pat1405,Carbapenem allergy,Cannot inject or take carbapenems
+1328,pat1406,have loose bowels,feel not good
+1329,pat1407,nosebleed,the weather is too dry
+1330,pat1408,alcohol allergy,don't drink alcohol anymore
+1331,pat1409,Heart disease,I have had heart disease for 10 years
+1332,pat1410,COVID-19,I am fully vaccinated
+1333,pat1411,Anesthetic allergy,Cannot inject anesthetics
+1334,pat1412,fracture,Fractures from a fall about 1 year ago
+1335,pat1413,influenza,run at the nose
+1336,pat1414,fever,I had a fever a week ago
+1337,pat1415,Tetracycline allergy,Cannot inject or take tetracyclines
+1338,pat1416,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1339,pat1417,Carbapenem allergy,Cannot inject or take carbapenems
+1340,pat1418,have loose bowels,feel not good
+1341,pat1419,nosebleed,the weather is too dry
+1342,pat1420,alcohol allergy,don't drink alcohol anymore
+1343,pat1421,Heart disease,I have had heart disease for 10 years
+1344,pat1422,COVID-19,I am fully vaccinated
+1345,pat1423,Anesthetic allergy,Cannot inject anesthetics
+1346,pat1424,fracture,Fractures from a fall about 1 year ago
+1347,pat1425,influenza,run at the nose
+1348,pat1426,fever,I had a fever a week ago
+1349,pat1427,Tetracycline allergy,Cannot inject or take tetracyclines
+1350,pat1428,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1351,pat1429,Carbapenem allergy,Cannot inject or take carbapenems
+1352,pat1430,have loose bowels,feel not good
+1353,pat1431,nosebleed,the weather is too dry
+1354,pat1432,alcohol allergy,don't drink alcohol anymore
+1355,pat1433,Heart disease,I have had heart disease for 10 years
+1356,pat1434,COVID-19,I am fully vaccinated
+1357,pat1435,Anesthetic allergy,Cannot inject anesthetics
+1358,pat1436,fracture,Fractures from a fall about 1 year ago
+1359,pat1437,influenza,run at the nose
+1360,pat1438,fever,I had a fever a week ago
+1361,pat1439,Tetracycline allergy,Cannot inject or take tetracyclines
+1362,pat1440,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1363,pat1441,Carbapenem allergy,Cannot inject or take carbapenems
+1364,pat1442,have loose bowels,feel not good
+1365,pat1443,nosebleed,the weather is too dry
+1366,pat1444,alcohol allergy,don't drink alcohol anymore
+1367,pat1445,Heart disease,I have had heart disease for 10 years
+1368,pat1446,COVID-19,I am fully vaccinated
+1369,pat1447,Anesthetic allergy,Cannot inject anesthetics
+1370,pat1448,fracture,Fractures from a fall about 1 year ago
+1371,pat1449,influenza,run at the nose
+1372,pat1450,fever,I had a fever a week ago
+1373,pat1451,Tetracycline allergy,Cannot inject or take tetracyclines
+1374,pat1452,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1375,pat1453,Carbapenem allergy,Cannot inject or take carbapenems
+1376,pat1454,have loose bowels,feel not good
+1377,pat1455,nosebleed,the weather is too dry
+1378,pat1456,alcohol allergy,don't drink alcohol anymore
+1379,pat1457,Heart disease,I have had heart disease for 10 years
+1380,pat1458,COVID-19,I am fully vaccinated
+1381,pat1459,Anesthetic allergy,Cannot inject anesthetics
+1382,pat1460,fracture,Fractures from a fall about 1 year ago
+1383,pat1461,influenza,run at the nose
+1384,pat1462,fever,I had a fever a week ago
+1385,pat1463,Tetracycline allergy,Cannot inject or take tetracyclines
+1386,pat1464,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1387,pat1465,Carbapenem allergy,Cannot inject or take carbapenems
+1388,pat1466,have loose bowels,feel not good
+1389,pat1467,nosebleed,the weather is too dry
+1390,pat1468,alcohol allergy,don't drink alcohol anymore
+1391,pat1469,Heart disease,I have had heart disease for 10 years
+1392,pat1470,COVID-19,I am fully vaccinated
+1393,pat1471,Anesthetic allergy,Cannot inject anesthetics
+1394,pat1472,fracture,Fractures from a fall about 1 year ago
+1395,pat1473,influenza,run at the nose
+1396,pat1474,fever,I had a fever a week ago
+1397,pat1475,Tetracycline allergy,Cannot inject or take tetracyclines
+1398,pat1476,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1399,pat1477,Carbapenem allergy,Cannot inject or take carbapenems
+1400,pat1478,have loose bowels,feel not good
+1401,pat1479,nosebleed,the weather is too dry
+1402,pat1480,alcohol allergy,don't drink alcohol anymore
+1403,pat1481,Heart disease,I have had heart disease for 10 years
+1404,pat1482,COVID-19,I am fully vaccinated
+1405,pat1483,Anesthetic allergy,Cannot inject anesthetics
+1406,pat1484,fracture,Fractures from a fall about 1 year ago
+1407,pat1485,influenza,run at the nose
+1408,pat1486,fever,I had a fever a week ago
+1409,pat1487,Tetracycline allergy,Cannot inject or take tetracyclines
+1410,pat1488,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1411,pat1489,Carbapenem allergy,Cannot inject or take carbapenems
+1412,pat1490,have loose bowels,feel not good
+1413,pat1491,nosebleed,the weather is too dry
+1414,pat1492,alcohol allergy,don't drink alcohol anymore
+1415,pat1493,Heart disease,I have had heart disease for 10 years
+1416,pat1494,COVID-19,I am fully vaccinated
+1417,pat1495,Anesthetic allergy,Cannot inject anesthetics
+1418,pat1496,fracture,Fractures from a fall about 1 year ago
+1419,pat1497,influenza,run at the nose
+1420,pat1498,fever,I had a fever a week ago
+1421,pat1499,Tetracycline allergy,Cannot inject or take tetracyclines
+1422,pat1500,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1423,pat1501,Carbapenem allergy,Cannot inject or take carbapenems
+1424,pat1502,have loose bowels,feel not good
+1425,pat1503,nosebleed,the weather is too dry
+1426,pat1504,alcohol allergy,don't drink alcohol anymore
+1427,pat1505,Heart disease,I have had heart disease for 10 years
+1428,pat1506,COVID-19,I am fully vaccinated
+1429,pat1507,Anesthetic allergy,Cannot inject anesthetics
+1430,pat1508,fracture,Fractures from a fall about 1 year ago
+1431,pat1509,influenza,run at the nose
+1432,pat1510,fever,I had a fever a week ago
+1433,pat1511,Tetracycline allergy,Cannot inject or take tetracyclines
+1434,pat1512,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1435,pat1513,Carbapenem allergy,Cannot inject or take carbapenems
+1436,pat1514,have loose bowels,feel not good
+1437,pat1515,nosebleed,the weather is too dry
+1438,pat1516,alcohol allergy,don't drink alcohol anymore
+1439,pat1517,Heart disease,I have had heart disease for 10 years
+1440,pat1518,COVID-19,I am fully vaccinated
+1441,pat1519,Anesthetic allergy,Cannot inject anesthetics
+1442,pat1520,fracture,Fractures from a fall about 1 year ago
+1443,pat1521,influenza,run at the nose
+1444,pat1522,fever,I had a fever a week ago
+1445,pat1523,Tetracycline allergy,Cannot inject or take tetracyclines
+1446,pat1524,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1447,pat1525,Carbapenem allergy,Cannot inject or take carbapenems
+1448,pat1526,have loose bowels,feel not good
+1449,pat1527,nosebleed,the weather is too dry
+1450,pat1528,alcohol allergy,don't drink alcohol anymore
+1451,pat1529,Heart disease,I have had heart disease for 10 years
+1452,pat1530,COVID-19,I am fully vaccinated
+1453,pat1531,Anesthetic allergy,Cannot inject anesthetics
+1454,pat1532,fracture,Fractures from a fall about 1 year ago
+1455,pat1533,influenza,run at the nose
+1456,pat1534,fever,I had a fever a week ago
+1457,pat1535,Tetracycline allergy,Cannot inject or take tetracyclines
+1458,pat1536,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1459,pat1537,Carbapenem allergy,Cannot inject or take carbapenems
+1460,pat1538,have loose bowels,feel not good
+1461,pat1539,nosebleed,the weather is too dry
+1462,pat1540,alcohol allergy,don't drink alcohol anymore
+1463,pat1541,Heart disease,I have had heart disease for 10 years
+1464,pat1542,COVID-19,I am fully vaccinated
+1465,pat1543,Anesthetic allergy,Cannot inject anesthetics
+1466,pat1544,fracture,Fractures from a fall about 1 year ago
+1467,pat1545,influenza,run at the nose
+1468,pat1546,fever,I had a fever a week ago
+1469,pat1547,Tetracycline allergy,Cannot inject or take tetracyclines
+1470,pat1548,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1471,pat1549,Carbapenem allergy,Cannot inject or take carbapenems
+1472,pat1550,have loose bowels,feel not good
+1473,pat1551,nosebleed,the weather is too dry
+1474,pat1552,alcohol allergy,don't drink alcohol anymore
+1475,pat1553,Heart disease,I have had heart disease for 10 years
+1476,pat1554,COVID-19,I am fully vaccinated
+1477,pat1555,Anesthetic allergy,Cannot inject anesthetics
+1478,pat1556,fracture,Fractures from a fall about 1 year ago
+1479,pat1557,influenza,run at the nose
+1480,pat1558,fever,I had a fever a week ago
+1481,pat1559,Tetracycline allergy,Cannot inject or take tetracyclines
+1482,pat1560,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1483,pat1561,Carbapenem allergy,Cannot inject or take carbapenems
+1484,pat1562,have loose bowels,feel not good
+1485,pat1563,nosebleed,the weather is too dry
+1486,pat1564,alcohol allergy,don't drink alcohol anymore
+1487,pat1565,Heart disease,I have had heart disease for 10 years
+1488,pat1566,COVID-19,I am fully vaccinated
+1489,pat1567,Anesthetic allergy,Cannot inject anesthetics
+1490,pat1568,fracture,Fractures from a fall about 1 year ago
+1491,pat1569,influenza,run at the nose
+1492,pat1570,fever,I had a fever a week ago
+1493,pat1571,Tetracycline allergy,Cannot inject or take tetracyclines
+1494,pat1572,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1495,pat1573,Carbapenem allergy,Cannot inject or take carbapenems
+1496,pat1574,have loose bowels,feel not good
+1497,pat1575,nosebleed,the weather is too dry
+1498,pat1576,alcohol allergy,don't drink alcohol anymore
+1499,pat1577,Heart disease,I have had heart disease for 10 years
+1500,pat1578,COVID-19,I am fully vaccinated
+1501,pat1579,Anesthetic allergy,Cannot inject anesthetics
+1502,pat1580,fracture,Fractures from a fall about 1 year ago
+1503,pat1581,influenza,run at the nose
+1504,pat1582,fever,I had a fever a week ago
+1505,pat1583,Tetracycline allergy,Cannot inject or take tetracyclines
+1506,pat1584,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1507,pat1585,Carbapenem allergy,Cannot inject or take carbapenems
+1508,pat1586,have loose bowels,feel not good
+1509,pat1587,nosebleed,the weather is too dry
+1510,pat1588,alcohol allergy,don't drink alcohol anymore
+1511,pat1589,Heart disease,I have had heart disease for 10 years
+1512,pat1590,COVID-19,I am fully vaccinated
+1513,pat1591,Anesthetic allergy,Cannot inject anesthetics
+1514,pat1592,fracture,Fractures from a fall about 1 year ago
+1515,pat1593,influenza,run at the nose
+1516,pat1594,fever,I had a fever a week ago
+1517,pat1595,Tetracycline allergy,Cannot inject or take tetracyclines
+1518,pat1596,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1519,pat1597,Carbapenem allergy,Cannot inject or take carbapenems
+1520,pat1598,have loose bowels,feel not good
+1521,pat1599,nosebleed,the weather is too dry
+1522,pat1600,alcohol allergy,don't drink alcohol anymore
+1523,pat1601,Heart disease,I have had heart disease for 10 years
+1524,pat1602,COVID-19,I am fully vaccinated
+1525,pat1603,Anesthetic allergy,Cannot inject anesthetics
+1526,pat1604,fracture,Fractures from a fall about 1 year ago
+1527,pat1605,influenza,run at the nose
+1528,pat1606,fever,I had a fever a week ago
+1529,pat1607,Tetracycline allergy,Cannot inject or take tetracyclines
+1530,pat1608,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1531,pat1609,Carbapenem allergy,Cannot inject or take carbapenems
+1532,pat1610,have loose bowels,feel not good
+1533,pat1611,nosebleed,the weather is too dry
+1534,pat1612,alcohol allergy,don't drink alcohol anymore
+1535,pat1613,Heart disease,I have had heart disease for 10 years
+1536,pat1614,COVID-19,I am fully vaccinated
+1537,pat1615,Anesthetic allergy,Cannot inject anesthetics
+1538,pat1616,fracture,Fractures from a fall about 1 year ago
+1539,pat1617,influenza,run at the nose
+1540,pat1618,fever,I had a fever a week ago
+1541,pat1619,Tetracycline allergy,Cannot inject or take tetracyclines
+1542,pat1620,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1543,pat1621,Carbapenem allergy,Cannot inject or take carbapenems
+1544,pat1622,have loose bowels,feel not good
+1545,pat1623,nosebleed,the weather is too dry
+1546,pat1624,alcohol allergy,don't drink alcohol anymore
+1547,pat1625,Heart disease,I have had heart disease for 10 years
+1548,pat1626,COVID-19,I am fully vaccinated
+1549,pat1627,Anesthetic allergy,Cannot inject anesthetics
+1550,pat1628,fracture,Fractures from a fall about 1 year ago
+1551,pat1629,influenza,run at the nose
+1552,pat1630,fever,I had a fever a week ago
+1553,pat1631,Tetracycline allergy,Cannot inject or take tetracyclines
+1554,pat1632,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1555,pat1633,Carbapenem allergy,Cannot inject or take carbapenems
+1556,pat1634,have loose bowels,feel not good
+1557,pat1635,nosebleed,the weather is too dry
+1558,pat1636,alcohol allergy,don't drink alcohol anymore
+1559,pat1637,Heart disease,I have had heart disease for 10 years
+1560,pat1638,COVID-19,I am fully vaccinated
+1561,pat1639,Anesthetic allergy,Cannot inject anesthetics
+1562,pat1640,fracture,Fractures from a fall about 1 year ago
+1563,pat1641,influenza,run at the nose
+1564,pat1642,fever,I had a fever a week ago
+1565,pat1643,Tetracycline allergy,Cannot inject or take tetracyclines
+1566,pat1644,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1567,pat1645,Carbapenem allergy,Cannot inject or take carbapenems
+1568,pat1646,have loose bowels,feel not good
+1569,pat1647,nosebleed,the weather is too dry
+1570,pat1648,alcohol allergy,don't drink alcohol anymore
+1571,pat1649,Heart disease,I have had heart disease for 10 years
+1572,pat1650,COVID-19,I am fully vaccinated
+1573,pat1651,Anesthetic allergy,Cannot inject anesthetics
+1574,pat1652,fracture,Fractures from a fall about 1 year ago
+1575,pat1653,influenza,run at the nose
+1576,pat1654,fever,I had a fever a week ago
+1577,pat1655,Tetracycline allergy,Cannot inject or take tetracyclines
+1578,pat1656,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1579,pat1657,Carbapenem allergy,Cannot inject or take carbapenems
+1580,pat1658,have loose bowels,feel not good
+1581,pat1659,nosebleed,the weather is too dry
+1582,pat1660,alcohol allergy,don't drink alcohol anymore
+1583,pat1661,Heart disease,I have had heart disease for 10 years
+1584,pat1662,COVID-19,I am fully vaccinated
+1585,pat1663,Anesthetic allergy,Cannot inject anesthetics
+1586,pat1664,fracture,Fractures from a fall about 1 year ago
+1587,pat1665,influenza,run at the nose
+1588,pat1666,fever,I had a fever a week ago
+1589,pat1667,Tetracycline allergy,Cannot inject or take tetracyclines
+1590,pat1668,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1591,pat1669,Carbapenem allergy,Cannot inject or take carbapenems
+1592,pat1670,have loose bowels,feel not good
+1593,pat1671,nosebleed,the weather is too dry
+1594,pat1672,alcohol allergy,don't drink alcohol anymore
+1595,pat1673,Heart disease,I have had heart disease for 10 years
+1596,pat1674,COVID-19,I am fully vaccinated
+1597,pat1675,Anesthetic allergy,Cannot inject anesthetics
+1598,pat1676,fracture,Fractures from a fall about 1 year ago
+1599,pat1677,influenza,run at the nose
+1600,pat1678,fever,I had a fever a week ago
+1601,pat1679,Tetracycline allergy,Cannot inject or take tetracyclines
+1602,pat1680,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1603,pat1681,Carbapenem allergy,Cannot inject or take carbapenems
+1604,pat1682,have loose bowels,feel not good
+1605,pat1683,nosebleed,the weather is too dry
+1606,pat1684,alcohol allergy,don't drink alcohol anymore
+1607,pat1685,Heart disease,I have had heart disease for 10 years
+1608,pat1686,COVID-19,I am fully vaccinated
+1609,pat1687,Anesthetic allergy,Cannot inject anesthetics
+1610,pat1688,fracture,Fractures from a fall about 1 year ago
+1611,pat1689,influenza,run at the nose
+1612,pat1690,fever,I had a fever a week ago
+1613,pat1691,Tetracycline allergy,Cannot inject or take tetracyclines
+1614,pat1692,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1615,pat1693,Carbapenem allergy,Cannot inject or take carbapenems
+1616,pat1694,have loose bowels,feel not good
+1617,pat1695,nosebleed,the weather is too dry
+1618,pat1696,alcohol allergy,don't drink alcohol anymore
+1619,pat1697,Heart disease,I have had heart disease for 10 years
+1620,pat1698,COVID-19,I am fully vaccinated
+1621,pat1699,Anesthetic allergy,Cannot inject anesthetics
+1622,pat1700,fracture,Fractures from a fall about 1 year ago
+1623,pat1701,influenza,run at the nose
+1624,pat1702,fever,I had a fever a week ago
+1625,pat1703,Tetracycline allergy,Cannot inject or take tetracyclines
+1626,pat1704,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1627,pat1705,Carbapenem allergy,Cannot inject or take carbapenems
+1628,pat1706,have loose bowels,feel not good
+1629,pat1707,nosebleed,the weather is too dry
+1630,pat1708,alcohol allergy,don't drink alcohol anymore
+1631,pat1709,Heart disease,I have had heart disease for 10 years
+1632,pat1710,COVID-19,I am fully vaccinated
+1633,pat1711,Anesthetic allergy,Cannot inject anesthetics
+1634,pat1712,fracture,Fractures from a fall about 1 year ago
+1635,pat1713,influenza,run at the nose
+1636,pat1714,fever,I had a fever a week ago
+1637,pat1715,Tetracycline allergy,Cannot inject or take tetracyclines
+1638,pat1716,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1639,pat1717,Carbapenem allergy,Cannot inject or take carbapenems
+1640,pat1718,have loose bowels,feel not good
+1641,pat1719,nosebleed,the weather is too dry
+1642,pat1720,alcohol allergy,don't drink alcohol anymore
+1643,pat1721,Heart disease,I have had heart disease for 10 years
+1644,pat1722,COVID-19,I am fully vaccinated
+1645,pat1723,Anesthetic allergy,Cannot inject anesthetics
+1646,pat1724,fracture,Fractures from a fall about 1 year ago
+1647,pat1725,influenza,run at the nose
+1648,pat1726,fever,I had a fever a week ago
+1649,pat1727,Tetracycline allergy,Cannot inject or take tetracyclines
+1650,pat1728,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1651,pat1729,Carbapenem allergy,Cannot inject or take carbapenems
+1652,pat1730,have loose bowels,feel not good
+1653,pat1731,nosebleed,the weather is too dry
+1654,pat1732,alcohol allergy,don't drink alcohol anymore
+1655,pat1733,Heart disease,I have had heart disease for 10 years
+1656,pat1734,COVID-19,I am fully vaccinated
+1657,pat1735,Anesthetic allergy,Cannot inject anesthetics
+1658,pat1736,fracture,Fractures from a fall about 1 year ago
+1659,pat1737,influenza,run at the nose
+1660,pat1738,fever,I had a fever a week ago
+1661,pat1739,Tetracycline allergy,Cannot inject or take tetracyclines
+1662,pat1740,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1663,pat1741,Carbapenem allergy,Cannot inject or take carbapenems
+1664,pat1742,have loose bowels,feel not good
+1665,pat1743,nosebleed,the weather is too dry
+1666,pat1744,alcohol allergy,don't drink alcohol anymore
+1667,pat1745,Heart disease,I have had heart disease for 10 years
+1668,pat1746,COVID-19,I am fully vaccinated
+1669,pat1747,Anesthetic allergy,Cannot inject anesthetics
+1670,pat1748,fracture,Fractures from a fall about 1 year ago
+1671,pat1749,influenza,run at the nose
+1672,pat1750,fever,I had a fever a week ago
+1673,pat1751,Tetracycline allergy,Cannot inject or take tetracyclines
+1674,pat1752,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1675,pat1753,Carbapenem allergy,Cannot inject or take carbapenems
+1676,pat1754,have loose bowels,feel not good
+1677,pat1755,nosebleed,the weather is too dry
+1678,pat1756,alcohol allergy,don't drink alcohol anymore
+1679,pat1757,Heart disease,I have had heart disease for 10 years
+1680,pat1758,COVID-19,I am fully vaccinated
+1681,pat1759,Anesthetic allergy,Cannot inject anesthetics
+1682,pat1760,fracture,Fractures from a fall about 1 year ago
+1683,pat1761,influenza,run at the nose
+1684,pat1762,fever,I had a fever a week ago
+1685,pat1763,Tetracycline allergy,Cannot inject or take tetracyclines
+1686,pat1764,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1687,pat1765,Carbapenem allergy,Cannot inject or take carbapenems
+1688,pat1766,have loose bowels,feel not good
+1689,pat1767,nosebleed,the weather is too dry
+1690,pat1768,alcohol allergy,don't drink alcohol anymore
+1691,pat1769,Heart disease,I have had heart disease for 10 years
+1692,pat1770,COVID-19,I am fully vaccinated
+1693,pat1771,Anesthetic allergy,Cannot inject anesthetics
+1694,pat1772,fracture,Fractures from a fall about 1 year ago
+1695,pat1773,influenza,run at the nose
+1696,pat1774,fever,I had a fever a week ago
+1697,pat1775,Tetracycline allergy,Cannot inject or take tetracyclines
+1698,pat1776,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1699,pat1777,Carbapenem allergy,Cannot inject or take carbapenems
+1700,pat1778,have loose bowels,feel not good
+1701,pat1779,nosebleed,the weather is too dry
+1702,pat1780,alcohol allergy,don't drink alcohol anymore
+1703,pat1781,Heart disease,I have had heart disease for 10 years
+1704,pat1782,COVID-19,I am fully vaccinated
+1705,pat1783,Anesthetic allergy,Cannot inject anesthetics
+1706,pat1784,fracture,Fractures from a fall about 1 year ago
+1707,pat1785,influenza,run at the nose
+1708,pat1786,fever,I had a fever a week ago
+1709,pat1787,Tetracycline allergy,Cannot inject or take tetracyclines
+1710,pat1788,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1711,pat1789,Carbapenem allergy,Cannot inject or take carbapenems
+1712,pat1790,have loose bowels,feel not good
+1713,pat1791,nosebleed,the weather is too dry
+1714,pat1792,alcohol allergy,don't drink alcohol anymore
+1715,pat1793,Heart disease,I have had heart disease for 10 years
+1716,pat1794,COVID-19,I am fully vaccinated
+1717,pat1795,Anesthetic allergy,Cannot inject anesthetics
+1718,pat1796,fracture,Fractures from a fall about 1 year ago
+1719,pat1797,influenza,run at the nose
+1720,pat1798,fever,I had a fever a week ago
+1721,pat1799,Tetracycline allergy,Cannot inject or take tetracyclines
+1722,pat1800,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1723,pat1801,Carbapenem allergy,Cannot inject or take carbapenems
+1724,pat1802,have loose bowels,feel not good
+1725,pat1803,nosebleed,the weather is too dry
+1726,pat1804,alcohol allergy,don't drink alcohol anymore
+1727,pat1805,Heart disease,I have had heart disease for 10 years
+1728,pat1806,COVID-19,I am fully vaccinated
+1729,pat1807,Anesthetic allergy,Cannot inject anesthetics
+1730,pat1808,fracture,Fractures from a fall about 1 year ago
+1731,pat1809,influenza,run at the nose
+1732,pat1810,fever,I had a fever a week ago
+1733,pat1811,Tetracycline allergy,Cannot inject or take tetracyclines
+1734,pat1812,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1735,pat1813,Carbapenem allergy,Cannot inject or take carbapenems
+1736,pat1814,have loose bowels,feel not good
+1737,pat1815,nosebleed,the weather is too dry
+1738,pat1816,alcohol allergy,don't drink alcohol anymore
+1739,pat1817,Heart disease,I have had heart disease for 10 years
+1740,pat1818,COVID-19,I am fully vaccinated
+1741,pat1819,Anesthetic allergy,Cannot inject anesthetics
+1742,pat1820,fracture,Fractures from a fall about 1 year ago
+1743,pat1821,influenza,run at the nose
+1744,pat1822,fever,I had a fever a week ago
+1745,pat1823,Tetracycline allergy,Cannot inject or take tetracyclines
+1746,pat1824,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1747,pat1825,Carbapenem allergy,Cannot inject or take carbapenems
+1748,pat1826,have loose bowels,feel not good
+1749,pat1827,nosebleed,the weather is too dry
+1750,pat1828,alcohol allergy,don't drink alcohol anymore
+1751,pat1829,Heart disease,I have had heart disease for 10 years
+1752,pat1830,COVID-19,I am fully vaccinated
+1753,pat1831,Anesthetic allergy,Cannot inject anesthetics
+1754,pat1832,fracture,Fractures from a fall about 1 year ago
+1755,pat1833,influenza,run at the nose
+1756,pat1834,fever,I had a fever a week ago
+1757,pat1835,Tetracycline allergy,Cannot inject or take tetracyclines
+1758,pat1836,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1759,pat1837,Carbapenem allergy,Cannot inject or take carbapenems
+1760,pat1838,have loose bowels,feel not good
+1761,pat1839,nosebleed,the weather is too dry
+1762,pat1840,alcohol allergy,don't drink alcohol anymore
+1763,pat1841,Heart disease,I have had heart disease for 10 years
+1764,pat1842,COVID-19,I am fully vaccinated
+1765,pat1843,Anesthetic allergy,Cannot inject anesthetics
+1766,pat1844,fracture,Fractures from a fall about 1 year ago
+1767,pat1845,influenza,run at the nose
+1768,pat1846,fever,I had a fever a week ago
+1769,pat1847,Tetracycline allergy,Cannot inject or take tetracyclines
+1770,pat1848,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1771,pat1849,Carbapenem allergy,Cannot inject or take carbapenems
+1772,pat1850,have loose bowels,feel not good
+1773,pat1851,nosebleed,the weather is too dry
+1774,pat1852,alcohol allergy,don't drink alcohol anymore
+1775,pat1853,Heart disease,I have had heart disease for 10 years
+1776,pat1854,COVID-19,I am fully vaccinated
+1777,pat1855,Anesthetic allergy,Cannot inject anesthetics
+1778,pat1856,fracture,Fractures from a fall about 1 year ago
+1779,pat1857,influenza,run at the nose
+1780,pat1858,fever,I had a fever a week ago
+1781,pat1859,Tetracycline allergy,Cannot inject or take tetracyclines
+1782,pat1860,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1783,pat1861,Carbapenem allergy,Cannot inject or take carbapenems
+1784,pat1862,have loose bowels,feel not good
+1785,pat1863,nosebleed,the weather is too dry
+1786,pat1864,alcohol allergy,don't drink alcohol anymore
+1787,pat1865,Heart disease,I have had heart disease for 10 years
+1788,pat1866,COVID-19,I am fully vaccinated
+1789,pat1867,Anesthetic allergy,Cannot inject anesthetics
+1790,pat1868,fracture,Fractures from a fall about 1 year ago
+1791,pat1869,influenza,run at the nose
+1792,pat1870,fever,I had a fever a week ago
+1793,pat1871,Tetracycline allergy,Cannot inject or take tetracyclines
+1794,pat1872,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1795,pat1873,Carbapenem allergy,Cannot inject or take carbapenems
+1796,pat1874,have loose bowels,feel not good
+1797,pat1875,nosebleed,the weather is too dry
+1798,pat1876,alcohol allergy,don't drink alcohol anymore
+1799,pat1877,Heart disease,I have had heart disease for 10 years
+1800,pat1878,COVID-19,I am fully vaccinated
+1801,pat1879,Anesthetic allergy,Cannot inject anesthetics
+1802,pat1880,fracture,Fractures from a fall about 1 year ago
+1803,pat1881,influenza,run at the nose
+1804,pat1882,fever,I had a fever a week ago
+1805,pat1883,Tetracycline allergy,Cannot inject or take tetracyclines
+1806,pat1884,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1807,pat1885,Carbapenem allergy,Cannot inject or take carbapenems
+1808,pat1886,have loose bowels,feel not good
+1809,pat1887,nosebleed,the weather is too dry
+1810,pat1888,alcohol allergy,don't drink alcohol anymore
+1811,pat1889,Heart disease,I have had heart disease for 10 years
+1812,pat1890,COVID-19,I am fully vaccinated
+1813,pat1891,Anesthetic allergy,Cannot inject anesthetics
+1814,pat1892,fracture,Fractures from a fall about 1 year ago
+1815,pat1893,influenza,run at the nose
+1816,pat1894,fever,I had a fever a week ago
+1817,pat1895,Tetracycline allergy,Cannot inject or take tetracyclines
+1818,pat1896,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1819,pat1897,Carbapenem allergy,Cannot inject or take carbapenems
+1820,pat1898,have loose bowels,feel not good
+1821,pat1899,nosebleed,the weather is too dry
+1822,pat1900,alcohol allergy,don't drink alcohol anymore
+1823,pat1901,Heart disease,I have had heart disease for 10 years
+1824,pat1902,COVID-19,I am fully vaccinated
+1825,pat1903,Anesthetic allergy,Cannot inject anesthetics
+1826,pat1904,fracture,Fractures from a fall about 1 year ago
+1827,pat1905,influenza,run at the nose
+1828,pat1906,fever,I had a fever a week ago
+1829,pat1907,Tetracycline allergy,Cannot inject or take tetracyclines
+1830,pat1908,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1831,pat1909,Carbapenem allergy,Cannot inject or take carbapenems
+1832,pat1910,have loose bowels,feel not good
+1833,pat1911,nosebleed,the weather is too dry
+1834,pat1912,alcohol allergy,don't drink alcohol anymore
+1835,pat1913,Heart disease,I have had heart disease for 10 years
+1836,pat1914,COVID-19,I am fully vaccinated
+1837,pat1915,Anesthetic allergy,Cannot inject anesthetics
+1838,pat1916,fracture,Fractures from a fall about 1 year ago
+1839,pat1917,influenza,run at the nose
+1840,pat1918,fever,I had a fever a week ago
+1841,pat1919,Tetracycline allergy,Cannot inject or take tetracyclines
+1842,pat1920,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1843,pat1921,Carbapenem allergy,Cannot inject or take carbapenems
+1844,pat1922,have loose bowels,feel not good
+1845,pat1923,nosebleed,the weather is too dry
+1846,pat1924,alcohol allergy,don't drink alcohol anymore
+1847,pat1925,Heart disease,I have had heart disease for 10 years
+1848,pat1926,COVID-19,I am fully vaccinated
+1849,pat1927,Anesthetic allergy,Cannot inject anesthetics
+1850,pat1928,fracture,Fractures from a fall about 1 year ago
+1851,pat1929,influenza,run at the nose
+1852,pat1930,fever,I had a fever a week ago
+1853,pat1931,Tetracycline allergy,Cannot inject or take tetracyclines
+1854,pat1932,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1855,pat1933,Carbapenem allergy,Cannot inject or take carbapenems
+1856,pat1934,have loose bowels,feel not good
+1857,pat1935,nosebleed,the weather is too dry
+1858,pat1936,alcohol allergy,don't drink alcohol anymore
+1859,pat1937,Heart disease,I have had heart disease for 10 years
+1860,pat1938,COVID-19,I am fully vaccinated
+1861,pat1939,Anesthetic allergy,Cannot inject anesthetics
+1862,pat1940,fracture,Fractures from a fall about 1 year ago
+1863,pat1941,influenza,run at the nose
+1864,pat1942,fever,I had a fever a week ago
+1865,pat1943,Tetracycline allergy,Cannot inject or take tetracyclines
+1866,pat1944,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1867,pat1945,Carbapenem allergy,Cannot inject or take carbapenems
+1868,pat1946,have loose bowels,feel not good
+1869,pat1947,nosebleed,the weather is too dry
+1870,pat1948,alcohol allergy,don't drink alcohol anymore
+1871,pat1949,Heart disease,I have had heart disease for 10 years
+1872,pat1950,COVID-19,I am fully vaccinated
+1873,pat1951,Anesthetic allergy,Cannot inject anesthetics
+1874,pat1952,fracture,Fractures from a fall about 1 year ago
+1875,pat1953,influenza,run at the nose
+1876,pat1954,fever,I had a fever a week ago
+1877,pat1955,Tetracycline allergy,Cannot inject or take tetracyclines
+1878,pat1956,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1879,pat1957,Carbapenem allergy,Cannot inject or take carbapenems
+1880,pat1958,have loose bowels,feel not good
+1881,pat1959,nosebleed,the weather is too dry
+1882,pat1960,alcohol allergy,don't drink alcohol anymore
+1883,pat1961,Heart disease,I have had heart disease for 10 years
+1884,pat1962,COVID-19,I am fully vaccinated
+1885,pat1963,Anesthetic allergy,Cannot inject anesthetics
+1886,pat1964,fracture,Fractures from a fall about 1 year ago
+1887,pat1965,influenza,run at the nose
+1888,pat1966,fever,I had a fever a week ago
+1889,pat1967,Tetracycline allergy,Cannot inject or take tetracyclines
+1890,pat1968,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1891,pat1969,Carbapenem allergy,Cannot inject or take carbapenems
+1892,pat1970,have loose bowels,feel not good
+1893,pat1971,nosebleed,the weather is too dry
+1894,pat1972,alcohol allergy,don't drink alcohol anymore
+1895,pat1973,Heart disease,I have had heart disease for 10 years
+1896,pat1974,COVID-19,I am fully vaccinated
+1897,pat1975,Anesthetic allergy,Cannot inject anesthetics
+1898,pat1976,fracture,Fractures from a fall about 1 year ago
+1899,pat1977,influenza,run at the nose
+1900,pat1978,fever,I had a fever a week ago
+1901,pat1979,Tetracycline allergy,Cannot inject or take tetracyclines
+1902,pat1980,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1903,pat1981,Carbapenem allergy,Cannot inject or take carbapenems
+1904,pat1982,have loose bowels,feel not good
+1905,pat1983,nosebleed,the weather is too dry
+1906,pat1984,alcohol allergy,don't drink alcohol anymore
+1907,pat1985,Heart disease,I have had heart disease for 10 years
+1908,pat1986,COVID-19,I am fully vaccinated
+1909,pat1987,Anesthetic allergy,Cannot inject anesthetics
+1910,pat1988,fracture,Fractures from a fall about 1 year ago
+1911,pat1989,influenza,run at the nose
+1912,pat1990,fever,I had a fever a week ago
+1913,pat1991,Tetracycline allergy,Cannot inject or take tetracyclines
+1914,pat1992,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1915,pat1993,Carbapenem allergy,Cannot inject or take carbapenems
+1916,pat1994,have loose bowels,feel not good
+1917,pat1995,nosebleed,the weather is too dry
+1918,pat1996,alcohol allergy,don't drink alcohol anymore
+1919,pat1997,Heart disease,I have had heart disease for 10 years
+1920,pat1998,COVID-19,I am fully vaccinated
+1921,pat1999,Anesthetic allergy,Cannot inject anesthetics
+1922,pat2000,fracture,Fractures from a fall about 1 year ago
+1923,pat2001,influenza,run at the nose
+1924,pat2002,fever,I had a fever a week ago
+1925,pat2003,Tetracycline allergy,Cannot inject or take tetracyclines
+1926,pat2004,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1927,pat2005,Carbapenem allergy,Cannot inject or take carbapenems
+1928,pat2006,have loose bowels,feel not good
+1929,pat2007,nosebleed,the weather is too dry
+1930,pat2008,alcohol allergy,don't drink alcohol anymore
+1931,pat2009,Heart disease,I have had heart disease for 10 years
+1932,pat2010,COVID-19,I am fully vaccinated
+1933,pat2011,Anesthetic allergy,Cannot inject anesthetics
+1934,pat2012,fracture,Fractures from a fall about 1 year ago
+1935,pat2013,influenza,run at the nose
+1936,pat2014,fever,I had a fever a week ago
+1937,pat2015,Tetracycline allergy,Cannot inject or take tetracyclines
+1938,pat2016,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1939,pat2017,Carbapenem allergy,Cannot inject or take carbapenems
+1940,pat2018,have loose bowels,feel not good
+1941,pat2019,nosebleed,the weather is too dry
+1942,pat2020,alcohol allergy,don't drink alcohol anymore
+1943,pat2021,Heart disease,I have had heart disease for 10 years
+1944,pat2022,COVID-19,I am fully vaccinated
+1945,pat2023,Anesthetic allergy,Cannot inject anesthetics
+1946,pat2024,fracture,Fractures from a fall about 1 year ago
+1947,pat2025,influenza,run at the nose
+1948,pat2026,fever,I had a fever a week ago
+1949,pat2027,Tetracycline allergy,Cannot inject or take tetracyclines
+1950,pat2028,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1951,pat2029,Carbapenem allergy,Cannot inject or take carbapenems
+1952,pat2030,have loose bowels,feel not good
+1953,pat2031,nosebleed,the weather is too dry
+1954,pat2032,alcohol allergy,don't drink alcohol anymore
+1955,pat2033,Heart disease,I have had heart disease for 10 years
+1956,pat2034,COVID-19,I am fully vaccinated
+1957,pat2035,Anesthetic allergy,Cannot inject anesthetics
+1958,pat2036,fracture,Fractures from a fall about 1 year ago
+1959,pat2037,influenza,run at the nose
+1960,pat2038,fever,I had a fever a week ago
+1961,pat2039,Tetracycline allergy,Cannot inject or take tetracyclines
+1962,pat2040,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1963,pat2041,Carbapenem allergy,Cannot inject or take carbapenems
+1964,pat2042,have loose bowels,feel not good
+1965,pat2043,nosebleed,the weather is too dry
+1966,pat2044,alcohol allergy,don't drink alcohol anymore
+1967,pat2045,Heart disease,I have had heart disease for 10 years
+1968,pat2046,COVID-19,I am fully vaccinated
+1969,pat2047,Anesthetic allergy,Cannot inject anesthetics
+1970,pat2048,fracture,Fractures from a fall about 1 year ago
+1971,pat2049,influenza,run at the nose
+1972,pat2050,fever,I had a fever a week ago
+1973,pat2051,Tetracycline allergy,Cannot inject or take tetracyclines
+1974,pat2052,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1975,pat2053,Carbapenem allergy,Cannot inject or take carbapenems
+1976,pat2054,have loose bowels,feel not good
+1977,pat2055,nosebleed,the weather is too dry
+1978,pat2056,alcohol allergy,don't drink alcohol anymore
+1979,pat2057,Heart disease,I have had heart disease for 10 years
+1980,pat2058,COVID-19,I am fully vaccinated
+1981,pat2059,Anesthetic allergy,Cannot inject anesthetics
+1982,pat2060,fracture,Fractures from a fall about 1 year ago
+1983,pat2061,influenza,run at the nose
+1984,pat2062,fever,I had a fever a week ago
+1985,pat2063,Tetracycline allergy,Cannot inject or take tetracyclines
+1986,pat2064,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1987,pat2065,Carbapenem allergy,Cannot inject or take carbapenems
+1988,pat2066,have loose bowels,feel not good
+1989,pat2067,nosebleed,the weather is too dry
+1990,pat2068,alcohol allergy,don't drink alcohol anymore
+1991,pat2069,Heart disease,I have had heart disease for 10 years
+1992,pat2070,COVID-19,I am fully vaccinated
+1993,pat2071,Anesthetic allergy,Cannot inject anesthetics
+1994,pat2072,fracture,Fractures from a fall about 1 year ago
+1995,pat2073,influenza,run at the nose
+1996,pat2074,fever,I had a fever a week ago
+1997,pat2075,Tetracycline allergy,Cannot inject or take tetracyclines
+1998,pat2076,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+1999,pat2077,Carbapenem allergy,Cannot inject or take carbapenems
+2000,pat2078,have loose bowels,feel not good
+2001,pat2079,nosebleed,the weather is too dry
+2002,pat2080,alcohol allergy,don't drink alcohol anymore
+2003,pat2081,Heart disease,I have had heart disease for 10 years
+2004,pat2082,COVID-19,I am fully vaccinated
+2005,pat2083,Anesthetic allergy,Cannot inject anesthetics
+2006,pat2084,fracture,Fractures from a fall about 1 year ago
+2007,pat2085,influenza,run at the nose
+2008,pat2086,fever,I had a fever a week ago
+2009,pat2087,Tetracycline allergy,Cannot inject or take tetracyclines
+2010,pat2088,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2011,pat2089,Carbapenem allergy,Cannot inject or take carbapenems
+2012,pat2090,have loose bowels,feel not good
+2013,pat2091,nosebleed,the weather is too dry
+2014,pat2092,alcohol allergy,don't drink alcohol anymore
+2015,pat2093,Heart disease,I have had heart disease for 10 years
+2016,pat2094,COVID-19,I am fully vaccinated
+2017,pat2095,Anesthetic allergy,Cannot inject anesthetics
+2018,pat2096,fracture,Fractures from a fall about 1 year ago
+2019,pat2097,influenza,run at the nose
+2020,pat2098,fever,I had a fever a week ago
+2021,pat2099,Tetracycline allergy,Cannot inject or take tetracyclines
+2022,pat2100,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2023,pat2101,Carbapenem allergy,Cannot inject or take carbapenems
+2024,pat2102,have loose bowels,feel not good
+2025,pat2103,nosebleed,the weather is too dry
+2026,pat2104,alcohol allergy,don't drink alcohol anymore
+2027,pat2105,Heart disease,I have had heart disease for 10 years
+2028,pat2106,COVID-19,I am fully vaccinated
+2029,pat2107,Anesthetic allergy,Cannot inject anesthetics
+2030,pat2108,fracture,Fractures from a fall about 1 year ago
+2031,pat2109,influenza,run at the nose
+2032,pat2110,fever,I had a fever a week ago
+2033,pat2111,Tetracycline allergy,Cannot inject or take tetracyclines
+2034,pat2112,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2035,pat2113,Carbapenem allergy,Cannot inject or take carbapenems
+2036,pat2114,have loose bowels,feel not good
+2037,pat2115,nosebleed,the weather is too dry
+2038,pat2116,alcohol allergy,don't drink alcohol anymore
+2039,pat2117,Heart disease,I have had heart disease for 10 years
+2040,pat2118,COVID-19,I am fully vaccinated
+2041,pat2119,Anesthetic allergy,Cannot inject anesthetics
+2042,pat2120,fracture,Fractures from a fall about 1 year ago
+2043,pat2121,influenza,run at the nose
+2044,pat2122,fever,I had a fever a week ago
+2045,pat2123,Tetracycline allergy,Cannot inject or take tetracyclines
+2046,pat2124,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2047,pat2125,Carbapenem allergy,Cannot inject or take carbapenems
+2048,pat2126,have loose bowels,feel not good
+2049,pat2127,nosebleed,the weather is too dry
+2050,pat2128,alcohol allergy,don't drink alcohol anymore
+2051,pat2129,Heart disease,I have had heart disease for 10 years
+2052,pat2130,COVID-19,I am fully vaccinated
+2053,pat2131,Anesthetic allergy,Cannot inject anesthetics
+2054,pat2132,fracture,Fractures from a fall about 1 year ago
+2055,pat2133,influenza,run at the nose
+2056,pat2134,fever,I had a fever a week ago
+2057,pat2135,Tetracycline allergy,Cannot inject or take tetracyclines
+2058,pat2136,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2059,pat2137,Carbapenem allergy,Cannot inject or take carbapenems
+2060,pat2138,have loose bowels,feel not good
+2061,pat2139,nosebleed,the weather is too dry
+2062,pat2140,alcohol allergy,don't drink alcohol anymore
+2063,pat2141,Heart disease,I have had heart disease for 10 years
+2064,pat2142,COVID-19,I am fully vaccinated
+2065,pat2143,Anesthetic allergy,Cannot inject anesthetics
+2066,pat2144,fracture,Fractures from a fall about 1 year ago
+2067,pat2145,influenza,run at the nose
+2068,pat2146,fever,I had a fever a week ago
+2069,pat2147,Tetracycline allergy,Cannot inject or take tetracyclines
+2070,pat2148,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2071,pat2149,Carbapenem allergy,Cannot inject or take carbapenems
+2072,pat2150,have loose bowels,feel not good
+2073,pat2151,nosebleed,the weather is too dry
+2074,pat2152,alcohol allergy,don't drink alcohol anymore
+2075,pat2153,Heart disease,I have had heart disease for 10 years
+2076,pat2154,COVID-19,I am fully vaccinated
+2077,pat2155,Anesthetic allergy,Cannot inject anesthetics
+2078,pat2156,fracture,Fractures from a fall about 1 year ago
+2079,pat2157,influenza,run at the nose
+2080,pat2158,fever,I had a fever a week ago
+2081,pat2159,Tetracycline allergy,Cannot inject or take tetracyclines
+2082,pat2160,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2083,pat2161,Carbapenem allergy,Cannot inject or take carbapenems
+2084,pat2162,have loose bowels,feel not good
+2085,pat2163,nosebleed,the weather is too dry
+2086,pat2164,alcohol allergy,don't drink alcohol anymore
+2087,pat2165,Heart disease,I have had heart disease for 10 years
+2088,pat2166,COVID-19,I am fully vaccinated
+2089,pat2167,Anesthetic allergy,Cannot inject anesthetics
+2090,pat2168,fracture,Fractures from a fall about 1 year ago
+2091,pat2169,influenza,run at the nose
+2092,pat2170,fever,I had a fever a week ago
+2093,pat2171,Tetracycline allergy,Cannot inject or take tetracyclines
+2094,pat2172,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2095,pat2173,Carbapenem allergy,Cannot inject or take carbapenems
+2096,pat2174,have loose bowels,feel not good
+2097,pat2175,nosebleed,the weather is too dry
+2098,pat2176,alcohol allergy,don't drink alcohol anymore
+2099,pat2177,Heart disease,I have had heart disease for 10 years
+2100,pat2178,COVID-19,I am fully vaccinated
+2101,pat2179,Anesthetic allergy,Cannot inject anesthetics
+2102,pat2180,fracture,Fractures from a fall about 1 year ago
+2103,pat2181,influenza,run at the nose
+2104,pat2182,fever,I had a fever a week ago
+2105,pat2183,Tetracycline allergy,Cannot inject or take tetracyclines
+2106,pat2184,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2107,pat2185,Carbapenem allergy,Cannot inject or take carbapenems
+2108,pat2186,have loose bowels,feel not good
+2109,pat2187,nosebleed,the weather is too dry
+2110,pat2188,alcohol allergy,don't drink alcohol anymore
+2111,pat2189,Heart disease,I have had heart disease for 10 years
+2112,pat2190,COVID-19,I am fully vaccinated
+2113,pat2191,Anesthetic allergy,Cannot inject anesthetics
+2114,pat2192,fracture,Fractures from a fall about 1 year ago
+2115,pat2193,influenza,run at the nose
+2116,pat2194,fever,I had a fever a week ago
+2117,pat2195,Tetracycline allergy,Cannot inject or take tetracyclines
+2118,pat2196,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2119,pat2197,Carbapenem allergy,Cannot inject or take carbapenems
+2120,pat2198,have loose bowels,feel not good
+2121,pat2199,nosebleed,the weather is too dry
+2122,pat2200,alcohol allergy,don't drink alcohol anymore
+2123,pat2201,Heart disease,I have had heart disease for 10 years
+2124,pat2202,COVID-19,I am fully vaccinated
+2125,pat2203,Anesthetic allergy,Cannot inject anesthetics
+2126,pat2204,fracture,Fractures from a fall about 1 year ago
+2127,pat2205,influenza,run at the nose
+2128,pat2206,fever,I had a fever a week ago
+2129,pat2207,Tetracycline allergy,Cannot inject or take tetracyclines
+2130,pat2208,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2131,pat2209,Carbapenem allergy,Cannot inject or take carbapenems
+2132,pat2210,have loose bowels,feel not good
+2133,pat2211,nosebleed,the weather is too dry
+2134,pat2212,alcohol allergy,don't drink alcohol anymore
+2135,pat2213,Heart disease,I have had heart disease for 10 years
+2136,pat2214,COVID-19,I am fully vaccinated
+2137,pat2215,Anesthetic allergy,Cannot inject anesthetics
+2138,pat2216,fracture,Fractures from a fall about 1 year ago
+2139,pat2217,influenza,run at the nose
+2140,pat2218,fever,I had a fever a week ago
+2141,pat2219,Tetracycline allergy,Cannot inject or take tetracyclines
+2142,pat2220,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2143,pat2221,Carbapenem allergy,Cannot inject or take carbapenems
+2144,pat2222,have loose bowels,feel not good
+2145,pat2223,nosebleed,the weather is too dry
+2146,pat2224,alcohol allergy,don't drink alcohol anymore
+2147,pat2225,Heart disease,I have had heart disease for 10 years
+2148,pat2226,COVID-19,I am fully vaccinated
+2149,pat2227,Anesthetic allergy,Cannot inject anesthetics
+2150,pat2228,fracture,Fractures from a fall about 1 year ago
+2151,pat2229,influenza,run at the nose
+2152,pat2230,fever,I had a fever a week ago
+2153,pat2231,Tetracycline allergy,Cannot inject or take tetracyclines
+2154,pat2232,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2155,pat2233,Carbapenem allergy,Cannot inject or take carbapenems
+2156,pat2234,have loose bowels,feel not good
+2157,pat2235,nosebleed,the weather is too dry
+2158,pat2236,alcohol allergy,don't drink alcohol anymore
+2159,pat2237,Heart disease,I have had heart disease for 10 years
+2160,pat2238,COVID-19,I am fully vaccinated
+2161,pat2239,Anesthetic allergy,Cannot inject anesthetics
+2162,pat2240,fracture,Fractures from a fall about 1 year ago
+2163,pat2241,influenza,run at the nose
+2164,pat2242,fever,I had a fever a week ago
+2165,pat2243,Tetracycline allergy,Cannot inject or take tetracyclines
+2166,pat2244,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2167,pat2245,Carbapenem allergy,Cannot inject or take carbapenems
+2168,pat2246,have loose bowels,feel not good
+2169,pat2247,nosebleed,the weather is too dry
+2170,pat2248,alcohol allergy,don't drink alcohol anymore
+2171,pat2249,Heart disease,I have had heart disease for 10 years
+2172,pat2250,COVID-19,I am fully vaccinated
+2173,pat2251,Anesthetic allergy,Cannot inject anesthetics
+2174,pat2252,fracture,Fractures from a fall about 1 year ago
+2175,pat2253,influenza,run at the nose
+2176,pat2254,fever,I had a fever a week ago
+2177,pat2255,Tetracycline allergy,Cannot inject or take tetracyclines
+2178,pat2256,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2179,pat2257,Carbapenem allergy,Cannot inject or take carbapenems
+2180,pat2258,have loose bowels,feel not good
+2181,pat2259,nosebleed,the weather is too dry
+2182,pat2260,alcohol allergy,don't drink alcohol anymore
+2183,pat2261,Heart disease,I have had heart disease for 10 years
+2184,pat2262,COVID-19,I am fully vaccinated
+2185,pat2263,Anesthetic allergy,Cannot inject anesthetics
+2186,pat2264,fracture,Fractures from a fall about 1 year ago
+2187,pat2265,influenza,run at the nose
+2188,pat2266,fever,I had a fever a week ago
+2189,pat2267,Tetracycline allergy,Cannot inject or take tetracyclines
+2190,pat2268,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2191,pat2269,Carbapenem allergy,Cannot inject or take carbapenems
+2192,pat2270,have loose bowels,feel not good
+2193,pat2271,nosebleed,the weather is too dry
+2194,pat2272,alcohol allergy,don't drink alcohol anymore
+2195,pat2273,Heart disease,I have had heart disease for 10 years
+2196,pat2274,COVID-19,I am fully vaccinated
+2197,pat2275,Anesthetic allergy,Cannot inject anesthetics
+2198,pat2276,fracture,Fractures from a fall about 1 year ago
+2199,pat2277,influenza,run at the nose
+2200,pat2278,fever,I had a fever a week ago
+2201,pat2279,Tetracycline allergy,Cannot inject or take tetracyclines
+2202,pat2280,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2203,pat2281,Carbapenem allergy,Cannot inject or take carbapenems
+2204,pat2282,have loose bowels,feel not good
+2205,pat2283,nosebleed,the weather is too dry
+2206,pat2284,alcohol allergy,don't drink alcohol anymore
+2207,pat2285,Heart disease,I have had heart disease for 10 years
+2208,pat2286,COVID-19,I am fully vaccinated
+2209,pat2287,Anesthetic allergy,Cannot inject anesthetics
+2210,pat2288,fracture,Fractures from a fall about 1 year ago
+2211,pat2289,influenza,run at the nose
+2212,pat2290,fever,I had a fever a week ago
+2213,pat2291,Tetracycline allergy,Cannot inject or take tetracyclines
+2214,pat2292,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2215,pat2293,Carbapenem allergy,Cannot inject or take carbapenems
+2216,pat2294,have loose bowels,feel not good
+2217,pat2295,nosebleed,the weather is too dry
+2218,pat2296,alcohol allergy,don't drink alcohol anymore
+2219,pat2297,Heart disease,I have had heart disease for 10 years
+2220,pat2298,COVID-19,I am fully vaccinated
+2221,pat2299,Anesthetic allergy,Cannot inject anesthetics
+2222,pat2300,fracture,Fractures from a fall about 1 year ago
+2223,pat2301,influenza,run at the nose
+2224,pat2302,fever,I had a fever a week ago
+2225,pat2303,Tetracycline allergy,Cannot inject or take tetracyclines
+2226,pat2304,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2227,pat2305,Carbapenem allergy,Cannot inject or take carbapenems
+2228,pat2306,have loose bowels,feel not good
+2229,pat2307,nosebleed,the weather is too dry
+2230,pat2308,alcohol allergy,don't drink alcohol anymore
+2231,pat2309,Heart disease,I have had heart disease for 10 years
+2232,pat2310,COVID-19,I am fully vaccinated
+2233,pat2311,Anesthetic allergy,Cannot inject anesthetics
+2234,pat2312,fracture,Fractures from a fall about 1 year ago
+2235,pat2313,influenza,run at the nose
+2236,pat2314,fever,I had a fever a week ago
+2237,pat2315,Tetracycline allergy,Cannot inject or take tetracyclines
+2238,pat2316,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2239,pat2317,Carbapenem allergy,Cannot inject or take carbapenems
+2240,pat2318,have loose bowels,feel not good
+2241,pat2319,nosebleed,the weather is too dry
+2242,pat2320,alcohol allergy,don't drink alcohol anymore
+2243,pat2321,Heart disease,I have had heart disease for 10 years
+2244,pat2322,COVID-19,I am fully vaccinated
+2245,pat2323,Anesthetic allergy,Cannot inject anesthetics
+2246,pat2324,fracture,Fractures from a fall about 1 year ago
+2247,pat2325,influenza,run at the nose
+2248,pat2326,fever,I had a fever a week ago
+2249,pat2327,Tetracycline allergy,Cannot inject or take tetracyclines
+2250,pat2328,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2251,pat2329,Carbapenem allergy,Cannot inject or take carbapenems
+2252,pat2330,have loose bowels,feel not good
+2253,pat2331,nosebleed,the weather is too dry
+2254,pat2332,alcohol allergy,don't drink alcohol anymore
+2255,pat2333,Heart disease,I have had heart disease for 10 years
+2256,pat2334,COVID-19,I am fully vaccinated
+2257,pat2335,Anesthetic allergy,Cannot inject anesthetics
+2258,pat2336,fracture,Fractures from a fall about 1 year ago
+2259,pat2337,influenza,run at the nose
+2260,pat2338,fever,I had a fever a week ago
+2261,pat2339,Tetracycline allergy,Cannot inject or take tetracyclines
+2262,pat2340,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2263,pat2341,Carbapenem allergy,Cannot inject or take carbapenems
+2264,pat2342,have loose bowels,feel not good
+2265,pat2343,nosebleed,the weather is too dry
+2266,pat2344,alcohol allergy,don't drink alcohol anymore
+2267,pat2345,Heart disease,I have had heart disease for 10 years
+2268,pat2346,COVID-19,I am fully vaccinated
+2269,pat2347,Anesthetic allergy,Cannot inject anesthetics
+2270,pat2348,fracture,Fractures from a fall about 1 year ago
+2271,pat2349,influenza,run at the nose
+2272,pat2350,fever,I had a fever a week ago
+2273,pat2351,Tetracycline allergy,Cannot inject or take tetracyclines
+2274,pat2352,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2275,pat2353,Carbapenem allergy,Cannot inject or take carbapenems
+2276,pat2354,have loose bowels,feel not good
+2277,pat2355,nosebleed,the weather is too dry
+2278,pat2356,alcohol allergy,don't drink alcohol anymore
+2279,pat2357,Heart disease,I have had heart disease for 10 years
+2280,pat2358,COVID-19,I am fully vaccinated
+2281,pat2359,Anesthetic allergy,Cannot inject anesthetics
+2282,pat2360,fracture,Fractures from a fall about 1 year ago
+2283,pat2361,influenza,run at the nose
+2284,pat2362,fever,I had a fever a week ago
+2285,pat2363,Tetracycline allergy,Cannot inject or take tetracyclines
+2286,pat2364,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2287,pat2365,Carbapenem allergy,Cannot inject or take carbapenems
+2288,pat2366,have loose bowels,feel not good
+2289,pat2367,nosebleed,the weather is too dry
+2290,pat2368,alcohol allergy,don't drink alcohol anymore
+2291,pat2369,Heart disease,I have had heart disease for 10 years
+2292,pat2370,COVID-19,I am fully vaccinated
+2293,pat2371,Anesthetic allergy,Cannot inject anesthetics
+2294,pat2372,fracture,Fractures from a fall about 1 year ago
+2295,pat2373,influenza,run at the nose
+2296,pat2374,fever,I had a fever a week ago
+2297,pat2375,Tetracycline allergy,Cannot inject or take tetracyclines
+2298,pat2376,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2299,pat2377,Carbapenem allergy,Cannot inject or take carbapenems
+2300,pat2378,have loose bowels,feel not good
+2301,pat2379,nosebleed,the weather is too dry
+2302,pat2380,alcohol allergy,don't drink alcohol anymore
+2303,pat2381,Heart disease,I have had heart disease for 10 years
+2304,pat2382,COVID-19,I am fully vaccinated
+2305,pat2383,Anesthetic allergy,Cannot inject anesthetics
+2306,pat2384,fracture,Fractures from a fall about 1 year ago
+2307,pat2385,influenza,run at the nose
+2308,pat2386,fever,I had a fever a week ago
+2309,pat2387,Tetracycline allergy,Cannot inject or take tetracyclines
+2310,pat2388,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2311,pat2389,Carbapenem allergy,Cannot inject or take carbapenems
+2312,pat2390,have loose bowels,feel not good
+2313,pat2391,nosebleed,the weather is too dry
+2314,pat2392,alcohol allergy,don't drink alcohol anymore
+2315,pat2393,Heart disease,I have had heart disease for 10 years
+2316,pat2394,COVID-19,I am fully vaccinated
+2317,pat2395,Anesthetic allergy,Cannot inject anesthetics
+2318,pat2396,fracture,Fractures from a fall about 1 year ago
+2319,pat2397,influenza,run at the nose
+2320,pat2398,fever,I had a fever a week ago
+2321,pat2399,Tetracycline allergy,Cannot inject or take tetracyclines
+2322,pat2400,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2323,pat2401,Carbapenem allergy,Cannot inject or take carbapenems
+2324,pat2402,have loose bowels,feel not good
+2325,pat2403,nosebleed,the weather is too dry
+2326,pat2404,alcohol allergy,don't drink alcohol anymore
+2327,pat2405,Heart disease,I have had heart disease for 10 years
+2328,pat2406,COVID-19,I am fully vaccinated
+2329,pat2407,Anesthetic allergy,Cannot inject anesthetics
+2330,pat2408,fracture,Fractures from a fall about 1 year ago
+2331,pat2409,influenza,run at the nose
+2332,pat2410,fever,I had a fever a week ago
+2333,pat2411,Tetracycline allergy,Cannot inject or take tetracyclines
+2334,pat2412,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2335,pat2413,Carbapenem allergy,Cannot inject or take carbapenems
+2336,pat2414,have loose bowels,feel not good
+2337,pat2415,nosebleed,the weather is too dry
+2338,pat2416,alcohol allergy,don't drink alcohol anymore
+2339,pat2417,Heart disease,I have had heart disease for 10 years
+2340,pat2418,COVID-19,I am fully vaccinated
+2341,pat2419,Anesthetic allergy,Cannot inject anesthetics
+2342,pat2420,fracture,Fractures from a fall about 1 year ago
+2343,pat2421,influenza,run at the nose
+2344,pat2422,fever,I had a fever a week ago
+2345,pat2423,Tetracycline allergy,Cannot inject or take tetracyclines
+2346,pat2424,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2347,pat2425,Carbapenem allergy,Cannot inject or take carbapenems
+2348,pat2426,have loose bowels,feel not good
+2349,pat2427,nosebleed,the weather is too dry
+2350,pat2428,alcohol allergy,don't drink alcohol anymore
+2351,pat2429,Heart disease,I have had heart disease for 10 years
+2352,pat2430,COVID-19,I am fully vaccinated
+2353,pat2431,Anesthetic allergy,Cannot inject anesthetics
+2354,pat2432,fracture,Fractures from a fall about 1 year ago
+2355,pat2433,influenza,run at the nose
+2356,pat2434,fever,I had a fever a week ago
+2357,pat2435,Tetracycline allergy,Cannot inject or take tetracyclines
+2358,pat2436,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2359,pat2437,Carbapenem allergy,Cannot inject or take carbapenems
+2360,pat2438,have loose bowels,feel not good
+2361,pat2439,nosebleed,the weather is too dry
+2362,pat2440,alcohol allergy,don't drink alcohol anymore
+2363,pat2441,Heart disease,I have had heart disease for 10 years
+2364,pat2442,COVID-19,I am fully vaccinated
+2365,pat2443,Anesthetic allergy,Cannot inject anesthetics
+2366,pat2444,fracture,Fractures from a fall about 1 year ago
+2367,pat2445,influenza,run at the nose
+2368,pat2446,fever,I had a fever a week ago
+2369,pat2447,Tetracycline allergy,Cannot inject or take tetracyclines
+2370,pat2448,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2371,pat2449,Carbapenem allergy,Cannot inject or take carbapenems
+2372,pat2450,have loose bowels,feel not good
+2373,pat2451,nosebleed,the weather is too dry
+2374,pat2452,alcohol allergy,don't drink alcohol anymore
+2375,pat2453,Heart disease,I have had heart disease for 10 years
+2376,pat2454,COVID-19,I am fully vaccinated
+2377,pat2455,Anesthetic allergy,Cannot inject anesthetics
+2378,pat2456,fracture,Fractures from a fall about 1 year ago
+2379,pat2457,influenza,run at the nose
+2380,pat2458,fever,I had a fever a week ago
+2381,pat2459,Tetracycline allergy,Cannot inject or take tetracyclines
+2382,pat2460,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2383,pat2461,Carbapenem allergy,Cannot inject or take carbapenems
+2384,pat2462,have loose bowels,feel not good
+2385,pat2463,nosebleed,the weather is too dry
+2386,pat2464,alcohol allergy,don't drink alcohol anymore
+2387,pat2465,Heart disease,I have had heart disease for 10 years
+2388,pat2466,COVID-19,I am fully vaccinated
+2389,pat2467,Anesthetic allergy,Cannot inject anesthetics
+2390,pat2468,fracture,Fractures from a fall about 1 year ago
+2391,pat2469,influenza,run at the nose
+2392,pat2470,fever,I had a fever a week ago
+2393,pat2471,Tetracycline allergy,Cannot inject or take tetracyclines
+2394,pat2472,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2395,pat2473,Carbapenem allergy,Cannot inject or take carbapenems
+2396,pat2474,have loose bowels,feel not good
+2397,pat2475,nosebleed,the weather is too dry
+2398,pat2476,alcohol allergy,don't drink alcohol anymore
+2399,pat2477,Heart disease,I have had heart disease for 10 years
+2400,pat2478,COVID-19,I am fully vaccinated
+2401,pat2479,Anesthetic allergy,Cannot inject anesthetics
+2402,pat2480,fracture,Fractures from a fall about 1 year ago
+2403,pat2481,influenza,run at the nose
+2404,pat2482,fever,I had a fever a week ago
+2405,pat2483,Tetracycline allergy,Cannot inject or take tetracyclines
+2406,pat2484,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2407,pat2485,Carbapenem allergy,Cannot inject or take carbapenems
+2408,pat2486,have loose bowels,feel not good
+2409,pat2487,nosebleed,the weather is too dry
+2410,pat2488,alcohol allergy,don't drink alcohol anymore
+2411,pat2489,Heart disease,I have had heart disease for 10 years
+2412,pat2490,COVID-19,I am fully vaccinated
+2413,pat2491,Anesthetic allergy,Cannot inject anesthetics
+2414,pat2492,fracture,Fractures from a fall about 1 year ago
+2415,pat2493,influenza,run at the nose
+2416,pat2494,fever,I had a fever a week ago
+2417,pat2495,Tetracycline allergy,Cannot inject or take tetracyclines
+2418,pat2496,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2419,pat2497,Carbapenem allergy,Cannot inject or take carbapenems
+2420,pat2498,have loose bowels,feel not good
+2421,pat2499,nosebleed,the weather is too dry
+2422,pat2500,alcohol allergy,don't drink alcohol anymore
+2423,pat2501,Heart disease,I have had heart disease for 10 years
+2424,pat2502,COVID-19,I am fully vaccinated
+2425,pat2503,Anesthetic allergy,Cannot inject anesthetics
+2426,pat2504,fracture,Fractures from a fall about 1 year ago
+2427,pat2505,influenza,run at the nose
+2428,pat2506,fever,I had a fever a week ago
+2429,pat2507,Tetracycline allergy,Cannot inject or take tetracyclines
+2430,pat2508,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2431,pat2509,Carbapenem allergy,Cannot inject or take carbapenems
+2432,pat2510,have loose bowels,feel not good
+2433,pat2511,nosebleed,the weather is too dry
+2434,pat2512,alcohol allergy,don't drink alcohol anymore
+2435,pat2513,Heart disease,I have had heart disease for 10 years
+2436,pat2514,COVID-19,I am fully vaccinated
+2437,pat2515,Anesthetic allergy,Cannot inject anesthetics
+2438,pat2516,fracture,Fractures from a fall about 1 year ago
+2439,pat2517,influenza,run at the nose
+2440,pat2518,fever,I had a fever a week ago
+2441,pat2519,Tetracycline allergy,Cannot inject or take tetracyclines
+2442,pat2520,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2443,pat2521,Carbapenem allergy,Cannot inject or take carbapenems
+2444,pat2522,have loose bowels,feel not good
+2445,pat2523,nosebleed,the weather is too dry
+2446,pat2524,alcohol allergy,don't drink alcohol anymore
+2447,pat2525,Heart disease,I have had heart disease for 10 years
+2448,pat2526,COVID-19,I am fully vaccinated
+2449,pat2527,Anesthetic allergy,Cannot inject anesthetics
+2450,pat2528,fracture,Fractures from a fall about 1 year ago
+2451,pat2529,influenza,run at the nose
+2452,pat2530,fever,I had a fever a week ago
+2453,pat2531,Tetracycline allergy,Cannot inject or take tetracyclines
+2454,pat2532,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2455,pat2533,Carbapenem allergy,Cannot inject or take carbapenems
+2456,pat2534,have loose bowels,feel not good
+2457,pat2535,nosebleed,the weather is too dry
+2458,pat2536,alcohol allergy,don't drink alcohol anymore
+2459,pat2537,Heart disease,I have had heart disease for 10 years
+2460,pat2538,COVID-19,I am fully vaccinated
+2461,pat2539,Anesthetic allergy,Cannot inject anesthetics
+2462,pat2540,fracture,Fractures from a fall about 1 year ago
+2463,pat2541,influenza,run at the nose
+2464,pat2542,fever,I had a fever a week ago
+2465,pat2543,Tetracycline allergy,Cannot inject or take tetracyclines
+2466,pat2544,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2467,pat2545,Carbapenem allergy,Cannot inject or take carbapenems
+2468,pat2546,have loose bowels,feel not good
+2469,pat2547,nosebleed,the weather is too dry
+2470,pat2548,alcohol allergy,don't drink alcohol anymore
+2471,pat2549,Heart disease,I have had heart disease for 10 years
+2472,pat2550,COVID-19,I am fully vaccinated
+2473,pat2551,Anesthetic allergy,Cannot inject anesthetics
+2474,pat2552,fracture,Fractures from a fall about 1 year ago
+2475,pat2553,influenza,run at the nose
+2476,pat2554,fever,I had a fever a week ago
+2477,pat2555,Tetracycline allergy,Cannot inject or take tetracyclines
+2478,pat2556,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2479,pat2557,Carbapenem allergy,Cannot inject or take carbapenems
+2480,pat2558,have loose bowels,feel not good
+2481,pat2559,nosebleed,the weather is too dry
+2482,pat2560,alcohol allergy,don't drink alcohol anymore
+2483,pat2561,Heart disease,I have had heart disease for 10 years
+2484,pat2562,COVID-19,I am fully vaccinated
+2485,pat2563,Anesthetic allergy,Cannot inject anesthetics
+2486,pat2564,fracture,Fractures from a fall about 1 year ago
+2487,pat2565,influenza,run at the nose
+2488,pat2566,fever,I had a fever a week ago
+2489,pat2567,Tetracycline allergy,Cannot inject or take tetracyclines
+2490,pat2568,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2491,pat2569,Carbapenem allergy,Cannot inject or take carbapenems
+2492,pat2570,have loose bowels,feel not good
+2493,pat2571,nosebleed,the weather is too dry
+2494,pat2572,alcohol allergy,don't drink alcohol anymore
+2495,pat2573,Heart disease,I have had heart disease for 10 years
+2496,pat2574,COVID-19,I am fully vaccinated
+2497,pat2575,Anesthetic allergy,Cannot inject anesthetics
+2498,pat2576,fracture,Fractures from a fall about 1 year ago
+2499,pat2577,influenza,run at the nose
+2500,pat2578,fever,I had a fever a week ago
+2501,pat2579,Tetracycline allergy,Cannot inject or take tetracyclines
+2502,pat2580,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2503,pat2581,Carbapenem allergy,Cannot inject or take carbapenems
+2504,pat2582,have loose bowels,feel not good
+2505,pat2583,nosebleed,the weather is too dry
+2506,pat2584,alcohol allergy,don't drink alcohol anymore
+2507,pat2585,Heart disease,I have had heart disease for 10 years
+2508,pat2586,COVID-19,I am fully vaccinated
+2509,pat2587,Anesthetic allergy,Cannot inject anesthetics
+2510,pat2588,fracture,Fractures from a fall about 1 year ago
+2511,pat2589,influenza,run at the nose
+2512,pat2590,fever,I had a fever a week ago
+2513,pat2591,Tetracycline allergy,Cannot inject or take tetracyclines
+2514,pat2592,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2515,pat2593,Carbapenem allergy,Cannot inject or take carbapenems
+2516,pat2594,have loose bowels,feel not good
+2517,pat2595,nosebleed,the weather is too dry
+2518,pat2596,alcohol allergy,don't drink alcohol anymore
+2519,pat2597,Heart disease,I have had heart disease for 10 years
+2520,pat2598,COVID-19,I am fully vaccinated
+2521,pat2599,Anesthetic allergy,Cannot inject anesthetics
+2522,pat2600,fracture,Fractures from a fall about 1 year ago
+2523,pat2601,influenza,run at the nose
+2524,pat2602,fever,I had a fever a week ago
+2525,pat2603,Tetracycline allergy,Cannot inject or take tetracyclines
+2526,pat2604,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2527,pat2605,Carbapenem allergy,Cannot inject or take carbapenems
+2528,pat2606,have loose bowels,feel not good
+2529,pat2607,nosebleed,the weather is too dry
+2530,pat2608,alcohol allergy,don't drink alcohol anymore
+2531,pat2609,Heart disease,I have had heart disease for 10 years
+2532,pat2610,COVID-19,I am fully vaccinated
+2533,pat2611,Anesthetic allergy,Cannot inject anesthetics
+2534,pat2612,fracture,Fractures from a fall about 1 year ago
+2535,pat2613,influenza,run at the nose
+2536,pat2614,fever,I had a fever a week ago
+2537,pat2615,Tetracycline allergy,Cannot inject or take tetracyclines
+2538,pat2616,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2539,pat2617,Carbapenem allergy,Cannot inject or take carbapenems
+2540,pat2618,have loose bowels,feel not good
+2541,pat2619,nosebleed,the weather is too dry
+2542,pat2620,alcohol allergy,don't drink alcohol anymore
+2543,pat2621,Heart disease,I have had heart disease for 10 years
+2544,pat2622,COVID-19,I am fully vaccinated
+2545,pat2623,Anesthetic allergy,Cannot inject anesthetics
+2546,pat2624,fracture,Fractures from a fall about 1 year ago
+2547,pat2625,influenza,run at the nose
+2548,pat2626,fever,I had a fever a week ago
+2549,pat2627,Tetracycline allergy,Cannot inject or take tetracyclines
+2550,pat2628,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2551,pat2629,Carbapenem allergy,Cannot inject or take carbapenems
+2552,pat2630,have loose bowels,feel not good
+2553,pat2631,nosebleed,the weather is too dry
+2554,pat2632,alcohol allergy,don't drink alcohol anymore
+2555,pat2633,Heart disease,I have had heart disease for 10 years
+2556,pat2634,COVID-19,I am fully vaccinated
+2557,pat2635,Anesthetic allergy,Cannot inject anesthetics
+2558,pat2636,fracture,Fractures from a fall about 1 year ago
+2559,pat2637,influenza,run at the nose
+2560,pat2638,fever,I had a fever a week ago
+2561,pat2639,Tetracycline allergy,Cannot inject or take tetracyclines
+2562,pat2640,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2563,pat2641,Carbapenem allergy,Cannot inject or take carbapenems
+2564,pat2642,have loose bowels,feel not good
+2565,pat2643,nosebleed,the weather is too dry
+2566,pat2644,alcohol allergy,don't drink alcohol anymore
+2567,pat2645,Heart disease,I have had heart disease for 10 years
+2568,pat2646,COVID-19,I am fully vaccinated
+2569,pat2647,Anesthetic allergy,Cannot inject anesthetics
+2570,pat2648,fracture,Fractures from a fall about 1 year ago
+2571,pat2649,influenza,run at the nose
+2572,pat2650,fever,I had a fever a week ago
+2573,pat2651,Tetracycline allergy,Cannot inject or take tetracyclines
+2574,pat2652,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2575,pat2653,Carbapenem allergy,Cannot inject or take carbapenems
+2576,pat2654,have loose bowels,feel not good
+2577,pat2655,nosebleed,the weather is too dry
+2578,pat2656,alcohol allergy,don't drink alcohol anymore
+2579,pat2657,Heart disease,I have had heart disease for 10 years
+2580,pat2658,COVID-19,I am fully vaccinated
+2581,pat2659,Anesthetic allergy,Cannot inject anesthetics
+2582,pat2660,fracture,Fractures from a fall about 1 year ago
+2583,pat2661,influenza,run at the nose
+2584,pat2662,fever,I had a fever a week ago
+2585,pat2663,Tetracycline allergy,Cannot inject or take tetracyclines
+2586,pat2664,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2587,pat2665,Carbapenem allergy,Cannot inject or take carbapenems
+2588,pat2666,have loose bowels,feel not good
+2589,pat2667,nosebleed,the weather is too dry
+2590,pat2668,alcohol allergy,don't drink alcohol anymore
+2591,pat2669,Heart disease,I have had heart disease for 10 years
+2592,pat2670,COVID-19,I am fully vaccinated
+2593,pat2671,Anesthetic allergy,Cannot inject anesthetics
+2594,pat2672,fracture,Fractures from a fall about 1 year ago
+2595,pat2673,influenza,run at the nose
+2596,pat2674,fever,I had a fever a week ago
+2597,pat2675,Tetracycline allergy,Cannot inject or take tetracyclines
+2598,pat2676,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2599,pat2677,Carbapenem allergy,Cannot inject or take carbapenems
+2600,pat2678,have loose bowels,feel not good
+2601,pat2679,nosebleed,the weather is too dry
+2602,pat2680,alcohol allergy,don't drink alcohol anymore
+2603,pat2681,Heart disease,I have had heart disease for 10 years
+2604,pat2682,COVID-19,I am fully vaccinated
+2605,pat2683,Anesthetic allergy,Cannot inject anesthetics
+2606,pat2684,fracture,Fractures from a fall about 1 year ago
+2607,pat2685,influenza,run at the nose
+2608,pat2686,fever,I had a fever a week ago
+2609,pat2687,Tetracycline allergy,Cannot inject or take tetracyclines
+2610,pat2688,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2611,pat2689,Carbapenem allergy,Cannot inject or take carbapenems
+2612,pat2690,have loose bowels,feel not good
+2613,pat2691,nosebleed,the weather is too dry
+2614,pat2692,alcohol allergy,don't drink alcohol anymore
+2615,pat2693,Heart disease,I have had heart disease for 10 years
+2616,pat2694,COVID-19,I am fully vaccinated
+2617,pat2695,Anesthetic allergy,Cannot inject anesthetics
+2618,pat2696,fracture,Fractures from a fall about 1 year ago
+2619,pat2697,influenza,run at the nose
+2620,pat2698,fever,I had a fever a week ago
+2621,pat2699,Tetracycline allergy,Cannot inject or take tetracyclines
+2622,pat2700,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2623,pat2701,Carbapenem allergy,Cannot inject or take carbapenems
+2624,pat2702,have loose bowels,feel not good
+2625,pat2703,nosebleed,the weather is too dry
+2626,pat2704,alcohol allergy,don't drink alcohol anymore
+2627,pat2705,Heart disease,I have had heart disease for 10 years
+2628,pat2706,COVID-19,I am fully vaccinated
+2629,pat2707,Anesthetic allergy,Cannot inject anesthetics
+2630,pat2708,fracture,Fractures from a fall about 1 year ago
+2631,pat2709,influenza,run at the nose
+2632,pat2710,fever,I had a fever a week ago
+2633,pat2711,Tetracycline allergy,Cannot inject or take tetracyclines
+2634,pat2712,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2635,pat2713,Carbapenem allergy,Cannot inject or take carbapenems
+2636,pat2714,have loose bowels,feel not good
+2637,pat2715,nosebleed,the weather is too dry
+2638,pat2716,alcohol allergy,don't drink alcohol anymore
+2639,pat2717,Heart disease,I have had heart disease for 10 years
+2640,pat2718,COVID-19,I am fully vaccinated
+2641,pat2719,Anesthetic allergy,Cannot inject anesthetics
+2642,pat2720,fracture,Fractures from a fall about 1 year ago
+2643,pat2721,influenza,run at the nose
+2644,pat2722,fever,I had a fever a week ago
+2645,pat2723,Tetracycline allergy,Cannot inject or take tetracyclines
+2646,pat2724,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2647,pat2725,Carbapenem allergy,Cannot inject or take carbapenems
+2648,pat2726,have loose bowels,feel not good
+2649,pat2727,nosebleed,the weather is too dry
+2650,pat2728,alcohol allergy,don't drink alcohol anymore
+2651,pat2729,Heart disease,I have had heart disease for 10 years
+2652,pat2730,COVID-19,I am fully vaccinated
+2653,pat2731,Anesthetic allergy,Cannot inject anesthetics
+2654,pat2732,fracture,Fractures from a fall about 1 year ago
+2655,pat2733,influenza,run at the nose
+2656,pat2734,fever,I had a fever a week ago
+2657,pat2735,Tetracycline allergy,Cannot inject or take tetracyclines
+2658,pat2736,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2659,pat2737,Carbapenem allergy,Cannot inject or take carbapenems
+2660,pat2738,have loose bowels,feel not good
+2661,pat2739,nosebleed,the weather is too dry
+2662,pat2740,alcohol allergy,don't drink alcohol anymore
+2663,pat2741,Heart disease,I have had heart disease for 10 years
+2664,pat2742,COVID-19,I am fully vaccinated
+2665,pat2743,Anesthetic allergy,Cannot inject anesthetics
+2666,pat2744,fracture,Fractures from a fall about 1 year ago
+2667,pat2745,influenza,run at the nose
+2668,pat2746,fever,I had a fever a week ago
+2669,pat2747,Tetracycline allergy,Cannot inject or take tetracyclines
+2670,pat2748,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2671,pat2749,Carbapenem allergy,Cannot inject or take carbapenems
+2672,pat2750,have loose bowels,feel not good
+2673,pat2751,nosebleed,the weather is too dry
+2674,pat2752,alcohol allergy,don't drink alcohol anymore
+2675,pat2753,Heart disease,I have had heart disease for 10 years
+2676,pat2754,COVID-19,I am fully vaccinated
+2677,pat2755,Anesthetic allergy,Cannot inject anesthetics
+2678,pat2756,fracture,Fractures from a fall about 1 year ago
+2679,pat2757,influenza,run at the nose
+2680,pat2758,fever,I had a fever a week ago
+2681,pat2759,Tetracycline allergy,Cannot inject or take tetracyclines
+2682,pat2760,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2683,pat2761,Carbapenem allergy,Cannot inject or take carbapenems
+2684,pat2762,have loose bowels,feel not good
+2685,pat2763,nosebleed,the weather is too dry
+2686,pat2764,alcohol allergy,don't drink alcohol anymore
+2687,pat2765,Heart disease,I have had heart disease for 10 years
+2688,pat2766,COVID-19,I am fully vaccinated
+2689,pat2767,Anesthetic allergy,Cannot inject anesthetics
+2690,pat2768,fracture,Fractures from a fall about 1 year ago
+2691,pat2769,influenza,run at the nose
+2692,pat2770,fever,I had a fever a week ago
+2693,pat2771,Tetracycline allergy,Cannot inject or take tetracyclines
+2694,pat2772,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2695,pat2773,Carbapenem allergy,Cannot inject or take carbapenems
+2696,pat2774,have loose bowels,feel not good
+2697,pat2775,nosebleed,the weather is too dry
+2698,pat2776,alcohol allergy,don't drink alcohol anymore
+2699,pat2777,Heart disease,I have had heart disease for 10 years
+2700,pat2778,COVID-19,I am fully vaccinated
+2701,pat2779,Anesthetic allergy,Cannot inject anesthetics
+2702,pat2780,fracture,Fractures from a fall about 1 year ago
+2703,pat2781,influenza,run at the nose
+2704,pat2782,fever,I had a fever a week ago
+2705,pat2783,Tetracycline allergy,Cannot inject or take tetracyclines
+2706,pat2784,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2707,pat2785,Carbapenem allergy,Cannot inject or take carbapenems
+2708,pat2786,have loose bowels,feel not good
+2709,pat2787,nosebleed,the weather is too dry
+2710,pat2788,alcohol allergy,don't drink alcohol anymore
+2711,pat2789,Heart disease,I have had heart disease for 10 years
+2712,pat2790,COVID-19,I am fully vaccinated
+2713,pat2791,Anesthetic allergy,Cannot inject anesthetics
+2714,pat2792,fracture,Fractures from a fall about 1 year ago
+2715,pat2793,influenza,run at the nose
+2716,pat2794,fever,I had a fever a week ago
+2717,pat2795,Tetracycline allergy,Cannot inject or take tetracyclines
+2718,pat2796,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2719,pat2797,Carbapenem allergy,Cannot inject or take carbapenems
+2720,pat2798,have loose bowels,feel not good
+2721,pat2799,nosebleed,the weather is too dry
+2722,pat2800,alcohol allergy,don't drink alcohol anymore
+2723,pat2801,Heart disease,I have had heart disease for 10 years
+2724,pat2802,COVID-19,I am fully vaccinated
+2725,pat2803,Anesthetic allergy,Cannot inject anesthetics
+2726,pat2804,fracture,Fractures from a fall about 1 year ago
+2727,pat2805,influenza,run at the nose
+2728,pat2806,fever,I had a fever a week ago
+2729,pat2807,Tetracycline allergy,Cannot inject or take tetracyclines
+2730,pat2808,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2731,pat2809,Carbapenem allergy,Cannot inject or take carbapenems
+2732,pat2810,have loose bowels,feel not good
+2733,pat2811,nosebleed,the weather is too dry
+2734,pat2812,alcohol allergy,don't drink alcohol anymore
+2735,pat2813,Heart disease,I have had heart disease for 10 years
+2736,pat2814,COVID-19,I am fully vaccinated
+2737,pat2815,Anesthetic allergy,Cannot inject anesthetics
+2738,pat2816,fracture,Fractures from a fall about 1 year ago
+2739,pat2817,influenza,run at the nose
+2740,pat2818,fever,I had a fever a week ago
+2741,pat2819,Tetracycline allergy,Cannot inject or take tetracyclines
+2742,pat2820,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2743,pat2821,Carbapenem allergy,Cannot inject or take carbapenems
+2744,pat2822,have loose bowels,feel not good
+2745,pat2823,nosebleed,the weather is too dry
+2746,pat2824,alcohol allergy,don't drink alcohol anymore
+2747,pat2825,Heart disease,I have had heart disease for 10 years
+2748,pat2826,COVID-19,I am fully vaccinated
+2749,pat2827,Anesthetic allergy,Cannot inject anesthetics
+2750,pat2828,fracture,Fractures from a fall about 1 year ago
+2751,pat2829,influenza,run at the nose
+2752,pat2830,fever,I had a fever a week ago
+2753,pat2831,Tetracycline allergy,Cannot inject or take tetracyclines
+2754,pat2832,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2755,pat2833,Carbapenem allergy,Cannot inject or take carbapenems
+2756,pat2834,have loose bowels,feel not good
+2757,pat2835,nosebleed,the weather is too dry
+2758,pat2836,alcohol allergy,don't drink alcohol anymore
+2759,pat2837,Heart disease,I have had heart disease for 10 years
+2760,pat2838,COVID-19,I am fully vaccinated
+2761,pat2839,Anesthetic allergy,Cannot inject anesthetics
+2762,pat2840,fracture,Fractures from a fall about 1 year ago
+2763,pat2841,influenza,run at the nose
+2764,pat2842,fever,I had a fever a week ago
+2765,pat2843,Tetracycline allergy,Cannot inject or take tetracyclines
+2766,pat2844,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2767,pat2845,Carbapenem allergy,Cannot inject or take carbapenems
+2768,pat2846,have loose bowels,feel not good
+2769,pat2847,nosebleed,the weather is too dry
+2770,pat2848,alcohol allergy,don't drink alcohol anymore
+2771,pat2849,Heart disease,I have had heart disease for 10 years
+2772,pat2850,COVID-19,I am fully vaccinated
+2773,pat2851,Anesthetic allergy,Cannot inject anesthetics
+2774,pat2852,fracture,Fractures from a fall about 1 year ago
+2775,pat2853,influenza,run at the nose
+2776,pat2854,fever,I had a fever a week ago
+2777,pat2855,Tetracycline allergy,Cannot inject or take tetracyclines
+2778,pat2856,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2779,pat2857,Carbapenem allergy,Cannot inject or take carbapenems
+2780,pat2858,have loose bowels,feel not good
+2781,pat2859,nosebleed,the weather is too dry
+2782,pat2860,alcohol allergy,don't drink alcohol anymore
+2783,pat2861,Heart disease,I have had heart disease for 10 years
+2784,pat2862,COVID-19,I am fully vaccinated
+2785,pat2863,Anesthetic allergy,Cannot inject anesthetics
+2786,pat2864,fracture,Fractures from a fall about 1 year ago
+2787,pat2865,influenza,run at the nose
+2788,pat2866,fever,I had a fever a week ago
+2789,pat2867,Tetracycline allergy,Cannot inject or take tetracyclines
+2790,pat2868,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2791,pat2869,Carbapenem allergy,Cannot inject or take carbapenems
+2792,pat2870,have loose bowels,feel not good
+2793,pat2871,nosebleed,the weather is too dry
+2794,pat2872,alcohol allergy,don't drink alcohol anymore
+2795,pat2873,Heart disease,I have had heart disease for 10 years
+2796,pat2874,COVID-19,I am fully vaccinated
+2797,pat2875,Anesthetic allergy,Cannot inject anesthetics
+2798,pat2876,fracture,Fractures from a fall about 1 year ago
+2799,pat2877,influenza,run at the nose
+2800,pat2878,fever,I had a fever a week ago
+2801,pat2879,Tetracycline allergy,Cannot inject or take tetracyclines
+2802,pat2880,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2803,pat2881,Carbapenem allergy,Cannot inject or take carbapenems
+2804,pat2882,have loose bowels,feel not good
+2805,pat2883,nosebleed,the weather is too dry
+2806,pat2884,alcohol allergy,don't drink alcohol anymore
+2807,pat2885,Heart disease,I have had heart disease for 10 years
+2808,pat2886,COVID-19,I am fully vaccinated
+2809,pat2887,Anesthetic allergy,Cannot inject anesthetics
+2810,pat2888,fracture,Fractures from a fall about 1 year ago
+2811,pat2889,influenza,run at the nose
+2812,pat2890,fever,I had a fever a week ago
+2813,pat2891,Tetracycline allergy,Cannot inject or take tetracyclines
+2814,pat2892,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2815,pat2893,Carbapenem allergy,Cannot inject or take carbapenems
+2816,pat2894,have loose bowels,feel not good
+2817,pat2895,nosebleed,the weather is too dry
+2818,pat2896,alcohol allergy,don't drink alcohol anymore
+2819,pat2897,Heart disease,I have had heart disease for 10 years
+2820,pat2898,COVID-19,I am fully vaccinated
+2821,pat2899,Anesthetic allergy,Cannot inject anesthetics
+2822,pat2900,fracture,Fractures from a fall about 1 year ago
+2823,pat2901,influenza,run at the nose
+2824,pat2902,fever,I had a fever a week ago
+2825,pat2903,Tetracycline allergy,Cannot inject or take tetracyclines
+2826,pat2904,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2827,pat2905,Carbapenem allergy,Cannot inject or take carbapenems
+2828,pat2906,have loose bowels,feel not good
+2829,pat2907,nosebleed,the weather is too dry
+2830,pat2908,alcohol allergy,don't drink alcohol anymore
+2831,pat2909,Heart disease,I have had heart disease for 10 years
+2832,pat2910,COVID-19,I am fully vaccinated
+2833,pat2911,Anesthetic allergy,Cannot inject anesthetics
+2834,pat2912,fracture,Fractures from a fall about 1 year ago
+2835,pat2913,influenza,run at the nose
+2836,pat2914,fever,I had a fever a week ago
+2837,pat2915,Tetracycline allergy,Cannot inject or take tetracyclines
+2838,pat2916,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2839,pat2917,Carbapenem allergy,Cannot inject or take carbapenems
+2840,pat2918,have loose bowels,feel not good
+2841,pat2919,nosebleed,the weather is too dry
+2842,pat2920,alcohol allergy,don't drink alcohol anymore
+2843,pat2921,Heart disease,I have had heart disease for 10 years
+2844,pat2922,COVID-19,I am fully vaccinated
+2845,pat2923,Anesthetic allergy,Cannot inject anesthetics
+2846,pat2924,fracture,Fractures from a fall about 1 year ago
+2847,pat2925,influenza,run at the nose
+2848,pat2926,fever,I had a fever a week ago
+2849,pat2927,Tetracycline allergy,Cannot inject or take tetracyclines
+2850,pat2928,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2851,pat2929,Carbapenem allergy,Cannot inject or take carbapenems
+2852,pat2930,have loose bowels,feel not good
+2853,pat2931,nosebleed,the weather is too dry
+2854,pat2932,alcohol allergy,don't drink alcohol anymore
+2855,pat2933,Heart disease,I have had heart disease for 10 years
+2856,pat2934,COVID-19,I am fully vaccinated
+2857,pat2935,Anesthetic allergy,Cannot inject anesthetics
+2858,pat2936,fracture,Fractures from a fall about 1 year ago
+2859,pat2937,influenza,run at the nose
+2860,pat2938,fever,I had a fever a week ago
+2861,pat2939,Tetracycline allergy,Cannot inject or take tetracyclines
+2862,pat2940,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2863,pat2941,Carbapenem allergy,Cannot inject or take carbapenems
+2864,pat2942,have loose bowels,feel not good
+2865,pat2943,nosebleed,the weather is too dry
+2866,pat2944,alcohol allergy,don't drink alcohol anymore
+2867,pat2945,Heart disease,I have had heart disease for 10 years
+2868,pat2946,COVID-19,I am fully vaccinated
+2869,pat2947,Anesthetic allergy,Cannot inject anesthetics
+2870,pat2948,fracture,Fractures from a fall about 1 year ago
+2871,pat2949,influenza,run at the nose
+2872,pat2950,fever,I had a fever a week ago
+2873,pat2951,Tetracycline allergy,Cannot inject or take tetracyclines
+2874,pat2952,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2875,pat2953,Carbapenem allergy,Cannot inject or take carbapenems
+2876,pat2954,have loose bowels,feel not good
+2877,pat2955,nosebleed,the weather is too dry
+2878,pat2956,alcohol allergy,don't drink alcohol anymore
+2879,pat2957,Heart disease,I have had heart disease for 10 years
+2880,pat2958,COVID-19,I am fully vaccinated
+2881,pat2959,Anesthetic allergy,Cannot inject anesthetics
+2882,pat2960,fracture,Fractures from a fall about 1 year ago
+2883,pat2961,influenza,run at the nose
+2884,pat2962,fever,I had a fever a week ago
+2885,pat2963,Tetracycline allergy,Cannot inject or take tetracyclines
+2886,pat2964,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2887,pat2965,Carbapenem allergy,Cannot inject or take carbapenems
+2888,pat2966,have loose bowels,feel not good
+2889,pat2967,nosebleed,the weather is too dry
+2890,pat2968,alcohol allergy,don't drink alcohol anymore
+2891,pat2969,Heart disease,I have had heart disease for 10 years
+2892,pat2970,COVID-19,I am fully vaccinated
+2893,pat2971,Anesthetic allergy,Cannot inject anesthetics
+2894,pat2972,fracture,Fractures from a fall about 1 year ago
+2895,pat2973,influenza,run at the nose
+2896,pat2974,fever,I had a fever a week ago
+2897,pat2975,Tetracycline allergy,Cannot inject or take tetracyclines
+2898,pat2976,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2899,pat2977,Carbapenem allergy,Cannot inject or take carbapenems
+2900,pat2978,have loose bowels,feel not good
+2901,pat2979,nosebleed,the weather is too dry
+2902,pat2980,alcohol allergy,don't drink alcohol anymore
+2903,pat2981,Heart disease,I have had heart disease for 10 years
+2904,pat2982,COVID-19,I am fully vaccinated
+2905,pat2983,Anesthetic allergy,Cannot inject anesthetics
+2906,pat2984,fracture,Fractures from a fall about 1 year ago
+2907,pat2985,influenza,run at the nose
+2908,pat2986,fever,I had a fever a week ago
+2909,pat2987,Tetracycline allergy,Cannot inject or take tetracyclines
+2910,pat2988,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2911,pat2989,Carbapenem allergy,Cannot inject or take carbapenems
+2912,pat2990,have loose bowels,feel not good
+2913,pat2991,nosebleed,the weather is too dry
+2914,pat2992,alcohol allergy,don't drink alcohol anymore
+2915,pat2993,Heart disease,I have had heart disease for 10 years
+2916,pat2994,COVID-19,I am fully vaccinated
+2917,pat2995,Anesthetic allergy,Cannot inject anesthetics
+2918,pat2996,fracture,Fractures from a fall about 1 year ago
+2919,pat2997,influenza,run at the nose
+2920,pat2998,fever,I had a fever a week ago
+2921,pat2999,Tetracycline allergy,Cannot inject or take tetracyclines
+2922,pat3000,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2923,pat3001,Carbapenem allergy,Cannot inject or take carbapenems
+2924,pat3002,have loose bowels,feel not good
+2925,pat3003,nosebleed,the weather is too dry
+2926,pat3004,alcohol allergy,don't drink alcohol anymore
+2927,pat3005,Heart disease,I have had heart disease for 10 years
+2928,pat3006,COVID-19,I am fully vaccinated
+2929,pat3007,Anesthetic allergy,Cannot inject anesthetics
+2930,pat3008,fracture,Fractures from a fall about 1 year ago
+2931,pat3009,influenza,run at the nose
+2932,pat3010,fever,I had a fever a week ago
+2933,pat3011,Tetracycline allergy,Cannot inject or take tetracyclines
+2934,pat3012,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2935,pat3013,Carbapenem allergy,Cannot inject or take carbapenems
+2936,pat3014,have loose bowels,feel not good
+2937,pat3015,nosebleed,the weather is too dry
+2938,pat3016,alcohol allergy,don't drink alcohol anymore
+2939,pat3017,Heart disease,I have had heart disease for 10 years
+2940,pat3018,COVID-19,I am fully vaccinated
+2941,pat3019,Anesthetic allergy,Cannot inject anesthetics
+2942,pat3020,fracture,Fractures from a fall about 1 year ago
+2943,pat3021,influenza,run at the nose
+2944,pat3022,fever,I had a fever a week ago
+2945,pat3023,Tetracycline allergy,Cannot inject or take tetracyclines
+2946,pat3024,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2947,pat3025,Carbapenem allergy,Cannot inject or take carbapenems
+2948,pat3026,have loose bowels,feel not good
+2949,pat3027,nosebleed,the weather is too dry
+2950,pat3028,alcohol allergy,don't drink alcohol anymore
+2951,pat3029,Heart disease,I have had heart disease for 10 years
+2952,pat3030,COVID-19,I am fully vaccinated
+2953,pat3031,Anesthetic allergy,Cannot inject anesthetics
+2954,pat3032,fracture,Fractures from a fall about 1 year ago
+2955,pat3033,influenza,run at the nose
+2956,pat3034,fever,I had a fever a week ago
+2957,pat3035,Tetracycline allergy,Cannot inject or take tetracyclines
+2958,pat3036,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2959,pat3037,Carbapenem allergy,Cannot inject or take carbapenems
+2960,pat3038,have loose bowels,feel not good
+2961,pat3039,nosebleed,the weather is too dry
+2962,pat3040,alcohol allergy,don't drink alcohol anymore
+2963,pat3041,Heart disease,I have had heart disease for 10 years
+2964,pat3042,COVID-19,I am fully vaccinated
+2965,pat3043,Anesthetic allergy,Cannot inject anesthetics
+2966,pat3044,fracture,Fractures from a fall about 1 year ago
+2967,pat3045,influenza,run at the nose
+2968,pat3046,fever,I had a fever a week ago
+2969,pat3047,Tetracycline allergy,Cannot inject or take tetracyclines
+2970,pat3048,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2971,pat3049,Carbapenem allergy,Cannot inject or take carbapenems
+2972,pat3050,have loose bowels,feel not good
+2973,pat3051,nosebleed,the weather is too dry
+2974,pat3052,alcohol allergy,don't drink alcohol anymore
+2975,pat3053,Heart disease,I have had heart disease for 10 years
+2976,pat3054,COVID-19,I am fully vaccinated
+2977,pat3055,Anesthetic allergy,Cannot inject anesthetics
+2978,pat3056,fracture,Fractures from a fall about 1 year ago
+2979,pat3057,influenza,run at the nose
+2980,pat3058,fever,I had a fever a week ago
+2981,pat3059,Tetracycline allergy,Cannot inject or take tetracyclines
+2982,pat3060,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2983,pat3061,Carbapenem allergy,Cannot inject or take carbapenems
+2984,pat3062,have loose bowels,feel not good
+2985,pat3063,nosebleed,the weather is too dry
+2986,pat3064,alcohol allergy,don't drink alcohol anymore
+2987,pat3065,Heart disease,I have had heart disease for 10 years
+2988,pat3066,COVID-19,I am fully vaccinated
+2989,pat3067,Anesthetic allergy,Cannot inject anesthetics
+2990,pat3068,fracture,Fractures from a fall about 1 year ago
+2991,pat3069,influenza,run at the nose
+2992,pat3070,fever,I had a fever a week ago
+2993,pat3071,Tetracycline allergy,Cannot inject or take tetracyclines
+2994,pat3072,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+2995,pat3073,Carbapenem allergy,Cannot inject or take carbapenems
+2996,pat3074,have loose bowels,feel not good
+2997,pat3075,nosebleed,the weather is too dry
+2998,pat3076,alcohol allergy,don't drink alcohol anymore
+2999,pat3077,Heart disease,I have had heart disease for 10 years
+3000,pat3078,COVID-19,I am fully vaccinated
+3001,pat3079,Anesthetic allergy,Cannot inject anesthetics
+3002,pat3080,fracture,Fractures from a fall about 1 year ago
+3003,pat3081,influenza,run at the nose
+3004,pat3082,fever,I had a fever a week ago
+3005,pat3083,Tetracycline allergy,Cannot inject or take tetracyclines
+3006,pat3084,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3007,pat3085,Carbapenem allergy,Cannot inject or take carbapenems
+3008,pat3086,have loose bowels,feel not good
+3009,pat3087,nosebleed,the weather is too dry
+3010,pat3088,alcohol allergy,don't drink alcohol anymore
+3011,pat3089,Heart disease,I have had heart disease for 10 years
+3012,pat3090,COVID-19,I am fully vaccinated
+3013,pat3091,Anesthetic allergy,Cannot inject anesthetics
+3014,pat3092,fracture,Fractures from a fall about 1 year ago
+3015,pat3093,influenza,run at the nose
+3016,pat3094,fever,I had a fever a week ago
+3017,pat3095,Tetracycline allergy,Cannot inject or take tetracyclines
+3018,pat3096,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3019,pat3097,Carbapenem allergy,Cannot inject or take carbapenems
+3020,pat3098,have loose bowels,feel not good
+3021,pat3099,nosebleed,the weather is too dry
+3022,pat3100,alcohol allergy,don't drink alcohol anymore
+3023,pat3101,Heart disease,I have had heart disease for 10 years
+3024,pat3102,COVID-19,I am fully vaccinated
+3025,pat3103,Anesthetic allergy,Cannot inject anesthetics
+3026,pat3104,fracture,Fractures from a fall about 1 year ago
+3027,pat3105,influenza,run at the nose
+3028,pat3106,fever,I had a fever a week ago
+3029,pat3107,Tetracycline allergy,Cannot inject or take tetracyclines
+3030,pat3108,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3031,pat3109,Carbapenem allergy,Cannot inject or take carbapenems
+3032,pat3110,have loose bowels,feel not good
+3033,pat3111,nosebleed,the weather is too dry
+3034,pat3112,alcohol allergy,don't drink alcohol anymore
+3035,pat3113,Heart disease,I have had heart disease for 10 years
+3036,pat3114,COVID-19,I am fully vaccinated
+3037,pat3115,Anesthetic allergy,Cannot inject anesthetics
+3038,pat3116,fracture,Fractures from a fall about 1 year ago
+3039,pat3117,influenza,run at the nose
+3040,pat3118,fever,I had a fever a week ago
+3041,pat3119,Tetracycline allergy,Cannot inject or take tetracyclines
+3042,pat3120,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3043,pat3121,Carbapenem allergy,Cannot inject or take carbapenems
+3044,pat3122,have loose bowels,feel not good
+3045,pat3123,nosebleed,the weather is too dry
+3046,pat3124,alcohol allergy,don't drink alcohol anymore
+3047,pat3125,Heart disease,I have had heart disease for 10 years
+3048,pat3126,COVID-19,I am fully vaccinated
+3049,pat3127,Anesthetic allergy,Cannot inject anesthetics
+3050,pat3128,fracture,Fractures from a fall about 1 year ago
+3051,pat3129,influenza,run at the nose
+3052,pat3130,fever,I had a fever a week ago
+3053,pat3131,Tetracycline allergy,Cannot inject or take tetracyclines
+3054,pat3132,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3055,pat3133,Carbapenem allergy,Cannot inject or take carbapenems
+3056,pat3134,have loose bowels,feel not good
+3057,pat3135,nosebleed,the weather is too dry
+3058,pat3136,alcohol allergy,don't drink alcohol anymore
+3059,pat3137,Heart disease,I have had heart disease for 10 years
+3060,pat3138,COVID-19,I am fully vaccinated
+3061,pat3139,Anesthetic allergy,Cannot inject anesthetics
+3062,pat3140,fracture,Fractures from a fall about 1 year ago
+3063,pat3141,influenza,run at the nose
+3064,pat3142,fever,I had a fever a week ago
+3065,pat3143,Tetracycline allergy,Cannot inject or take tetracyclines
+3066,pat3144,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3067,pat3145,Carbapenem allergy,Cannot inject or take carbapenems
+3068,pat3146,have loose bowels,feel not good
+3069,pat3147,nosebleed,the weather is too dry
+3070,pat3148,alcohol allergy,don't drink alcohol anymore
+3071,pat3149,Heart disease,I have had heart disease for 10 years
+3072,pat3150,COVID-19,I am fully vaccinated
+3073,pat3151,Anesthetic allergy,Cannot inject anesthetics
+3074,pat3152,fracture,Fractures from a fall about 1 year ago
+3075,pat3153,influenza,run at the nose
+3076,pat3154,fever,I had a fever a week ago
+3077,pat3155,Tetracycline allergy,Cannot inject or take tetracyclines
+3078,pat3156,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3079,pat3157,Carbapenem allergy,Cannot inject or take carbapenems
+3080,pat3158,have loose bowels,feel not good
+3081,pat3159,nosebleed,the weather is too dry
+3082,pat3160,alcohol allergy,don't drink alcohol anymore
+3083,pat3161,Heart disease,I have had heart disease for 10 years
+3084,pat3162,COVID-19,I am fully vaccinated
+3085,pat3163,Anesthetic allergy,Cannot inject anesthetics
+3086,pat3164,fracture,Fractures from a fall about 1 year ago
+3087,pat3165,influenza,run at the nose
+3088,pat3166,fever,I had a fever a week ago
+3089,pat3167,Tetracycline allergy,Cannot inject or take tetracyclines
+3090,pat3168,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3091,pat3169,Carbapenem allergy,Cannot inject or take carbapenems
+3092,pat3170,have loose bowels,feel not good
+3093,pat3171,nosebleed,the weather is too dry
+3094,pat3172,alcohol allergy,don't drink alcohol anymore
+3095,pat3173,Heart disease,I have had heart disease for 10 years
+3096,pat3174,COVID-19,I am fully vaccinated
+3097,pat3175,Anesthetic allergy,Cannot inject anesthetics
+3098,pat3176,fracture,Fractures from a fall about 1 year ago
+3099,pat3177,influenza,run at the nose
+3100,pat3178,fever,I had a fever a week ago
+3101,pat3179,Tetracycline allergy,Cannot inject or take tetracyclines
+3102,pat3180,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3103,pat3181,Carbapenem allergy,Cannot inject or take carbapenems
+3104,pat3182,have loose bowels,feel not good
+3105,pat3183,nosebleed,the weather is too dry
+3106,pat3184,alcohol allergy,don't drink alcohol anymore
+3107,pat3185,Heart disease,I have had heart disease for 10 years
+3108,pat3186,COVID-19,I am fully vaccinated
+3109,pat3187,Anesthetic allergy,Cannot inject anesthetics
+3110,pat3188,fracture,Fractures from a fall about 1 year ago
+3111,pat3189,influenza,run at the nose
+3112,pat3190,fever,I had a fever a week ago
+3113,pat3191,Tetracycline allergy,Cannot inject or take tetracyclines
+3114,pat3192,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3115,pat3193,Carbapenem allergy,Cannot inject or take carbapenems
+3116,pat3194,have loose bowels,feel not good
+3117,pat3195,nosebleed,the weather is too dry
+3118,pat3196,alcohol allergy,don't drink alcohol anymore
+3119,pat3197,Heart disease,I have had heart disease for 10 years
+3120,pat3198,COVID-19,I am fully vaccinated
+3121,pat3199,Anesthetic allergy,Cannot inject anesthetics
+3122,pat3200,fracture,Fractures from a fall about 1 year ago
+3123,pat3201,influenza,run at the nose
+3124,pat3202,fever,I had a fever a week ago
+3125,pat3203,Tetracycline allergy,Cannot inject or take tetracyclines
+3126,pat3204,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3127,pat3205,Carbapenem allergy,Cannot inject or take carbapenems
+3128,pat3206,have loose bowels,feel not good
+3129,pat3207,nosebleed,the weather is too dry
+3130,pat3208,alcohol allergy,don't drink alcohol anymore
+3131,pat3209,Heart disease,I have had heart disease for 10 years
+3132,pat3210,COVID-19,I am fully vaccinated
+3133,pat3211,Anesthetic allergy,Cannot inject anesthetics
+3134,pat3212,fracture,Fractures from a fall about 1 year ago
+3135,pat3213,influenza,run at the nose
+3136,pat3214,fever,I had a fever a week ago
+3137,pat3215,Tetracycline allergy,Cannot inject or take tetracyclines
+3138,pat3216,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3139,pat3217,Carbapenem allergy,Cannot inject or take carbapenems
+3140,pat3218,have loose bowels,feel not good
+3141,pat3219,nosebleed,the weather is too dry
+3142,pat3220,alcohol allergy,don't drink alcohol anymore
+3143,pat3221,Heart disease,I have had heart disease for 10 years
+3144,pat3222,COVID-19,I am fully vaccinated
+3145,pat3223,Anesthetic allergy,Cannot inject anesthetics
+3146,pat3224,fracture,Fractures from a fall about 1 year ago
+3147,pat3225,influenza,run at the nose
+3148,pat3226,fever,I had a fever a week ago
+3149,pat3227,Tetracycline allergy,Cannot inject or take tetracyclines
+3150,pat3228,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3151,pat3229,Carbapenem allergy,Cannot inject or take carbapenems
+3152,pat3230,have loose bowels,feel not good
+3153,pat3231,nosebleed,the weather is too dry
+3154,pat3232,alcohol allergy,don't drink alcohol anymore
+3155,pat3233,Heart disease,I have had heart disease for 10 years
+3156,pat3234,COVID-19,I am fully vaccinated
+3157,pat3235,Anesthetic allergy,Cannot inject anesthetics
+3158,pat3236,fracture,Fractures from a fall about 1 year ago
+3159,pat3237,influenza,run at the nose
+3160,pat3238,fever,I had a fever a week ago
+3161,pat3239,Tetracycline allergy,Cannot inject or take tetracyclines
+3162,pat3240,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3163,pat3241,Carbapenem allergy,Cannot inject or take carbapenems
+3164,pat3242,have loose bowels,feel not good
+3165,pat3243,nosebleed,the weather is too dry
+3166,pat3244,alcohol allergy,don't drink alcohol anymore
+3167,pat3245,Heart disease,I have had heart disease for 10 years
+3168,pat3246,COVID-19,I am fully vaccinated
+3169,pat3247,Anesthetic allergy,Cannot inject anesthetics
+3170,pat3248,fracture,Fractures from a fall about 1 year ago
+3171,pat3249,influenza,run at the nose
+3172,pat3250,fever,I had a fever a week ago
+3173,pat3251,Tetracycline allergy,Cannot inject or take tetracyclines
+3174,pat3252,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3175,pat3253,Carbapenem allergy,Cannot inject or take carbapenems
+3176,pat3254,have loose bowels,feel not good
+3177,pat3255,nosebleed,the weather is too dry
+3178,pat3256,alcohol allergy,don't drink alcohol anymore
+3179,pat3257,Heart disease,I have had heart disease for 10 years
+3180,pat3258,COVID-19,I am fully vaccinated
+3181,pat3259,Anesthetic allergy,Cannot inject anesthetics
+3182,pat3260,fracture,Fractures from a fall about 1 year ago
+3183,pat3261,influenza,run at the nose
+3184,pat3262,fever,I had a fever a week ago
+3185,pat3263,Tetracycline allergy,Cannot inject or take tetracyclines
+3186,pat3264,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3187,pat3265,Carbapenem allergy,Cannot inject or take carbapenems
+3188,pat3266,have loose bowels,feel not good
+3189,pat3267,nosebleed,the weather is too dry
+3190,pat3268,alcohol allergy,don't drink alcohol anymore
+3191,pat3269,Heart disease,I have had heart disease for 10 years
+3192,pat3270,COVID-19,I am fully vaccinated
+3193,pat3271,Anesthetic allergy,Cannot inject anesthetics
+3194,pat3272,fracture,Fractures from a fall about 1 year ago
+3195,pat3273,influenza,run at the nose
+3196,pat3274,fever,I had a fever a week ago
+3197,pat3275,Tetracycline allergy,Cannot inject or take tetracyclines
+3198,pat3276,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3199,pat3277,Carbapenem allergy,Cannot inject or take carbapenems
+3200,pat3278,have loose bowels,feel not good
+3201,pat3279,nosebleed,the weather is too dry
+3202,pat3280,alcohol allergy,don't drink alcohol anymore
+3203,pat3281,Heart disease,I have had heart disease for 10 years
+3204,pat3282,COVID-19,I am fully vaccinated
+3205,pat3283,Anesthetic allergy,Cannot inject anesthetics
+3206,pat3284,fracture,Fractures from a fall about 1 year ago
+3207,pat3285,influenza,run at the nose
+3208,pat3286,fever,I had a fever a week ago
+3209,pat3287,Tetracycline allergy,Cannot inject or take tetracyclines
+3210,pat3288,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3211,pat3289,Carbapenem allergy,Cannot inject or take carbapenems
+3212,pat3290,have loose bowels,feel not good
+3213,pat3291,nosebleed,the weather is too dry
+3214,pat3292,alcohol allergy,don't drink alcohol anymore
+3215,pat3293,Heart disease,I have had heart disease for 10 years
+3216,pat3294,COVID-19,I am fully vaccinated
+3217,pat3295,Anesthetic allergy,Cannot inject anesthetics
+3218,pat3296,fracture,Fractures from a fall about 1 year ago
+3219,pat3297,influenza,run at the nose
+3220,pat3298,fever,I had a fever a week ago
+3221,pat3299,Tetracycline allergy,Cannot inject or take tetracyclines
+3222,pat3300,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3223,pat3301,Carbapenem allergy,Cannot inject or take carbapenems
+3224,pat3302,have loose bowels,feel not good
+3225,pat3303,nosebleed,the weather is too dry
+3226,pat3304,alcohol allergy,don't drink alcohol anymore
+3227,pat3305,Heart disease,I have had heart disease for 10 years
+3228,pat3306,COVID-19,I am fully vaccinated
+3229,pat3307,Anesthetic allergy,Cannot inject anesthetics
+3230,pat3308,fracture,Fractures from a fall about 1 year ago
+3231,pat3309,influenza,run at the nose
+3232,pat3310,fever,I had a fever a week ago
+3233,pat3311,Tetracycline allergy,Cannot inject or take tetracyclines
+3234,pat3312,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3235,pat3313,Carbapenem allergy,Cannot inject or take carbapenems
+3236,pat3314,have loose bowels,feel not good
+3237,pat3315,nosebleed,the weather is too dry
+3238,pat3316,alcohol allergy,don't drink alcohol anymore
+3239,pat3317,Heart disease,I have had heart disease for 10 years
+3240,pat3318,COVID-19,I am fully vaccinated
+3241,pat3319,Anesthetic allergy,Cannot inject anesthetics
+3242,pat3320,fracture,Fractures from a fall about 1 year ago
+3243,pat3321,influenza,run at the nose
+3244,pat3322,fever,I had a fever a week ago
+3245,pat3323,Tetracycline allergy,Cannot inject or take tetracyclines
+3246,pat3324,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3247,pat3325,Carbapenem allergy,Cannot inject or take carbapenems
+3248,pat3326,have loose bowels,feel not good
+3249,pat3327,nosebleed,the weather is too dry
+3250,pat3328,alcohol allergy,don't drink alcohol anymore
+3251,pat3329,Heart disease,I have had heart disease for 10 years
+3252,pat3330,COVID-19,I am fully vaccinated
+3253,pat3331,Anesthetic allergy,Cannot inject anesthetics
+3254,pat3332,fracture,Fractures from a fall about 1 year ago
+3255,pat3333,influenza,run at the nose
+3256,pat3334,fever,I had a fever a week ago
+3257,pat3335,Tetracycline allergy,Cannot inject or take tetracyclines
+3258,pat3336,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3259,pat3337,Carbapenem allergy,Cannot inject or take carbapenems
+3260,pat3338,have loose bowels,feel not good
+3261,pat3339,nosebleed,the weather is too dry
+3262,pat3340,alcohol allergy,don't drink alcohol anymore
+3263,pat3341,Heart disease,I have had heart disease for 10 years
+3264,pat3342,COVID-19,I am fully vaccinated
+3265,pat3343,Anesthetic allergy,Cannot inject anesthetics
+3266,pat3344,fracture,Fractures from a fall about 1 year ago
+3267,pat3345,influenza,run at the nose
+3268,pat3346,fever,I had a fever a week ago
+3269,pat3347,Tetracycline allergy,Cannot inject or take tetracyclines
+3270,pat3348,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3271,pat3349,Carbapenem allergy,Cannot inject or take carbapenems
+3272,pat3350,have loose bowels,feel not good
+3273,pat3351,nosebleed,the weather is too dry
+3274,pat3352,alcohol allergy,don't drink alcohol anymore
+3275,pat3353,Heart disease,I have had heart disease for 10 years
+3276,pat3354,COVID-19,I am fully vaccinated
+3277,pat3355,Anesthetic allergy,Cannot inject anesthetics
+3278,pat3356,fracture,Fractures from a fall about 1 year ago
+3279,pat3357,influenza,run at the nose
+3280,pat3358,fever,I had a fever a week ago
+3281,pat3359,Tetracycline allergy,Cannot inject or take tetracyclines
+3282,pat3360,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3283,pat3361,Carbapenem allergy,Cannot inject or take carbapenems
+3284,pat3362,have loose bowels,feel not good
+3285,pat3363,nosebleed,the weather is too dry
+3286,pat3364,alcohol allergy,don't drink alcohol anymore
+3287,pat3365,Heart disease,I have had heart disease for 10 years
+3288,pat3366,COVID-19,I am fully vaccinated
+3289,pat3367,Anesthetic allergy,Cannot inject anesthetics
+3290,pat3368,fracture,Fractures from a fall about 1 year ago
+3291,pat3369,influenza,run at the nose
+3292,pat3370,fever,I had a fever a week ago
+3293,pat3371,Tetracycline allergy,Cannot inject or take tetracyclines
+3294,pat3372,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3295,pat3373,Carbapenem allergy,Cannot inject or take carbapenems
+3296,pat3374,have loose bowels,feel not good
+3297,pat3375,nosebleed,the weather is too dry
+3298,pat3376,alcohol allergy,don't drink alcohol anymore
+3299,pat3377,Heart disease,I have had heart disease for 10 years
+3300,pat3378,COVID-19,I am fully vaccinated
+3301,pat3379,Anesthetic allergy,Cannot inject anesthetics
+3302,pat3380,fracture,Fractures from a fall about 1 year ago
+3303,pat3381,influenza,run at the nose
+3304,pat3382,fever,I had a fever a week ago
+3305,pat3383,Tetracycline allergy,Cannot inject or take tetracyclines
+3306,pat3384,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3307,pat3385,Carbapenem allergy,Cannot inject or take carbapenems
+3308,pat3386,have loose bowels,feel not good
+3309,pat3387,nosebleed,the weather is too dry
+3310,pat3388,alcohol allergy,don't drink alcohol anymore
+3311,pat3389,Heart disease,I have had heart disease for 10 years
+3312,pat3390,COVID-19,I am fully vaccinated
+3313,pat3391,Anesthetic allergy,Cannot inject anesthetics
+3314,pat3392,fracture,Fractures from a fall about 1 year ago
+3315,pat3393,influenza,run at the nose
+3316,pat3394,fever,I had a fever a week ago
+3317,pat3395,Tetracycline allergy,Cannot inject or take tetracyclines
+3318,pat3396,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3319,pat3397,Carbapenem allergy,Cannot inject or take carbapenems
+3320,pat3398,have loose bowels,feel not good
+3321,pat3399,nosebleed,the weather is too dry
+3322,pat3400,alcohol allergy,don't drink alcohol anymore
+3323,pat3401,Heart disease,I have had heart disease for 10 years
+3324,pat3402,COVID-19,I am fully vaccinated
+3325,pat3403,Anesthetic allergy,Cannot inject anesthetics
+3326,pat3404,fracture,Fractures from a fall about 1 year ago
+3327,pat3405,influenza,run at the nose
+3328,pat3406,fever,I had a fever a week ago
+3329,pat3407,Tetracycline allergy,Cannot inject or take tetracyclines
+3330,pat3408,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3331,pat3409,Carbapenem allergy,Cannot inject or take carbapenems
+3332,pat3410,have loose bowels,feel not good
+3333,pat3411,nosebleed,the weather is too dry
+3334,pat3412,alcohol allergy,don't drink alcohol anymore
+3335,pat3413,Heart disease,I have had heart disease for 10 years
+3336,pat3414,COVID-19,I am fully vaccinated
+3337,pat3415,Anesthetic allergy,Cannot inject anesthetics
+3338,pat3416,fracture,Fractures from a fall about 1 year ago
+3339,pat3417,influenza,run at the nose
+3340,pat3418,fever,I had a fever a week ago
+3341,pat3419,Tetracycline allergy,Cannot inject or take tetracyclines
+3342,pat3420,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3343,pat3421,Carbapenem allergy,Cannot inject or take carbapenems
+3344,pat3422,have loose bowels,feel not good
+3345,pat3423,nosebleed,the weather is too dry
+3346,pat3424,alcohol allergy,don't drink alcohol anymore
+3347,pat3425,Heart disease,I have had heart disease for 10 years
+3348,pat3426,COVID-19,I am fully vaccinated
+3349,pat3427,Anesthetic allergy,Cannot inject anesthetics
+3350,pat3428,fracture,Fractures from a fall about 1 year ago
+3351,pat3429,influenza,run at the nose
+3352,pat3430,fever,I had a fever a week ago
+3353,pat3431,Tetracycline allergy,Cannot inject or take tetracyclines
+3354,pat3432,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3355,pat3433,Carbapenem allergy,Cannot inject or take carbapenems
+3356,pat3434,have loose bowels,feel not good
+3357,pat3435,nosebleed,the weather is too dry
+3358,pat3436,alcohol allergy,don't drink alcohol anymore
+3359,pat3437,Heart disease,I have had heart disease for 10 years
+3360,pat3438,COVID-19,I am fully vaccinated
+3361,pat3439,Anesthetic allergy,Cannot inject anesthetics
+3362,pat3440,fracture,Fractures from a fall about 1 year ago
+3363,pat3441,influenza,run at the nose
+3364,pat3442,fever,I had a fever a week ago
+3365,pat3443,Tetracycline allergy,Cannot inject or take tetracyclines
+3366,pat3444,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3367,pat3445,Carbapenem allergy,Cannot inject or take carbapenems
+3368,pat3446,have loose bowels,feel not good
+3369,pat3447,nosebleed,the weather is too dry
+3370,pat3448,alcohol allergy,don't drink alcohol anymore
+3371,pat3449,Heart disease,I have had heart disease for 10 years
+3372,pat3450,COVID-19,I am fully vaccinated
+3373,pat3451,Anesthetic allergy,Cannot inject anesthetics
+3374,pat3452,fracture,Fractures from a fall about 1 year ago
+3375,pat3453,influenza,run at the nose
+3376,pat3454,fever,I had a fever a week ago
+3377,pat3455,Tetracycline allergy,Cannot inject or take tetracyclines
+3378,pat3456,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3379,pat3457,Carbapenem allergy,Cannot inject or take carbapenems
+3380,pat3458,have loose bowels,feel not good
+3381,pat3459,nosebleed,the weather is too dry
+3382,pat3460,alcohol allergy,don't drink alcohol anymore
+3383,pat3461,Heart disease,I have had heart disease for 10 years
+3384,pat3462,COVID-19,I am fully vaccinated
+3385,pat3463,Anesthetic allergy,Cannot inject anesthetics
+3386,pat3464,fracture,Fractures from a fall about 1 year ago
+3387,pat3465,influenza,run at the nose
+3388,pat3466,fever,I had a fever a week ago
+3389,pat3467,Tetracycline allergy,Cannot inject or take tetracyclines
+3390,pat3468,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3391,pat3469,Carbapenem allergy,Cannot inject or take carbapenems
+3392,pat3470,have loose bowels,feel not good
+3393,pat3471,nosebleed,the weather is too dry
+3394,pat3472,alcohol allergy,don't drink alcohol anymore
+3395,pat3473,Heart disease,I have had heart disease for 10 years
+3396,pat3474,COVID-19,I am fully vaccinated
+3397,pat3475,Anesthetic allergy,Cannot inject anesthetics
+3398,pat3476,fracture,Fractures from a fall about 1 year ago
+3399,pat3477,influenza,run at the nose
+3400,pat3478,fever,I had a fever a week ago
+3401,pat3479,Tetracycline allergy,Cannot inject or take tetracyclines
+3402,pat3480,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3403,pat3481,Carbapenem allergy,Cannot inject or take carbapenems
+3404,pat3482,have loose bowels,feel not good
+3405,pat3483,nosebleed,the weather is too dry
+3406,pat3484,alcohol allergy,don't drink alcohol anymore
+3407,pat3485,Heart disease,I have had heart disease for 10 years
+3408,pat3486,COVID-19,I am fully vaccinated
+3409,pat3487,Anesthetic allergy,Cannot inject anesthetics
+3410,pat3488,fracture,Fractures from a fall about 1 year ago
+3411,pat3489,influenza,run at the nose
+3412,pat3490,fever,I had a fever a week ago
+3413,pat3491,Tetracycline allergy,Cannot inject or take tetracyclines
+3414,pat3492,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3415,pat3493,Carbapenem allergy,Cannot inject or take carbapenems
+3416,pat3494,have loose bowels,feel not good
+3417,pat3495,nosebleed,the weather is too dry
+3418,pat3496,alcohol allergy,don't drink alcohol anymore
+3419,pat3497,Heart disease,I have had heart disease for 10 years
+3420,pat3498,COVID-19,I am fully vaccinated
+3421,pat3499,Anesthetic allergy,Cannot inject anesthetics
+3422,pat3500,fracture,Fractures from a fall about 1 year ago
+3423,pat3501,influenza,run at the nose
+3424,pat3502,fever,I had a fever a week ago
+3425,pat3503,Tetracycline allergy,Cannot inject or take tetracyclines
+3426,pat3504,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3427,pat3505,Carbapenem allergy,Cannot inject or take carbapenems
+3428,pat3506,have loose bowels,feel not good
+3429,pat3507,nosebleed,the weather is too dry
+3430,pat3508,alcohol allergy,don't drink alcohol anymore
+3431,pat3509,Heart disease,I have had heart disease for 10 years
+3432,pat3510,COVID-19,I am fully vaccinated
+3433,pat3511,Anesthetic allergy,Cannot inject anesthetics
+3434,pat3512,fracture,Fractures from a fall about 1 year ago
+3435,pat3513,influenza,run at the nose
+3436,pat3514,fever,I had a fever a week ago
+3437,pat3515,Tetracycline allergy,Cannot inject or take tetracyclines
+3438,pat3516,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3439,pat3517,Carbapenem allergy,Cannot inject or take carbapenems
+3440,pat3518,have loose bowels,feel not good
+3441,pat3519,nosebleed,the weather is too dry
+3442,pat3520,alcohol allergy,don't drink alcohol anymore
+3443,pat3521,Heart disease,I have had heart disease for 10 years
+3444,pat3522,COVID-19,I am fully vaccinated
+3445,pat3523,Anesthetic allergy,Cannot inject anesthetics
+3446,pat3524,fracture,Fractures from a fall about 1 year ago
+3447,pat3525,influenza,run at the nose
+3448,pat3526,fever,I had a fever a week ago
+3449,pat3527,Tetracycline allergy,Cannot inject or take tetracyclines
+3450,pat3528,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3451,pat3529,Carbapenem allergy,Cannot inject or take carbapenems
+3452,pat3530,have loose bowels,feel not good
+3453,pat3531,nosebleed,the weather is too dry
+3454,pat3532,alcohol allergy,don't drink alcohol anymore
+3455,pat3533,Heart disease,I have had heart disease for 10 years
+3456,pat3534,COVID-19,I am fully vaccinated
+3457,pat3535,Anesthetic allergy,Cannot inject anesthetics
+3458,pat3536,fracture,Fractures from a fall about 1 year ago
+3459,pat3537,influenza,run at the nose
+3460,pat3538,fever,I had a fever a week ago
+3461,pat3539,Tetracycline allergy,Cannot inject or take tetracyclines
+3462,pat3540,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3463,pat3541,Carbapenem allergy,Cannot inject or take carbapenems
+3464,pat3542,have loose bowels,feel not good
+3465,pat3543,nosebleed,the weather is too dry
+3466,pat3544,alcohol allergy,don't drink alcohol anymore
+3467,pat3545,Heart disease,I have had heart disease for 10 years
+3468,pat3546,COVID-19,I am fully vaccinated
+3469,pat3547,Anesthetic allergy,Cannot inject anesthetics
+3470,pat3548,fracture,Fractures from a fall about 1 year ago
+3471,pat3549,influenza,run at the nose
+3472,pat3550,fever,I had a fever a week ago
+3473,pat3551,Tetracycline allergy,Cannot inject or take tetracyclines
+3474,pat3552,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3475,pat3553,Carbapenem allergy,Cannot inject or take carbapenems
+3476,pat3554,have loose bowels,feel not good
+3477,pat3555,nosebleed,the weather is too dry
+3478,pat3556,alcohol allergy,don't drink alcohol anymore
+3479,pat3557,Heart disease,I have had heart disease for 10 years
+3480,pat3558,COVID-19,I am fully vaccinated
+3481,pat3559,Anesthetic allergy,Cannot inject anesthetics
+3482,pat3560,fracture,Fractures from a fall about 1 year ago
+3483,pat3561,influenza,run at the nose
+3484,pat3562,fever,I had a fever a week ago
+3485,pat3563,Tetracycline allergy,Cannot inject or take tetracyclines
+3486,pat3564,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3487,pat3565,Carbapenem allergy,Cannot inject or take carbapenems
+3488,pat3566,have loose bowels,feel not good
+3489,pat3567,nosebleed,the weather is too dry
+3490,pat3568,alcohol allergy,don't drink alcohol anymore
+3491,pat3569,Heart disease,I have had heart disease for 10 years
+3492,pat3570,COVID-19,I am fully vaccinated
+3493,pat3571,Anesthetic allergy,Cannot inject anesthetics
+3494,pat3572,fracture,Fractures from a fall about 1 year ago
+3495,pat3573,influenza,run at the nose
+3496,pat3574,fever,I had a fever a week ago
+3497,pat3575,Tetracycline allergy,Cannot inject or take tetracyclines
+3498,pat3576,Aminoglycoside allergy,Cannot inject or take aminoglycosides
+3499,pat3577,Carbapenem allergy,Cannot inject or take carbapenems
+3500,pat3578,have loose bowels,feel not good
+3501,pat3579,nosebleed,the weather is too dry
+3502,pat3580,alcohol allergy,don't drink alcohol anymore
+3503,pat3581,Heart disease,I have had heart disease for 10 years
+3504,pat3582,COVID-19,I am fully vaccinated
+3505,pat3583,Anesthetic allergy,Cannot inject anesthetics

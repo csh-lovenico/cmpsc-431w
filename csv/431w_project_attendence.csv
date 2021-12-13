@@ -1,0 +1,1851 @@
+1,doc0,pat0,2021-10-18,fever
+7,doc0,pat10002,2021-12-12,fever
+29,doc0,pat0,2021-12-13,you have a good condition
+44,doc0,pat0,1999-12-13,drink more water
+50,doc0,pat1,2021-12-13,good
+53,doc0,pat0,2021-12-13,more rest
+214,doc2,pat5,2021-12-14,got a fever
+215,doc2,pat6,2021-12-14,every thing is good 
+216,doc2,pat7,2021-12-14,just go home and relax
+217,doc2,pat8,2021-12-14,drink more water
+218,doc2,pat9,2021-12-14,sleep for enough
+219,doc2,pat5,2021-12-15,got a fever
+220,doc2,pat6,2021-12-15,every thing is good 
+221,doc2,pat7,2021-12-15,just go home and relax
+222,doc2,pat8,2021-12-15,drink more water
+223,doc2,pat9,2021-12-15,sleep for enough
+224,doc2,pat5,2021-12-16,got a fever
+225,doc2,pat6,2021-12-16,every thing is good 
+226,doc2,pat7,2021-12-16,just go home and relax
+227,doc2,pat8,2021-12-16,drink more water
+228,doc2,pat9,2021-12-16,sleep for enough
+229,doc2,pat5,2021-12-17,got a fever
+230,doc2,pat6,2021-12-17,every thing is good 
+231,doc2,pat7,2021-12-17,just go home and relax
+232,doc2,pat8,2021-12-17,drink more water
+233,doc2,pat9,2021-12-17,sleep for enough
+234,doc2,pat5,2021-12-18,got a fever
+235,doc2,pat6,2021-12-18,every thing is good 
+236,doc2,pat7,2021-12-18,just go home and relax
+237,doc2,pat8,2021-12-18,drink more water
+238,doc2,pat9,2021-12-18,sleep for enough
+239,doc2,pat5,2021-12-19,got a fever
+240,doc2,pat6,2021-12-19,every thing is good 
+241,doc2,pat7,2021-12-19,just go home and relax
+242,doc2,pat8,2021-12-19,drink more water
+243,doc2,pat9,2021-12-19,sleep for enough
+244,doc2,pat5,2021-12-20,got a fever
+245,doc2,pat6,2021-12-20,every thing is good 
+246,doc2,pat7,2021-12-20,just go home and relax
+247,doc2,pat8,2021-12-20,drink more water
+248,doc2,pat9,2021-12-20,sleep for enough
+249,doc2,pat5,2021-12-21,got a fever
+250,doc2,pat6,2021-12-21,every thing is good 
+251,doc2,pat7,2021-12-21,just go home and relax
+252,doc2,pat8,2021-12-21,drink more water
+253,doc2,pat9,2021-12-21,sleep for enough
+254,doc2,pat5,2021-12-22,got a fever
+255,doc2,pat6,2021-12-22,every thing is good 
+256,doc2,pat7,2021-12-22,just go home and relax
+257,doc2,pat8,2021-12-22,drink more water
+258,doc2,pat9,2021-12-22,sleep for enough
+259,doc2,pat5,2021-12-23,got a fever
+260,doc2,pat6,2021-12-23,every thing is good 
+261,doc2,pat7,2021-12-23,just go home and relax
+262,doc2,pat8,2021-12-23,drink more water
+263,doc2,pat9,2021-12-23,sleep for enough
+264,doc2,pat5,2021-12-24,got a fever
+265,doc2,pat6,2021-12-24,every thing is good 
+266,doc2,pat7,2021-12-24,just go home and relax
+267,doc2,pat8,2021-12-24,drink more water
+268,doc2,pat9,2021-12-24,sleep for enough
+269,doc2,pat5,2021-12-25,got a fever
+270,doc2,pat6,2021-12-25,every thing is good 
+271,doc2,pat7,2021-12-25,just go home and relax
+272,doc2,pat8,2021-12-25,drink more water
+273,doc2,pat9,2021-12-25,sleep for enough
+274,doc2,pat5,2021-12-26,got a fever
+275,doc2,pat6,2021-12-26,every thing is good 
+276,doc2,pat7,2021-12-26,just go home and relax
+277,doc2,pat8,2021-12-26,drink more water
+278,doc2,pat9,2021-12-26,sleep for enough
+279,doc2,pat5,2021-12-27,got a fever
+280,doc2,pat6,2021-12-27,every thing is good 
+281,doc2,pat7,2021-12-27,just go home and relax
+282,doc2,pat8,2021-12-27,drink more water
+283,doc2,pat9,2021-12-27,sleep for enough
+284,doc2,pat5,2021-12-28,got a fever
+285,doc2,pat6,2021-12-28,every thing is good 
+286,doc2,pat7,2021-12-28,just go home and relax
+287,doc2,pat8,2021-12-28,drink more water
+288,doc2,pat9,2021-12-28,sleep for enough
+289,doc2,pat5,2021-12-29,got a fever
+290,doc2,pat6,2021-12-29,every thing is good 
+291,doc2,pat7,2021-12-29,just go home and relax
+292,doc2,pat8,2021-12-29,drink more water
+293,doc2,pat9,2021-12-29,sleep for enough
+294,doc3,pat5,2021-12-14,got a fever
+295,doc3,pat6,2021-12-14,every thing is good 
+296,doc3,pat7,2021-12-14,just go home and relax
+297,doc3,pat8,2021-12-14,drink more water
+298,doc3,pat9,2021-12-14,sleep for enough
+299,doc3,pat5,2021-12-15,got a fever
+300,doc3,pat6,2021-12-15,every thing is good 
+301,doc3,pat7,2021-12-15,just go home and relax
+302,doc3,pat8,2021-12-15,drink more water
+303,doc3,pat9,2021-12-15,sleep for enough
+304,doc3,pat5,2021-12-16,got a fever
+305,doc3,pat6,2021-12-16,every thing is good 
+306,doc3,pat7,2021-12-16,just go home and relax
+307,doc3,pat8,2021-12-16,drink more water
+308,doc3,pat9,2021-12-16,sleep for enough
+309,doc3,pat5,2021-12-17,got a fever
+310,doc3,pat6,2021-12-17,every thing is good 
+311,doc3,pat7,2021-12-17,just go home and relax
+312,doc3,pat8,2021-12-17,drink more water
+313,doc3,pat9,2021-12-17,sleep for enough
+314,doc3,pat5,2021-12-18,got a fever
+315,doc3,pat6,2021-12-18,every thing is good 
+316,doc3,pat7,2021-12-18,just go home and relax
+317,doc3,pat8,2021-12-18,drink more water
+318,doc3,pat9,2021-12-18,sleep for enough
+319,doc3,pat5,2021-12-19,got a fever
+320,doc3,pat6,2021-12-19,every thing is good 
+321,doc3,pat7,2021-12-19,just go home and relax
+322,doc3,pat8,2021-12-19,drink more water
+323,doc3,pat9,2021-12-19,sleep for enough
+324,doc3,pat5,2021-12-20,got a fever
+325,doc3,pat6,2021-12-20,every thing is good 
+326,doc3,pat7,2021-12-20,just go home and relax
+327,doc3,pat8,2021-12-20,drink more water
+328,doc3,pat9,2021-12-20,sleep for enough
+329,doc3,pat5,2021-12-21,got a fever
+330,doc3,pat6,2021-12-21,every thing is good 
+331,doc3,pat7,2021-12-21,just go home and relax
+332,doc3,pat8,2021-12-21,drink more water
+333,doc3,pat9,2021-12-21,sleep for enough
+334,doc3,pat5,2021-12-22,got a fever
+335,doc3,pat6,2021-12-22,every thing is good 
+336,doc3,pat7,2021-12-22,just go home and relax
+337,doc3,pat8,2021-12-22,drink more water
+338,doc3,pat9,2021-12-22,sleep for enough
+339,doc3,pat5,2021-12-23,got a fever
+340,doc3,pat6,2021-12-23,every thing is good 
+341,doc3,pat7,2021-12-23,just go home and relax
+342,doc3,pat8,2021-12-23,drink more water
+343,doc3,pat9,2021-12-23,sleep for enough
+344,doc3,pat5,2021-12-24,got a fever
+345,doc3,pat6,2021-12-24,every thing is good 
+346,doc3,pat7,2021-12-24,just go home and relax
+347,doc3,pat8,2021-12-24,drink more water
+348,doc3,pat9,2021-12-24,sleep for enough
+349,doc3,pat5,2021-12-25,got a fever
+350,doc3,pat6,2021-12-25,every thing is good 
+351,doc3,pat7,2021-12-25,just go home and relax
+352,doc3,pat8,2021-12-25,drink more water
+353,doc3,pat9,2021-12-25,sleep for enough
+354,doc3,pat5,2021-12-26,got a fever
+355,doc3,pat6,2021-12-26,every thing is good 
+356,doc3,pat7,2021-12-26,just go home and relax
+357,doc3,pat8,2021-12-26,drink more water
+358,doc3,pat9,2021-12-26,sleep for enough
+359,doc3,pat5,2021-12-27,got a fever
+360,doc3,pat6,2021-12-27,every thing is good 
+361,doc3,pat7,2021-12-27,just go home and relax
+362,doc3,pat8,2021-12-27,drink more water
+363,doc3,pat9,2021-12-27,sleep for enough
+364,doc3,pat5,2021-12-28,got a fever
+365,doc3,pat6,2021-12-28,every thing is good 
+366,doc3,pat7,2021-12-28,just go home and relax
+367,doc3,pat8,2021-12-28,drink more water
+368,doc3,pat9,2021-12-28,sleep for enough
+369,doc3,pat5,2021-12-29,got a fever
+370,doc3,pat6,2021-12-29,every thing is good 
+371,doc3,pat7,2021-12-29,just go home and relax
+372,doc3,pat8,2021-12-29,drink more water
+373,doc3,pat9,2021-12-29,sleep for enough
+374,doc4,pat5,2021-12-14,got a fever
+375,doc4,pat6,2021-12-14,every thing is good 
+376,doc4,pat7,2021-12-14,just go home and relax
+377,doc4,pat8,2021-12-14,drink more water
+378,doc4,pat9,2021-12-14,sleep for enough
+379,doc4,pat5,2021-12-15,got a fever
+380,doc4,pat6,2021-12-15,every thing is good 
+381,doc4,pat7,2021-12-15,just go home and relax
+382,doc4,pat8,2021-12-15,drink more water
+383,doc4,pat9,2021-12-15,sleep for enough
+384,doc4,pat5,2021-12-16,got a fever
+385,doc4,pat6,2021-12-16,every thing is good 
+386,doc4,pat7,2021-12-16,just go home and relax
+387,doc4,pat8,2021-12-16,drink more water
+388,doc4,pat9,2021-12-16,sleep for enough
+389,doc4,pat5,2021-12-17,got a fever
+390,doc4,pat6,2021-12-17,every thing is good 
+391,doc4,pat7,2021-12-17,just go home and relax
+392,doc4,pat8,2021-12-17,drink more water
+393,doc4,pat9,2021-12-17,sleep for enough
+394,doc4,pat5,2021-12-18,got a fever
+395,doc4,pat6,2021-12-18,every thing is good 
+396,doc4,pat7,2021-12-18,just go home and relax
+397,doc4,pat8,2021-12-18,drink more water
+398,doc4,pat9,2021-12-18,sleep for enough
+399,doc4,pat5,2021-12-19,got a fever
+400,doc4,pat6,2021-12-19,every thing is good 
+401,doc4,pat7,2021-12-19,just go home and relax
+402,doc4,pat8,2021-12-19,drink more water
+403,doc4,pat9,2021-12-19,sleep for enough
+404,doc4,pat5,2021-12-20,got a fever
+405,doc4,pat6,2021-12-20,every thing is good 
+406,doc4,pat7,2021-12-20,just go home and relax
+407,doc4,pat8,2021-12-20,drink more water
+408,doc4,pat9,2021-12-20,sleep for enough
+409,doc4,pat5,2021-12-21,got a fever
+410,doc4,pat6,2021-12-21,every thing is good 
+411,doc4,pat7,2021-12-21,just go home and relax
+412,doc4,pat8,2021-12-21,drink more water
+413,doc4,pat9,2021-12-21,sleep for enough
+414,doc4,pat5,2021-12-22,got a fever
+415,doc4,pat6,2021-12-22,every thing is good 
+416,doc4,pat7,2021-12-22,just go home and relax
+417,doc4,pat8,2021-12-22,drink more water
+418,doc4,pat9,2021-12-22,sleep for enough
+419,doc4,pat5,2021-12-23,got a fever
+420,doc4,pat6,2021-12-23,every thing is good 
+421,doc4,pat7,2021-12-23,just go home and relax
+422,doc4,pat8,2021-12-23,drink more water
+423,doc4,pat9,2021-12-23,sleep for enough
+424,doc4,pat5,2021-12-24,got a fever
+425,doc4,pat6,2021-12-24,every thing is good 
+426,doc4,pat7,2021-12-24,just go home and relax
+427,doc4,pat8,2021-12-24,drink more water
+428,doc4,pat9,2021-12-24,sleep for enough
+429,doc4,pat5,2021-12-25,got a fever
+430,doc4,pat6,2021-12-25,every thing is good 
+431,doc4,pat7,2021-12-25,just go home and relax
+432,doc4,pat8,2021-12-25,drink more water
+433,doc4,pat9,2021-12-25,sleep for enough
+434,doc4,pat5,2021-12-26,got a fever
+435,doc4,pat6,2021-12-26,every thing is good 
+436,doc4,pat7,2021-12-26,just go home and relax
+437,doc4,pat8,2021-12-26,drink more water
+438,doc4,pat9,2021-12-26,sleep for enough
+439,doc4,pat5,2021-12-27,got a fever
+440,doc4,pat6,2021-12-27,every thing is good 
+441,doc4,pat7,2021-12-27,just go home and relax
+442,doc4,pat8,2021-12-27,drink more water
+443,doc4,pat9,2021-12-27,sleep for enough
+444,doc4,pat5,2021-12-28,got a fever
+445,doc4,pat6,2021-12-28,every thing is good 
+446,doc4,pat7,2021-12-28,just go home and relax
+447,doc4,pat8,2021-12-28,drink more water
+448,doc4,pat9,2021-12-28,sleep for enough
+449,doc4,pat5,2021-12-29,got a fever
+450,doc4,pat6,2021-12-29,every thing is good 
+451,doc4,pat7,2021-12-29,just go home and relax
+452,doc4,pat8,2021-12-29,drink more water
+453,doc4,pat9,2021-12-29,sleep for enough
+454,doc5,pat5,2021-12-14,got a fever
+455,doc5,pat6,2021-12-14,every thing is good 
+456,doc5,pat7,2021-12-14,just go home and relax
+457,doc5,pat8,2021-12-14,drink more water
+458,doc5,pat9,2021-12-14,sleep for enough
+459,doc5,pat5,2021-12-15,got a fever
+460,doc5,pat6,2021-12-15,every thing is good 
+461,doc5,pat7,2021-12-15,just go home and relax
+462,doc5,pat8,2021-12-15,drink more water
+463,doc5,pat9,2021-12-15,sleep for enough
+464,doc5,pat5,2021-12-16,got a fever
+465,doc5,pat6,2021-12-16,every thing is good 
+466,doc5,pat7,2021-12-16,just go home and relax
+467,doc5,pat8,2021-12-16,drink more water
+468,doc5,pat9,2021-12-16,sleep for enough
+469,doc5,pat5,2021-12-17,got a fever
+470,doc5,pat6,2021-12-17,every thing is good 
+471,doc5,pat7,2021-12-17,just go home and relax
+472,doc5,pat8,2021-12-17,drink more water
+473,doc5,pat9,2021-12-17,sleep for enough
+474,doc5,pat5,2021-12-18,got a fever
+475,doc5,pat6,2021-12-18,every thing is good 
+476,doc5,pat7,2021-12-18,just go home and relax
+477,doc5,pat8,2021-12-18,drink more water
+478,doc5,pat9,2021-12-18,sleep for enough
+479,doc5,pat5,2021-12-19,got a fever
+480,doc5,pat6,2021-12-19,every thing is good 
+481,doc5,pat7,2021-12-19,just go home and relax
+482,doc5,pat8,2021-12-19,drink more water
+483,doc5,pat9,2021-12-19,sleep for enough
+484,doc5,pat5,2021-12-20,got a fever
+485,doc5,pat6,2021-12-20,every thing is good 
+486,doc5,pat7,2021-12-20,just go home and relax
+487,doc5,pat8,2021-12-20,drink more water
+488,doc5,pat9,2021-12-20,sleep for enough
+489,doc5,pat5,2021-12-21,got a fever
+490,doc5,pat6,2021-12-21,every thing is good 
+491,doc5,pat7,2021-12-21,just go home and relax
+492,doc5,pat8,2021-12-21,drink more water
+493,doc5,pat9,2021-12-21,sleep for enough
+494,doc5,pat5,2021-12-22,got a fever
+495,doc5,pat6,2021-12-22,every thing is good 
+496,doc5,pat7,2021-12-22,just go home and relax
+497,doc5,pat8,2021-12-22,drink more water
+498,doc5,pat9,2021-12-22,sleep for enough
+499,doc5,pat5,2021-12-23,got a fever
+500,doc5,pat6,2021-12-23,every thing is good 
+501,doc5,pat7,2021-12-23,just go home and relax
+502,doc5,pat8,2021-12-23,drink more water
+503,doc5,pat9,2021-12-23,sleep for enough
+504,doc5,pat5,2021-12-24,got a fever
+505,doc5,pat6,2021-12-24,every thing is good 
+506,doc5,pat7,2021-12-24,just go home and relax
+507,doc5,pat8,2021-12-24,drink more water
+508,doc5,pat9,2021-12-24,sleep for enough
+509,doc5,pat5,2021-12-25,got a fever
+510,doc5,pat6,2021-12-25,every thing is good 
+511,doc5,pat7,2021-12-25,just go home and relax
+512,doc5,pat8,2021-12-25,drink more water
+513,doc5,pat9,2021-12-25,sleep for enough
+514,doc5,pat5,2021-12-26,got a fever
+515,doc5,pat6,2021-12-26,every thing is good 
+516,doc5,pat7,2021-12-26,just go home and relax
+517,doc5,pat8,2021-12-26,drink more water
+518,doc5,pat9,2021-12-26,sleep for enough
+519,doc5,pat5,2021-12-27,got a fever
+520,doc5,pat6,2021-12-27,every thing is good 
+521,doc5,pat7,2021-12-27,just go home and relax
+522,doc5,pat8,2021-12-27,drink more water
+523,doc5,pat9,2021-12-27,sleep for enough
+524,doc5,pat5,2021-12-28,got a fever
+525,doc5,pat6,2021-12-28,every thing is good 
+526,doc5,pat7,2021-12-28,just go home and relax
+527,doc5,pat8,2021-12-28,drink more water
+528,doc5,pat9,2021-12-28,sleep for enough
+529,doc5,pat5,2021-12-29,got a fever
+530,doc5,pat6,2021-12-29,every thing is good 
+531,doc5,pat7,2021-12-29,just go home and relax
+532,doc5,pat8,2021-12-29,drink more water
+533,doc5,pat9,2021-12-29,sleep for enough
+534,doc6,pat5,2021-12-14,got a fever
+535,doc6,pat6,2021-12-14,every thing is good 
+536,doc6,pat7,2021-12-14,just go home and relax
+537,doc6,pat8,2021-12-14,drink more water
+538,doc6,pat9,2021-12-14,sleep for enough
+539,doc6,pat5,2021-12-15,got a fever
+540,doc6,pat6,2021-12-15,every thing is good 
+541,doc6,pat7,2021-12-15,just go home and relax
+542,doc6,pat8,2021-12-15,drink more water
+543,doc6,pat9,2021-12-15,sleep for enough
+544,doc6,pat5,2021-12-16,got a fever
+545,doc6,pat6,2021-12-16,every thing is good 
+546,doc6,pat7,2021-12-16,just go home and relax
+547,doc6,pat8,2021-12-16,drink more water
+548,doc6,pat9,2021-12-16,sleep for enough
+549,doc6,pat5,2021-12-17,got a fever
+550,doc6,pat6,2021-12-17,every thing is good 
+551,doc6,pat7,2021-12-17,just go home and relax
+552,doc6,pat8,2021-12-17,drink more water
+553,doc6,pat9,2021-12-17,sleep for enough
+554,doc6,pat5,2021-12-18,got a fever
+555,doc6,pat6,2021-12-18,every thing is good 
+556,doc6,pat7,2021-12-18,just go home and relax
+557,doc6,pat8,2021-12-18,drink more water
+558,doc6,pat9,2021-12-18,sleep for enough
+559,doc6,pat5,2021-12-19,got a fever
+560,doc6,pat6,2021-12-19,every thing is good 
+561,doc6,pat7,2021-12-19,just go home and relax
+562,doc6,pat8,2021-12-19,drink more water
+563,doc6,pat9,2021-12-19,sleep for enough
+564,doc6,pat5,2021-12-20,got a fever
+565,doc6,pat6,2021-12-20,every thing is good 
+566,doc6,pat7,2021-12-20,just go home and relax
+567,doc6,pat8,2021-12-20,drink more water
+568,doc6,pat9,2021-12-20,sleep for enough
+569,doc6,pat5,2021-12-21,got a fever
+570,doc6,pat6,2021-12-21,every thing is good 
+571,doc6,pat7,2021-12-21,just go home and relax
+572,doc6,pat8,2021-12-21,drink more water
+573,doc6,pat9,2021-12-21,sleep for enough
+574,doc6,pat5,2021-12-22,got a fever
+575,doc6,pat6,2021-12-22,every thing is good 
+576,doc6,pat7,2021-12-22,just go home and relax
+577,doc6,pat8,2021-12-22,drink more water
+578,doc6,pat9,2021-12-22,sleep for enough
+579,doc6,pat5,2021-12-23,got a fever
+580,doc6,pat6,2021-12-23,every thing is good 
+581,doc6,pat7,2021-12-23,just go home and relax
+582,doc6,pat8,2021-12-23,drink more water
+583,doc6,pat9,2021-12-23,sleep for enough
+584,doc6,pat5,2021-12-24,got a fever
+585,doc6,pat6,2021-12-24,every thing is good 
+586,doc6,pat7,2021-12-24,just go home and relax
+587,doc6,pat8,2021-12-24,drink more water
+588,doc6,pat9,2021-12-24,sleep for enough
+589,doc6,pat5,2021-12-25,got a fever
+590,doc6,pat6,2021-12-25,every thing is good 
+591,doc6,pat7,2021-12-25,just go home and relax
+592,doc6,pat8,2021-12-25,drink more water
+593,doc6,pat9,2021-12-25,sleep for enough
+594,doc6,pat5,2021-12-26,got a fever
+595,doc6,pat6,2021-12-26,every thing is good 
+596,doc6,pat7,2021-12-26,just go home and relax
+597,doc6,pat8,2021-12-26,drink more water
+598,doc6,pat9,2021-12-26,sleep for enough
+599,doc6,pat5,2021-12-27,got a fever
+600,doc6,pat6,2021-12-27,every thing is good 
+601,doc6,pat7,2021-12-27,just go home and relax
+602,doc6,pat8,2021-12-27,drink more water
+603,doc6,pat9,2021-12-27,sleep for enough
+604,doc6,pat5,2021-12-28,got a fever
+605,doc6,pat6,2021-12-28,every thing is good 
+606,doc6,pat7,2021-12-28,just go home and relax
+607,doc6,pat8,2021-12-28,drink more water
+608,doc6,pat9,2021-12-28,sleep for enough
+609,doc6,pat5,2021-12-29,got a fever
+610,doc6,pat6,2021-12-29,every thing is good 
+611,doc6,pat7,2021-12-29,just go home and relax
+612,doc6,pat8,2021-12-29,drink more water
+613,doc6,pat9,2021-12-29,sleep for enough
+614,doc7,pat5,2021-12-14,got a fever
+615,doc7,pat6,2021-12-14,every thing is good 
+616,doc7,pat7,2021-12-14,just go home and relax
+617,doc7,pat8,2021-12-14,drink more water
+618,doc7,pat9,2021-12-14,sleep for enough
+619,doc7,pat5,2021-12-15,got a fever
+620,doc7,pat6,2021-12-15,every thing is good 
+621,doc7,pat7,2021-12-15,just go home and relax
+622,doc7,pat8,2021-12-15,drink more water
+623,doc7,pat9,2021-12-15,sleep for enough
+624,doc7,pat5,2021-12-16,got a fever
+625,doc7,pat6,2021-12-16,every thing is good 
+626,doc7,pat7,2021-12-16,just go home and relax
+627,doc7,pat8,2021-12-16,drink more water
+628,doc7,pat9,2021-12-16,sleep for enough
+629,doc7,pat5,2021-12-17,got a fever
+630,doc7,pat6,2021-12-17,every thing is good 
+631,doc7,pat7,2021-12-17,just go home and relax
+632,doc7,pat8,2021-12-17,drink more water
+633,doc7,pat9,2021-12-17,sleep for enough
+634,doc7,pat5,2021-12-18,got a fever
+635,doc7,pat6,2021-12-18,every thing is good 
+636,doc7,pat7,2021-12-18,just go home and relax
+637,doc7,pat8,2021-12-18,drink more water
+638,doc7,pat9,2021-12-18,sleep for enough
+639,doc7,pat5,2021-12-19,got a fever
+640,doc7,pat6,2021-12-19,every thing is good 
+641,doc7,pat7,2021-12-19,just go home and relax
+642,doc7,pat8,2021-12-19,drink more water
+643,doc7,pat9,2021-12-19,sleep for enough
+644,doc7,pat5,2021-12-20,got a fever
+645,doc7,pat6,2021-12-20,every thing is good 
+646,doc7,pat7,2021-12-20,just go home and relax
+647,doc7,pat8,2021-12-20,drink more water
+648,doc7,pat9,2021-12-20,sleep for enough
+649,doc7,pat5,2021-12-21,got a fever
+650,doc7,pat6,2021-12-21,every thing is good 
+651,doc7,pat7,2021-12-21,just go home and relax
+652,doc7,pat8,2021-12-21,drink more water
+653,doc7,pat9,2021-12-21,sleep for enough
+654,doc7,pat5,2021-12-22,got a fever
+655,doc7,pat6,2021-12-22,every thing is good 
+656,doc7,pat7,2021-12-22,just go home and relax
+657,doc7,pat8,2021-12-22,drink more water
+658,doc7,pat9,2021-12-22,sleep for enough
+659,doc7,pat5,2021-12-23,got a fever
+660,doc7,pat6,2021-12-23,every thing is good 
+661,doc7,pat7,2021-12-23,just go home and relax
+662,doc7,pat8,2021-12-23,drink more water
+663,doc7,pat9,2021-12-23,sleep for enough
+664,doc7,pat5,2021-12-24,got a fever
+665,doc7,pat6,2021-12-24,every thing is good 
+666,doc7,pat7,2021-12-24,just go home and relax
+667,doc7,pat8,2021-12-24,drink more water
+668,doc7,pat9,2021-12-24,sleep for enough
+669,doc7,pat5,2021-12-25,got a fever
+670,doc7,pat6,2021-12-25,every thing is good 
+671,doc7,pat7,2021-12-25,just go home and relax
+672,doc7,pat8,2021-12-25,drink more water
+673,doc7,pat9,2021-12-25,sleep for enough
+674,doc7,pat5,2021-12-26,got a fever
+675,doc7,pat6,2021-12-26,every thing is good 
+676,doc7,pat7,2021-12-26,just go home and relax
+677,doc7,pat8,2021-12-26,drink more water
+678,doc7,pat9,2021-12-26,sleep for enough
+679,doc7,pat5,2021-12-27,got a fever
+680,doc7,pat6,2021-12-27,every thing is good 
+681,doc7,pat7,2021-12-27,just go home and relax
+682,doc7,pat8,2021-12-27,drink more water
+683,doc7,pat9,2021-12-27,sleep for enough
+684,doc7,pat5,2021-12-28,got a fever
+685,doc7,pat6,2021-12-28,every thing is good 
+686,doc7,pat7,2021-12-28,just go home and relax
+687,doc7,pat8,2021-12-28,drink more water
+688,doc7,pat9,2021-12-28,sleep for enough
+689,doc7,pat5,2021-12-29,got a fever
+690,doc7,pat6,2021-12-29,every thing is good 
+691,doc7,pat7,2021-12-29,just go home and relax
+692,doc7,pat8,2021-12-29,drink more water
+693,doc7,pat9,2021-12-29,sleep for enough
+694,doc8,pat5,2021-12-14,got a fever
+695,doc8,pat6,2021-12-14,every thing is good 
+696,doc8,pat7,2021-12-14,just go home and relax
+697,doc8,pat8,2021-12-14,drink more water
+698,doc8,pat9,2021-12-14,sleep for enough
+699,doc8,pat5,2021-12-15,got a fever
+700,doc8,pat6,2021-12-15,every thing is good 
+701,doc8,pat7,2021-12-15,just go home and relax
+702,doc8,pat8,2021-12-15,drink more water
+703,doc8,pat9,2021-12-15,sleep for enough
+704,doc8,pat5,2021-12-16,got a fever
+705,doc8,pat6,2021-12-16,every thing is good 
+706,doc8,pat7,2021-12-16,just go home and relax
+707,doc8,pat8,2021-12-16,drink more water
+708,doc8,pat9,2021-12-16,sleep for enough
+709,doc8,pat5,2021-12-17,got a fever
+710,doc8,pat6,2021-12-17,every thing is good 
+711,doc8,pat7,2021-12-17,just go home and relax
+712,doc8,pat8,2021-12-17,drink more water
+713,doc8,pat9,2021-12-17,sleep for enough
+714,doc8,pat5,2021-12-18,got a fever
+715,doc8,pat6,2021-12-18,every thing is good 
+716,doc8,pat7,2021-12-18,just go home and relax
+717,doc8,pat8,2021-12-18,drink more water
+718,doc8,pat9,2021-12-18,sleep for enough
+719,doc8,pat5,2021-12-19,got a fever
+720,doc8,pat6,2021-12-19,every thing is good 
+721,doc8,pat7,2021-12-19,just go home and relax
+722,doc8,pat8,2021-12-19,drink more water
+723,doc8,pat9,2021-12-19,sleep for enough
+724,doc8,pat5,2021-12-20,got a fever
+725,doc8,pat6,2021-12-20,every thing is good 
+726,doc8,pat7,2021-12-20,just go home and relax
+727,doc8,pat8,2021-12-20,drink more water
+728,doc8,pat9,2021-12-20,sleep for enough
+729,doc8,pat5,2021-12-21,got a fever
+730,doc8,pat6,2021-12-21,every thing is good 
+731,doc8,pat7,2021-12-21,just go home and relax
+732,doc8,pat8,2021-12-21,drink more water
+733,doc8,pat9,2021-12-21,sleep for enough
+734,doc8,pat5,2021-12-22,got a fever
+735,doc8,pat6,2021-12-22,every thing is good 
+736,doc8,pat7,2021-12-22,just go home and relax
+737,doc8,pat8,2021-12-22,drink more water
+738,doc8,pat9,2021-12-22,sleep for enough
+739,doc8,pat5,2021-12-23,got a fever
+740,doc8,pat6,2021-12-23,every thing is good 
+741,doc8,pat7,2021-12-23,just go home and relax
+742,doc8,pat8,2021-12-23,drink more water
+743,doc8,pat9,2021-12-23,sleep for enough
+744,doc8,pat5,2021-12-24,got a fever
+745,doc8,pat6,2021-12-24,every thing is good 
+746,doc8,pat7,2021-12-24,just go home and relax
+747,doc8,pat8,2021-12-24,drink more water
+748,doc8,pat9,2021-12-24,sleep for enough
+749,doc8,pat5,2021-12-25,got a fever
+750,doc8,pat6,2021-12-25,every thing is good 
+751,doc8,pat7,2021-12-25,just go home and relax
+752,doc8,pat8,2021-12-25,drink more water
+753,doc8,pat9,2021-12-25,sleep for enough
+754,doc8,pat5,2021-12-26,got a fever
+755,doc8,pat6,2021-12-26,every thing is good 
+756,doc8,pat7,2021-12-26,just go home and relax
+757,doc8,pat8,2021-12-26,drink more water
+758,doc8,pat9,2021-12-26,sleep for enough
+759,doc8,pat5,2021-12-27,got a fever
+760,doc8,pat6,2021-12-27,every thing is good 
+761,doc8,pat7,2021-12-27,just go home and relax
+762,doc8,pat8,2021-12-27,drink more water
+763,doc8,pat9,2021-12-27,sleep for enough
+764,doc8,pat5,2021-12-28,got a fever
+765,doc8,pat6,2021-12-28,every thing is good 
+766,doc8,pat7,2021-12-28,just go home and relax
+767,doc8,pat8,2021-12-28,drink more water
+768,doc8,pat9,2021-12-28,sleep for enough
+769,doc8,pat5,2021-12-29,got a fever
+770,doc8,pat6,2021-12-29,every thing is good 
+771,doc8,pat7,2021-12-29,just go home and relax
+772,doc8,pat8,2021-12-29,drink more water
+773,doc8,pat9,2021-12-29,sleep for enough
+774,doc9,pat5,2021-12-14,got a fever
+775,doc9,pat6,2021-12-14,every thing is good 
+776,doc9,pat7,2021-12-14,just go home and relax
+777,doc9,pat8,2021-12-14,drink more water
+778,doc9,pat9,2021-12-14,sleep for enough
+779,doc9,pat5,2021-12-15,got a fever
+780,doc9,pat6,2021-12-15,every thing is good 
+781,doc9,pat7,2021-12-15,just go home and relax
+782,doc9,pat8,2021-12-15,drink more water
+783,doc9,pat9,2021-12-15,sleep for enough
+784,doc9,pat5,2021-12-16,got a fever
+785,doc9,pat6,2021-12-16,every thing is good 
+786,doc9,pat7,2021-12-16,just go home and relax
+787,doc9,pat8,2021-12-16,drink more water
+788,doc9,pat9,2021-12-16,sleep for enough
+789,doc9,pat5,2021-12-17,got a fever
+790,doc9,pat6,2021-12-17,every thing is good 
+791,doc9,pat7,2021-12-17,just go home and relax
+792,doc9,pat8,2021-12-17,drink more water
+793,doc9,pat9,2021-12-17,sleep for enough
+794,doc9,pat5,2021-12-18,got a fever
+795,doc9,pat6,2021-12-18,every thing is good 
+796,doc9,pat7,2021-12-18,just go home and relax
+797,doc9,pat8,2021-12-18,drink more water
+798,doc9,pat9,2021-12-18,sleep for enough
+799,doc9,pat5,2021-12-19,got a fever
+800,doc9,pat6,2021-12-19,every thing is good 
+801,doc9,pat7,2021-12-19,just go home and relax
+802,doc9,pat8,2021-12-19,drink more water
+803,doc9,pat9,2021-12-19,sleep for enough
+804,doc9,pat5,2021-12-20,got a fever
+805,doc9,pat6,2021-12-20,every thing is good 
+806,doc9,pat7,2021-12-20,just go home and relax
+807,doc9,pat8,2021-12-20,drink more water
+808,doc9,pat9,2021-12-20,sleep for enough
+809,doc9,pat5,2021-12-21,got a fever
+810,doc9,pat6,2021-12-21,every thing is good 
+811,doc9,pat7,2021-12-21,just go home and relax
+812,doc9,pat8,2021-12-21,drink more water
+813,doc9,pat9,2021-12-21,sleep for enough
+814,doc9,pat5,2021-12-22,got a fever
+815,doc9,pat6,2021-12-22,every thing is good 
+816,doc9,pat7,2021-12-22,just go home and relax
+817,doc9,pat8,2021-12-22,drink more water
+818,doc9,pat9,2021-12-22,sleep for enough
+819,doc9,pat5,2021-12-23,got a fever
+820,doc9,pat6,2021-12-23,every thing is good 
+821,doc9,pat7,2021-12-23,just go home and relax
+822,doc9,pat8,2021-12-23,drink more water
+823,doc9,pat9,2021-12-23,sleep for enough
+824,doc9,pat5,2021-12-24,got a fever
+825,doc9,pat6,2021-12-24,every thing is good 
+826,doc9,pat7,2021-12-24,just go home and relax
+827,doc9,pat8,2021-12-24,drink more water
+828,doc9,pat9,2021-12-24,sleep for enough
+829,doc9,pat5,2021-12-25,got a fever
+830,doc9,pat6,2021-12-25,every thing is good 
+831,doc9,pat7,2021-12-25,just go home and relax
+832,doc9,pat8,2021-12-25,drink more water
+833,doc9,pat9,2021-12-25,sleep for enough
+834,doc9,pat5,2021-12-26,got a fever
+835,doc9,pat6,2021-12-26,every thing is good 
+836,doc9,pat7,2021-12-26,just go home and relax
+837,doc9,pat8,2021-12-26,drink more water
+838,doc9,pat9,2021-12-26,sleep for enough
+839,doc9,pat5,2021-12-27,got a fever
+840,doc9,pat6,2021-12-27,every thing is good 
+841,doc9,pat7,2021-12-27,just go home and relax
+842,doc9,pat8,2021-12-27,drink more water
+843,doc9,pat9,2021-12-27,sleep for enough
+844,doc9,pat5,2021-12-28,got a fever
+845,doc9,pat6,2021-12-28,every thing is good 
+846,doc9,pat7,2021-12-28,just go home and relax
+847,doc9,pat8,2021-12-28,drink more water
+848,doc9,pat9,2021-12-28,sleep for enough
+849,doc9,pat5,2021-12-29,got a fever
+850,doc9,pat6,2021-12-29,every thing is good 
+851,doc9,pat7,2021-12-29,just go home and relax
+852,doc9,pat8,2021-12-29,drink more water
+853,doc9,pat9,2021-12-29,sleep for enough
+854,doc10,pat5,2021-12-14,got a fever
+855,doc10,pat6,2021-12-14,every thing is good 
+856,doc10,pat7,2021-12-14,just go home and relax
+857,doc10,pat8,2021-12-14,drink more water
+858,doc10,pat9,2021-12-14,sleep for enough
+859,doc10,pat5,2021-12-15,got a fever
+860,doc10,pat6,2021-12-15,every thing is good 
+861,doc10,pat7,2021-12-15,just go home and relax
+862,doc10,pat8,2021-12-15,drink more water
+863,doc10,pat9,2021-12-15,sleep for enough
+864,doc10,pat5,2021-12-16,got a fever
+865,doc10,pat6,2021-12-16,every thing is good 
+866,doc10,pat7,2021-12-16,just go home and relax
+867,doc10,pat8,2021-12-16,drink more water
+868,doc10,pat9,2021-12-16,sleep for enough
+869,doc10,pat5,2021-12-17,got a fever
+870,doc10,pat6,2021-12-17,every thing is good 
+871,doc10,pat7,2021-12-17,just go home and relax
+872,doc10,pat8,2021-12-17,drink more water
+873,doc10,pat9,2021-12-17,sleep for enough
+874,doc10,pat5,2021-12-18,got a fever
+875,doc10,pat6,2021-12-18,every thing is good 
+876,doc10,pat7,2021-12-18,just go home and relax
+877,doc10,pat8,2021-12-18,drink more water
+878,doc10,pat9,2021-12-18,sleep for enough
+879,doc10,pat5,2021-12-19,got a fever
+880,doc10,pat6,2021-12-19,every thing is good 
+881,doc10,pat7,2021-12-19,just go home and relax
+882,doc10,pat8,2021-12-19,drink more water
+883,doc10,pat9,2021-12-19,sleep for enough
+884,doc10,pat5,2021-12-20,got a fever
+885,doc10,pat6,2021-12-20,every thing is good 
+886,doc10,pat7,2021-12-20,just go home and relax
+887,doc10,pat8,2021-12-20,drink more water
+888,doc10,pat9,2021-12-20,sleep for enough
+889,doc10,pat5,2021-12-21,got a fever
+890,doc10,pat6,2021-12-21,every thing is good 
+891,doc10,pat7,2021-12-21,just go home and relax
+892,doc10,pat8,2021-12-21,drink more water
+893,doc10,pat9,2021-12-21,sleep for enough
+894,doc10,pat5,2021-12-22,got a fever
+895,doc10,pat6,2021-12-22,every thing is good 
+896,doc10,pat7,2021-12-22,just go home and relax
+897,doc10,pat8,2021-12-22,drink more water
+898,doc10,pat9,2021-12-22,sleep for enough
+899,doc10,pat5,2021-12-23,got a fever
+900,doc10,pat6,2021-12-23,every thing is good 
+901,doc10,pat7,2021-12-23,just go home and relax
+902,doc10,pat8,2021-12-23,drink more water
+903,doc10,pat9,2021-12-23,sleep for enough
+904,doc10,pat5,2021-12-24,got a fever
+905,doc10,pat6,2021-12-24,every thing is good 
+906,doc10,pat7,2021-12-24,just go home and relax
+907,doc10,pat8,2021-12-24,drink more water
+908,doc10,pat9,2021-12-24,sleep for enough
+909,doc10,pat5,2021-12-25,got a fever
+910,doc10,pat6,2021-12-25,every thing is good 
+911,doc10,pat7,2021-12-25,just go home and relax
+912,doc10,pat8,2021-12-25,drink more water
+913,doc10,pat9,2021-12-25,sleep for enough
+914,doc10,pat5,2021-12-26,got a fever
+915,doc10,pat6,2021-12-26,every thing is good 
+916,doc10,pat7,2021-12-26,just go home and relax
+917,doc10,pat8,2021-12-26,drink more water
+918,doc10,pat9,2021-12-26,sleep for enough
+919,doc10,pat5,2021-12-27,got a fever
+920,doc10,pat6,2021-12-27,every thing is good 
+921,doc10,pat7,2021-12-27,just go home and relax
+922,doc10,pat8,2021-12-27,drink more water
+923,doc10,pat9,2021-12-27,sleep for enough
+924,doc10,pat5,2021-12-28,got a fever
+925,doc10,pat6,2021-12-28,every thing is good 
+926,doc10,pat7,2021-12-28,just go home and relax
+927,doc10,pat8,2021-12-28,drink more water
+928,doc10,pat9,2021-12-28,sleep for enough
+929,doc10,pat5,2021-12-29,got a fever
+930,doc10,pat6,2021-12-29,every thing is good 
+931,doc10,pat7,2021-12-29,just go home and relax
+932,doc10,pat8,2021-12-29,drink more water
+933,doc10,pat9,2021-12-29,sleep for enough
+934,doc11,pat5,2021-12-14,got a fever
+935,doc11,pat6,2021-12-14,every thing is good 
+936,doc11,pat7,2021-12-14,just go home and relax
+937,doc11,pat8,2021-12-14,drink more water
+938,doc11,pat9,2021-12-14,sleep for enough
+939,doc11,pat5,2021-12-15,got a fever
+940,doc11,pat6,2021-12-15,every thing is good 
+941,doc11,pat7,2021-12-15,just go home and relax
+942,doc11,pat8,2021-12-15,drink more water
+943,doc11,pat9,2021-12-15,sleep for enough
+944,doc11,pat5,2021-12-16,got a fever
+945,doc11,pat6,2021-12-16,every thing is good 
+946,doc11,pat7,2021-12-16,just go home and relax
+947,doc11,pat8,2021-12-16,drink more water
+948,doc11,pat9,2021-12-16,sleep for enough
+949,doc11,pat5,2021-12-17,got a fever
+950,doc11,pat6,2021-12-17,every thing is good 
+951,doc11,pat7,2021-12-17,just go home and relax
+952,doc11,pat8,2021-12-17,drink more water
+953,doc11,pat9,2021-12-17,sleep for enough
+954,doc11,pat5,2021-12-18,got a fever
+955,doc11,pat6,2021-12-18,every thing is good 
+956,doc11,pat7,2021-12-18,just go home and relax
+957,doc11,pat8,2021-12-18,drink more water
+958,doc11,pat9,2021-12-18,sleep for enough
+959,doc11,pat5,2021-12-19,got a fever
+960,doc11,pat6,2021-12-19,every thing is good 
+961,doc11,pat7,2021-12-19,just go home and relax
+962,doc11,pat8,2021-12-19,drink more water
+963,doc11,pat9,2021-12-19,sleep for enough
+964,doc11,pat5,2021-12-20,got a fever
+965,doc11,pat6,2021-12-20,every thing is good 
+966,doc11,pat7,2021-12-20,just go home and relax
+967,doc11,pat8,2021-12-20,drink more water
+968,doc11,pat9,2021-12-20,sleep for enough
+969,doc11,pat5,2021-12-21,got a fever
+970,doc11,pat6,2021-12-21,every thing is good 
+971,doc11,pat7,2021-12-21,just go home and relax
+972,doc11,pat8,2021-12-21,drink more water
+973,doc11,pat9,2021-12-21,sleep for enough
+974,doc11,pat5,2021-12-22,got a fever
+975,doc11,pat6,2021-12-22,every thing is good 
+976,doc11,pat7,2021-12-22,just go home and relax
+977,doc11,pat8,2021-12-22,drink more water
+978,doc11,pat9,2021-12-22,sleep for enough
+979,doc11,pat5,2021-12-23,got a fever
+980,doc11,pat6,2021-12-23,every thing is good 
+981,doc11,pat7,2021-12-23,just go home and relax
+982,doc11,pat8,2021-12-23,drink more water
+983,doc11,pat9,2021-12-23,sleep for enough
+984,doc11,pat5,2021-12-24,got a fever
+985,doc11,pat6,2021-12-24,every thing is good 
+986,doc11,pat7,2021-12-24,just go home and relax
+987,doc11,pat8,2021-12-24,drink more water
+988,doc11,pat9,2021-12-24,sleep for enough
+989,doc11,pat5,2021-12-25,got a fever
+990,doc11,pat6,2021-12-25,every thing is good 
+991,doc11,pat7,2021-12-25,just go home and relax
+992,doc11,pat8,2021-12-25,drink more water
+993,doc11,pat9,2021-12-25,sleep for enough
+994,doc11,pat5,2021-12-26,got a fever
+995,doc11,pat6,2021-12-26,every thing is good 
+996,doc11,pat7,2021-12-26,just go home and relax
+997,doc11,pat8,2021-12-26,drink more water
+998,doc11,pat9,2021-12-26,sleep for enough
+999,doc11,pat5,2021-12-27,got a fever
+1000,doc11,pat6,2021-12-27,every thing is good 
+1001,doc11,pat7,2021-12-27,just go home and relax
+1002,doc11,pat8,2021-12-27,drink more water
+1003,doc11,pat9,2021-12-27,sleep for enough
+1004,doc11,pat5,2021-12-28,got a fever
+1005,doc11,pat6,2021-12-28,every thing is good 
+1006,doc11,pat7,2021-12-28,just go home and relax
+1007,doc11,pat8,2021-12-28,drink more water
+1008,doc11,pat9,2021-12-28,sleep for enough
+1009,doc11,pat5,2021-12-29,got a fever
+1010,doc11,pat6,2021-12-29,every thing is good 
+1011,doc11,pat7,2021-12-29,just go home and relax
+1012,doc11,pat8,2021-12-29,drink more water
+1013,doc11,pat9,2021-12-29,sleep for enough
+1014,doc12,pat5,2021-12-14,got a fever
+1015,doc12,pat6,2021-12-14,every thing is good 
+1016,doc12,pat7,2021-12-14,just go home and relax
+1017,doc12,pat8,2021-12-14,drink more water
+1018,doc12,pat9,2021-12-14,sleep for enough
+1019,doc12,pat5,2021-12-15,got a fever
+1020,doc12,pat6,2021-12-15,every thing is good 
+1021,doc12,pat7,2021-12-15,just go home and relax
+1022,doc12,pat8,2021-12-15,drink more water
+1023,doc12,pat9,2021-12-15,sleep for enough
+1024,doc12,pat5,2021-12-16,got a fever
+1025,doc12,pat6,2021-12-16,every thing is good 
+1026,doc12,pat7,2021-12-16,just go home and relax
+1027,doc12,pat8,2021-12-16,drink more water
+1028,doc12,pat9,2021-12-16,sleep for enough
+1029,doc12,pat5,2021-12-17,got a fever
+1030,doc12,pat6,2021-12-17,every thing is good 
+1031,doc12,pat7,2021-12-17,just go home and relax
+1032,doc12,pat8,2021-12-17,drink more water
+1033,doc12,pat9,2021-12-17,sleep for enough
+1034,doc12,pat5,2021-12-18,got a fever
+1035,doc12,pat6,2021-12-18,every thing is good 
+1036,doc12,pat7,2021-12-18,just go home and relax
+1037,doc12,pat8,2021-12-18,drink more water
+1038,doc12,pat9,2021-12-18,sleep for enough
+1039,doc12,pat5,2021-12-19,got a fever
+1040,doc12,pat6,2021-12-19,every thing is good 
+1041,doc12,pat7,2021-12-19,just go home and relax
+1042,doc12,pat8,2021-12-19,drink more water
+1043,doc12,pat9,2021-12-19,sleep for enough
+1044,doc12,pat5,2021-12-20,got a fever
+1045,doc12,pat6,2021-12-20,every thing is good 
+1046,doc12,pat7,2021-12-20,just go home and relax
+1047,doc12,pat8,2021-12-20,drink more water
+1048,doc12,pat9,2021-12-20,sleep for enough
+1049,doc12,pat5,2021-12-21,got a fever
+1050,doc12,pat6,2021-12-21,every thing is good 
+1051,doc12,pat7,2021-12-21,just go home and relax
+1052,doc12,pat8,2021-12-21,drink more water
+1053,doc12,pat9,2021-12-21,sleep for enough
+1054,doc12,pat5,2021-12-22,got a fever
+1055,doc12,pat6,2021-12-22,every thing is good 
+1056,doc12,pat7,2021-12-22,just go home and relax
+1057,doc12,pat8,2021-12-22,drink more water
+1058,doc12,pat9,2021-12-22,sleep for enough
+1059,doc12,pat5,2021-12-23,got a fever
+1060,doc12,pat6,2021-12-23,every thing is good 
+1061,doc12,pat7,2021-12-23,just go home and relax
+1062,doc12,pat8,2021-12-23,drink more water
+1063,doc12,pat9,2021-12-23,sleep for enough
+1064,doc12,pat5,2021-12-24,got a fever
+1065,doc12,pat6,2021-12-24,every thing is good 
+1066,doc12,pat7,2021-12-24,just go home and relax
+1067,doc12,pat8,2021-12-24,drink more water
+1068,doc12,pat9,2021-12-24,sleep for enough
+1069,doc12,pat5,2021-12-25,got a fever
+1070,doc12,pat6,2021-12-25,every thing is good 
+1071,doc12,pat7,2021-12-25,just go home and relax
+1072,doc12,pat8,2021-12-25,drink more water
+1073,doc12,pat9,2021-12-25,sleep for enough
+1074,doc12,pat5,2021-12-26,got a fever
+1075,doc12,pat6,2021-12-26,every thing is good 
+1076,doc12,pat7,2021-12-26,just go home and relax
+1077,doc12,pat8,2021-12-26,drink more water
+1078,doc12,pat9,2021-12-26,sleep for enough
+1079,doc12,pat5,2021-12-27,got a fever
+1080,doc12,pat6,2021-12-27,every thing is good 
+1081,doc12,pat7,2021-12-27,just go home and relax
+1082,doc12,pat8,2021-12-27,drink more water
+1083,doc12,pat9,2021-12-27,sleep for enough
+1084,doc12,pat5,2021-12-28,got a fever
+1085,doc12,pat6,2021-12-28,every thing is good 
+1086,doc12,pat7,2021-12-28,just go home and relax
+1087,doc12,pat8,2021-12-28,drink more water
+1088,doc12,pat9,2021-12-28,sleep for enough
+1089,doc12,pat5,2021-12-29,got a fever
+1090,doc12,pat6,2021-12-29,every thing is good 
+1091,doc12,pat7,2021-12-29,just go home and relax
+1092,doc12,pat8,2021-12-29,drink more water
+1093,doc12,pat9,2021-12-29,sleep for enough
+1094,doc13,pat5,2021-12-14,got a fever
+1095,doc13,pat6,2021-12-14,every thing is good 
+1096,doc13,pat7,2021-12-14,just go home and relax
+1097,doc13,pat8,2021-12-14,drink more water
+1098,doc13,pat9,2021-12-14,sleep for enough
+1099,doc13,pat5,2021-12-15,got a fever
+1100,doc13,pat6,2021-12-15,every thing is good 
+1101,doc13,pat7,2021-12-15,just go home and relax
+1102,doc13,pat8,2021-12-15,drink more water
+1103,doc13,pat9,2021-12-15,sleep for enough
+1104,doc13,pat5,2021-12-16,got a fever
+1105,doc13,pat6,2021-12-16,every thing is good 
+1106,doc13,pat7,2021-12-16,just go home and relax
+1107,doc13,pat8,2021-12-16,drink more water
+1108,doc13,pat9,2021-12-16,sleep for enough
+1109,doc13,pat5,2021-12-17,got a fever
+1110,doc13,pat6,2021-12-17,every thing is good 
+1111,doc13,pat7,2021-12-17,just go home and relax
+1112,doc13,pat8,2021-12-17,drink more water
+1113,doc13,pat9,2021-12-17,sleep for enough
+1114,doc13,pat5,2021-12-18,got a fever
+1115,doc13,pat6,2021-12-18,every thing is good 
+1116,doc13,pat7,2021-12-18,just go home and relax
+1117,doc13,pat8,2021-12-18,drink more water
+1118,doc13,pat9,2021-12-18,sleep for enough
+1119,doc13,pat5,2021-12-19,got a fever
+1120,doc13,pat6,2021-12-19,every thing is good 
+1121,doc13,pat7,2021-12-19,just go home and relax
+1122,doc13,pat8,2021-12-19,drink more water
+1123,doc13,pat9,2021-12-19,sleep for enough
+1124,doc13,pat5,2021-12-20,got a fever
+1125,doc13,pat6,2021-12-20,every thing is good 
+1126,doc13,pat7,2021-12-20,just go home and relax
+1127,doc13,pat8,2021-12-20,drink more water
+1128,doc13,pat9,2021-12-20,sleep for enough
+1129,doc13,pat5,2021-12-21,got a fever
+1130,doc13,pat6,2021-12-21,every thing is good 
+1131,doc13,pat7,2021-12-21,just go home and relax
+1132,doc13,pat8,2021-12-21,drink more water
+1133,doc13,pat9,2021-12-21,sleep for enough
+1134,doc13,pat5,2021-12-22,got a fever
+1135,doc13,pat6,2021-12-22,every thing is good 
+1136,doc13,pat7,2021-12-22,just go home and relax
+1137,doc13,pat8,2021-12-22,drink more water
+1138,doc13,pat9,2021-12-22,sleep for enough
+1139,doc13,pat5,2021-12-23,got a fever
+1140,doc13,pat6,2021-12-23,every thing is good 
+1141,doc13,pat7,2021-12-23,just go home and relax
+1142,doc13,pat8,2021-12-23,drink more water
+1143,doc13,pat9,2021-12-23,sleep for enough
+1144,doc13,pat5,2021-12-24,got a fever
+1145,doc13,pat6,2021-12-24,every thing is good 
+1146,doc13,pat7,2021-12-24,just go home and relax
+1147,doc13,pat8,2021-12-24,drink more water
+1148,doc13,pat9,2021-12-24,sleep for enough
+1149,doc13,pat5,2021-12-25,got a fever
+1150,doc13,pat6,2021-12-25,every thing is good 
+1151,doc13,pat7,2021-12-25,just go home and relax
+1152,doc13,pat8,2021-12-25,drink more water
+1153,doc13,pat9,2021-12-25,sleep for enough
+1154,doc13,pat5,2021-12-26,got a fever
+1155,doc13,pat6,2021-12-26,every thing is good 
+1156,doc13,pat7,2021-12-26,just go home and relax
+1157,doc13,pat8,2021-12-26,drink more water
+1158,doc13,pat9,2021-12-26,sleep for enough
+1159,doc13,pat5,2021-12-27,got a fever
+1160,doc13,pat6,2021-12-27,every thing is good 
+1161,doc13,pat7,2021-12-27,just go home and relax
+1162,doc13,pat8,2021-12-27,drink more water
+1163,doc13,pat9,2021-12-27,sleep for enough
+1164,doc13,pat5,2021-12-28,got a fever
+1165,doc13,pat6,2021-12-28,every thing is good 
+1166,doc13,pat7,2021-12-28,just go home and relax
+1167,doc13,pat8,2021-12-28,drink more water
+1168,doc13,pat9,2021-12-28,sleep for enough
+1169,doc13,pat5,2021-12-29,got a fever
+1170,doc13,pat6,2021-12-29,every thing is good 
+1171,doc13,pat7,2021-12-29,just go home and relax
+1172,doc13,pat8,2021-12-29,drink more water
+1173,doc13,pat9,2021-12-29,sleep for enough
+1174,doc14,pat5,2021-12-14,got a fever
+1175,doc14,pat6,2021-12-14,every thing is good 
+1176,doc14,pat7,2021-12-14,just go home and relax
+1177,doc14,pat8,2021-12-14,drink more water
+1178,doc14,pat9,2021-12-14,sleep for enough
+1179,doc14,pat5,2021-12-15,got a fever
+1180,doc14,pat6,2021-12-15,every thing is good 
+1181,doc14,pat7,2021-12-15,just go home and relax
+1182,doc14,pat8,2021-12-15,drink more water
+1183,doc14,pat9,2021-12-15,sleep for enough
+1184,doc14,pat5,2021-12-16,got a fever
+1185,doc14,pat6,2021-12-16,every thing is good 
+1186,doc14,pat7,2021-12-16,just go home and relax
+1187,doc14,pat8,2021-12-16,drink more water
+1188,doc14,pat9,2021-12-16,sleep for enough
+1189,doc14,pat5,2021-12-17,got a fever
+1190,doc14,pat6,2021-12-17,every thing is good 
+1191,doc14,pat7,2021-12-17,just go home and relax
+1192,doc14,pat8,2021-12-17,drink more water
+1193,doc14,pat9,2021-12-17,sleep for enough
+1194,doc14,pat5,2021-12-18,got a fever
+1195,doc14,pat6,2021-12-18,every thing is good 
+1196,doc14,pat7,2021-12-18,just go home and relax
+1197,doc14,pat8,2021-12-18,drink more water
+1198,doc14,pat9,2021-12-18,sleep for enough
+1199,doc14,pat5,2021-12-19,got a fever
+1200,doc14,pat6,2021-12-19,every thing is good 
+1201,doc14,pat7,2021-12-19,just go home and relax
+1202,doc14,pat8,2021-12-19,drink more water
+1203,doc14,pat9,2021-12-19,sleep for enough
+1204,doc14,pat5,2021-12-20,got a fever
+1205,doc14,pat6,2021-12-20,every thing is good 
+1206,doc14,pat7,2021-12-20,just go home and relax
+1207,doc14,pat8,2021-12-20,drink more water
+1208,doc14,pat9,2021-12-20,sleep for enough
+1209,doc14,pat5,2021-12-21,got a fever
+1210,doc14,pat6,2021-12-21,every thing is good 
+1211,doc14,pat7,2021-12-21,just go home and relax
+1212,doc14,pat8,2021-12-21,drink more water
+1213,doc14,pat9,2021-12-21,sleep for enough
+1214,doc14,pat5,2021-12-22,got a fever
+1215,doc14,pat6,2021-12-22,every thing is good 
+1216,doc14,pat7,2021-12-22,just go home and relax
+1217,doc14,pat8,2021-12-22,drink more water
+1218,doc14,pat9,2021-12-22,sleep for enough
+1219,doc14,pat5,2021-12-23,got a fever
+1220,doc14,pat6,2021-12-23,every thing is good 
+1221,doc14,pat7,2021-12-23,just go home and relax
+1222,doc14,pat8,2021-12-23,drink more water
+1223,doc14,pat9,2021-12-23,sleep for enough
+1224,doc14,pat5,2021-12-24,got a fever
+1225,doc14,pat6,2021-12-24,every thing is good 
+1226,doc14,pat7,2021-12-24,just go home and relax
+1227,doc14,pat8,2021-12-24,drink more water
+1228,doc14,pat9,2021-12-24,sleep for enough
+1229,doc14,pat5,2021-12-25,got a fever
+1230,doc14,pat6,2021-12-25,every thing is good 
+1231,doc14,pat7,2021-12-25,just go home and relax
+1232,doc14,pat8,2021-12-25,drink more water
+1233,doc14,pat9,2021-12-25,sleep for enough
+1234,doc14,pat5,2021-12-26,got a fever
+1235,doc14,pat6,2021-12-26,every thing is good 
+1236,doc14,pat7,2021-12-26,just go home and relax
+1237,doc14,pat8,2021-12-26,drink more water
+1238,doc14,pat9,2021-12-26,sleep for enough
+1239,doc14,pat5,2021-12-27,got a fever
+1240,doc14,pat6,2021-12-27,every thing is good 
+1241,doc14,pat7,2021-12-27,just go home and relax
+1242,doc14,pat8,2021-12-27,drink more water
+1243,doc14,pat9,2021-12-27,sleep for enough
+1244,doc14,pat5,2021-12-28,got a fever
+1245,doc14,pat6,2021-12-28,every thing is good 
+1246,doc14,pat7,2021-12-28,just go home and relax
+1247,doc14,pat8,2021-12-28,drink more water
+1248,doc14,pat9,2021-12-28,sleep for enough
+1249,doc14,pat5,2021-12-29,got a fever
+1250,doc14,pat6,2021-12-29,every thing is good 
+1251,doc14,pat7,2021-12-29,just go home and relax
+1252,doc14,pat8,2021-12-29,drink more water
+1253,doc14,pat9,2021-12-29,sleep for enough
+1254,doc15,pat5,2021-12-14,got a fever
+1255,doc15,pat6,2021-12-14,every thing is good 
+1256,doc15,pat7,2021-12-14,just go home and relax
+1257,doc15,pat8,2021-12-14,drink more water
+1258,doc15,pat9,2021-12-14,sleep for enough
+1259,doc15,pat5,2021-12-15,got a fever
+1260,doc15,pat6,2021-12-15,every thing is good 
+1261,doc15,pat7,2021-12-15,just go home and relax
+1262,doc15,pat8,2021-12-15,drink more water
+1263,doc15,pat9,2021-12-15,sleep for enough
+1264,doc15,pat5,2021-12-16,got a fever
+1265,doc15,pat6,2021-12-16,every thing is good 
+1266,doc15,pat7,2021-12-16,just go home and relax
+1267,doc15,pat8,2021-12-16,drink more water
+1268,doc15,pat9,2021-12-16,sleep for enough
+1269,doc15,pat5,2021-12-17,got a fever
+1270,doc15,pat6,2021-12-17,every thing is good 
+1271,doc15,pat7,2021-12-17,just go home and relax
+1272,doc15,pat8,2021-12-17,drink more water
+1273,doc15,pat9,2021-12-17,sleep for enough
+1274,doc15,pat5,2021-12-18,got a fever
+1275,doc15,pat6,2021-12-18,every thing is good 
+1276,doc15,pat7,2021-12-18,just go home and relax
+1277,doc15,pat8,2021-12-18,drink more water
+1278,doc15,pat9,2021-12-18,sleep for enough
+1279,doc15,pat5,2021-12-19,got a fever
+1280,doc15,pat6,2021-12-19,every thing is good 
+1281,doc15,pat7,2021-12-19,just go home and relax
+1282,doc15,pat8,2021-12-19,drink more water
+1283,doc15,pat9,2021-12-19,sleep for enough
+1284,doc15,pat5,2021-12-20,got a fever
+1285,doc15,pat6,2021-12-20,every thing is good 
+1286,doc15,pat7,2021-12-20,just go home and relax
+1287,doc15,pat8,2021-12-20,drink more water
+1288,doc15,pat9,2021-12-20,sleep for enough
+1289,doc15,pat5,2021-12-21,got a fever
+1290,doc15,pat6,2021-12-21,every thing is good 
+1291,doc15,pat7,2021-12-21,just go home and relax
+1292,doc15,pat8,2021-12-21,drink more water
+1293,doc15,pat9,2021-12-21,sleep for enough
+1294,doc15,pat5,2021-12-22,got a fever
+1295,doc15,pat6,2021-12-22,every thing is good 
+1296,doc15,pat7,2021-12-22,just go home and relax
+1297,doc15,pat8,2021-12-22,drink more water
+1298,doc15,pat9,2021-12-22,sleep for enough
+1299,doc15,pat5,2021-12-23,got a fever
+1300,doc15,pat6,2021-12-23,every thing is good 
+1301,doc15,pat7,2021-12-23,just go home and relax
+1302,doc15,pat8,2021-12-23,drink more water
+1303,doc15,pat9,2021-12-23,sleep for enough
+1304,doc15,pat5,2021-12-24,got a fever
+1305,doc15,pat6,2021-12-24,every thing is good 
+1306,doc15,pat7,2021-12-24,just go home and relax
+1307,doc15,pat8,2021-12-24,drink more water
+1308,doc15,pat9,2021-12-24,sleep for enough
+1309,doc15,pat5,2021-12-25,got a fever
+1310,doc15,pat6,2021-12-25,every thing is good 
+1311,doc15,pat7,2021-12-25,just go home and relax
+1312,doc15,pat8,2021-12-25,drink more water
+1313,doc15,pat9,2021-12-25,sleep for enough
+1314,doc15,pat5,2021-12-26,got a fever
+1315,doc15,pat6,2021-12-26,every thing is good 
+1316,doc15,pat7,2021-12-26,just go home and relax
+1317,doc15,pat8,2021-12-26,drink more water
+1318,doc15,pat9,2021-12-26,sleep for enough
+1319,doc15,pat5,2021-12-27,got a fever
+1320,doc15,pat6,2021-12-27,every thing is good 
+1321,doc15,pat7,2021-12-27,just go home and relax
+1322,doc15,pat8,2021-12-27,drink more water
+1323,doc15,pat9,2021-12-27,sleep for enough
+1324,doc15,pat5,2021-12-28,got a fever
+1325,doc15,pat6,2021-12-28,every thing is good 
+1326,doc15,pat7,2021-12-28,just go home and relax
+1327,doc15,pat8,2021-12-28,drink more water
+1328,doc15,pat9,2021-12-28,sleep for enough
+1329,doc15,pat5,2021-12-29,got a fever
+1330,doc15,pat6,2021-12-29,every thing is good 
+1331,doc15,pat7,2021-12-29,just go home and relax
+1332,doc15,pat8,2021-12-29,drink more water
+1333,doc15,pat9,2021-12-29,sleep for enough
+1334,doc16,pat5,2021-12-14,got a fever
+1335,doc16,pat6,2021-12-14,every thing is good 
+1336,doc16,pat7,2021-12-14,just go home and relax
+1337,doc16,pat8,2021-12-14,drink more water
+1338,doc16,pat9,2021-12-14,sleep for enough
+1339,doc16,pat5,2021-12-15,got a fever
+1340,doc16,pat6,2021-12-15,every thing is good 
+1341,doc16,pat7,2021-12-15,just go home and relax
+1342,doc16,pat8,2021-12-15,drink more water
+1343,doc16,pat9,2021-12-15,sleep for enough
+1344,doc16,pat5,2021-12-16,got a fever
+1345,doc16,pat6,2021-12-16,every thing is good 
+1346,doc16,pat7,2021-12-16,just go home and relax
+1347,doc16,pat8,2021-12-16,drink more water
+1348,doc16,pat9,2021-12-16,sleep for enough
+1349,doc16,pat5,2021-12-17,got a fever
+1350,doc16,pat6,2021-12-17,every thing is good 
+1351,doc16,pat7,2021-12-17,just go home and relax
+1352,doc16,pat8,2021-12-17,drink more water
+1353,doc16,pat9,2021-12-17,sleep for enough
+1354,doc16,pat5,2021-12-18,got a fever
+1355,doc16,pat6,2021-12-18,every thing is good 
+1356,doc16,pat7,2021-12-18,just go home and relax
+1357,doc16,pat8,2021-12-18,drink more water
+1358,doc16,pat9,2021-12-18,sleep for enough
+1359,doc16,pat5,2021-12-19,got a fever
+1360,doc16,pat6,2021-12-19,every thing is good 
+1361,doc16,pat7,2021-12-19,just go home and relax
+1362,doc16,pat8,2021-12-19,drink more water
+1363,doc16,pat9,2021-12-19,sleep for enough
+1364,doc16,pat5,2021-12-20,got a fever
+1365,doc16,pat6,2021-12-20,every thing is good 
+1366,doc16,pat7,2021-12-20,just go home and relax
+1367,doc16,pat8,2021-12-20,drink more water
+1368,doc16,pat9,2021-12-20,sleep for enough
+1369,doc16,pat5,2021-12-21,got a fever
+1370,doc16,pat6,2021-12-21,every thing is good 
+1371,doc16,pat7,2021-12-21,just go home and relax
+1372,doc16,pat8,2021-12-21,drink more water
+1373,doc16,pat9,2021-12-21,sleep for enough
+1374,doc16,pat5,2021-12-22,got a fever
+1375,doc16,pat6,2021-12-22,every thing is good 
+1376,doc16,pat7,2021-12-22,just go home and relax
+1377,doc16,pat8,2021-12-22,drink more water
+1378,doc16,pat9,2021-12-22,sleep for enough
+1379,doc16,pat5,2021-12-23,got a fever
+1380,doc16,pat6,2021-12-23,every thing is good 
+1381,doc16,pat7,2021-12-23,just go home and relax
+1382,doc16,pat8,2021-12-23,drink more water
+1383,doc16,pat9,2021-12-23,sleep for enough
+1384,doc16,pat5,2021-12-24,got a fever
+1385,doc16,pat6,2021-12-24,every thing is good 
+1386,doc16,pat7,2021-12-24,just go home and relax
+1387,doc16,pat8,2021-12-24,drink more water
+1388,doc16,pat9,2021-12-24,sleep for enough
+1389,doc16,pat5,2021-12-25,got a fever
+1390,doc16,pat6,2021-12-25,every thing is good 
+1391,doc16,pat7,2021-12-25,just go home and relax
+1392,doc16,pat8,2021-12-25,drink more water
+1393,doc16,pat9,2021-12-25,sleep for enough
+1394,doc16,pat5,2021-12-26,got a fever
+1395,doc16,pat6,2021-12-26,every thing is good 
+1396,doc16,pat7,2021-12-26,just go home and relax
+1397,doc16,pat8,2021-12-26,drink more water
+1398,doc16,pat9,2021-12-26,sleep for enough
+1399,doc16,pat5,2021-12-27,got a fever
+1400,doc16,pat6,2021-12-27,every thing is good 
+1401,doc16,pat7,2021-12-27,just go home and relax
+1402,doc16,pat8,2021-12-27,drink more water
+1403,doc16,pat9,2021-12-27,sleep for enough
+1404,doc16,pat5,2021-12-28,got a fever
+1405,doc16,pat6,2021-12-28,every thing is good 
+1406,doc16,pat7,2021-12-28,just go home and relax
+1407,doc16,pat8,2021-12-28,drink more water
+1408,doc16,pat9,2021-12-28,sleep for enough
+1409,doc16,pat5,2021-12-29,got a fever
+1410,doc16,pat6,2021-12-29,every thing is good 
+1411,doc16,pat7,2021-12-29,just go home and relax
+1412,doc16,pat8,2021-12-29,drink more water
+1413,doc16,pat9,2021-12-29,sleep for enough
+1414,doc17,pat5,2021-12-14,got a fever
+1415,doc17,pat6,2021-12-14,every thing is good 
+1416,doc17,pat7,2021-12-14,just go home and relax
+1417,doc17,pat8,2021-12-14,drink more water
+1418,doc17,pat9,2021-12-14,sleep for enough
+1419,doc17,pat5,2021-12-15,got a fever
+1420,doc17,pat6,2021-12-15,every thing is good 
+1421,doc17,pat7,2021-12-15,just go home and relax
+1422,doc17,pat8,2021-12-15,drink more water
+1423,doc17,pat9,2021-12-15,sleep for enough
+1424,doc17,pat5,2021-12-16,got a fever
+1425,doc17,pat6,2021-12-16,every thing is good 
+1426,doc17,pat7,2021-12-16,just go home and relax
+1427,doc17,pat8,2021-12-16,drink more water
+1428,doc17,pat9,2021-12-16,sleep for enough
+1429,doc17,pat5,2021-12-17,got a fever
+1430,doc17,pat6,2021-12-17,every thing is good 
+1431,doc17,pat7,2021-12-17,just go home and relax
+1432,doc17,pat8,2021-12-17,drink more water
+1433,doc17,pat9,2021-12-17,sleep for enough
+1434,doc17,pat5,2021-12-18,got a fever
+1435,doc17,pat6,2021-12-18,every thing is good 
+1436,doc17,pat7,2021-12-18,just go home and relax
+1437,doc17,pat8,2021-12-18,drink more water
+1438,doc17,pat9,2021-12-18,sleep for enough
+1439,doc17,pat5,2021-12-19,got a fever
+1440,doc17,pat6,2021-12-19,every thing is good 
+1441,doc17,pat7,2021-12-19,just go home and relax
+1442,doc17,pat8,2021-12-19,drink more water
+1443,doc17,pat9,2021-12-19,sleep for enough
+1444,doc17,pat5,2021-12-20,got a fever
+1445,doc17,pat6,2021-12-20,every thing is good 
+1446,doc17,pat7,2021-12-20,just go home and relax
+1447,doc17,pat8,2021-12-20,drink more water
+1448,doc17,pat9,2021-12-20,sleep for enough
+1449,doc17,pat5,2021-12-21,got a fever
+1450,doc17,pat6,2021-12-21,every thing is good 
+1451,doc17,pat7,2021-12-21,just go home and relax
+1452,doc17,pat8,2021-12-21,drink more water
+1453,doc17,pat9,2021-12-21,sleep for enough
+1454,doc17,pat5,2021-12-22,got a fever
+1455,doc17,pat6,2021-12-22,every thing is good 
+1456,doc17,pat7,2021-12-22,just go home and relax
+1457,doc17,pat8,2021-12-22,drink more water
+1458,doc17,pat9,2021-12-22,sleep for enough
+1459,doc17,pat5,2021-12-23,got a fever
+1460,doc17,pat6,2021-12-23,every thing is good 
+1461,doc17,pat7,2021-12-23,just go home and relax
+1462,doc17,pat8,2021-12-23,drink more water
+1463,doc17,pat9,2021-12-23,sleep for enough
+1464,doc17,pat5,2021-12-24,got a fever
+1465,doc17,pat6,2021-12-24,every thing is good 
+1466,doc17,pat7,2021-12-24,just go home and relax
+1467,doc17,pat8,2021-12-24,drink more water
+1468,doc17,pat9,2021-12-24,sleep for enough
+1469,doc17,pat5,2021-12-25,got a fever
+1470,doc17,pat6,2021-12-25,every thing is good 
+1471,doc17,pat7,2021-12-25,just go home and relax
+1472,doc17,pat8,2021-12-25,drink more water
+1473,doc17,pat9,2021-12-25,sleep for enough
+1474,doc17,pat5,2021-12-26,got a fever
+1475,doc17,pat6,2021-12-26,every thing is good 
+1476,doc17,pat7,2021-12-26,just go home and relax
+1477,doc17,pat8,2021-12-26,drink more water
+1478,doc17,pat9,2021-12-26,sleep for enough
+1479,doc17,pat5,2021-12-27,got a fever
+1480,doc17,pat6,2021-12-27,every thing is good 
+1481,doc17,pat7,2021-12-27,just go home and relax
+1482,doc17,pat8,2021-12-27,drink more water
+1483,doc17,pat9,2021-12-27,sleep for enough
+1484,doc17,pat5,2021-12-28,got a fever
+1485,doc17,pat6,2021-12-28,every thing is good 
+1486,doc17,pat7,2021-12-28,just go home and relax
+1487,doc17,pat8,2021-12-28,drink more water
+1488,doc17,pat9,2021-12-28,sleep for enough
+1489,doc17,pat5,2021-12-29,got a fever
+1490,doc17,pat6,2021-12-29,every thing is good 
+1491,doc17,pat7,2021-12-29,just go home and relax
+1492,doc17,pat8,2021-12-29,drink more water
+1493,doc17,pat9,2021-12-29,sleep for enough
+1494,doc18,pat5,2021-12-14,got a fever
+1495,doc18,pat6,2021-12-14,every thing is good 
+1496,doc18,pat7,2021-12-14,just go home and relax
+1497,doc18,pat8,2021-12-14,drink more water
+1498,doc18,pat9,2021-12-14,sleep for enough
+1499,doc18,pat5,2021-12-15,got a fever
+1500,doc18,pat6,2021-12-15,every thing is good 
+1501,doc18,pat7,2021-12-15,just go home and relax
+1502,doc18,pat8,2021-12-15,drink more water
+1503,doc18,pat9,2021-12-15,sleep for enough
+1504,doc18,pat5,2021-12-16,got a fever
+1505,doc18,pat6,2021-12-16,every thing is good 
+1506,doc18,pat7,2021-12-16,just go home and relax
+1507,doc18,pat8,2021-12-16,drink more water
+1508,doc18,pat9,2021-12-16,sleep for enough
+1509,doc18,pat5,2021-12-17,got a fever
+1510,doc18,pat6,2021-12-17,every thing is good 
+1511,doc18,pat7,2021-12-17,just go home and relax
+1512,doc18,pat8,2021-12-17,drink more water
+1513,doc18,pat9,2021-12-17,sleep for enough
+1514,doc18,pat5,2021-12-18,got a fever
+1515,doc18,pat6,2021-12-18,every thing is good 
+1516,doc18,pat7,2021-12-18,just go home and relax
+1517,doc18,pat8,2021-12-18,drink more water
+1518,doc18,pat9,2021-12-18,sleep for enough
+1519,doc18,pat5,2021-12-19,got a fever
+1520,doc18,pat6,2021-12-19,every thing is good 
+1521,doc18,pat7,2021-12-19,just go home and relax
+1522,doc18,pat8,2021-12-19,drink more water
+1523,doc18,pat9,2021-12-19,sleep for enough
+1524,doc18,pat5,2021-12-20,got a fever
+1525,doc18,pat6,2021-12-20,every thing is good 
+1526,doc18,pat7,2021-12-20,just go home and relax
+1527,doc18,pat8,2021-12-20,drink more water
+1528,doc18,pat9,2021-12-20,sleep for enough
+1529,doc18,pat5,2021-12-21,got a fever
+1530,doc18,pat6,2021-12-21,every thing is good 
+1531,doc18,pat7,2021-12-21,just go home and relax
+1532,doc18,pat8,2021-12-21,drink more water
+1533,doc18,pat9,2021-12-21,sleep for enough
+1534,doc18,pat5,2021-12-22,got a fever
+1535,doc18,pat6,2021-12-22,every thing is good 
+1536,doc18,pat7,2021-12-22,just go home and relax
+1537,doc18,pat8,2021-12-22,drink more water
+1538,doc18,pat9,2021-12-22,sleep for enough
+1539,doc18,pat5,2021-12-23,got a fever
+1540,doc18,pat6,2021-12-23,every thing is good 
+1541,doc18,pat7,2021-12-23,just go home and relax
+1542,doc18,pat8,2021-12-23,drink more water
+1543,doc18,pat9,2021-12-23,sleep for enough
+1544,doc18,pat5,2021-12-24,got a fever
+1545,doc18,pat6,2021-12-24,every thing is good 
+1546,doc18,pat7,2021-12-24,just go home and relax
+1547,doc18,pat8,2021-12-24,drink more water
+1548,doc18,pat9,2021-12-24,sleep for enough
+1549,doc18,pat5,2021-12-25,got a fever
+1550,doc18,pat6,2021-12-25,every thing is good 
+1551,doc18,pat7,2021-12-25,just go home and relax
+1552,doc18,pat8,2021-12-25,drink more water
+1553,doc18,pat9,2021-12-25,sleep for enough
+1554,doc18,pat5,2021-12-26,got a fever
+1555,doc18,pat6,2021-12-26,every thing is good 
+1556,doc18,pat7,2021-12-26,just go home and relax
+1557,doc18,pat8,2021-12-26,drink more water
+1558,doc18,pat9,2021-12-26,sleep for enough
+1559,doc18,pat5,2021-12-27,got a fever
+1560,doc18,pat6,2021-12-27,every thing is good 
+1561,doc18,pat7,2021-12-27,just go home and relax
+1562,doc18,pat8,2021-12-27,drink more water
+1563,doc18,pat9,2021-12-27,sleep for enough
+1564,doc18,pat5,2021-12-28,got a fever
+1565,doc18,pat6,2021-12-28,every thing is good 
+1566,doc18,pat7,2021-12-28,just go home and relax
+1567,doc18,pat8,2021-12-28,drink more water
+1568,doc18,pat9,2021-12-28,sleep for enough
+1569,doc18,pat5,2021-12-29,got a fever
+1570,doc18,pat6,2021-12-29,every thing is good 
+1571,doc18,pat7,2021-12-29,just go home and relax
+1572,doc18,pat8,2021-12-29,drink more water
+1573,doc18,pat9,2021-12-29,sleep for enough
+1574,doc19,pat5,2021-12-14,got a fever
+1575,doc19,pat6,2021-12-14,every thing is good 
+1576,doc19,pat7,2021-12-14,just go home and relax
+1577,doc19,pat8,2021-12-14,drink more water
+1578,doc19,pat9,2021-12-14,sleep for enough
+1579,doc19,pat5,2021-12-15,got a fever
+1580,doc19,pat6,2021-12-15,every thing is good 
+1581,doc19,pat7,2021-12-15,just go home and relax
+1582,doc19,pat8,2021-12-15,drink more water
+1583,doc19,pat9,2021-12-15,sleep for enough
+1584,doc19,pat5,2021-12-16,got a fever
+1585,doc19,pat6,2021-12-16,every thing is good 
+1586,doc19,pat7,2021-12-16,just go home and relax
+1587,doc19,pat8,2021-12-16,drink more water
+1588,doc19,pat9,2021-12-16,sleep for enough
+1589,doc19,pat5,2021-12-17,got a fever
+1590,doc19,pat6,2021-12-17,every thing is good 
+1591,doc19,pat7,2021-12-17,just go home and relax
+1592,doc19,pat8,2021-12-17,drink more water
+1593,doc19,pat9,2021-12-17,sleep for enough
+1594,doc19,pat5,2021-12-18,got a fever
+1595,doc19,pat6,2021-12-18,every thing is good 
+1596,doc19,pat7,2021-12-18,just go home and relax
+1597,doc19,pat8,2021-12-18,drink more water
+1598,doc19,pat9,2021-12-18,sleep for enough
+1599,doc19,pat5,2021-12-19,got a fever
+1600,doc19,pat6,2021-12-19,every thing is good 
+1601,doc19,pat7,2021-12-19,just go home and relax
+1602,doc19,pat8,2021-12-19,drink more water
+1603,doc19,pat9,2021-12-19,sleep for enough
+1604,doc19,pat5,2021-12-20,got a fever
+1605,doc19,pat6,2021-12-20,every thing is good 
+1606,doc19,pat7,2021-12-20,just go home and relax
+1607,doc19,pat8,2021-12-20,drink more water
+1608,doc19,pat9,2021-12-20,sleep for enough
+1609,doc19,pat5,2021-12-21,got a fever
+1610,doc19,pat6,2021-12-21,every thing is good 
+1611,doc19,pat7,2021-12-21,just go home and relax
+1612,doc19,pat8,2021-12-21,drink more water
+1613,doc19,pat9,2021-12-21,sleep for enough
+1614,doc19,pat5,2021-12-22,got a fever
+1615,doc19,pat6,2021-12-22,every thing is good 
+1616,doc19,pat7,2021-12-22,just go home and relax
+1617,doc19,pat8,2021-12-22,drink more water
+1618,doc19,pat9,2021-12-22,sleep for enough
+1619,doc19,pat5,2021-12-23,got a fever
+1620,doc19,pat6,2021-12-23,every thing is good 
+1621,doc19,pat7,2021-12-23,just go home and relax
+1622,doc19,pat8,2021-12-23,drink more water
+1623,doc19,pat9,2021-12-23,sleep for enough
+1624,doc19,pat5,2021-12-24,got a fever
+1625,doc19,pat6,2021-12-24,every thing is good 
+1626,doc19,pat7,2021-12-24,just go home and relax
+1627,doc19,pat8,2021-12-24,drink more water
+1628,doc19,pat9,2021-12-24,sleep for enough
+1629,doc19,pat5,2021-12-25,got a fever
+1630,doc19,pat6,2021-12-25,every thing is good 
+1631,doc19,pat7,2021-12-25,just go home and relax
+1632,doc19,pat8,2021-12-25,drink more water
+1633,doc19,pat9,2021-12-25,sleep for enough
+1634,doc19,pat5,2021-12-26,got a fever
+1635,doc19,pat6,2021-12-26,every thing is good 
+1636,doc19,pat7,2021-12-26,just go home and relax
+1637,doc19,pat8,2021-12-26,drink more water
+1638,doc19,pat9,2021-12-26,sleep for enough
+1639,doc19,pat5,2021-12-27,got a fever
+1640,doc19,pat6,2021-12-27,every thing is good 
+1641,doc19,pat7,2021-12-27,just go home and relax
+1642,doc19,pat8,2021-12-27,drink more water
+1643,doc19,pat9,2021-12-27,sleep for enough
+1644,doc19,pat5,2021-12-28,got a fever
+1645,doc19,pat6,2021-12-28,every thing is good 
+1646,doc19,pat7,2021-12-28,just go home and relax
+1647,doc19,pat8,2021-12-28,drink more water
+1648,doc19,pat9,2021-12-28,sleep for enough
+1649,doc19,pat5,2021-12-29,got a fever
+1650,doc19,pat6,2021-12-29,every thing is good 
+1651,doc19,pat7,2021-12-29,just go home and relax
+1652,doc19,pat8,2021-12-29,drink more water
+1653,doc19,pat9,2021-12-29,sleep for enough
+1654,doc20,pat5,2021-12-14,got a fever
+1655,doc20,pat6,2021-12-14,every thing is good 
+1656,doc20,pat7,2021-12-14,just go home and relax
+1657,doc20,pat8,2021-12-14,drink more water
+1658,doc20,pat9,2021-12-14,sleep for enough
+1659,doc20,pat5,2021-12-15,got a fever
+1660,doc20,pat6,2021-12-15,every thing is good 
+1661,doc20,pat7,2021-12-15,just go home and relax
+1662,doc20,pat8,2021-12-15,drink more water
+1663,doc20,pat9,2021-12-15,sleep for enough
+1664,doc20,pat5,2021-12-16,got a fever
+1665,doc20,pat6,2021-12-16,every thing is good 
+1666,doc20,pat7,2021-12-16,just go home and relax
+1667,doc20,pat8,2021-12-16,drink more water
+1668,doc20,pat9,2021-12-16,sleep for enough
+1669,doc20,pat5,2021-12-17,got a fever
+1670,doc20,pat6,2021-12-17,every thing is good 
+1671,doc20,pat7,2021-12-17,just go home and relax
+1672,doc20,pat8,2021-12-17,drink more water
+1673,doc20,pat9,2021-12-17,sleep for enough
+1674,doc20,pat5,2021-12-18,got a fever
+1675,doc20,pat6,2021-12-18,every thing is good 
+1676,doc20,pat7,2021-12-18,just go home and relax
+1677,doc20,pat8,2021-12-18,drink more water
+1678,doc20,pat9,2021-12-18,sleep for enough
+1679,doc20,pat5,2021-12-19,got a fever
+1680,doc20,pat6,2021-12-19,every thing is good 
+1681,doc20,pat7,2021-12-19,just go home and relax
+1682,doc20,pat8,2021-12-19,drink more water
+1683,doc20,pat9,2021-12-19,sleep for enough
+1684,doc20,pat5,2021-12-20,got a fever
+1685,doc20,pat6,2021-12-20,every thing is good 
+1686,doc20,pat7,2021-12-20,just go home and relax
+1687,doc20,pat8,2021-12-20,drink more water
+1688,doc20,pat9,2021-12-20,sleep for enough
+1689,doc20,pat5,2021-12-21,got a fever
+1690,doc20,pat6,2021-12-21,every thing is good 
+1691,doc20,pat7,2021-12-21,just go home and relax
+1692,doc20,pat8,2021-12-21,drink more water
+1693,doc20,pat9,2021-12-21,sleep for enough
+1694,doc20,pat5,2021-12-22,got a fever
+1695,doc20,pat6,2021-12-22,every thing is good 
+1696,doc20,pat7,2021-12-22,just go home and relax
+1697,doc20,pat8,2021-12-22,drink more water
+1698,doc20,pat9,2021-12-22,sleep for enough
+1699,doc20,pat5,2021-12-23,got a fever
+1700,doc20,pat6,2021-12-23,every thing is good 
+1701,doc20,pat7,2021-12-23,just go home and relax
+1702,doc20,pat8,2021-12-23,drink more water
+1703,doc20,pat9,2021-12-23,sleep for enough
+1704,doc20,pat5,2021-12-24,got a fever
+1705,doc20,pat6,2021-12-24,every thing is good 
+1706,doc20,pat7,2021-12-24,just go home and relax
+1707,doc20,pat8,2021-12-24,drink more water
+1708,doc20,pat9,2021-12-24,sleep for enough
+1709,doc20,pat5,2021-12-25,got a fever
+1710,doc20,pat6,2021-12-25,every thing is good 
+1711,doc20,pat7,2021-12-25,just go home and relax
+1712,doc20,pat8,2021-12-25,drink more water
+1713,doc20,pat9,2021-12-25,sleep for enough
+1714,doc20,pat5,2021-12-26,got a fever
+1715,doc20,pat6,2021-12-26,every thing is good 
+1716,doc20,pat7,2021-12-26,just go home and relax
+1717,doc20,pat8,2021-12-26,drink more water
+1718,doc20,pat9,2021-12-26,sleep for enough
+1719,doc20,pat5,2021-12-27,got a fever
+1720,doc20,pat6,2021-12-27,every thing is good 
+1721,doc20,pat7,2021-12-27,just go home and relax
+1722,doc20,pat8,2021-12-27,drink more water
+1723,doc20,pat9,2021-12-27,sleep for enough
+1724,doc20,pat5,2021-12-28,got a fever
+1725,doc20,pat6,2021-12-28,every thing is good 
+1726,doc20,pat7,2021-12-28,just go home and relax
+1727,doc20,pat8,2021-12-28,drink more water
+1728,doc20,pat9,2021-12-28,sleep for enough
+1729,doc20,pat5,2021-12-29,got a fever
+1730,doc20,pat6,2021-12-29,every thing is good 
+1731,doc20,pat7,2021-12-29,just go home and relax
+1732,doc20,pat8,2021-12-29,drink more water
+1733,doc20,pat9,2021-12-29,sleep for enough
+1734,doc21,pat5,2021-12-14,got a fever
+1735,doc21,pat6,2021-12-14,every thing is good 
+1736,doc21,pat7,2021-12-14,just go home and relax
+1737,doc21,pat8,2021-12-14,drink more water
+1738,doc21,pat9,2021-12-14,sleep for enough
+1739,doc21,pat5,2021-12-15,got a fever
+1740,doc21,pat6,2021-12-15,every thing is good 
+1741,doc21,pat7,2021-12-15,just go home and relax
+1742,doc21,pat8,2021-12-15,drink more water
+1743,doc21,pat9,2021-12-15,sleep for enough
+1744,doc21,pat5,2021-12-16,got a fever
+1745,doc21,pat6,2021-12-16,every thing is good 
+1746,doc21,pat7,2021-12-16,just go home and relax
+1747,doc21,pat8,2021-12-16,drink more water
+1748,doc21,pat9,2021-12-16,sleep for enough
+1749,doc21,pat5,2021-12-17,got a fever
+1750,doc21,pat6,2021-12-17,every thing is good 
+1751,doc21,pat7,2021-12-17,just go home and relax
+1752,doc21,pat8,2021-12-17,drink more water
+1753,doc21,pat9,2021-12-17,sleep for enough
+1754,doc21,pat5,2021-12-18,got a fever
+1755,doc21,pat6,2021-12-18,every thing is good 
+1756,doc21,pat7,2021-12-18,just go home and relax
+1757,doc21,pat8,2021-12-18,drink more water
+1758,doc21,pat9,2021-12-18,sleep for enough
+1759,doc21,pat5,2021-12-19,got a fever
+1760,doc21,pat6,2021-12-19,every thing is good 
+1761,doc21,pat7,2021-12-19,just go home and relax
+1762,doc21,pat8,2021-12-19,drink more water
+1763,doc21,pat9,2021-12-19,sleep for enough
+1764,doc21,pat5,2021-12-20,got a fever
+1765,doc21,pat6,2021-12-20,every thing is good 
+1766,doc21,pat7,2021-12-20,just go home and relax
+1767,doc21,pat8,2021-12-20,drink more water
+1768,doc21,pat9,2021-12-20,sleep for enough
+1769,doc21,pat5,2021-12-21,got a fever
+1770,doc21,pat6,2021-12-21,every thing is good 
+1771,doc21,pat7,2021-12-21,just go home and relax
+1772,doc21,pat8,2021-12-21,drink more water
+1773,doc21,pat9,2021-12-21,sleep for enough
+1774,doc21,pat5,2021-12-22,got a fever
+1775,doc21,pat6,2021-12-22,every thing is good 
+1776,doc21,pat7,2021-12-22,just go home and relax
+1777,doc21,pat8,2021-12-22,drink more water
+1778,doc21,pat9,2021-12-22,sleep for enough
+1779,doc21,pat5,2021-12-23,got a fever
+1780,doc21,pat6,2021-12-23,every thing is good 
+1781,doc21,pat7,2021-12-23,just go home and relax
+1782,doc21,pat8,2021-12-23,drink more water
+1783,doc21,pat9,2021-12-23,sleep for enough
+1784,doc21,pat5,2021-12-24,got a fever
+1785,doc21,pat6,2021-12-24,every thing is good 
+1786,doc21,pat7,2021-12-24,just go home and relax
+1787,doc21,pat8,2021-12-24,drink more water
+1788,doc21,pat9,2021-12-24,sleep for enough
+1789,doc21,pat5,2021-12-25,got a fever
+1790,doc21,pat6,2021-12-25,every thing is good 
+1791,doc21,pat7,2021-12-25,just go home and relax
+1792,doc21,pat8,2021-12-25,drink more water
+1793,doc21,pat9,2021-12-25,sleep for enough
+1794,doc21,pat5,2021-12-26,got a fever
+1795,doc21,pat6,2021-12-26,every thing is good 
+1796,doc21,pat7,2021-12-26,just go home and relax
+1797,doc21,pat8,2021-12-26,drink more water
+1798,doc21,pat9,2021-12-26,sleep for enough
+1799,doc21,pat5,2021-12-27,got a fever
+1800,doc21,pat6,2021-12-27,every thing is good 
+1801,doc21,pat7,2021-12-27,just go home and relax
+1802,doc21,pat8,2021-12-27,drink more water
+1803,doc21,pat9,2021-12-27,sleep for enough
+1804,doc21,pat5,2021-12-28,got a fever
+1805,doc21,pat6,2021-12-28,every thing is good 
+1806,doc21,pat7,2021-12-28,just go home and relax
+1807,doc21,pat8,2021-12-28,drink more water
+1808,doc21,pat9,2021-12-28,sleep for enough
+1809,doc21,pat5,2021-12-29,got a fever
+1810,doc21,pat6,2021-12-29,every thing is good 
+1811,doc21,pat7,2021-12-29,just go home and relax
+1812,doc21,pat8,2021-12-29,drink more water
+1813,doc21,pat9,2021-12-29,sleep for enough
+1814,doc22,pat5,2021-12-14,got a fever
+1815,doc22,pat6,2021-12-14,every thing is good 
+1816,doc22,pat7,2021-12-14,just go home and relax
+1817,doc22,pat8,2021-12-14,drink more water
+1818,doc22,pat9,2021-12-14,sleep for enough
+1819,doc22,pat5,2021-12-15,got a fever
+1820,doc22,pat6,2021-12-15,every thing is good 
+1821,doc22,pat7,2021-12-15,just go home and relax
+1822,doc22,pat8,2021-12-15,drink more water
+1823,doc22,pat9,2021-12-15,sleep for enough
+1824,doc22,pat5,2021-12-16,got a fever
+1825,doc22,pat6,2021-12-16,every thing is good 
+1826,doc22,pat7,2021-12-16,just go home and relax
+1827,doc22,pat8,2021-12-16,drink more water
+1828,doc22,pat9,2021-12-16,sleep for enough
+1829,doc22,pat5,2021-12-17,got a fever
+1830,doc22,pat6,2021-12-17,every thing is good 
+1831,doc22,pat7,2021-12-17,just go home and relax
+1832,doc22,pat8,2021-12-17,drink more water
+1833,doc22,pat9,2021-12-17,sleep for enough
+1834,doc22,pat5,2021-12-18,got a fever
+1835,doc22,pat6,2021-12-18,every thing is good 
+1836,doc22,pat7,2021-12-18,just go home and relax
+1837,doc22,pat8,2021-12-18,drink more water
+1838,doc22,pat9,2021-12-18,sleep for enough
+1839,doc22,pat5,2021-12-19,got a fever
+1840,doc22,pat6,2021-12-19,every thing is good 
+1841,doc22,pat7,2021-12-19,just go home and relax
+1842,doc22,pat8,2021-12-19,drink more water
+1843,doc22,pat9,2021-12-19,sleep for enough
+1844,doc22,pat5,2021-12-20,got a fever
+1845,doc22,pat6,2021-12-20,every thing is good 
+1846,doc22,pat7,2021-12-20,just go home and relax
+1847,doc22,pat8,2021-12-20,drink more water
+1848,doc22,pat9,2021-12-20,sleep for enough
+1849,doc22,pat5,2021-12-21,got a fever
+1850,doc22,pat6,2021-12-21,every thing is good 
+1851,doc22,pat7,2021-12-21,just go home and relax
+1852,doc22,pat8,2021-12-21,drink more water
+1853,doc22,pat9,2021-12-21,sleep for enough
+1854,doc22,pat5,2021-12-22,got a fever
+1855,doc22,pat6,2021-12-22,every thing is good 
+1856,doc22,pat7,2021-12-22,just go home and relax
+1857,doc22,pat8,2021-12-22,drink more water
+1858,doc22,pat9,2021-12-22,sleep for enough
+1859,doc22,pat5,2021-12-23,got a fever
+1860,doc22,pat6,2021-12-23,every thing is good 
+1861,doc22,pat7,2021-12-23,just go home and relax
+1862,doc22,pat8,2021-12-23,drink more water
+1863,doc22,pat9,2021-12-23,sleep for enough
+1864,doc22,pat5,2021-12-24,got a fever
+1865,doc22,pat6,2021-12-24,every thing is good 
+1866,doc22,pat7,2021-12-24,just go home and relax
+1867,doc22,pat8,2021-12-24,drink more water
+1868,doc22,pat9,2021-12-24,sleep for enough
+1869,doc22,pat5,2021-12-25,got a fever
+1870,doc22,pat6,2021-12-25,every thing is good 
+1871,doc22,pat7,2021-12-25,just go home and relax
+1872,doc22,pat8,2021-12-25,drink more water
+1873,doc22,pat9,2021-12-25,sleep for enough
+1874,doc22,pat5,2021-12-26,got a fever
+1875,doc22,pat6,2021-12-26,every thing is good 
+1876,doc22,pat7,2021-12-26,just go home and relax
+1877,doc22,pat8,2021-12-26,drink more water
+1878,doc22,pat9,2021-12-26,sleep for enough
+1879,doc22,pat5,2021-12-27,got a fever
+1880,doc22,pat6,2021-12-27,every thing is good 
+1881,doc22,pat7,2021-12-27,just go home and relax
+1882,doc22,pat8,2021-12-27,drink more water
+1883,doc22,pat9,2021-12-27,sleep for enough
+1884,doc22,pat5,2021-12-28,got a fever
+1885,doc22,pat6,2021-12-28,every thing is good 
+1886,doc22,pat7,2021-12-28,just go home and relax
+1887,doc22,pat8,2021-12-28,drink more water
+1888,doc22,pat9,2021-12-28,sleep for enough
+1889,doc22,pat5,2021-12-29,got a fever
+1890,doc22,pat6,2021-12-29,every thing is good 
+1891,doc22,pat7,2021-12-29,just go home and relax
+1892,doc22,pat8,2021-12-29,drink more water
+1893,doc22,pat9,2021-12-29,sleep for enough
+1894,doc23,pat5,2021-12-14,got a fever
+1895,doc23,pat6,2021-12-14,every thing is good 
+1896,doc23,pat7,2021-12-14,just go home and relax
+1897,doc23,pat8,2021-12-14,drink more water
+1898,doc23,pat9,2021-12-14,sleep for enough
+1899,doc23,pat5,2021-12-15,got a fever
+1900,doc23,pat6,2021-12-15,every thing is good 
+1901,doc23,pat7,2021-12-15,just go home and relax
+1902,doc23,pat8,2021-12-15,drink more water
+1903,doc23,pat9,2021-12-15,sleep for enough
+1904,doc23,pat5,2021-12-16,got a fever
+1905,doc23,pat6,2021-12-16,every thing is good 
+1906,doc23,pat7,2021-12-16,just go home and relax
+1907,doc23,pat8,2021-12-16,drink more water
+1908,doc23,pat9,2021-12-16,sleep for enough
+1909,doc23,pat5,2021-12-17,got a fever
+1910,doc23,pat6,2021-12-17,every thing is good 
+1911,doc23,pat7,2021-12-17,just go home and relax
+1912,doc23,pat8,2021-12-17,drink more water
+1913,doc23,pat9,2021-12-17,sleep for enough
+1914,doc23,pat5,2021-12-18,got a fever
+1915,doc23,pat6,2021-12-18,every thing is good 
+1916,doc23,pat7,2021-12-18,just go home and relax
+1917,doc23,pat8,2021-12-18,drink more water
+1918,doc23,pat9,2021-12-18,sleep for enough
+1919,doc23,pat5,2021-12-19,got a fever
+1920,doc23,pat6,2021-12-19,every thing is good 
+1921,doc23,pat7,2021-12-19,just go home and relax
+1922,doc23,pat8,2021-12-19,drink more water
+1923,doc23,pat9,2021-12-19,sleep for enough
+1924,doc23,pat5,2021-12-20,got a fever
+1925,doc23,pat6,2021-12-20,every thing is good 
+1926,doc23,pat7,2021-12-20,just go home and relax
+1927,doc23,pat8,2021-12-20,drink more water
+1928,doc23,pat9,2021-12-20,sleep for enough
+1929,doc23,pat5,2021-12-21,got a fever
+1930,doc23,pat6,2021-12-21,every thing is good 
+1931,doc23,pat7,2021-12-21,just go home and relax
+1932,doc23,pat8,2021-12-21,drink more water
+1933,doc23,pat9,2021-12-21,sleep for enough
+1934,doc23,pat5,2021-12-22,got a fever
+1935,doc23,pat6,2021-12-22,every thing is good 
+1936,doc23,pat7,2021-12-22,just go home and relax
+1937,doc23,pat8,2021-12-22,drink more water
+1938,doc23,pat9,2021-12-22,sleep for enough
+1939,doc23,pat5,2021-12-23,got a fever
+1940,doc23,pat6,2021-12-23,every thing is good 
+1941,doc23,pat7,2021-12-23,just go home and relax
+1942,doc23,pat8,2021-12-23,drink more water
+1943,doc23,pat9,2021-12-23,sleep for enough
+1944,doc23,pat5,2021-12-24,got a fever
+1945,doc23,pat6,2021-12-24,every thing is good 
+1946,doc23,pat7,2021-12-24,just go home and relax
+1947,doc23,pat8,2021-12-24,drink more water
+1948,doc23,pat9,2021-12-24,sleep for enough
+1949,doc23,pat5,2021-12-25,got a fever
+1950,doc23,pat6,2021-12-25,every thing is good 
+1951,doc23,pat7,2021-12-25,just go home and relax
+1952,doc23,pat8,2021-12-25,drink more water
+1953,doc23,pat9,2021-12-25,sleep for enough
+1954,doc23,pat5,2021-12-26,got a fever
+1955,doc23,pat6,2021-12-26,every thing is good 
+1956,doc23,pat7,2021-12-26,just go home and relax
+1957,doc23,pat8,2021-12-26,drink more water
+1958,doc23,pat9,2021-12-26,sleep for enough
+1959,doc23,pat5,2021-12-27,got a fever
+1960,doc23,pat6,2021-12-27,every thing is good 
+1961,doc23,pat7,2021-12-27,just go home and relax
+1962,doc23,pat8,2021-12-27,drink more water
+1963,doc23,pat9,2021-12-27,sleep for enough
+1964,doc23,pat5,2021-12-28,got a fever
+1965,doc23,pat6,2021-12-28,every thing is good 
+1966,doc23,pat7,2021-12-28,just go home and relax
+1967,doc23,pat8,2021-12-28,drink more water
+1968,doc23,pat9,2021-12-28,sleep for enough
+1969,doc23,pat5,2021-12-29,got a fever
+1970,doc23,pat6,2021-12-29,every thing is good 
+1971,doc23,pat7,2021-12-29,just go home and relax
+1972,doc23,pat8,2021-12-29,drink more water
+1973,doc23,pat9,2021-12-29,sleep for enough
+1974,doc24,pat5,2021-12-14,got a fever
+1975,doc24,pat6,2021-12-14,every thing is good 
+1976,doc24,pat7,2021-12-14,just go home and relax
+1977,doc24,pat8,2021-12-14,drink more water
+1978,doc24,pat9,2021-12-14,sleep for enough
+1979,doc24,pat5,2021-12-15,got a fever
+1980,doc24,pat6,2021-12-15,every thing is good 
+1981,doc24,pat7,2021-12-15,just go home and relax
+1982,doc24,pat8,2021-12-15,drink more water
+1983,doc24,pat9,2021-12-15,sleep for enough
+1984,doc24,pat5,2021-12-16,got a fever
+1985,doc24,pat6,2021-12-16,every thing is good 
+1986,doc24,pat7,2021-12-16,just go home and relax
+1987,doc24,pat8,2021-12-16,drink more water
+1988,doc24,pat9,2021-12-16,sleep for enough
+1989,doc24,pat5,2021-12-17,got a fever
+1990,doc24,pat6,2021-12-17,every thing is good 
+1991,doc24,pat7,2021-12-17,just go home and relax
+1992,doc24,pat8,2021-12-17,drink more water
+1993,doc24,pat9,2021-12-17,sleep for enough
+1994,doc24,pat5,2021-12-18,got a fever
+1995,doc24,pat6,2021-12-18,every thing is good 
+1996,doc24,pat7,2021-12-18,just go home and relax
+1997,doc24,pat8,2021-12-18,drink more water
+1998,doc24,pat9,2021-12-18,sleep for enough
+1999,doc24,pat5,2021-12-19,got a fever
+2000,doc24,pat6,2021-12-19,every thing is good 
+2001,doc24,pat7,2021-12-19,just go home and relax
+2002,doc24,pat8,2021-12-19,drink more water
+2003,doc24,pat9,2021-12-19,sleep for enough
+2004,doc24,pat5,2021-12-20,got a fever
+2005,doc24,pat6,2021-12-20,every thing is good 
+2006,doc24,pat7,2021-12-20,just go home and relax
+2007,doc24,pat8,2021-12-20,drink more water
+2008,doc24,pat9,2021-12-20,sleep for enough
+2009,doc24,pat5,2021-12-21,got a fever
+2010,doc24,pat6,2021-12-21,every thing is good 
+2011,doc24,pat7,2021-12-21,just go home and relax
+2012,doc24,pat8,2021-12-21,drink more water
+2013,doc24,pat9,2021-12-21,sleep for enough
+2014,doc24,pat5,2021-12-22,got a fever
+2015,doc24,pat6,2021-12-22,every thing is good 
+2016,doc24,pat7,2021-12-22,just go home and relax
+2017,doc24,pat8,2021-12-22,drink more water
+2018,doc24,pat9,2021-12-22,sleep for enough
+2019,doc24,pat5,2021-12-23,got a fever
+2020,doc24,pat6,2021-12-23,every thing is good 
+2021,doc24,pat7,2021-12-23,just go home and relax
+2022,doc24,pat8,2021-12-23,drink more water
+2023,doc24,pat9,2021-12-23,sleep for enough
+2024,doc24,pat5,2021-12-24,got a fever
+2025,doc24,pat6,2021-12-24,every thing is good 
+2026,doc24,pat7,2021-12-24,just go home and relax
+2027,doc24,pat8,2021-12-24,drink more water
+2028,doc24,pat9,2021-12-24,sleep for enough
+2029,doc24,pat5,2021-12-25,got a fever
+2030,doc24,pat6,2021-12-25,every thing is good 
+2031,doc24,pat7,2021-12-25,just go home and relax
+2032,doc24,pat8,2021-12-25,drink more water
+2033,doc24,pat9,2021-12-25,sleep for enough
+2034,doc24,pat5,2021-12-26,got a fever
+2035,doc24,pat6,2021-12-26,every thing is good 
+2036,doc24,pat7,2021-12-26,just go home and relax
+2037,doc24,pat8,2021-12-26,drink more water
+2038,doc24,pat9,2021-12-26,sleep for enough
+2039,doc24,pat5,2021-12-27,got a fever
+2040,doc24,pat6,2021-12-27,every thing is good 
+2041,doc24,pat7,2021-12-27,just go home and relax
+2042,doc24,pat8,2021-12-27,drink more water
+2043,doc24,pat9,2021-12-27,sleep for enough
+2044,doc24,pat5,2021-12-28,got a fever
+2045,doc24,pat6,2021-12-28,every thing is good 
+2046,doc24,pat7,2021-12-28,just go home and relax
+2047,doc24,pat8,2021-12-28,drink more water
+2048,doc24,pat9,2021-12-28,sleep for enough
+2049,doc24,pat5,2021-12-29,got a fever
+2050,doc24,pat6,2021-12-29,every thing is good 
+2051,doc24,pat7,2021-12-29,just go home and relax
+2052,doc24,pat8,2021-12-29,drink more water
+2053,doc24,pat9,2021-12-29,sleep for enough
+2054,doc25,pat5,2021-12-14,got a fever
+2055,doc25,pat6,2021-12-14,every thing is good 
+2056,doc25,pat7,2021-12-14,just go home and relax
+2057,doc0,pat10002,2021-12-13,Lorem Ipsum....
+2058,doc0,pat0,2021-12-13,Lorem Ipsum...
