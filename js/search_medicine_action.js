@@ -54,7 +54,13 @@ function add_drug() {
     request.onreadystatechange = function () {
         if (request.readyState === 4) {
             if (request.status === 200) {
-
+                if (request.response == 0) {
+                    alert("The number of the drugs exceeds the stock...");
+                    location.href = 'search_medicine.php?appid=' + app_id;
+                } else if (request.response == 1) {
+                    location.href = 'edit_prescription.php?id=' + app_id + "&patid=pat10&docid=doc0";
+                    //alert("success")
+                }
             } else {
                 alert("error occured: " + request.status);
             }

@@ -44,17 +44,37 @@ if ($func == 1) {
     if (isset($_GET['num'])) {
         $num = $_GET['num'];
     }
-    select_drug($att_id, $drug_id, $num);
+    //$drug_id = '"'.$drug_id.'"';
+    //$att_id = '"'.$att_id.'"';
+    select_drug($att_id, $drug_id, $num, $pdo);
 }
 
-function select_drug($att_id, $drug_id, $num) {
+function select_drug($att_id, $drug_id, $num, $pdo) {
 
     try {
-        $pdo->
-        $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug limit :min , 10');
-        $sql->bindParam(':min', $min, PDO::PARAM_INT);
+        $pdo->beginTransaction();
 
+        $sql = $pdo->prepare('SELECT stock from drug WHERE drug_id = :drugid ');
+        $sql->execute(['drugid' => $drug_id]);
+        $val = $sql->fetch();
+        if ($val['stock'] >= $num) {
+            $sql = $pdo->prepare('UPDATE drug SET stock = stock - :val WHERE drug_id = :drugid and stock - :val > 0');
+            $sql->bindParam(':val', $num, PDO::PARAM_INT);
+            $sql->bindParam(':drugid', $drug_id, PDO::PARAM_STR);
+            $sql->execute();
 
+            $sql = $pdo->prepare('insert into prescription(attendence_id, drug_id, number) VALUES (:attid,:drugid,:num)');
+            $sql->bindParam(':num', $num, PDO::PARAM_INT);
+            $sql->bindParam(':drugid', $drug_id, PDO::PARAM_STR);
+            $sql->bindParam(':attid', $att_id, PDO::PARAM_STR);
+            $sql->execute();
+
+            $pdo->commit();
+            echo (1);
+        } else {
+            $pdo->rollback();
+            echo (0);
+        }
 
     } catch (Exception $e) {
         $result = array(['error' => 500, 'message' => $e->getMessage()]);
