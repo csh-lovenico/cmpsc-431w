@@ -75,6 +75,7 @@ try {
             </table>
         </div>
     </div>
+    <p>Only shows patients that have appointments today.</p>
     <p style="display:none" id="doctor_info"><?php session_start();
         echo $_SESSION['user_id'] ?></p>
 </div>
