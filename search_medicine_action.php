@@ -34,7 +34,9 @@ $min = ($page - 1) * 10;
 if ($func == 1) {
     search($keyword, $pdo, $min);
 } else if ($func == 2) {
-    $att_id = 0; $drug_id = 0; $num = 0;
+    $att_id = 0;
+    $drug_id = 0;
+    $num = 0;
     if (isset($_GET['appid'])) {
         $att_id = $_GET['appid'];
     }
@@ -49,7 +51,8 @@ if ($func == 1) {
     select_drug($att_id, $drug_id, $num, $pdo);
 }
 
-function select_drug($att_id, $drug_id, $num, $pdo) {
+function select_drug($att_id, $drug_id, $num, $pdo)
+{
 
     try {
         $pdo->beginTransaction();
@@ -70,10 +73,10 @@ function select_drug($att_id, $drug_id, $num, $pdo) {
             $sql->execute();
 
             $pdo->commit();
-            echo (1);
+            echo(1);
         } else {
             $pdo->rollback();
-            echo (0);
+            echo(0);
         }
 
     } catch (Exception $e) {
@@ -82,12 +85,13 @@ function select_drug($att_id, $drug_id, $num, $pdo) {
 
 }
 
-function search($keyword, $pdo, $min) {
+function search($keyword, $pdo, $min)
+{
     try {
         if ($keyword != "") {
             $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug where drug.name like :keyword limit :min,10');
             $sql->bindParam(':min', $min, PDO::PARAM_INT);
-            $str = $keyword.'%';
+            $str = $keyword . '%';
             $sql->bindParam(':keyword', $str, PDO::PARAM_STR);
         } else {
             $sql = $pdo->prepare('SELECT drug_id, price, name, stock, company_name, `usage` FROM drug limit :min , 10');

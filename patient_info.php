@@ -59,7 +59,7 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                     <th scope="row">Name
                     </th>
                     <td>
-                        <?php echo htmlspecialchars($row['fname']).' '. htmlspecialchars($row['mname']). ' ' .htmlspecialchars($row['lname']) ?>
+                        <?php echo htmlspecialchars($row['fname']) . ' ' . htmlspecialchars($row['mname']) . ' ' . htmlspecialchars($row['lname']) ?>
                     </td>
                 </tr>
                 <tr>
@@ -111,7 +111,7 @@ $sql->setFetchMode(PDO::FETCH_ASSOC);
                 </thead>
                 <?php endwhile; ?>
                 <?php
-                } catch(PDOException $e) {
+                } catch (PDOException $e) {
                     echo $sql->queryString . "<br>" . $e->getMessage();
                 }
                 $conn = null;

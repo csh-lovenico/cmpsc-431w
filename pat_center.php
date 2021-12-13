@@ -173,7 +173,9 @@ try {
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" onclick=add_medical_his() class="btn btn-primary" data-bs-dismiss="modal">Add</button>
+                    <button type="button" onclick=add_medical_his() class="btn btn-primary" data-bs-dismiss="modal">
+                        Add
+                    </button>
                 </div>
             </form>
         </div>
@@ -202,7 +204,9 @@ try {
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" onclick=add_allergy_his() data-bs-dismiss="modal" class="btn btn-primary">Add</button>
+                    <button type="button" onclick=add_allergy_his() data-bs-dismiss="modal" class="btn btn-primary">
+                        Add
+                    </button>
                 </div>
             </form>
         </div>

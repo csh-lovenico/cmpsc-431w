@@ -41,7 +41,8 @@ if ($func == 1) {
     delete($pre_id, $pdo);
 }
 
-function delete($pre_id, $pdo) {
+function delete($pre_id, $pdo)
+{
     try {
         $sql = $pdo->prepare('SELECT drug_id, number FROM prescription WHERE prescription_id = :pid');
         $sql->bindParam(':pid', $pre_id, PDO::PARAM_INT);
@@ -62,10 +63,11 @@ function delete($pre_id, $pdo) {
     } catch (Exception $e) {
         $result = array(['error' => 500, 'message' => $e->getMessage()]);
     }
-    echo (1);
+    echo(1);
 }
 
-function get_data($pre_id, $pdo, $min) {
+function get_data($pre_id, $pdo, $min)
+{
     try {
 
         $sql = $pdo->prepare('SELECT p.prescription_id, d.drug_id, d.price, d.name, d.stock, d.`usage`, p.number FROM drug d, prescription p 

@@ -53,7 +53,7 @@ try {
     <div class="row">
         <div class="col-6">
             <form class="d-flex">
-                <input class="form-control me-2" name="patient_name"  id="patient_name"
+                <input class="form-control me-2" name="patient_name" id="patient_name"
                        type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="button" onclick=search_patient_by_name()>Search</button>
             </form>
@@ -71,11 +71,12 @@ try {
                     <th></th>
                 </tr>
                 </thead>
-                    <tbody id="search_patient_table_body"></tbody>
+                <tbody id="search_patient_table_body"></tbody>
             </table>
         </div>
     </div>
-    <p style="display:none" id="doctor_info"><?php session_start(); echo $_SESSION['user_id'] ?></p>
+    <p style="display:none" id="doctor_info"><?php session_start();
+        echo $_SESSION['user_id'] ?></p>
 </div>
 </body>
 </html>

@@ -39,12 +39,12 @@ try {
     ?>
 <p>You will be redirected in 3 seconds</p>
 <script>
-    var timer = setTimeout(function() {
-        window.location='pat_center.php'
+    var timer = setTimeout(function () {
+        window.location = 'pat_center.php'
     }, 3000);
 </script>
 <?php
-} catch(PDOException $e) {
+} catch (PDOException $e) {
     echo $sql . "<br>" . $e->getMessage();
 }
 $conn = null;

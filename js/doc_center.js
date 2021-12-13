@@ -3,17 +3,18 @@ function getEle(id) {
 }
 
 var cou = 1;
+
 function sort_app_record(user_id) {
     var request = new XMLHttpRequest();
     ++cou;
-    request.open("GET","doc_center_action.php?func=" + 1 + "&user_id=" + user_id + "&mode=" + cou); //async
+    request.open("GET", "doc_center_action.php?func=" + 1 + "&user_id=" + user_id + "&mode=" + cou); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
 
                 alert(request.response)
-                var jsonStr = request.response.replace(new RegExp('\\"',"gm"), '"' );
+                var jsonStr = request.response.replace(new RegExp('\\"', "gm"), '"');
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("app_table_body");
                 var table = '';
@@ -34,8 +35,7 @@ function sort_app_record(user_id) {
                     }
                 }
                 obj.innerHTML = table;
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }
@@ -44,13 +44,13 @@ function sort_app_record(user_id) {
 
 function get_app_record(user_id) {
     var request = new XMLHttpRequest();
-    request.open("GET","doc_center_action.php?func=" + 3 + "&user_id=" + user_id); //async
+    request.open("GET", "doc_center_action.php?func=" + 3 + "&user_id=" + user_id); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 //alert(request.response)
-                var jsonStr = request.response.replace(new RegExp('\\"',"gm"), '"' );
+                var jsonStr = request.response.replace(new RegExp('\\"', "gm"), '"');
                 var a = JSON.parse(jsonStr);
                 var obj = getEle("app_table_body");
                 var table = '';
@@ -71,8 +71,7 @@ function get_app_record(user_id) {
                     }
                 }
                 obj.innerHTML = table;
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }
@@ -82,14 +81,13 @@ function get_app_record(user_id) {
 
 function add_app_record(user_id) {
     var request = new XMLHttpRequest();
-    request.open("GET","doc_center_action.php?func=" + 2 + "&user_id=" + user_id); //async
+    request.open("GET", "doc_center_action.php?func=" + 2 + "&user_id=" + user_id); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 window.alert(request.response)
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }

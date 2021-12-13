@@ -6,14 +6,13 @@ function delete_data() {
     var pre_id = getEle("prescriptionid").innerHTML;
 
     var request = new XMLHttpRequest();
-    request.open("GET","edit_prescription_action.php?func=" + 2 + "&pre_id=" + pre_id); //async
+    request.open("GET", "edit_prescription_action.php?func=" + 2 + "&pre_id=" + pre_id); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 get_data();
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }
@@ -23,11 +22,11 @@ function delete_data() {
 function get_data() {
     var pre_id = getEle("pre_id").innerHTML;
     var request = new XMLHttpRequest();
-    request.open("GET","edit_prescription_action.php?func=" + 1 + "&pre_id=" + pre_id); //async
+    request.open("GET", "edit_prescription_action.php?func=" + 1 + "&pre_id=" + pre_id); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 var a = JSON.parse(request.response);
                 var obj = getEle("medicine_detail");
                 var table = '';
@@ -48,8 +47,7 @@ function get_data() {
                         '                </tr>'
                 }
                 obj.innerHTML = table;
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }

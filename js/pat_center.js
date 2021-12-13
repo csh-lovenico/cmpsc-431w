@@ -6,11 +6,11 @@ function load_all() {
     var all_his = getEle("all_his");
     var pid = getEle("pid").innerHTML;
     var request = new XMLHttpRequest();
-    request.open("GET","pat_center_action.php?func=" + 1 + "&pid=" + pid); //async
+    request.open("GET", "pat_center_action.php?func=" + 1 + "&pid=" + pid); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 var a = JSON.parse(request.response);
                 var table = '';
                 for (var k in a) {
@@ -35,11 +35,11 @@ function load_med() {
     var med_his = getEle("med_his");
     var pid = getEle("pid").innerHTML;
     var request2 = new XMLHttpRequest();
-    request2.open("GET","pat_center_action.php?func=" + 2 + "&pid=" + pid); //async
+    request2.open("GET", "pat_center_action.php?func=" + 2 + "&pid=" + pid); //async
     request2.send();
-    request2.onreadystatechange = function() {
-        if(request2.readyState === 4) {
-            if(request2.status === 200) {
+    request2.onreadystatechange = function () {
+        if (request2.readyState === 4) {
+            if (request2.status === 200) {
                 var a = JSON.parse(request2.response);
                 var table2 = '';
                 for (var k in a) {

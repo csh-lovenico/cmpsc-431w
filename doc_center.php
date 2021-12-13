@@ -35,7 +35,7 @@ try {
           integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <script src="js/doc_center.js"></script>
 </head>
-<body onload=get_app_record(<?php echo '"'.$doctor_id.'"';?>)>
+<body onload=get_app_record(<?php echo '"' . $doctor_id . '"'; ?>)>
 <header>
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
@@ -51,37 +51,42 @@ try {
     <?php
     try {
         $sql = $pdo->prepare('SELECT fname, mname, lname FROM doctor where doctor_id = :docid');
-        $q = $sql->execute(['docid'=>$doctor_id]);
+        $q = $sql->execute(['docid' => $doctor_id]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
-    ?>
-    <div class="row">
-        <?php $row = $sql->fetch(); ?>
-            <p>Hello, <?php echo $row['fname'].' '.$row['mname'].' '.$row['lname'] ?></p>
-    </div>
+        ?>
+        <div class="row">
+            <?php $row = $sql->fetch(); ?>
+            <p>Hello, <?php echo $row['fname'] . ' ' . $row['mname'] . ' ' . $row['lname'] ?></p>
+        </div>
 
-    <div class="row">
-        <h2>Appointment History</h2>
-    </div>
-    <div class="row">
-        <div class="col-md-10">
-            <table class="table">
-                <thead>
-                <tr>
-                    <th scope="col">Date &nbsp;<button onclick=sort_app_record(<?php echo '"'.$doctor_id.'"';?>)>Sort by date</button></th>
-                    <th scope="col">Patient</th>
-                    <th scope="col"></th>
-                </tr>
-                </thead>
-                <tbody id="app_table_body"></tbody>
-            </table>
-            <div class="mb-3">
+        <div class="row">
+            <h2>Appointment History</h2>
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+                <table class="table">
+                    <thead>
+                    <tr>
+                        <th scope="col">Date &nbsp;<button
+                                    onclick=sort_app_record(<?php echo '"' . $doctor_id . '"'; ?>)>Sort by date
+                            </button>
+                        </th>
+                        <th scope="col">Patient</th>
+                        <th scope="col"></th>
+                    </tr>
+                    </thead>
+                    <tbody id="app_table_body"></tbody>
+                </table>
+                <div class="mb-3">
 
-                <button type="button" onclick="location.href='search_patient.php'" class="btn btn-primary">Add appointment record</button>
+                    <button type="button" onclick="location.href='search_patient.php'" class="btn btn-primary">Add
+                        appointment record
+                    </button>
+                </div>
             </div>
         </div>
-    </div>
         <?php
-    } catch(PDOException $e) {
+    } catch (PDOException $e) {
         echo $sql->queryString . $e->getMessage();
     }
     $conn = null;

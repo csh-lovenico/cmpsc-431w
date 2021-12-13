@@ -42,47 +42,52 @@ if ($func == 1) {
     add_medical_his_data($pdo, $pid, $desc, $name);
 }
 
-function add_allergy_his($pdo, $pid, $desc, $aname) {
+function add_allergy_his($pdo, $pid, $desc, $aname)
+{
     try {
         $sql = $pdo->prepare('INSERT into allergy_history(patient_id, allergy_name, description) VALUES (:patient_id,:allergy_name,:description)');
         $sql->execute(["patient_id" => $pid, "allergy_name" => $aname, "description" => $desc]);
-        echo (0);
+        echo(0);
     } catch (PDOException $e) {
         echo $sql->queryString . $e->getMessage();
     }
 }
 
-function add_medical_his_data($pdo, $pid, $desc, $name) {
+function add_medical_his_data($pdo, $pid, $desc, $name)
+{
     try {
         $sql = $pdo->prepare('INSERT into medical_history(patient_id, disease_name, description) VALUES (:patient_id,:disease_name,:description)');
         $sql->execute(["patient_id" => $pid, "disease_name" => $name, "description" => $desc]);
-        echo (0);
+        echo(0);
     } catch (PDOException $e) {
         echo $sql->queryString . $e->getMessage();
     }
 }
 
-function delete_allergy_his($pdo, $aid) {
+function delete_allergy_his($pdo, $aid)
+{
     try {
         $sql = $pdo->prepare('DELETE FROM allergy_history WHERE id = :aid');
         $sql->execute(["aid" => $aid]);
-        echo (0);
+        echo(0);
     } catch (PDOException $e) {
         echo $sql->queryString . $e->getMessage();
     }
 }
 
-function delete_medical_his_data($pdo, $mid) {
+function delete_medical_his_data($pdo, $mid)
+{
     try {
         $sql = $pdo->prepare('DELETE FROM medical_history WHERE medical_history_id = :aid');
         $sql->execute(["aid" => $mid]);
-        echo (0);
+        echo(0);
     } catch (PDOException $e) {
         echo $sql->queryString . $e->getMessage();
     }
 }
 
-function get_allergy_his($pdo, $pid) {
+function get_allergy_his($pdo, $pid)
+{
     try {
         $sql = $pdo->prepare('SELECT ah.id as id, ah.allergy_name as ahname, ah.description as ahdesc FROM patient p ,allergy_history ah where p.patient_id = ah.patient_id and p.patient_id = :patient_id');
         $q = $sql->execute(['patient_id' => $pid]);
@@ -108,4 +113,5 @@ function get_medical_his_data($pdo, $pid)
         echo $sql->queryString . $e->getMessage();
     }
 }
+
 ?>

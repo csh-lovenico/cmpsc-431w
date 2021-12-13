@@ -39,12 +39,12 @@ try {
     ?>
 <p>You will be redirected in 1 seconds</p>
 <script>
-    var timer = setTimeout(function() {
-        window.location='edit_prescription.php'
+    var timer = setTimeout(function () {
+        window.location = 'edit_prescription.php'
     }, 1000);
 </script>
 <?php
-} catch(PDOException $e) {
+} catch (PDOException $e) {
     echo $sql . "<br>" . $e->getMessage();
 }
 $conn = null;

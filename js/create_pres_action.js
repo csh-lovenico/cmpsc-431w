@@ -7,14 +7,13 @@ function submit_comment() {
     var comment = getEle("comment").value;
     var pid = getEle("pid").innerHTML;
 
-    request.open("GET","create_pres_action.php?pid=" + pid + "&comment=" + comment); //async
+    request.open("GET", "create_pres_action.php?pid=" + pid + "&comment=" + comment); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 location.replace('edit_prescription.php?id=' + request.response);
-            }
-            else {
+            } else {
                 alert("error occured: " + request.status);
             }
         }

@@ -30,9 +30,8 @@ if ($func == 1) {
 }
 
 
-
-
-function sort_apportment_history($pdo, $doctor_id, $mode) {
+function sort_apportment_history($pdo, $doctor_id, $mode)
+{
     if ($mode == 0) {
         $user_id = $_GET['user_id'];
         try {
@@ -43,8 +42,8 @@ function sort_apportment_history($pdo, $doctor_id, $mode) {
             $content = array();
             $count = 0;
             while ($row = $sql->fetch()):
-                $content['"'.$count.'"'] = array();
-                array_push($content['"'.$count.'"'], array("app_date" => $row['app_date'], "patient_name" => $row['patient_name']));
+                $content['"' . $count . '"'] = array();
+                array_push($content['"' . $count . '"'], array("app_date" => $row['app_date'], "patient_name" => $row['patient_name']));
                 ++$count;
             endwhile;
             $ret = json_encode($content);
@@ -63,8 +62,8 @@ function sort_apportment_history($pdo, $doctor_id, $mode) {
             $content = array();
             $count = 0;
             while ($row = $sql->fetch()):
-                $content['"'.$count.'"'] = array();
-                array_push($content['"'.$count.'"'], array("app_date" => $row['app_date'], "patient_name" => $row['patient_name']));
+                $content['"' . $count . '"'] = array();
+                array_push($content['"' . $count . '"'], array("app_date" => $row['app_date'], "patient_name" => $row['patient_name']));
                 ++$count;
             endwhile;
             $ret = json_encode($content);
@@ -76,9 +75,10 @@ function sort_apportment_history($pdo, $doctor_id, $mode) {
     }
 }
 
-function add_apportment_record() {
+function add_apportment_record()
+{
     $user_id = $_GET['user_id'];
-    echo ($user_id);
+    echo($user_id);
 }
 
 function get_apportment_record($pdo, $doctor_id)
@@ -92,8 +92,8 @@ function get_apportment_record($pdo, $doctor_id)
         $content = array();
         $count = 0;
         while ($row = $sql->fetch()):
-            $content['"'.$count.'"'] = array();
-            array_push($content['"'.$count.'"'], array("app_date" => $row['date'], "patient_name" => $row['patient_name'], "pat_id" => $row['patient_id']));
+            $content['"' . $count . '"'] = array();
+            array_push($content['"' . $count . '"'], array("app_date" => $row['date'], "patient_name" => $row['patient_name'], "pat_id" => $row['patient_id']));
             ++$count;
         endwhile;
         $ret = json_encode($content);
@@ -103,4 +103,5 @@ function get_apportment_record($pdo, $doctor_id)
         echo $sql->queryString . $e->getMessage();
     }
 }
+
 ?>

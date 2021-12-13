@@ -14,11 +14,11 @@ function update() {
     var gender = getEle("gender").value;
 
     var request = new XMLHttpRequest();
-    request.open("GET","edit_user_action.php?id=" + id + "&fname=" + fname + "&mname=" + mname + "&lname=" + lname + "&email=" + email + "&password=" + password + "&birthday=" + birthday + "&gender=" + gender); //async
+    request.open("GET", "edit_user_action.php?id=" + id + "&fname=" + fname + "&mname=" + mname + "&lname=" + lname + "&email=" + email + "&password=" + password + "&birthday=" + birthday + "&gender=" + gender); //async
     request.send();
-    request.onreadystatechange = function() {
-        if(request.readyState === 4) {
-            if(request.status === 200) {
+    request.onreadystatechange = function () {
+        if (request.readyState === 4) {
+            if (request.status === 200) {
                 location.href = "pat_center.php";
             }
         }

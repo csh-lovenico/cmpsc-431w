@@ -35,7 +35,7 @@ try {
     $sql->execute();
     $result = $sql->fetch();
     $pdo->commit();
-    echo ($result['attendance_id']);
+    echo($result['attendance_id']);
 //<!--    <html lang="en">-->
 //<!--    <head>-->
 //<!--        <title>Create prescription</title>-->
@@ -44,7 +44,7 @@ try {
 //<!--    Create successful... Redirecting to another page...-->
 //<!--    <script>-->
 //<!--        setInterval(() => {-->
-/*<!--            location.replace('edit_prescription.php?id=--><?php //echo $result['attendance_id']?>//')*/
+    /*<!--            location.replace('edit_prescription.php?id=--><?php //echo $result['attendance_id']?>//')*/
 //<!--//        }, 1000);-->
 //<!--//    </script>-->
 //<!--//    </body>-->
