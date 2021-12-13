@@ -50,8 +50,8 @@ try {
     </div>
     <?php
     try {
-        $sql = $pdo->prepare('SELECT fname, mname, lname FROM doctor where doctor_id = "'.$doctor_id.'"');
-        $q = $sql->execute([]);
+        $sql = $pdo->prepare('SELECT fname, mname, lname FROM doctor where doctor_id = :docid');
+        $q = $sql->execute(['docid'=>$doctor_id]);
         $sql->setFetchMode(PDO::FETCH_ASSOC);
     ?>
     <div class="row">
