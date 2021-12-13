@@ -3,6 +3,7 @@ function getEle(id) {
 }
 
 var pat_name = '';
+let medicine_list = [];
 
 function search_drug_by_name() {
     var patient_name = getEle("keyword").value;
@@ -15,25 +16,24 @@ function search_drug_by_name() {
             if (request.status === 200) {
                 //alert(request.response)
                 var a = JSON.parse(request.response);
+                medicine_list = a;
                 //alert(request.response)
                 var obj = getEle("search_medicine_table_body");
                 var table = '';
 
                 for (var k in a) {
-                    table += '' +
-                        '                <tr >\n' +
-                        '                    <td >' + a[k].name + '</td>\n' +
-                        '                    <td >' + a[k].price + '</td>\n' +
-                        '                    <td >' + a[k].stock + '</td>\n' +
-                        '                    <input>' +
-                        '                    <td  style="display:none">' + a[k].drug_id + '</td>\n' +
-                        '                    <td >' + a[k].usage + '</td>\n' +
-                        '                    <td >\n' +
-                        '                        <div >\n' +
-                        '                            <button type="button" class="btn btn-sm btn-secondary" onclick=select_patient(this)>Select</button>\n' +
-                        '                        </div>\n' +
-                        '                    </td>\n' +
-                        '                </tr>'
+                    table += `                <tr >
+                    <td >${a[k].name}</td>
+                    <td >${a[k].price}</td>
+                    <td >${a[k].stock}</td>
+                    <td  style="display:none">${a[k].drug_id}</td>
+                    <td >${a[k].usage}</td>
+                    <td >
+                        <div >
+                            <button type="button" data-bs-toggle="modal" data-bs-target="#selectMedicineModal" data-bs-index="${k}" class="btn btn-sm btn-secondary">Select</button>
+                        </div>
+                    </td>
+                </tr>`
                 }
                 obj.innerHTML = table;
             } else {

@@ -7,6 +7,11 @@ if (isset($_GET['keyword'])) {
 if (isset($_GET['page'])) {
     $page = $_GET['page'];
 }
+if (!isset($_GET['appid'])) {
+    die('must specify attendance id(sample: ?appid=111)');
+}
+
+$app_id = $_GET['appid'];
 ?>
 <html lang="en">
 <head>
@@ -54,7 +59,6 @@ if (isset($_GET['page'])) {
                     <th>Name&nbsp;<a href="#">Sort by name...</a></th>
                     <th>Price</th>
                     <th>In stock</th>
-                    <th>Quantity</th>
                     <th>Usage</th>
                     <th></th>
                     <th></th>
@@ -66,5 +70,68 @@ if (isset($_GET['page'])) {
         </div>
     </div>
 </div>
+
+<div class="modal fade" id="selectMedicineModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalTitle">Medicine name</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <form id="addMedicineForm" method="post">
+                <div class="modal-body">
+                    <table class="table">
+                        <tr style="display: none">
+                            <th scope="row">Id</th>
+                            <td id="medicineId">233</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Price</th>
+                            <td id="medicinePrice">$000</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">In stock</th>
+                            <td id="medicineInStock">99</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Usage</th>
+                            <td id="medicineUsage">99</td>
+                        </tr>
+                    </table>
+                    <label for="quantity" class="form-label">Quantity:</label>
+                    <input id="quantity" required name="quantity" class="form-control" min="1" type="number">
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="submit" class="btn btn-primary">Add medicine</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<script>
+    let selectMedicineModal = document.getElementById('selectMedicineModal');
+    selectMedicineModal.addEventListener('show.bs.modal', function (event) {
+        // Button that triggered the modal
+        let button = event.relatedTarget;
+        // Extract info from data-bs-* attributes
+        let index = button.getAttribute('data-bs-index');
+
+        // Update the modal's content.
+        let modalTitle = document.getElementById('modalTitle');
+        let medicineId = document.getElementById('medicineId');
+        let medicinePrice = document.getElementById('medicinePrice');
+        let medicineInStock = document.getElementById('medicineInStock');
+        let medicineUsage = document.getElementById('medicineUsage');
+        let addMedicineForm = document.getElementById('addMedicineForm');
+
+        addMedicineForm.action = `add_medicine.php?appid=<?php echo $app_id?>&drugid=${medicine_list[index].drug_id}`;
+        modalTitle.textContent = medicine_list[index].name;
+        medicineId.textContent = medicine_list[index].drug_id;
+        medicinePrice.textContent = medicine_list[index].price;
+        medicineInStock.textContent = medicine_list[index].stock;
+        medicineUsage.textContent = medicine_list[index].usage;
+    })
+</script>
 </body>
 </html>
