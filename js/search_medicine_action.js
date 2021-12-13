@@ -24,7 +24,7 @@ function search_drug_by_name() {
                 for (var k in a) {
                     table += `                <tr >
                     <td >${a[k].name}</td>
-                    <td >${a[k].price}</td>
+                    <td >${'$' + a[k].price}</td>
                     <td >${a[k].stock}</td>
                     <td  style="display:none">${a[k].drug_id}</td>
                     <td >${a[k].usage}</td>
